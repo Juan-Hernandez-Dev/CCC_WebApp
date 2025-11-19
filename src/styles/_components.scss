@@ -1,0 +1,301 @@
+// Estilos de componentes reutilizables
+
+// Header
+.header {
+  background-color: $color-bg-white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+
+  .nav-container {
+    @include container-standard;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: $font-title;
+    font-weight: 700;
+    color: $color-primary;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      font-family: $font-title;
+      font-weight: 500;
+      color: $color-text-body;
+      position: relative;
+
+      &:hover, &.active {
+        color: $color-primary-dark;
+      }
+
+      &.active::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $color-primary-dark;
+      }
+    }
+  }
+}
+
+// Hero Section
+.hero-section {
+  position: relative;
+  height: 85vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(11, 30, 66, 0.65);
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 2rem;
+
+    h1 {
+      font-size: 3.5rem;
+      color: white;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      line-height: 1.1;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+  }
+}
+
+// Botones
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: $border-radius-btn;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: $font-title;
+
+  &.btn-white {
+    background-color: white;
+    color: $color-primary-dark;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    }
+  }
+
+  &.btn-primary {
+    background-color: $color-primary-dark;
+    color: white;
+
+    &:hover {
+      background-color: $color-primary;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// Títulos de sección
+.section-header {
+  margin-bottom: 2rem;
+
+  .section-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &::before {
+      @include section-accent-line;
+    }
+
+    span {
+      font-weight: 600;
+      color: $color-text-body;
+      margin-bottom: 0.25rem;
+    }
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: $color-primary-dark;
+    font-weight: 800;
+  }
+}
+
+// Contenedor con borde
+.bordered-container {
+  background-color: $color-bg-white;
+  border: 1px solid $color-border-light;
+  border-radius: $border-radius-card;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: $shadow-card;
+  margin-bottom: 4rem;
+
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .text-side {
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h3 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        margin-bottom: 1.5rem;
+        color: #4b5563;
+      }
+    }
+
+    .image-side {
+      background-color: #f3f4f6;
+      position: relative;
+      min-height: 400px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .badge {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        background: rgba(255,255,255,0.9);
+        padding: 1rem;
+        border-radius: 50%;
+        border: 2px solid $color-primary;
+      }
+    }
+  }
+
+  &.full-text {
+    padding: 3rem;
+
+    .mission-block {
+        margin-bottom: 2rem;
+        &:last-child { margin-bottom: 0; }
+    }
+  }
+}
+
+// Tarjetas de servicios
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-card {
+  background-color: $color-bg-white;
+  border-radius: $border-radius-card;
+  box-shadow: $shadow-card;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    box-shadow: $shadow-hover;
+    transform: translateY(-5px);
+  }
+
+  .card-image {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+  }
+
+  &:hover .card-image img {
+      transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $color-text-body;
+      margin-bottom: 2rem;
+      flex-grow: 1;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+  }
+}
+
+.section-padding {
+    padding: 5rem 0;
+}
