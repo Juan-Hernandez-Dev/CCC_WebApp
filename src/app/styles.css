@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Lato&display=swap');
+
+.site-header {
+    background: white;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px; /* menor alto para que el logo y texto queden más centrados como en la imagen */
+    gap: 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 44px; /* ajustado */
+    height: 36px; /* ajustado */
+    object-fit: contain;
+}
+
+/* desplazar ligeramente el texto de la marca para alinear mejor con el logo */
+.brand-text {
+    color: #1D3557;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    transform: translateY(-3px);
+}
+
+.brand-line1 {
+    font-size: 12px; /* reducido */
+    color: #1D3557;
+    font-weight: 600;
+}
+
+.brand-line2 {
+    font-size: 13px; /* reducido */
+    color: #1D3557;
+    font-weight: 700;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px; /* separación ajustada para imitar la imagen */
+    align-items: center;
+}
+
+.main-nav a {
+    color: #1E1E1E;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 0;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; /* tamaño de texto del navbar para mejor proporción */
+}
+
+.main-nav a:hover {
+    color: #2387E1;
+}
+
+.main-nav a.active {
+    color: #2387E1;
+}
+
+/* blue underline for active */
+.main-nav a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4px; /* ligeramente más grueso como en la imagen */
+    background: #42BAF5;
+    bottom: -10px; /* separado para quedar justo bajo el texto */
+    border-radius: 2px;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+    .brand-text { display: none; }
+    .main-nav ul { gap: 14px; }
+    .logo { width: 40px; height: 32px; }
+}
