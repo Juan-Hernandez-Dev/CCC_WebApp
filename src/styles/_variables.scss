@@ -1,0 +1,30 @@
+// Variables basadas en la paleta corporativa de Crystalim
+
+// Colores principales de Crystalim
+$color-background: #ffffff;
+$color-foreground: #171717;
+$color-primary: #0219ab;
+$color-accent: #42baf5;
+
+// Colores adicionales de la paleta Crystalim
+$color-primary-dark: #1452c7;
+$color-primary-light: #f7f9fd;
+$color-accent-cyan: #42baf5;
+$color-accent-blue: #2387e1;
+$color-bg-body: #f8fafc;
+$color-bg-white: #ffffff;
+$color-text-body: #4b5563;
+$color-border-light: #bfdbfe;
+
+// Tipografía
+$font-title: 'Montserrat', Montserrat;
+$font-body: 'Open Sans', Open Sans;
+
+// Espaciado y bordes
+$spacing-unit: 1rem;
+$border-radius-card: 16px;
+$border-radius-btn: 9999px;
+
+// Sombras
+$shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+$shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
