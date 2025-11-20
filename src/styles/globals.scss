@@ -39,8 +39,131 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-paragraph), Open Sans;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-title), Montserrat;
+}
+
+
+
+/*ESTILOS FOOTER*/
+
+.footer {
+  /* Fondo en azul a partir de tu paleta */
+  background: linear-gradient(90deg, var(--primary), var(--accent-1));
+  padding: 70px 0;
+  color: #ffffff;
+}
+
+.footer-inner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+/* Responsive como ya lo tenías */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+/* Títulos con línea usando tu accent-2 */
+.footer-title {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: var(--accent-2); /* antes era rosa fijo */
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+/* Lista y enlaces */
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);  /* gris claro sobre azul */
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+/* Redes sociales */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 0 10px 10px 0;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  font-size: 18px;
+}
+
+.social-icon:hover {
+  background-color: #ffffff;
+  color: var(--primary);
+}
+
+/* Texto de derechos reservados */
+.footer-copy {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
 }
