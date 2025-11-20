@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import "../styles/globals.scss";        // 👈 LA RUTA CORRECTA
+import "../styles/globals.scss";       
 import Footer from "@/components/footer";
 
 type RootLayoutProps = {

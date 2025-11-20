@@ -19,81 +19,32 @@ const Footer: React.FC<FooterProps> = ({
   return (
     <footer className="footer mt-auto">
       <div className="footer-inner">
-        <div className="footer-row">
-          {/* Columna 1 */}
+
+        <div className="footer-row" style={{ justifyContent: "space-between" }}>
+          
+          {/* Crystalim */}
           <div className="footer-col">
             <h4 className="footer-title">{companyName}</h4>
-            <ul className="footer-list">
-              <li>
-                <a href="#home" className="footer-link">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="footer-link">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="footer-link">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="footer-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
+
+            {/* LINKS HORIZONTALES */}
+            <div className="footer-links-horizontal">
+              <a href="#home" className="footer-link">Home</a>
+              <span className="footer-separator">|</span>
+
+              <a href="#about" className="footer-link">About Us</a>
+              <span className="footer-separator">|</span>
+
+              <a href="#services" className="footer-link">Products</a>
+              <span className="footer-separator">|</span>
+
+              <a href="#contact" className="footer-link">Contact</a>
+            </div>
           </div>
 
-          {/* Columna 2 */}
-          <div className="footer-col">
-            <h4 className="footer-title">Company</h4>
-            <ul className="footer-list">
-              <li>
-                <a href="#" className="footer-link">
-                  Terms
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Privacy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Support
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Columna 3 */}
-          <div className="footer-col">
-            <h4 className="footer-title">Products</h4>
-            <ul className="footer-list">
-              <li>
-                <a href="#" className="footer-link">
-                  Brooms
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Mops
-                </a>
-              </li>
-              <li>
-                <a href="#" className="footer-link">
-                  Soaps
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Columna 4: Redes */}
+          {/* Redes sociales */}
           <div className="footer-col">
             <h4 className="footer-title">Follow Us</h4>
+
             <div className="social-links">
               <a
                 href={whatsappUrl}

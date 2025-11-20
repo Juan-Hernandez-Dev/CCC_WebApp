@@ -53,9 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 /*ESTILOS FOOTER*/
 
 .footer {
-  /* Fondo en azul a partir de tu paleta */
   background: linear-gradient(90deg, var(--primary), var(--accent-1));
-  padding: 70px 0;
+  padding: 24px 0;            
   color: #ffffff;
 }
 
@@ -72,29 +71,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-col {
   width: 25%;
-  padding: 0 15px;
+  padding: 0 8px;           
 }
 
-/* Responsive como ya lo tenías */
-@media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
-}
-
-/* Títulos con línea usando tu accent-2 */
 .footer-title {
-  font-size: 18px;
+  font-size: 16px;          
   color: #ffffff;
   text-transform: capitalize;
-  margin-bottom: 35px;
+  margin-bottom: 12px;      
   font-weight: 500;
   position: relative;
 }
@@ -103,37 +87,26 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -10px;
-  background-color: var(--accent-2); /* antes era rosa fijo */
+  bottom: -6px;              
+  background-color: var(--accent-2);
   height: 2px;
-  box-sizing: border-box;
-  width: 50px;
+  width: 40px;              
 }
 
-/* Lista y enlaces */
-.footer-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-list li:not(:last-child) {
-  margin-bottom: 10px;
-}
-
+/* Links verticales generales (Crystalim los reusa) */
 .footer-link {
-  font-size: 16px;
+  font-size: 14px;          
   text-transform: capitalize;
   text-decoration: none;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.75);  /* gris claro sobre azul */
+  color: rgba(255, 255, 255, 0.75);
   display: block;
   transition: all 0.3s ease;
 }
 
 .footer-link:hover {
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 6px;
 }
 
 /* Redes sociales */
@@ -165,5 +138,30 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* LINKS HORIZONTALES */
+.footer-links-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 10px;               
+  margin-top: 4px;        
+}
+
+.footer-links-horizontal .footer-link {
+  padding: 0;              
+  white-space: nowrap;     
+}
+
+.footer-separator {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+}
+
+/* Texto de derechos reservados un poco más cerca */
+.footer-copy {
+  margin-top: 16px;        
+  text-align: center;
+  font-size: 13px;
   color: rgba(255, 255, 255, 0.8);
 }
