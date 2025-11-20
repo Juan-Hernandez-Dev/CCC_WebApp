@@ -5,22 +5,28 @@ import Image from 'next/image';
 const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white-50">
-      <section className="py-16 px-4 bg-white text-gray-900">
-        <div className="max-w-7xl mx-auto text-left">
-          {/* Contenedor del encabezado pequeño y línea azul */}
-          <div className="flex items-center justify-left mb-4 space-x-2">
-            {/* Línea decorativa azul */}
-            <div className="w-6 h-0.5 bg-blue-500"></div>
-            
-            <span className="text-base font-medium text-gray-700">
-              About Us
-            </span>
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-900">
-            Cleaning with a Purpose
-          </h1>
+      <section className="py-16 px-4 bg-white text-gray-900"> 
+      {/* Separador lateral */}
+      <div className="fixed left-0 top-1/2 -translate-y-1/2 z-50">
+        <div className="bg-blue-600 text-white px-4 py-2 rounded-r-2xl shadow-lg font-semibold tracking-wide vertical-text">
+          ABOUT US
         </div>
-      </section>
+      </div>
+
+      <div className="max-w-7xl mx-auto text-left">
+        <div className="flex items-center justify-left mb-4 space-x-2">
+          <div className="w-6 h-0.5 bg-blue-500"></div>
+
+          <span className="text-base font-medium text-gray-700">
+            About Us
+          </span>
+        </div>
+
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-900">
+          Cleaning with a Purpose
+        </h1>
+      </div>
+    </section>
 
       {/* About Us Content */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
@@ -90,54 +96,82 @@ const HomePage: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center space-x-4 overflow-x-auto">
           
-          {/* Característica 1 */}
-          <div className="flex flex-col items-center min-w-[90px]">
-            <span className="text-2xl text-black mb-2">⚡</span>
-            <p className="text-sm font-medium text-black mb-1">Innovation</p>
-            <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-          </div>
+                  {/* Característica 1 */}
+        <div className="flex flex-col items-center min-w-[90px]">
+          <img
+            src="https://i.ibb.co/gL9Gn4cj/rayo.png"
+            alt="Innovation Icon"
+            className="w-8 h-8 mb-2 object-contain"
+          />
+          <p className="text-sm font-medium text-black mb-1">Innovation</p>
+          <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
+        </div>
 
-          {/* Característica 2 */}
-          <div className="flex flex-col items-center min-w-[90px]">
-            <span className="text-2xl text-black mb-2">📋</span>
-            <p className="text-sm font-medium text-black mb-1">Responsibility</p>
-            <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-          </div>
+        {/* Característica 2 */}
+        <div className="flex flex-col items-center min-w-[90px]">
+          <img
+            src="https://i.ibb.co/35jhBVfP/control.png"
+            alt="Responsibility Icon"
+            className="w-8 h-8 mb-2 object-contain"
+          />
+          <p className="text-sm font-medium text-black mb-1">Responsibility</p>
+          <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
+        </div>
 
-          {/* Característica 3 */}
-          <div className="flex flex-col items-center min-w-[90px]">
-            <span className="text-2xl text-black mb-2">🚩</span>
-            <p className="text-sm font-medium text-black mb-1">Commitment</p>
-            <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-          </div>
+        {/* Característica 3 */}
+        <div className="flex flex-col items-center min-w-[90px]">
+          <img
+            src="https://i.ibb.co/5gbYBC4b/bandera.png"
+            alt="Commitment Icon"
+            className="w-8 h-8 mb-2 object-contain"
+          />
+          <p className="text-sm font-medium text-black mb-1">Commitment</p>
+          <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
+        </div>
 
-          {/* Característica 4 */}
-          <div className="flex flex-col items-center min-w-[90px]">
-            <span className="text-2xl text-black mb-2">❤️</span>
-            <p className="text-sm font-medium text-black mb-1">Loyalty</p>
-            <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-          </div>
+        {/* Característica 4 */}
+        <div className="flex flex-col items-center min-w-[90px]">
+          <img
+            src="https://i.ibb.co/RGcnMdSN/la-lealtad-del-cliente.png"
+            alt="Loyalty Icon"
+            className="w-8 h-8 mb-2 object-contain"
+          />
+          <p className="text-sm font-medium text-black mb-1">Loyalty</p>
+          <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
+        </div>
 
-          {/* Característica 5 */}
-          <div className="flex flex-col items-center min-w-[90px]">
-            <span className="text-2xl text-black mb-2">👥</span>
-            <p className="text-sm font-medium text-black mb-1">Teamwork</p>
-            <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-          </div>
+        {/* Característica 5 */}
+        <div className="flex flex-col items-center min-w-[90px]">
+          <img
+            src="https://i.ibb.co/PGRYMhB5/equipo.png"
+            alt="Teamwork Icon"
+            className="w-8 h-8 mb-2 object-contain"
+          />
+          <p className="text-sm font-medium text-black mb-1">Teamwork</p>
+          <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
+        </div>
 
-          {/* Característica 6 */}
-          <div className="flex flex-col items-center min-w-[90px]">
-            <span className="text-2xl text-black mb-2">👍</span>
-            <p className="text-sm font-medium text-black mb-1">Respect</p>
-            <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-          </div>
+        {/* Característica 6 */}
+        <div className="flex flex-col items-center min-w-[90px]">
+          <img
+            src="https://i.ibb.co/CsnvGmyd/pulgar-arriba.png"
+            alt="Respect Icon"
+            className="w-8 h-8 mb-2 object-contain"
+          />
+          <p className="text-sm font-medium text-black mb-1">Respect</p>
+          <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
+        </div>
 
-          {/* Característica 7 */}
-          <div className="flex flex-col items-center min-w-[90px]">
-            <span className="text-2xl text-black mb-2">✅</span>
-            <p className="text-sm font-medium text-black mb-1">Honesty</p>
-            <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-          </div>
+        {/* Característica 7 */}
+        <div className="flex flex-col items-center min-w-[90px]">
+          <img
+            src="https://i.ibb.co/F4WVV3R3/proteger.png"
+            alt="Honesty Icon"
+            className="w-8 h-8 mb-2 object-contain"
+          />
+          <p className="text-sm font-medium text-black mb-1">Honesty</p>
+          <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
+        </div>
 
         </div>
       </div>
