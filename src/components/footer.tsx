@@ -20,12 +20,13 @@ const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer className="mt-auto bg-[#2387e1] text-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-3 md:py-4">
+      <div className="mx-auto w-full px-6 md:px-12 py-3 md:py-4">
         
-        {/* FILA SUPERIOR*/}
+        {/* FILA SUPERIOR */}
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          
           <nav className="flex flex-wrap items-center gap-4 text-[13px] sm:text-sm">
-            <span className="font-semibold">Barra de Navegación</span>
+            <span className="font-semibold">Barra de Navegación</span> 
 
             <a href="#products" className="transition-all hover:text-white/80 hover:-translate-y-0.5">
               Productos
@@ -38,23 +39,26 @@ const Footer: React.FC<FooterProps> = ({
             </a>
           </nav>
 
-          <div className="flex items-center gap-4 text-lg mt-1 sm:mt-0">
+          {/* AQUÍ ESTÁN LOS ICONOS DE REDES SOCIALES CON LA ANIMACIÓN */}
+          <div className="flex items-center gap-4">
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-transform hover:scale-110 hover:-translate-y-0.5"
+              className="p-2 bg-white/10 rounded-full transition-all hover:bg-white hover:text-[#2387e1] hover:-translate-y-1"
+              aria-label="WhatsApp" // Añadido para accesibilidad
             >
-              <FaWhatsapp />
+              <FaWhatsapp size={20} /> {/* Ajustado el tamaño para que encaje bien en el círculo */}
             </a>
 
             <a
               href="https://www.instagram.com/crystalim_0190/"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-transform hover:scale-110 hover:-translate-y-0.5"
+              className="p-2 bg-white/10 rounded-full transition-all hover:bg-white hover:text-[#E1306C] hover:-translate-y-1"
+              aria-label="Instagram" // Añadido para accesibilidad
             >
-              <FaInstagram />
+              <FaInstagram size={20} /> {/* Ajustado el tamaño para que encaje bien en el círculo */}
             </a>
           </div>
         </div>
@@ -62,11 +66,10 @@ const Footer: React.FC<FooterProps> = ({
         {/* Línea */}
         <hr className="mt-5 border-white/40" />
 
-        {/* FILA INFERIOR */}
+        {/* FILA INFERIOR (Logo Izquierda / Copyright Derecha) */}
         <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-[11px] sm:text-xs">
           
-          {/* LOGO*/}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-shrink-0"> 
             <Image
               src={crystalimLogo}
               alt="Crystalim Logo"
@@ -79,6 +82,7 @@ const Footer: React.FC<FooterProps> = ({
           <p className="text-center sm:text-right text-white/90">
             © {year} {companyName}. Todos los Derechos Reservados.
           </p>
+          
         </div>
 
       </div>
