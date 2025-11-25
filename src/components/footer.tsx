@@ -20,35 +20,53 @@ const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer className="mt-auto bg-[#2387e1] text-white">
-      <div className="mx-auto w-full px-6 md:px-12 py-3 md:py-4">
+      <div className="mx-auto w-full px-6 py-6 md:px-12 md:py-8">
         
-        {/* FILA SUPERIOR */}
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        {/* CONTENEDOR PRINCIPAL*/}
+        {/* Esto formará la fila superior*/}
+        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           
-          <nav className="flex flex-wrap items-center gap-4 text-[13px] sm:text-sm">
-            <span className="font-semibold">Barra de Navegación</span> 
+          {/* LOGO */}
+          <div className="flex-shrink-0">
+            <Image
+              src={crystalimLogo}
+              alt="Crystalim Logo"
+              width={100}
+              height={50}
+              className="h-8 w-auto md:h-10 transition-transform duration-300 hover:scale-105"
+            />
+          </div>
 
-            <a href="#products" className="transition-all hover:text-white/80 hover:-translate-y-0.5">
-              Productos
-            </a>
-            <a href="#about" className="transition-all hover:text-white/80 hover:-translate-y-0.5">
-              About Us
-            </a>
-            <a href="#contact" className="transition-all hover:text-white/80 hover:-translate-y-0.5">
-              Contacto
-            </a>
-          </nav>
+          {/* BARRA DE NAVEGACIÓN */}
+          {/* Usamos flex-col para que el título y los enlaces se apilen, y flex-wrap para los enlaces */}
+          <div className="flex flex-col items-center gap-2 md:flex-grow">
+            <span className="font-semibold text-white/90 text-sm md:text-base">Barra de Navegación</span>
+            <nav className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium md:gap-8">
+              <a href="#products" className="relative group transition-colors hover:text-white/90">
+                Productos
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </a>
+              <a href="#about" className="relative group transition-colors hover:text-white/90">
+                About Us
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </a>
+              <a href="#contact" className="relative group transition-colors hover:text-white/90">
+                Contacto
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </nav>
+          </div>
 
-          {/* AQUÍ ESTÁN LOS ICONOS DE REDES SOCIALES CON LA ANIMACIÓN */}
-          <div className="flex items-center gap-4">
+          {/* SOCIAL */}
+          <div className="flex items-center gap-4 flex-shrink-0">
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-white/10 rounded-full transition-all hover:bg-white hover:text-[#2387e1] hover:-translate-y-1"
-              aria-label="WhatsApp" // Añadido para accesibilidad
+              aria-label="WhatsApp"
             >
-              <FaWhatsapp size={20} /> {/* Ajustado el tamaño para que encaje bien en el círculo */}
+              <FaWhatsapp size={20} />
             </a>
 
             <a
@@ -56,33 +74,21 @@ const Footer: React.FC<FooterProps> = ({
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-white/10 rounded-full transition-all hover:bg-white hover:text-[#E1306C] hover:-translate-y-1"
-              aria-label="Instagram" // Añadido para accesibilidad
+              aria-label="Instagram"
             >
-              <FaInstagram size={20} /> {/* Ajustado el tamaño para que encaje bien en el círculo */}
+              <FaInstagram size={20} />
             </a>
           </div>
         </div>
 
-        {/* Línea */}
-        <hr className="mt-5 border-white/40" />
+        {/* LÍNEA  */}
+        <hr className="my-6 border-white/20" />
 
-        {/* FILA INFERIOR (Logo Izquierda / Copyright Derecha) */}
-        <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-[11px] sm:text-xs">
-          
-          <div className="flex items-center gap-2 flex-shrink-0"> 
-            <Image
-              src={crystalimLogo}
-              alt="Crystalim Logo"
-              width={85}
-              height={45}
-              className="h-7 w-auto transition-transform duration-300 hover:scale-105 hover:-translate-y-0.5"
-            />
-          </div>
-
-          <p className="text-center sm:text-right text-white/90">
-            © {year} {companyName}. Todos los Derechos Reservados.
+        {/* COPYRIGHT */}
+        <div className="text-center text-[11px] text-white/80 sm:text-xs">
+          <p>
+            &copy; {year} {companyName}. Todos los Derechos Reservados.
           </p>
-          
         </div>
 
       </div>
