@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import React from "react";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 type FooterProps = {
   companyName?: string;
@@ -7,69 +7,77 @@ type FooterProps = {
 };
 
 const Footer: React.FC<FooterProps> = ({
-  companyName = 'Crystalim',
+  companyName = "Crystalim",
   year = 2025,
 }) => {
-  const whatsappNumber = '5214491140796';
+  // Número de WhatsApp 
+  const whatsappNumber = "524491373010";
   const whatsappMessage = encodeURIComponent(
-    'Hola Crystalim, me gustaría más información.'
+    "Hola Crystalim, me gustaría más información."
   );
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
-    <footer className="footer mt-auto">
-      <div className="footer-inner">
+    <footer className="mt-auto bg-[#2387e1] text-white">
+      <div className="mx-auto flex max-w-4xl flex-col items-center px-4 py-4 md:py-5 text-center space-y-3">
+        {/* Título */}
+        <h4 className="text-sm font-semibold tracking-wide">Sections</h4>
 
-        <div className="footer-row" style={{ justifyContent: "space-between" }}>
-          
-          {/* Crystalim */}
-          <div className="footer-col">
-            <h4 className="footer-title">{companyName}</h4>
+        {/* Links (Home, Products, About Us, Contact) */}
+        <nav className="flex flex-wrap items-center justify-center gap-6 text-xs md:text-sm">
+          <a
+            href="#home"
+            className="transition-all hover:text-white/80 hover:-translate-y-0.5"
+          >
+            Home
+          </a>
+          <a
+            href="#products"
+            className="transition-all hover:text-white/80 hover:-translate-y-0.5"
+          >
+            Products
+          </a>
+          <a
+            href="#about"
+            className="transition-all hover:text-white/80 hover:-translate-y-0.5"
+          >
+            About Us
+          </a>
+          <a
+            href="#contact"
+            className="transition-all hover:text-white/80 hover:-translate-y-0.5"
+          >
+            Contact
+          </a>
+        </nav>
 
-            {/* LINKS HORIZONTALES */}
-            <div className="footer-links-horizontal">
-              <a href="#home" className="footer-link">Home</a>
-              <span className="footer-separator">|</span>
+        {/* Iconos sociales */}
+        <div className="flex items-center justify-center gap-4 text-lg">
+          {/* WhatsApp */}
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="transition-all hover:text-white/80 hover:-translate-y-0.5"
+          >
+            <FaWhatsapp />
+          </a>
 
-              <a href="#about" className="footer-link">About Us</a>
-              <span className="footer-separator">|</span>
-
-              <a href="#services" className="footer-link">Products</a>
-              <span className="footer-separator">|</span>
-
-              <a href="#contact" className="footer-link">Contact</a>
-            </div>
-          </div>
-
-          {/* Redes sociales */}
-          <div className="footer-col">
-            <h4 className="footer-title">Follow Us</h4>
-
-            <div className="social-links">
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="social-icon"
-              >
-                <FaWhatsapp />
-              </a>
-
-              <a
-                href="https://www.instagram.com/crystalim_0190/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="social-icon"
-              >
-                <FaInstagram />
-              </a>
-            </div>
-          </div>
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/crystalim_0190/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="transition-all hover:text-white/80 hover:-translate-y-0.5"
+          >
+            <FaInstagram />
+          </a>
         </div>
 
-        <p className="footer-copy">
+        {/* Copyright */}
+        <p className="text-[11px] md:text-xs text-white/90">
           &copy; {year} {companyName}. All rights Reserved.
         </p>
       </div>
