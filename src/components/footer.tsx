@@ -1,80 +1,32 @@
 import React from 'react';
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 
-type FooterProps = {
-  companyName?: string;
-  year?: number;
-};
-
-const Footer: React.FC<FooterProps> = ({
-  companyName = 'Crystalim',
-  year = 2025,
-}) => {
-  const whatsappNumber = '5214491140796';
-  const whatsappMessage = encodeURIComponent(
-    'Hola Crystalim, me gustaría más información.'
-  );
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
-
+export default function Footer() {
   return (
-    <footer className="footer mt-auto">
-      <div className="footer-inner">
-
-        <div className="footer-row" style={{ justifyContent: "space-between" }}>
-          
-          {/* Crystalim */}
-          <div className="footer-col">
-            <h4 className="footer-title">{companyName}</h4>
-
-            {/* LINKS HORIZONTALES */}
-            <div className="footer-links-horizontal">
-              <a href="#home" className="footer-link">Home</a>
-              <span className="footer-separator">|</span>
-
-              <a href="#about" className="footer-link">About Us</a>
-              <span className="footer-separator">|</span>
-
-              <a href="#services" className="footer-link">Products</a>
-              <span className="footer-separator">|</span>
-
-              <a href="#contact" className="footer-link">Contact</a>
-            </div>
+    <footer className="bg-gray-800 text-white py-8">
+      <div className="max-w-[1180px] mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Comercializadora Castro Cervantes</h3>
+            <p className="text-gray-300">High-quality cleaning solutions for home and business.</p>
           </div>
-
-          {/* Redes sociales */}
-          <div className="footer-col">
-            <h4 className="footer-title">Follow Us</h4>
-
-            <div className="social-links">
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="social-icon"
-              >
-                <FaWhatsapp />
-              </a>
-
-              <a
-                href="https://www.instagram.com/crystalim_0190/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="social-icon"
-              >
-                <FaInstagram />
-              </a>
-            </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
+            <ul className="space-y-2">
+              <li><a href="/productos" className="text-gray-300 hover:text-white">Productos</a></li>
+              <li><a href="/about" className="text-gray-300 hover:text-white">About Us</a></li>
+              <li><a href="/contacto" className="text-gray-300 hover:text-white">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Contacto</h3>
+            <p className="text-gray-300">Email: info@ccc.com</p>
+            <p className="text-gray-300">Tel: +123 456 7890</p>
           </div>
         </div>
-
-        <p className="footer-copy">
-          &copy; {year} {companyName}. All rights Reserved.
-        </p>
+        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+          <p className="text-gray-300">&copy; 2023 Comercializadora Castro Cervantes. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
