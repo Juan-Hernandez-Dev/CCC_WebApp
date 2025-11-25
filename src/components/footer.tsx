@@ -12,7 +12,7 @@ const Footer: React.FC<FooterProps> = ({
   companyName = "Crystalim",
   year = 2025,
 }) => {
-  const whatsappNumber = "524491373010";
+  const whatsappNumber = "524494263984";
   const whatsappMessage = encodeURIComponent(
     "Hola Crystalim, me gustaría más información."
   );
@@ -20,79 +20,67 @@ const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer className="mt-auto bg-[#2387e1] text-white">
-      <div className="mx-auto max-w-6xl px-6 py-4 md:py-5">
+      <div className="mx-auto max-w-screen-xl px-4 py-3 md:py-4">
+        
         {/* FILA SUPERIOR*/}
-        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-          {/* Barra de navegación horizontal */}
-          <nav className="flex flex-wrap items-center gap-6 text-xs md:text-sm">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <nav className="flex flex-wrap items-center gap-4 text-[13px] sm:text-sm">
             <span className="font-semibold">Barra de Navegación</span>
 
-            <a
-              href="#products"
-              className="transition-all duration-200 hover:-translate-y-0.5 hover:text-white/80"
-            >
+            <a href="#products" className="transition-all hover:text-white/80 hover:-translate-y-0.5">
               Productos
             </a>
-
-            <a
-              href="#about"
-              className="transition-all duration-200 hover:-translate-y-0.5 hover:text-white/80"
-            >
+            <a href="#about" className="transition-all hover:text-white/80 hover:-translate-y-0.5">
               About Us
             </a>
-
-            <a
-              href="#contact"
-              className="transition-all duration-200 hover:-translate-y-0.5 hover:text-white/80"
-            >
+            <a href="#contact" className="transition-all hover:text-white/80 hover:-translate-y-0.5">
               Contacto
             </a>
           </nav>
 
-          {/* Iconos derecha */}
-          <div className="flex items-center gap-4 text-lg">
+          <div className="flex items-center gap-4 text-lg mt-1 sm:mt-0">
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="WhatsApp"
-              className="transition-transform duration-200 hover:-translate-y-0.5 hover:scale-125 hover:text-white/80"
+              className="transition-transform hover:scale-110 hover:-translate-y-0.5"
             >
               <FaWhatsapp />
             </a>
+
             <a
               href="https://www.instagram.com/crystalim_0190/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram"
-              className="transition-transform duration-200 hover:-translate-y-0.5 hover:scale-125 hover:text-white/80"
+              className="transition-transform hover:scale-110 hover:-translate-y-0.5"
             >
               <FaInstagram />
             </a>
           </div>
         </div>
 
-        {/* Línea completa */}
-        <hr className="mt-3 border-white/40" />
+        {/* Línea */}
+        <hr className="mt-5 border-white/40" />
 
-        {/* FILA INFERIOR*/}
-        <div className="mt-3 flex flex-col gap-2 text-[11px] md:flex-row md:items-center md:justify-between">
-          {/* Logo*/}
-          <div className="flex items-center gap-3">
+        {/* FILA INFERIOR */}
+        <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-[11px] sm:text-xs">
+          
+          {/* LOGO*/}
+          <div className="flex items-center gap-2">
             <Image
               src={crystalimLogo}
               alt="Crystalim Logo"
-              width={90}
+              width={85}
               height={45}
-              className="h-8 w-auto transition-transform duration-300 hover:scale-105"
+              className="h-7 w-auto transition-transform duration-300 hover:scale-105 hover:-translate-y-0.5"
             />
           </div>
 
-          {/* Copyright */}
-          <p className="text-center text-[10px] md:text-xs md:text-right text-white/90">
+          <p className="text-center sm:text-right text-white/90">
             © {year} {companyName}. Todos los Derechos Reservados.
           </p>
         </div>
+
       </div>
     </footer>
   );
