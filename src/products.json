@@ -1,0 +1,2351 @@
+{
+  "categorias": [
+    {
+      "nombre": "PRODUCTOS LÍQUIDOS",
+      "productos": [
+        {
+          "nombre": "Amorol",
+          "capacidad": "500ml"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "500ml"
+        },
+        {
+          "nombre": "Gel antibacterial",
+          "capacidad": "500ml"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "500ml"
+        },
+        {
+          "nombre": "Glicerina",
+          "capacidad": "500ml"
+        },
+        {
+          "nombre": "Jabón lavatrastes",
+          "capacidad": "500ml"
+        },
+        {
+          "nombre": "Teflon (Abrillantador)",
+          "capacidad": "500ml"
+        },
+        {
+          "nombre": "Lavanda Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Porta Lima & Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Pera Manzana Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Violetas Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Pino Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Manzana Canela Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Mar Fresco Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Aqua Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Manzana Floral Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Eternity Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Lima Limón Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Menta Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Almorol",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Cloro + Detergente en gel",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Mango Mandarina Limpiador Multiusos",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Almorol en Gel",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Creolina Prodeli",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Ácido Muriático Crystalim",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Brillo para Llantas",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Ácido Muriático 900ml Sultan",
+          "capacidad": "900ml"
+        },
+        {
+          "nombre": "Cloro Crystalim",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Destapacaños Líquido",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Gel antibacterial con dispensador",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Gel antibacterial tapa fliptop",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón Desengrasante",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón para Manos DURAZNO",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón lavatrastes Crystallin",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón para Manos HERBAL",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Glicerina",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón para Manos ALMENDRA",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón Alcalino",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón Rojo",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón ropa tipo ARIEL",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS COLOR",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS NEGRO",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Jabón tipo ZOTE",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Limpia vidrios Crystallin (tipo Windex)",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Pino Gel",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Prelavador",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Aceite para Mop Prodeli",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Sanitizante Crystallin",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Sarricida",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Sarrigel",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Shampoo con cera",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Sosa",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Suavizante telas Flor de Luna (Morado)",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Suavizante telas Momentos Mágicos (Rosa)",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Suavizante Telas Paris (Blanco)",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Telón (abrillantador)",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Vanish",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Vel Rosita",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Suavizante telas Dawny (Verde)",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "Suavizante telas Primaveral (Azul)",
+          "capacidad": "1L"
+        },
+        {
+          "nombre": "AQUA Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "ETERNITY Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "FRUTAL Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "LAVANDA Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "LIMA LIMÓN Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "LIMÓN Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "MANZANA FLORAL Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "MAR FRESCO Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "MANGO MANDARINA Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "MENTA Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "MANZANA CANELA Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "PERA MANZANA Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "PINO LECHOSO Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "PINO Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "VIOLETAS Limpiador Multiusos",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Ácido Muriático",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Almorol",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Almorol en gel",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Brillo para Llantas",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Cloro Crystalim",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Cloro + Detergente en gel",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Gel antibacterial",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Glicerina",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Hipoclorito Crystallin",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón para Manos ALMENDRA",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón para Manos DURAZNO",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón para Manos HERBAL",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón Alcalino",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón desengrasante",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón Lavatrastes",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón Rojo",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón ropa tipo ARIEL",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS COLOR",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS NEGRO",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Pino gel",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Prelavador",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Sanitizante",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Sarricida",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Jabón tipo ZOTE",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "4L"
+        },
+        {
+          "nombre": "Sarrigel",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Limpia vidrios Windex",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Shampoo con cera",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Suavizante telas Downy (Verde)",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Suavizante telas Flor de Luna (Morado)",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Suavizante Telas Momentos Mágicos (Rosa)",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Suavizante telas Paris (Blanco)",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Suavizante telas Primaveral (Azul)",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Telón (Abrillantador)",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Vanish",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Vel Rosita",
+          "capacidad": "5L"
+        },
+        {
+          "nombre": "Vinagre Blanco de Alcohol De Caña LA COSTEÑA",
+          "capacidad": "3.7L"
+        },
+        {
+          "nombre": "AQUA Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "ETERNITY Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "FRUTAL Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "LAVANDA Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "MANZANA CANELA Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "PERA MANZANA Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "MAR FRESCO Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "MENTA Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "PINO LECHOSO Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "PINO Limpiador Multiusos",
+          "capacidad": "10L"
+        },
+        {
+          "nombre": "PINO Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "VIOLETA Limpiador Multiusos",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Almorol",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Brillo para Llantas",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Cloro",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Cloro + Detergente en gel",
+          "capacidad": "10L"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "10L"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Gel antibacterial",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Hipoclorito",
+          "capacidad": "10L"
+        },
+        {
+          "nombre": "Hipoclorito",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Teflon (Abrillantador)",
+          "capacidad": "10L"
+        },
+        {
+          "nombre": "Teflon (Abrillantador)",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón Alcalino",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón desengrasante",
+          "capacidad": "10L"
+        },
+        {
+          "nombre": "Jabón desengrasante",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón Lavatrastes",
+          "capacidad": "10L"
+        },
+        {
+          "nombre": "Jabón Lavatrastes",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón para Manos DURAZNO",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón rojo",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón ropa tipo ARIEL",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón tipo MÁS COLOR",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS NEGRO",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Jabón tipo ZOTE",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Limpia vidrios Windex",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Pino Gel",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Prelavador",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Sanitizante",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Sarricida",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Sarrigel",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Shampoo con cera",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Suavizante telas Dawny (Verde)",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Suavizante telas Flor de luna (Morado)",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Suavizante telas Momentos Mágicos (Rosa)",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Suavizante telas Paris (Blanco)",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Suavizante telas Primaveral (Azul)",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Vanish",
+          "capacidad": "20L"
+        },
+        {
+          "nombre": "Vel Rosita",
+          "capacidad": "20L"
+        }
+      ]
+    },
+    {
+      "nombre": "FERRETERÍA",
+      "productos": [
+        {
+          "nombre": "Candado 32mm De Hierro Gancho Corto HERMEX"
+        },
+        {
+          "nombre": "Candado 38mm De Hierro Gancho Corto HERMEX"
+        },
+        {
+          "nombre": "Candado 50mm De Hierro Gancho Corto HERMEX"
+        },
+        {
+          "nombre": "Candado 20mm Gancho corto Color Laton HERMEX"
+        },
+        {
+          "nombre": "Candado 25mm Gancho corto Color Laton HERMEX"
+        },
+        {
+          "nombre": "Candado 30mm Gancho corto Color Laton HERMEX"
+        },
+        {
+          "nombre": "Candado 40mm Gancho corto Color Laton HERMEX"
+        },
+        {
+          "nombre": "Candado 50mm Gancho corto Color Laton HERMEX"
+        },
+        {
+          "nombre": "Candado 25mm Gancho Largo Color Laton HERMEX"
+        },
+        {
+          "nombre": "Candado 65mm Redondo Gancho Largo Llave De Puntos HERMEX"
+        },
+        {
+          "nombre": "Candado 50mm Antipalanca Cuerpo De Hierro HERMEX"
+        },
+        {
+          "nombre": "Candado 70mm Antipalanca Cuerpo De Hierro HERMEX"
+        },
+        {
+          "nombre": "Candado 80mm Antipalanca Cuerpo De Hierro HERMEX"
+        },
+        {
+          "nombre": "Candado 80mm Antipalanca Blindado Llave de Puntos HERMEX"
+        },
+        {
+          "nombre": "Candado 70mm De Hierro Con Coraza Llave Anti Ganzua HERMEX"
+        },
+        {
+          "nombre": "Lampara Led 3w Tipo Bullbo Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara Led 8w Tipo Bullbo Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara De Led 14w Tipo Bullbo A19 Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara De Led 16w Tipo Bullbo A19 Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara De Led 18w Tipo Bullbo A25 Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara Led 40w Alta Potencia Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara Led 70w Alta Potencia Base E27 VOLTECK"
+        },
+        {
+          "nombre": "Lampara Espiral 105w Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara Espiral 45w Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Lampara Espiral 85w Alta Potencia Luz De Día VOLTECK"
+        },
+        {
+          "nombre": "Foco led 10w"
+        },
+        {
+          "nombre": "Foco led 24w GO by Konning"
+        },
+        {
+          "nombre": "Lampara Suburbano De Led 4w Con Panel Solar VOLTECK"
+        },
+        {
+          "nombre": "Lampara Led 32w Tipo Ventilador 4 aspas VOLTECK"
+        },
+        {
+          "nombre": "Paquete Foco económico con 10 piezas"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 10w Luz de día VOLTECK"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 14w Luz de día VOLTECK"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 16w Luz de día VOLTECK"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 18w Luz de día VOLTECK"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 10w LUZ CALIDA VOLTECK"
+        },
+        {
+          "nombre": "Cinta de Empaque Canela 48mm x 40m PRETUL"
+        },
+        {
+          "nombre": "Cinta de Empaque Transparente 48mm x 150m TRUPER"
+        },
+        {
+          "nombre": "Cinta de Empaque Transparente 48mm X 40m TRUPER"
+        },
+        {
+          "nombre": "Cinta Masking Tape 24mm x 50m TRUPER"
+        },
+        {
+          "nombre": "Cinta de Aluminio 48mm x 10m TRUPER"
+        },
+        {
+          "nombre": "Cinta Para Ducto 30m Espesor 0.19mm TRUPER"
+        },
+        {
+          "nombre": "Cinta Doble Cara 19mm x 1.5m TRUPER"
+        },
+        {
+          "nombre": "Cinta Doble Cara 25mm x 10m TRUPER"
+        },
+        {
+          "nombre": "Cinta Doble Cara Reutilizable 3m x 10mm Transparente TRUPER"
+        },
+        {
+          "nombre": "Cinta De Aislar Negra 18m x 19mm VOLTECK"
+        },
+        {
+          "nombre": "Cinta sella roscas 1/2\" x 7m FOSET"
+        },
+        {
+          "nombre": "Llave de Esfera de laton 115g entrada 1/2\" FOSET"
+        },
+        {
+          "nombre": "Llave de Esfera con Mineral Corto laton 130g 1/2\" FOSET"
+        },
+        {
+          "nombre": "Llave para Manguera De Laton 120g Entrada 1/2\" FOSET"
+        },
+        {
+          "nombre": "Llave de Nariz de Laton cromado 135g Entrada 1/2\" FOSET"
+        },
+        {
+          "nombre": "Portalampara de Baquelita con Cadena Y Doble Contacto VOLTECK"
+        },
+        {
+          "nombre": "Portalampara de Baquelita con Interruptor de Cadena VOLTECK (Socket)"
+        },
+        {
+          "nombre": "Particularmente de Baquelita con Interruptor de Cadena VOLTECK (Socket)"
+        },
+        {
+          "nombre": "Multicontacto BLANCO Domestico 6 Entradas VOLTECK"
+        },
+        {
+          "nombre": "Multicontacto NEGRO Domestico económico 6 Entradas VOLTECK"
+        },
+        {
+          "nombre": "Extension Domestica 2m BLANCA Polarizada VOLTECK"
+        },
+        {
+          "nombre": "Extension Domestica 3m BLANCA Polarizada VOLTECK"
+        },
+        {
+          "nombre": "Extension Domestica 4m BLANCA Polarizada VOLTECK"
+        },
+        {
+          "nombre": "Extension Domestica 5m BLANCA Polarizada VOLTECK"
+        },
+        {
+          "nombre": "Abrillantador Para Muebles en Aerosol 400ml WIESE"
+        },
+        {
+          "nombre": "Aceite Multigrado 25w 50 Para Motor Gasolina 950 ml ROSHFRANS"
+        },
+        {
+          "nombre": "Cera Líquida Silicon 473 ml KLINTEK"
+        },
+        {
+          "nombre": "Aceite Mineral Para Compresor 1 litro TRUPER"
+        },
+        {
+          "nombre": "Lata de gas 275g con valvula roscada TRUPER"
+        },
+        {
+          "nombre": "Lubricante Multiusos en Aerosol 400ml TRUPER"
+        },
+        {
+          "nombre": "Polish En Pasta Rosa Para Auto 250g KLINTEK"
+        },
+        {
+          "nombre": "Sellador Acrílico 280ml BLANCO TRUPER"
+        },
+        {
+          "nombre": "Sellador Transparente 100% Silicon 85g TRUPER"
+        },
+        {
+          "nombre": "Limpiador Carburadores 400ml G-TWO"
+        },
+        {
+          "nombre": "Tira Super Glue Xtron c/12 (Pegamento)"
+        },
+        {
+          "nombre": "Aceite rojo para muebles 480ml KLINTEK"
+        },
+        {
+          "nombre": "Aceite rojo para muebles 240ml KLINTEK"
+        },
+        {
+          "nombre": "Afloja Todo 400ml G-TWO"
+        },
+        {
+          "nombre": "Afloja Todo 172ml G-TWO"
+        },
+        {
+          "nombre": "Destornillador 3.6V 2 Posiciones Pro TRUPER"
+        },
+        {
+          "nombre": "Medidor Infrarrojo de temperatura de -50°C a 500°C TRUPER"
+        },
+        {
+          "nombre": "Esmeriladora Angular 4 1/2\" 700w TRUPER (pulidora)"
+        },
+        {
+          "nombre": "Rotomartillo 3/8\" 12V 1 Bateria 24H Pro TRUPER"
+        },
+        {
+          "nombre": "Engrapadora/Clavadora Tipo Pistola Uso Rudo TRUPER"
+        },
+        {
+          "nombre": "Desarmador Tipo Matraca Con 17 Puntas Y 7 Dados TRUPER"
+        },
+        {
+          "nombre": "Desarmador De Precision Con 106 Puntas Intercambiables TRUPER"
+        },
+        {
+          "nombre": "Mini Soldadora Inversora 130A Bi Voltaje 127/220V TRUPER"
+        },
+        {
+          "nombre": "Espátula Rectangular 15 x 8cm Acero Inoxidable Mango Madera TRUPER"
+        },
+        {
+          "nombre": "Llave 9' Para Tanque De Gas TRUPER"
+        },
+        {
+          "nombre": "Martillo Pulido 7oz Uña Curva Mango Madera TRUPER"
+        },
+        {
+          "nombre": "Pinza De Presion 6\" Tipo C con Mordaza Autoajustable TRUPER"
+        },
+        {
+          "nombre": "Tijera Para Ramas 80cm Uso Rudo Mangos De Madera TRUPER"
+        },
+        {
+          "nombre": "Tijera Para Poda 50cm Mangos De Madera TRUPER"
+        },
+        {
+          "nombre": "Flexometro Contra Impactos 8m Cinta Negra 25mm TRUPER"
+        },
+        {
+          "nombre": "Hidrolavadora electrica 1800 PSI TRUPER"
+        },
+        {
+          "nombre": "Escalera De Tijera Tipo II 6 Peldaños y Bandeja TRUPER"
+        },
+        {
+          "nombre": "Escalera Tijera Tipo II 9 Peldaños y Bandeja TRUPER"
+        },
+        {
+          "nombre": "Pija #6 x 1\" c/20 FIERO"
+        },
+        {
+          "nombre": "Pija #6 x 2\" c/13 FIERO"
+        },
+        {
+          "nombre": "Manguera azul 10m 1/2\" 3 capas Conexiones Plasticas PRETUL"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 1-1/2\" c/20 FIERO"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 2\" c/20 FIERO"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 2-1/2\" c/15 FIERO"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 3\" c/12 FIERO"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 1\" c/130 FIERO"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 1-1/2\" c/70 FIERO"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 2\" c/35 FIERO"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 2-1/2\" c/20 FIERO"
+        },
+        {
+          "nombre": "Brocha Profesional 2\" Mango Plastico TRUPER"
+        },
+        {
+          "nombre": "Brocha Profesional 4\" Mango Plastico TRUPER"
+        },
+        {
+          "nombre": "Calculadora 15cm De Escritorio TRUPER"
+        },
+        {
+          "nombre": "Calculadora 19cm De Escritorio TRUPER"
+        },
+        {
+          "nombre": "Escoba Metalica Para Jardín Curva 22 Dientes Mango 48\" TRUPER"
+        },
+        {
+          "nombre": "Escoba Plastica Flex Para Jardín 22 dientes Mango 48\" PRETUL"
+        },
+        {
+          "nombre": "Rack De Plastico Para Escoba y Trapeador Exhibidor TRUPER"
+        },
+        {
+          "nombre": "Embudo Plastico 250ML Cuello Rigido TRUPER"
+        },
+        {
+          "nombre": "Pila Duracell AAA c/10"
+        },
+        {
+          "nombre": "Pila Duracell AAA c/10"
+        },
+        {
+          "nombre": "Pila Eveready AA tira C/24"
+        },
+        {
+          "nombre": "Pila Eveready AAA Tira c/20"
+        },
+        {
+          "nombre": "Bascula Digital Para Cocina Con Tazon 5kg TRUPER"
+        },
+        {
+          "nombre": "Bascula Digital Plato de Poliprop 5kg PRETUL"
+        },
+        {
+          "nombre": "Fumigador Domestico 1L TRUPER"
+        },
+        {
+          "nombre": "Fumigador Domestico 2.5L Mango Ergonomico TRUPER"
+        },
+        {
+          "nombre": "Fumigador Domestico 1L KAWASHIMA"
+        },
+        {
+          "nombre": "Grapas caja c/1000 5/16\" Corona 10.7 mm TRUPER"
+        },
+        {
+          "nombre": "Organizador 44 Gavetas TRUPER"
+        },
+        {
+          "nombre": "Piedra Para asentar 150mm Doble Grano 150 y 240 TRUPER"
+        },
+        {
+          "nombre": "Reflector Ultra Delgado Led 200w Luz De Dia VOLTECK"
+        },
+        {
+          "nombre": "Encendedor Multiusos Con Repuesto XTRON"
+        },
+        {
+          "nombre": "Encendedor c/25 YAMA"
+        },
+        {
+          "nombre": "Encendedor Grande c/15 TOKAI"
+        },
+        {
+          "nombre": "Azadon Jardinero Mango Fibra De Vidrio 150cm TRUPER"
+        },
+        {
+          "nombre": "Guante MEDIANO de Nylon recubierto de Poliuretano PRETUL"
+        },
+        {
+          "nombre": "Guante GRANDE de Nylon recubierto de Poliuretano PRETUL"
+        },
+        {
+          "nombre": "Etiquetadora manual"
+        },
+        {
+          "nombre": "Regadera Plato Cuadrado 10° (25cm) Con Brazo Cromo FOSET"
+        },
+        {
+          "nombre": "Linterna De Minero LED 350lm Con Sensor Recargable TRUPER"
+        },
+        {
+          "nombre": "Lija de agua grano 220 TRUPER"
+        },
+        {
+          "nombre": "Rafia De 410m Color Blanco Calibre 2.2g/m FIERO"
+        },
+        {
+          "nombre": "Toalla Multiusos Uso Rudo SCOTT SHOP"
+        },
+        {
+          "nombre": "Calentador De Agua Para 20L 1000w VOLTECK (Resistencia)"
+        },
+        {
+          "nombre": "Calentador para agua 127 V XTRON (Resistencia 20 litros)"
+        },
+        {
+          "nombre": "Tambo de Plastico Sin Tapa 220 litros"
+        },
+        {
+          "nombre": "Accesorios Para Baño Metálicos Juego Con 6 Piezas FOSET"
+        },
+        {
+          "nombre": "Rollo de Papel Termico 57 x 40 mm"
+        },
+        {
+          "nombre": "Raqueta Electrica Recargable Mata Insectos Mosca Mosquitos GEKCO"
+        },
+        {
+          "nombre": "Raqueta Mata Mosca y Mosquito Recargable VOLTECK"
+        },
+        {
+          "nombre": "Guante T/7 de Nitrilo recubierto ANTE"
+        }
+      ]
+    },
+    {
+      "nombre": "TRAPEADORES",
+      "productos": [
+        {
+          "nombre": "Trapeador Hilaza BLANCO #24"
+        },
+        {
+          "nombre": "Trapeador Hilaza BLANCO #30"
+        },
+        {
+          "nombre": "Trapeador Pabilaza COLOR #24"
+        },
+        {
+          "nombre": "Trapeador Pabilaza COLOR #30"
+        },
+        {
+          "nombre": "Trapeador Magitel #24"
+        },
+        {
+          "nombre": "Trapeador Magitel #30"
+        },
+        {
+          "nombre": "Trapeador Pabilo BLANCO #24"
+        },
+        {
+          "nombre": "Trapeador Pabilo BLANCO #30"
+        },
+        {
+          "nombre": "Trapeador Pabilo BLANCO #50"
+        },
+        {
+          "nombre": "Trapeador Pabilaza BLANCO #24"
+        },
+        {
+          "nombre": "Trapeador Pabilaza BLANCO #30"
+        },
+        {
+          "nombre": "Trapeador Pabilo COLOR #24"
+        },
+        {
+          "nombre": "Trapeador Pabilo COLOR #30"
+        },
+        {
+          "nombre": "Trapeador Pabilo COLOR #50"
+        },
+        {
+          "nombre": "Trapeador Hilaza COLOR #24"
+        },
+        {
+          "nombre": "Trapeador Hilaza COLOR #30"
+        },
+        {
+          "nombre": "Trapeador Hilaza Española #24"
+        },
+        {
+          "nombre": "Trapeador Hilaza Española #30"
+        },
+        {
+          "nombre": "Trapeador Hilaza Española #40"
+        },
+        {
+          "nombre": "Trapeador Magico #24"
+        },
+        {
+          "nombre": "Trapeador Magico #30"
+        },
+        {
+          "nombre": "Trapeador Repuesto Microtela #24"
+        },
+        {
+          "nombre": "Trapeador Repuesto Microtela #30"
+        },
+        {
+          "nombre": "Trapeador Microtela #24"
+        },
+        {
+          "nombre": "Trapeador Microtela #30"
+        },
+        {
+          "nombre": "Trapeador Microtela #40"
+        },
+        {
+          "nombre": "Trapeador Microtela #50"
+        },
+        {
+          "nombre": "Trapeador Mini"
+        }
+      ]
+    },
+    {
+      "nombre": "ESCOBAS, CEPILLOS Y JALADORES",
+      "productos": [
+        {
+          "nombre": "Baston Metalico 137cm Con Rosca"
+        },
+        {
+          "nombre": "Escoba Abanico Grande ASEO"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial SUAVE 50cm KLINTEK"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial SUAVE 60cm KLINTEK"
+        },
+        {
+          "nombre": "Escoba Cepillo Eco LUPITA"
+        },
+        {
+          "nombre": "Baston Capuchon Madera Venta"
+        },
+        {
+          "nombre": "Escoba Cepillo Borgui con Bolsa ASEO"
+        },
+        {
+          "nombre": "Escoba Super Plus ABEJA REYNA"
+        },
+        {
+          "nombre": "Escoba Cepillo Payaso"
+        },
+        {
+          "nombre": "Baston Madera Venta"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial Cerda Rígida 40cm KLINTEK"
+        },
+        {
+          "nombre": "Escoba Cepillo Uso Rudo (Con baston inclinado) ASEO"
+        },
+        {
+          "nombre": "Escoba Colorama IDEAL"
+        },
+        {
+          "nombre": "Escoba Abanico Corto (abanico mediano) ABEJA REYNA"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial Cerda Rígida 30cm KLINTEK"
+        },
+        {
+          "nombre": "Escoba Cepillo Uso Rudo ECONOMICO (Con bastón inclinado) ASEO"
+        },
+        {
+          "nombre": "Escoba Veneciana IDEAL"
+        },
+        {
+          "nombre": "Escoba Mini"
+        },
+        {
+          "nombre": "Escoba Emperador ABEJA REYNA"
+        },
+        {
+          "nombre": "Escoba Cladiador ABEJA REYNA"
+        },
+        {
+          "nombre": "Escoba Italiana (abanico chico) ABEJA REYNA"
+        },
+        {
+          "nombre": "Escoba Cepillo Jumbo SUAVE ABEJA REYNA"
+        },
+        {
+          "nombre": "Escoba Pinky Broom (Veneciana COLOR) IDEAL"
+        },
+        {
+          "nombre": "Escoba Cepillo Super Jumbo ABEJA REYNA"
+        },
+        {
+          "nombre": "Escoba Cepillo Suave Baston Inclinado"
+        },
+        {
+          "nombre": "Escoba Italmax (Abanico chico)"
+        },
+        {
+          "nombre": "Escoba Espiga Seis Hilos (bastón naranja)"
+        },
+        {
+          "nombre": "Jalador para piso 40cm"
+        },
+        {
+          "nombre": "Jalador para piso 50cm"
+        },
+        {
+          "nombre": "Jalador piso uso rudo 45cm Dura flex"
+        },
+        {
+          "nombre": "Jalador piso uso rudo 55cm Dura flex"
+        },
+        {
+          "nombre": "Jalador piso uso rudo 75cm Dura flex"
+        }
+      ]
+    },
+    {
+      "nombre": "JARCERÍA ",
+      "productos": [
+        {
+          "nombre": "Atomizador 1 litro"
+        },
+        {
+          "nombre": "Atomizador 250ml"
+        },
+        {
+          "nombre": "Atomizador Polietileno Con Pistola Uso Rudo 500 ml"
+        },
+        {
+          "nombre": "Atomizador 500ml"
+        },
+        {
+          "nombre": "Atomizador Economico (Valvula, Pistola)"
+        },
+        {
+          "nombre": "Atomizador CANYON Uso Rudo (Valvula, Pistola)"
+        },
+        {
+          "nombre": "Atomizador ECONOMICO Uso Rudo (Valvula, Pistola)"
+        },
+        {
+          "nombre": "Cepillo Mano Mini KLINTEK"
+        },
+        {
+          "nombre": "Cepillo mano mini Lupita"
+        },
+        {
+          "nombre": "Cepillo Mano Flexible KLINTEK"
+        },
+        {
+          "nombre": "Cepillo alague"
+        },
+        {
+          "nombre": "Cepillo Mano KLINTEK"
+        },
+        {
+          "nombre": "Cepillo de mano Lupita"
+        },
+        {
+          "nombre": "Cepillo tipo plancha"
+        },
+        {
+          "nombre": "Cepillos Multiusos Paq c/3 FASHION CLEAN"
+        },
+        {
+          "nombre": "Cepillo Lavaplatos FLIPP"
+        },
+        {
+          "nombre": "Cepillo Para Biberón Económico"
+        },
+        {
+          "nombre": "Escobeta Mango Plástico KLINTEK"
+        },
+        {
+          "nombre": "Escobeta mango plástico"
+        },
+        {
+          "nombre": "Escobeta Lechuguilla"
+        },
+        {
+          "nombre": "Cubeta Carrasco #12"
+        },
+        {
+          "nombre": "Cubeta carrasco #15 (cilíndrica)"
+        },
+        {
+          "nombre": "Cubeta carrasco #16 (Cónica)"
+        },
+        {
+          "nombre": "Cubeta Carrasco #18 (cilíndrica)"
+        },
+        {
+          "nombre": "Cubeta Economica (Cónica) #12"
+        },
+        {
+          "nombre": "Cubeta flexible #14 FLIPP"
+        },
+        {
+          "nombre": "Cubeta flexible #18 FLIPP"
+        },
+        {
+          "nombre": "Franela Gris"
+        },
+        {
+          "nombre": "Franela Blanca"
+        },
+        {
+          "nombre": "Franela Roja"
+        },
+        {
+          "nombre": "Tela Microfibra extra grande 40x60 DON MICRO"
+        },
+        {
+          "nombre": "Tela Microfibra 40x40cm KLINTEK"
+        },
+        {
+          "nombre": "Tela Microfibra 40x60cm KLINTEK"
+        },
+        {
+          "nombre": "Tela Microfibra Extra Grande 40x60 cm ABEJA REYNA"
+        },
+        {
+          "nombre": "Tela Microfibra Special Chica 40x40 MIROSLAVA"
+        },
+        {
+          "nombre": "Tela Microfibra Estampada 40x40 cm MIROSLAVA"
+        },
+        {
+          "nombre": "Telas absorbentes c/3 MIROSLAVA"
+        },
+        {
+          "nombre": "Tela Microfibra Mini paq c/4 30x30 FASHION CLEAN"
+        },
+        {
+          "nombre": "Tela Microfibra Jumbo 50x100 cm FASHION CLEAN"
+        },
+        {
+          "nombre": "Pinza de Madera c/20"
+        },
+        {
+          "nombre": "Pinza economica c/36"
+        },
+        {
+          "nombre": "Pinza jumbo c/36"
+        },
+        {
+          "nombre": "Pinza larga Tendal c/36"
+        },
+        {
+          "nombre": "Piedra pomez bolsita"
+        },
+        {
+          "nombre": "Esponja Tipo Ocho FASHION CLEAN"
+        },
+        {
+          "nombre": "Estropajo de lxte Paquete c/10"
+        },
+        {
+          "nombre": "Destapacaños Mini para lavabo"
+        },
+        {
+          "nombre": "Destapacaños Economico (bomba negra)"
+        },
+        {
+          "nombre": "Destapacaños Grande de Colores"
+        },
+        {
+          "nombre": "Destapacaños De 15cm KLINTEK (Bomba negra)"
+        },
+        {
+          "nombre": "Escobillon C/Base Para Baño KLINTEK"
+        },
+        {
+          "nombre": "Escobillon c/base para baño Lupita"
+        },
+        {
+          "nombre": "Recogedor Plastico Baston Lamina Y Orilla De Hule"
+        },
+        {
+          "nombre": "Recogedor Medio Bote lamina"
+        },
+        {
+          "nombre": "Recogedor Plastico Con Baston Madera KLINTEK"
+        },
+        {
+          "nombre": "Recogedor Plastico Mano KLINTEK"
+        },
+        {
+          "nombre": "Recogedor plástico STELA"
+        },
+        {
+          "nombre": "Recogedor abatible con ruedas OVAL"
+        },
+        {
+          "nombre": "Tendedero Lazo 10m De Polietileno KLINTEK"
+        },
+        {
+          "nombre": "Tendedero Lazo de Cañamo BLANCO 10m"
+        },
+        {
+          "nombre": "Tendedero Lazo de Cañamo CAFE 10m"
+        },
+        {
+          "nombre": "Tendedero Lazo 7m 50 cm"
+        },
+        {
+          "nombre": "Tendedero Lazo Nylon 10m FASHION CLEAN"
+        },
+        {
+          "nombre": "Ganchos Plástico para ropa c/10"
+        },
+        {
+          "nombre": "Jalador vidrios"
+        },
+        {
+          "nombre": "Limpia Hornos 470g MONY (Quitacochambre)"
+        },
+        {
+          "nombre": "Matamoscas Mediano"
+        },
+        {
+          "nombre": "Matamoscas Grande"
+        },
+        {
+          "nombre": "Guante Latex GRANDE OVAL"
+        },
+        {
+          "nombre": "Guante T/8 de Nylon recubierto de Poliuretano ANTE"
+        },
+        {
+          "nombre": "Guante T/9 de Nylon recubierto de Poliuretano ANTE"
+        },
+        {
+          "nombre": "Guante T/10 de Nylon recubierto de Poliuretano ANTE"
+        },
+        {
+          "nombre": "Guante latex CHICO #7 HULTEX"
+        },
+        {
+          "nombre": "Guante latex MEDIANO #8 HULTEX"
+        },
+        {
+          "nombre": "Guante latex GRANDE #9 HULTEX"
+        },
+        {
+          "nombre": "Guante verde Solvex CHICO #7"
+        },
+        {
+          "nombre": "Guante verde Solvex MEDIANO #8"
+        },
+        {
+          "nombre": "Guante verde Solvex GRANDE #9"
+        },
+        {
+          "nombre": "Guante latex MEDIANO TRUPER"
+        },
+        {
+          "nombre": "Guante latex GRANDE TRUPER"
+        },
+        {
+          "nombre": "Guante latex Industrial MEDIANO TRUPER"
+        },
+        {
+          "nombre": "Guante latex Industrial GRANDE TRUPER"
+        },
+        {
+          "nombre": "Guante MEDIANO AZUL de Nitrilo c/100 DERMACARE"
+        },
+        {
+          "nombre": "Guante GRANDE AZUL de Nitrilo c/100 DERMACARE"
+        },
+        {
+          "nombre": "Guante MEDIANO NEGRO de Nitrilo c/100 DERMACARE"
+        },
+        {
+          "nombre": "Guante GRANDE NEGRO de Nitrilo c/100 DERMACARE"
+        },
+        {
+          "nombre": "Base para Mop 40cm CASTOR"
+        },
+        {
+          "nombre": "Base para Mop 60cm CASTOR"
+        },
+        {
+          "nombre": "Base para Mop 90cm CASTOR"
+        },
+        {
+          "nombre": "Base para Mop 125cm CASTOR"
+        },
+        {
+          "nombre": "Funda para Mop 40cm CASTOR"
+        },
+        {
+          "nombre": "Funda para Mop 60cm CASTOR"
+        },
+        {
+          "nombre": "Funda para Mop 90cm CASTOR"
+        },
+        {
+          "nombre": "Funda para Mop 125cm CASTOR"
+        }
+      ]
+    },
+    {
+      "nombre": "BOLSAS",
+      "productos": [
+        {
+          "nombre": "Bolsa negra 60 x 90 cm"
+        },
+        {
+          "nombre": "Bolsa negra 90 x 1.20 cm"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Chica 25 x 40 cm"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Mediana 25 x 50 cm"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Grande 30 x 60 cm"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Jumbo 45 x 85 cm"
+        },
+        {
+          "nombre": "Bolsa Negra ROLLO 90 x 120cm C/10"
+        },
+        {
+          "nombre": "Bolsa Negra ROLLO 60 x 90cm C/22 PLAXIM"
+        },
+        {
+          "nombre": "Bolsa Negra ROLLO 90 x 120cm C/11 PLAXIM"
+        }
+      ]
+    },
+    {
+      "nombre": "FIBRAS",
+      "productos": [
+        {
+          "nombre": "Fibra P66 Blanca Scotch Brite"
+        },
+        {
+          "nombre": "Fibra P94 Verde c/Esponja Scotch Brite"
+        },
+        {
+          "nombre": "Fibra P96 Verde Scotch Brite"
+        },
+        {
+          "nombre": "Fibra P76 Negra Scotch Brite"
+        },
+        {
+          "nombre": "Fibra rasposo de color"
+        },
+        {
+          "nombre": "Fibra verde con esponja polifibra c/2"
+        },
+        {
+          "nombre": "Fibra verde polifibra c/3"
+        },
+        {
+          "nombre": "Fibra Cuadrítela trastes"
+        },
+        {
+          "nombre": "Fibra negra Polifibra"
+        },
+        {
+          "nombre": "Fibra para trastes King Wash"
+        },
+        {
+          "nombre": "Fibra Tallon oro"
+        },
+        {
+          "nombre": "Fibra Tallon plata"
+        },
+        {
+          "nombre": "Fibra acero chica 30g"
+        },
+        {
+          "nombre": "Fibra acero mediana 50g"
+        },
+        {
+          "nombre": "Fibra acero grande 70g"
+        },
+        {
+          "nombre": "Fibra fregon"
+        },
+        {
+          "nombre": "TIRA Fibra Verde c/Esponja Scotch Brite c/6"
+        },
+        {
+          "nombre": "TIRA Fibra VERDE Scotch Brite c/6"
+        },
+        {
+          "nombre": "TIRA Fibra Acero Inoxidable c/12"
+        },
+        {
+          "nombre": "Fibra de Acero Inoxidable Jumbo c/2"
+        },
+        {
+          "nombre": "Fibra tipo ajax c/10"
+        }
+      ]
+    },
+    {
+      "nombre": "FIBRAS PARA CUERPO",
+      "productos": [
+        {
+          "nombre": "Fibra cuerpo Saluk Fashion"
+        },
+        {
+          "nombre": "Fibra cuerpo Miroslava"
+        },
+        {
+          "nombre": "Fibra Cuerpo Bebe Miroslava"
+        },
+        {
+          "nombre": "Fibra Cuerpo bebe c/2 Fashion Clean"
+        },
+        {
+          "nombre": "Fibra cuerpo burbuja c/3 Fashion"
+        },
+        {
+          "nombre": "Fibra Cuerpo Burbuja C/Jabon GRANDE T TAIO"
+        },
+        {
+          "nombre": "Fibra cuerpo burbuja Grande"
+        }
+      ]
+    },
+    {
+      "nombre": "PASTILLAS / AROMATIZANTES",
+      "productos": [
+        {
+          "nombre": "Aromatizante Aerosol AMOUR 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Aerosol AQUA 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Aerosol BRISA DE LOS ALPES 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Aerosol CITRICO 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Aerosol HAWAIIAN 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Aerosol MANZANA CANELA 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Aerosol PARAISO FLORAL 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Aerosol SENSACIÓN CAMPESTRE 400ml WIESE"
+        },
+        {
+          "nombre": "Aromatizante Baby Aerosol 480ml GDOS"
+        },
+        {
+          "nombre": "Aromatizante Bosque del Rocio Aerosol 480ml GDOS"
+        },
+        {
+          "nombre": "Aromatizante Citricos Aerosol 480ml GDOS"
+        },
+        {
+          "nombre": "Aromatizante Lavanda Aerosol 480ml GDOS"
+        },
+        {
+          "nombre": "Aromatizante Manzana Canela Aerosol 480ml GDOS"
+        },
+        {
+          "nombre": "Pastilla Bellazul 50g"
+        },
+        {
+          "nombre": "Pastilla de aroma WIESE 70g"
+        },
+        {
+          "nombre": "Pastilla de aroma PRODELI 70g"
+        },
+        {
+          "nombre": "Pastilla de aroma MONY 80g"
+        },
+        {
+          "nombre": "Pastilla de cloro por kilo"
+        },
+        {
+          "nombre": "Pastilla de cloro c/3"
+        },
+        {
+          "nombre": "Tira de pastilla de cloro con 10/3"
+        },
+        {
+          "nombre": "Tapete popote Mingitorio WIESE"
+        },
+        {
+          "nombre": "Aromatizante Líquido Canela 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chica Fresa 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chicle 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Ck One 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Coco 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Eternity 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Fresco Bosque 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Lima Limón 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chanel 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Drakar 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Invictus 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Paco Rabanne 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Polo 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Sport 1L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Canela 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chica Fresa 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Ck One 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Coco 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Eternity 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Fresco Bosque 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chanel 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Drakar 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Invictus 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Paco Rabanne 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Polo 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Sport 5L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Canela 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chica Fresa 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Ck One 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Eternity 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Fresco Bosque 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chanel 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Drakar 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Invictus 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Paco Rabanne 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Polo 20L"
+        },
+        {
+          "nombre": "Aromatizante Líquido Sport 20L"
+        }
+      ]
+    },
+    {
+      "nombre": "PAPEL",
+      "productos": [
+        {
+          "nombre": "Rollo papel JUMBO 360m DALIA"
+        },
+        {
+          "nombre": "Rollo papel JUNIOR 160m DALIA"
+        },
+        {
+          "nombre": "Rollo papel JUMBO 360m ELITE"
+        },
+        {
+          "nombre": "Rollo papel JUNIOR 160m ELITE"
+        },
+        {
+          "nombre": "Rollo de papel institucional JUNIOR 180m INSTITUCIONAL"
+        },
+        {
+          "nombre": "Rollo de papel institucional JUMBO 400m INSTITUCIONAL"
+        },
+        {
+          "nombre": "Pañuelos KLEENEX c/90"
+        },
+        {
+          "nombre": "Toalla Interdoblada DALIA c/100 (Sanitas DALITAS)"
+        },
+        {
+          "nombre": "Toalla interdoblada ELITE c/100 (Sanitas papel)"
+        },
+        {
+          "nombre": "Servilleta Barra Mesa PETALO"
+        },
+        {
+          "nombre": "Servilleta De Mesa c/500 BIO NAPKINS"
+        },
+        {
+          "nombre": "Toalla interdoblada c/100 SANILUX (sanitas papel)"
+        },
+        {
+          "nombre": "Toalla en rollo 160m ELITE"
+        },
+        {
+          "nombre": "Toalla en rollo 180m FAPSA"
+        }
+      ]
+    },
+    {
+      "nombre": "DESPACHADORES Y BOTES DE BASURA",
+      "productos": [
+        {
+          "nombre": "Bote negro CHICO con tapa balancin"
+        },
+        {
+          "nombre": "Bote negro MEDIANO con tapa balancin"
+        },
+        {
+          "nombre": "Bote negro GRANDE con tapa balancin"
+        },
+        {
+          "nombre": "Despachador papel Institucional JUNIOR OVAL"
+        },
+        {
+          "nombre": "Despachador papel Institucional JUNIOR Calgary"
+        },
+        {
+          "nombre": "Despachador papel Jumbo INSTITUCIONAL"
+        },
+        {
+          "nombre": "Despachador jabón OVAL 1 litro"
+        },
+        {
+          "nombre": "Despachador Jabón líquido 1 litro"
+        },
+        {
+          "nombre": "Dispensador de Aromatizante Automatico WIESE"
+        },
+        {
+          "nombre": "Despachador toalla interdoblada CALGARY (sanitas)"
+        },
+        {
+          "nombre": "Despachador toalla interdoblada OVAL (Sanitas)"
+        }
+      ]
+    },
+    {
+      "nombre": "DETERGENTES EN POLVO",
+      "productos": [
+        {
+          "nombre": "Jabón polvo 1 kg Tipo ARIEL"
+        },
+        {
+          "nombre": "Jabón polvo 1 kg Tipo ROMA"
+        },
+        {
+          "nombre": "Jabón polvo 10 kg Tipo ARIEL"
+        },
+        {
+          "nombre": "Jabón polvo 10 kg Tipo ROMA"
+        },
+        {
+          "nombre": "Jabón polvo ROMA ORIGINAL 1kg"
+        },
+        {
+          "nombre": "Jabón polvo ROMA ORIGINAL 10kg"
+        }
+      ]
+    },
+    {
+      "nombre": "VENENOS",
+      "productos": [
+        {
+          "nombre": "Insecticida en Aerosol Aroma Limon 484ml + 1 Insecticida Maton 210ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 500ml + 1 Insecticida de aroma limón 210ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Aroma Limón 484ml + 1 Casa y Jardin 210ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 432ml + 1 Insecticida Aroma Limón 200ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Aroma Limón 484ml + 1 Insecticida Aroma Limón 200ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 432ml + 1 Insecticida Casa y Jardin 200ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 432ml + 1 Insecticida Maton 170ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 500ml + 1 Insecticida Casa y Jardin 210ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 450ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Aroma limón 484ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 500ml + 1 Insecticida Maton 210ml GDOS"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 450ml GDOS"
+        },
+        {
+          "nombre": "Pega Ratas chica c/2 Clean House"
+        },
+        {
+          "nombre": "Pega Ratas Mediana c/2 Clean House"
+        },
+        {
+          "nombre": "Pega Ratas Grande c/2 Clean House"
+        },
+        {
+          "nombre": "Raidolito VERDE c/10 Espirales RAID"
+        },
+        {
+          "nombre": "Raidolito MORADO c/10 Espirales RAID"
+        },
+        {
+          "nombre": "Insecticida en Espirales VERDE c/50 VAPE (RAIDOLITO)"
+        },
+        {
+          "nombre": "Laminitas RAID c/108 + Aparato Gratis"
+        },
+        {
+          "nombre": "Laminitas RAID c/108"
+        },
+        {
+          "nombre": "Pegamoscas c/4 YUAN MART"
+        },
+        {
+          "nombre": "Veneno Churros Para Rata 200g C REAL B"
+        },
+        {
+          "nombre": "Veneno Fumin 100ml"
+        },
+        {
+          "nombre": "Veneno Fumin 250ml"
+        },
+        {
+          "nombre": "Veneno POLVEX"
+        },
+        {
+          "nombre": "Veneno Tipo Jeringa Gel 30 G SANGHA"
+        },
+        {
+          "nombre": "Láminitas XTRON c/30"
+        },
+        {
+          "nombre": "Veneno Cereal Rosa para rata"
+        },
+        {
+          "nombre": "Veneno Mata Hormigas EXTERMINADOR"
+        },
+        {
+          "nombre": "Veneno Hormiga"
+        },
+        {
+          "nombre": "Veneno Huevito Rata"
+        },
+        {
+          "nombre": "Veneno SIN OLOR Para Cucaracha 1 Litro FLIT CONTROL"
+        },
+        {
+          "nombre": "Veneno Mata Insectos Extra Concentrado 500ml KILLER"
+        },
+        {
+          "nombre": "Veneno Para Mosca 1 litro FLIT CONTROL"
+        },
+        {
+          "nombre": "Veneno Para Cucaracha 1 Litro FLIT CONTROL"
+        },
+        {
+          "nombre": "Veneno Mosquicida Soluble (AZUL)"
+        },
+        {
+          "nombre": "Veneno Costalito Mágico"
+        },
+        {
+          "nombre": "Ácido Bórico Sobres"
+        },
+        {
+          "nombre": "Veneno Extermina Chinche KILLER"
+        },
+        {
+          "nombre": "Repelente de Mosquitos 230ml GDOS"
+        }
+      ]
+    },
+    {
+      "nombre": "PERFUMERÍA",
+      "productos": [
+        {
+          "nombre": "Agua Oxigenada 125ml PROFESA"
+        },
+        {
+          "nombre": "Agua Oxigenada 250ml PROFESA"
+        },
+        {
+          "nombre": "Agua Oxigenada 500ml PROFESA"
+        },
+        {
+          "nombre": "Rastrillo Gillet 2 hojas c/24 + 8"
+        },
+        {
+          "nombre": "Rastrillo Bic 3 hojas c/12 + 2"
+        },
+        {
+          "nombre": "Rastrillo lord 2 hojas c/48"
+        },
+        {
+          "nombre": "Rastrillo Bic 3 hojas c/12 + 4 rastrillo flex2"
+        },
+        {
+          "nombre": "Jabón de Tocador c/4 150g Dermatologico LIRIO"
+        },
+        {
+          "nombre": "Rastrillo Gillette 3 hojas c/12"
+        },
+        {
+          "nombre": "Toallita Húmeda c/100 FASHION CLEAN"
+        },
+        {
+          "nombre": "Jabón de Tocador c/14 150g Dermatologico LIRIO"
+        },
+        {
+          "nombre": "Rastrillo Schick Xtreme c/12 + 2"
+        },
+        {
+          "nombre": "Toallita Humeda c/80 BABY SKY"
+        },
+        {
+          "nombre": "Toallita humeda Bote c/95 LYSOL"
+        },
+        {
+          "nombre": "Gel para cabello 250g NATURALS ULTRA"
+        },
+        {
+          "nombre": "Cofia Blanca c/100 PROSAFE"
+        },
+        {
+          "nombre": "Gel Linaza Para Cabello 250ml EXTREME"
+        },
+        {
+          "nombre": "Vaselina 85g ALONDRA"
+        }
+      ]
+    },
+    {
+      "nombre": "DULCERÍA",
+      "productos": [
+        {
+          "nombre": "Ferrero c/12 Caja Dorada CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero c/10 Caja dorada CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero c/8 Caja Dorada CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero c/3 Empaque Plastico CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero c/24 Caja Plástico CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero c/17 Pino Plástico CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero Collection C/7 Caja Dorada CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero c/16 Baul Plástico CHOCO CO3"
+        },
+        {
+          "nombre": "Ferrero Collection Corazón c/8 CHOCO CO3"
+        },
+        {
+          "nombre": "Huevito NIÑA KINDER CHOCO CO3"
+        },
+        {
+          "nombre": "Huevito NIÑO KINDER CHOCO CO3"
+        },
+        {
+          "nombre": "Huevito UNISEX KINDER CHOCO CO3"
+        },
+        {
+          "nombre": "Huevo Gigante Niña 100g KINDER CHOCO CO3"
+        },
+        {
+          "nombre": "Huevo Gigante Niño 100g KINDER CHOCO CO3"
+        },
+        {
+          "nombre": "Nutella 350 g CHOCO CO3"
+        },
+        {
+          "nombre": "Nutella 650 g CHOCO CO3"
+        },
+        {
+          "nombre": "Kinder delice c/5 CHOCO CO3"
+        },
+        {
+          "nombre": "Kinder Delice c/10 CHOCO CO3"
+        },
+        {
+          "nombre": "Kinder Delice c/15 CHOCO CO3"
+        },
+        {
+          "nombre": "Kinder Maxi c/36 CHOCO CO3"
+        },
+        {
+          "nombre": "Kinder Mini C/4 CHOCO CO3"
+        },
+        {
+          "nombre": "Kinder Bueno C/2 CHOCO CO3"
+        },
+        {
+          "nombre": "Kinder Bueno White C/2 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Conejo c/3 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Conejo c/3 Vitrolero 600g CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Conejo Caja c/24 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Conejo c/10 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Vitrolero Jose Cuervo 300g CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Baileys c/12 Bolsita Relleno Licor CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Jose Cuervo c/12 Bolsita Relleno Licor CHOCO CO3"
+        },
+        {
+          "nombre": "Turin c/10 Caja Negra 100g CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Masterpieces Café c/10 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Masterpieces c/30 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo ALMENDRAS Con Chocolate c/20 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo BAILEYS ORIGINAL Relleno De Licor c/20 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo JOSE CUERVO ESPECIAL Relleno De Licor c/20 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo JOHNNIE WALKER Relleno De Licor c/18 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo BAILEYS AVELLANA Relleno De Licor C/20 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo TEQUILA 1800 Relleno De Licor c/20 CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo ALMENDRAS ZERO Con Chocolate 185g CHOCO CO3"
+        },
+        {
+          "nombre": "Turin Tubo CARAJILLO Relleno De Licor c/20 CHOCO CO3"
+        },
+        {
+          "nombre": "Espuma para fiesta 270ml GDOS FUNNY SNOW"
+        }
+      ]
+    }
+  ]
+}
