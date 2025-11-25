@@ -23,7 +23,6 @@ const Footer: React.FC<FooterProps> = ({
       <div className="mx-auto w-full px-6 py-6 md:px-12 md:py-8">
         
         {/* CONTENEDOR PRINCIPAL*/}
-        {/* Esto formará la fila superior*/}
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           
           {/* LOGO */}
@@ -37,25 +36,26 @@ const Footer: React.FC<FooterProps> = ({
             />
           </div>
 
-          {/* BARRA DE NAVEGACIÓN */}
-          {/* Usamos flex-col para que el título y los enlaces se apilen, y flex-wrap para los enlaces */}
-          <div className="flex flex-col items-center gap-2 md:flex-grow">
-            <span className="font-semibold text-white/90 text-sm md:text-base">Barra de Navegación</span>
-            <nav className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium md:gap-8">
-              <a href="#products" className="relative group transition-colors hover:text-white/90">
-                Productos
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#about" className="relative group transition-colors hover:text-white/90">
-                About Us
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#contact" className="relative group transition-colors hover:text-white/90">
-                Contacto
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
-            </nav>
-          </div>
+          {/* CENTRO*/}
+          {/* La navegación ahora es una sola fila */}
+          <nav className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium md:gap-8 md:flex-grow"> 
+            
+            
+            <span className="font-semibold text-white text-sm md:text-base pr-4 border-r border-white/50">Barra de Navegación</span>
+            
+            <a href="#products" className="relative group transition-colors hover:text-white/90">
+              Productos
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#about" className="relative group transition-colors hover:text-white/90">
+              About Us
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#contact" className="relative group transition-colors hover:text-white/90">
+              Contacto
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </nav>
 
           {/* SOCIAL */}
           <div className="flex items-center gap-4 flex-shrink-0">
@@ -81,10 +81,10 @@ const Footer: React.FC<FooterProps> = ({
           </div>
         </div>
 
-        {/* LÍNEA  */}
+        {/* LÍNEA */}
         <hr className="my-6 border-white/20" />
 
-        {/* COPYRIGHT */}
+        {/* COPYRIGHT*/}
         <div className="text-center text-[11px] text-white/80 sm:text-xs">
           <p>
             &copy; {year} {companyName}. Todos los Derechos Reservados.
