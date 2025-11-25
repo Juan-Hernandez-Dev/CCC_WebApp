@@ -21,7 +21,7 @@ const Footer: React.FC<FooterProps> = ({
   return (
     <footer className="mt-auto bg-[#2387e1] text-white">
       <div className="mx-auto max-w-6xl px-6 py-4 md:py-5">
-        {/* FILA SUPERIOR: nav + iconos */}
+        {/* FILA SUPERIOR*/}
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           {/* Barra de navegación horizontal */}
           <nav className="flex flex-wrap items-center gap-6 text-xs md:text-sm">
@@ -75,9 +75,9 @@ const Footer: React.FC<FooterProps> = ({
         {/* Línea completa */}
         <hr className="mt-3 border-white/40" />
 
-        {/* FILA INFERIOR: logo izq + copyright der */}
+        {/* FILA INFERIOR*/}
         <div className="mt-3 flex flex-col gap-2 text-[11px] md:flex-row md:items-center md:justify-between">
-          {/* Logo + texto */}
+          {/* Logo*/}
           <div className="flex items-center gap-3">
             <Image
               src={crystalimLogo}
