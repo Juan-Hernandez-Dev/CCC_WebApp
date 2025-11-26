@@ -1,25 +1,31 @@
 import React from "react";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import Image from "next/image";
-import crystalimLogo from "../../public/crystalim-logo.png";
+import crystalimLogo from "../../public/Crystalim blanco.png";
 
-export default function Footer() {
-  const companyName = "Crystalim";
-  const year = 2025;
+type FooterProps = {
+  companyName?: string;
+  year?: number;
+};
+
+const Footer: React.FC<FooterProps> = ({
+  companyName = "Crystalim",
+  year = 2025,
+}) => {
   const whatsappNumber = "524494263984";
   const whatsappMessage = encodeURIComponent(
     "Hola Crystalim, me gustaría más información."
   );
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
   return (
     <footer className="mt-auto bg-[#2387e1] text-white">
       <div className="mx-auto w-full px-6 py-6 md:px-12 md:py-8">
-
-        {/* CONTENEDOR PRINCIPAL*/}
-        {/* Esto formará la fila superior*/}
+        
+        {/* CONTENEDOR PRINCIPAL: Logotipo, Navegación y Redes Sociales */}
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-
-          {/* LOGO */}
+          
+          {/* 1. IZQUIERDA: LOGO */}
           <div className="flex-shrink-0">
             <Image
               src={crystalimLogo}
@@ -30,27 +36,28 @@ export default function Footer() {
             />
           </div>
 
-          {/* BARRA DE NAVEGACIÓN */}
-          {/* Usamos flex-col para que el título y los enlaces se apilen, y flex-wrap para los enlaces */}
-          <div className="flex flex-col items-center gap-2 md:flex-grow">
-            <span className="font-semibold text-white/90 text-sm md:text-base">Barra de Navegación</span>
-            <nav className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium md:gap-8">
-              <a href="#products" className="relative group transition-colors hover:text-white/90">
-                Productos
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#about" className="relative group transition-colors hover:text-white/90">
-                About Us
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#contact" className="relative group transition-colors hover:text-white/90">
-                Contacto
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
-            </nav>
-          </div>
+          {/* 2. CENTRO: BARRA DE NAVEGACIÓN (Título ALINEADO) */}
+          {/* La navegación ahora es una sola fila que incluye el título */}
+          <nav className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium md:gap-8 md:flex-grow"> 
+            
+            {/* Título: Se alinea horizontalmente con los enlaces y se le añade una línea divisoria (border-r) */}
+            <span className="font-semibold text-white text-sm md:text-base pr-4 border-r border-white/50">Barra de Navegación</span>
+            
+            <a href="#products" className="relative group transition-colors hover:text-white/90">
+              Productos
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#about" className="relative group transition-colors hover:text-white/90">
+              About Us
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#contact" className="relative group transition-colors hover:text-white/90">
+              Contacto
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </nav>
 
-          {/* SOCIAL */}
+          {/* 3. DERECHA: SOCIAL */}
           <div className="flex items-center gap-4 flex-shrink-0">
             <a
               href={whatsappUrl}
@@ -74,10 +81,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* LÍNEA  */}
+        {/* LÍNEA DIVISORIA SUTIL */}
         <hr className="my-6 border-white/20" />
 
-        {/* COPYRIGHT */}
+        {/* COPYRIGHT (Centrado y debajo de la línea) */}
         <div className="text-center text-[11px] text-white/80 sm:text-xs">
           <p>
             &copy; {year} {companyName}. Todos los Derechos Reservados.
@@ -87,4 +94,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
