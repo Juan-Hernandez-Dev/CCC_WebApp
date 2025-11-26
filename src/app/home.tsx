@@ -1,25 +1,30 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import CImage from '../app/assets/Home/Brooms.jpg'
+import C2Image from '../app/assets/Home/Mops.jpg'
+import C3Image from '../app/assets/Home//Soaps.jpg'
 
 const Home = () => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Hero section para Services */}
-            <section className="bg-blue-500 text-white py-16 px-4">
-                <div className="max-w-7xl mx-auto text-center">
-                    {/* Línea decorativa azul */}
-                    <div className="w-16 h-1 bg-white mx-auto mb-4"></div>
-
-                    <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-                        Services
-                    </h1>
-
-                    <h2 className="text-2xl sm:text-3xl font-semibold mb-8">
-                        What We Offer for your Home and Business
-                    </h2>
-                </div>
-            </section>
+             <section className="py-16 px-4 bg-white text-gray-900">
+        <div className="max-w-7xl mx-auto text-left">
+          {/* Contenedor del encabezado pequeño y línea azul */}
+          <div className="flex items-center justify-left mb-4 space-x-2">
+            {/* Línea decorativa azul */}
+            <div className="w-6 h-0.5 bg-blue-500"></div>
+            
+            <span className="text-base font-medium text-gray-700">
+              Products
+            </span>
+          </div>
+          <span className="text-4xl sm:text-5xl font-extrabold text-base text-gray-700">
+            What we offer for your home and your business
+          </span>
+        </div>
+      </section>
 
             {/* Sección de tarjetas de servicios */}
             <section className="py-16 px-4 max-w-7xl mx-auto">
@@ -29,7 +34,7 @@ const Home = () => {
                     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="aspect-square relative">
                             <Image
-                                src="https://i.imgur.com/placeholder-brooms.jpg" // Placeholder para escobas
+                                src={CImage} // Placeholder para escobas
                                 alt="Traditional brooms"
                                 fill
                                 className="object-cover"
@@ -55,7 +60,7 @@ const Home = () => {
                     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="aspect-square relative">
                             <Image
-                                src="https://i.imgur.com/placeholder-mops.jpg" // Placeholder para trapeadores
+                                src={C2Image} // Placeholder para trapeadores
                                 alt="Cotton mops"
                                 fill
                                 className="object-cover"
@@ -81,7 +86,7 @@ const Home = () => {
                     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="aspect-square relative">
                             <Image
-                                src="https://i.imgur.com/placeholder-soaps.jpg" // Placeholder para jabones
+                                src={C3Image} // Placeholder para jabones
                                 alt="Bar soaps"
                                 fill
                                 className="object-cover"
@@ -105,66 +110,28 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Sección de características adicionales */}
-            <section className="py-16 px-4 bg-blue-50">
-                <div className="max-w-7xl mx-auto">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-center text-blue-900 mb-12">
-                        Why Choose Crystalim?
-                    </h3>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {/* Característica 1 */}
-                        <div className="text-center">
-                            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <span className="text-white text-2xl font-bold">✓</span>
-                            </div>
-                            <h4 className="text-xl font-semibold text-blue-900 mb-2">Eco-Friendly</h4>
-                            <p className="text-gray-600">
-                                Our products are designed with the environment in mind, using sustainable materials
-                                and biodegradable formulas.
-                            </p>
-                        </div>
-
-                        {/* Característica 2 */}
-                        <div className="text-center">
-                            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <span className="text-white text-2xl font-bold">⚡</span>
-                            </div>
-                            <h4 className="text-xl font-semibold text-blue-900 mb-2">Concentrated Power</h4>
-                            <p className="text-gray-600">
-                                High-efficiency formulas that deliver powerful cleaning results with less product usage.
-                            </p>
-                        </div>
-
-                        {/* Característica 3 */}
-                        <div className="text-center">
-                            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <span className="text-white text-2xl font-bold">🚚</span>
-                            </div>
-                            <h4 className="text-xl font-semibold text-blue-900 mb-2">Fast Shipping</h4>
-                            <p className="text-gray-600">
-                                Quick and reliable delivery to ensure you never run out of essential cleaning supplies.
-                            </p>
-                        </div>
+            <section className="py-16 px-4 max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 gap-8 items-center">
+                    {/* Columna de texto */}
+                    <div className="space-y-4">
+                        <p className="text-4xl font-bold text-gray-900 mb-15">
+                            Are you looking for something else?
+                        </p>
+                        <p className="text-gray-700 w-full mb-15">
+                            Explore our complete catalog and find a wide variety of products designed to meet the cleaning needs of any space. 
+                            At Crystalim, we offer reliable, effective solutions designed for your convenience.
+                        </p>
+                        <a
+                            href="/productos"
+                            className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
+                        >
+                            View all Products →
+                        </a>
                     </div>
-                </div>
-            </section>
+                    {/* Columna vacía para mantener la estructura de dos columnas */}
+                    <div></div>
 
-            {/* Call to action section */}
-            <section className="py-16 px-4">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-6">
-                        Ready to Get Started?
-                    </h3>
-                    <p className="text-gray-700 mb-8">
-                        Browse our complete catalog of cleaning solutions and find the perfect products for your needs.
-                    </p>
-                    {/* <Link
-                        href="/catalog"
-                        className="bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition-colors"
-                    >
-                        View Full Catalog →
-                    </Link> */}
                 </div>
             </section>
         </div>
