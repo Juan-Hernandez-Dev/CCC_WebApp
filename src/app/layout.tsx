@@ -6,17 +6,17 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import ReactRouterProvider from '../components/ReactRouterProvider'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Crystalim - Cleaning with a Purpose',
-  description: 'High-quality cleaning solutions for home and business',
-}
+  title: "Crystalim - Cleaning with a Purpose",
+  description: "High-quality cleaning solutions for home and business",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -28,5 +28,5 @@ export default function RootLayout({
         </ReactRouterProvider>
       </body>
     </html>
-  )
+  );
 }

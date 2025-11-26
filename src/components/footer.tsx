@@ -1,31 +1,89 @@
-import React from 'react';
+import React from "react";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import Image from "next/image";
+import crystalimLogo from "../../public/crystalim-logo.png";
 
 export default function Footer() {
+  const companyName = "Crystalim";
+  const year = 2025;
+  const whatsappNumber = "524494263984";
+  const whatsappMessage = encodeURIComponent(
+    "Hola Crystalim, me gustaría más información."
+  );
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="max-w-[1180px] mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Comercializadora Castro Cervantes</h3>
-            <p className="text-gray-300">High-quality cleaning solutions for home and business.</p>
+    <footer className="mt-auto bg-[#2387e1] text-white">
+      <div className="mx-auto w-full px-6 py-6 md:px-12 md:py-8">
+
+        {/* CONTENEDOR PRINCIPAL*/}
+        {/* Esto formará la fila superior*/}
+        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
+
+          {/* LOGO */}
+          <div className="flex-shrink-0">
+            <Image
+              src={crystalimLogo}
+              alt="Crystalim Logo"
+              width={100}
+              height={50}
+              className="h-8 w-auto md:h-10 transition-transform duration-300 hover:scale-105"
+            />
           </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
-            <ul className="space-y-2">
-              <li><a href="/productos" className="text-gray-300 hover:text-white">Productos</a></li>
-              <li><a href="/about" className="text-gray-300 hover:text-white">About Us</a></li>
-              <li><a href="/contacto" className="text-gray-300 hover:text-white">Contacto</a></li>
-            </ul>
+
+          {/* BARRA DE NAVEGACIÓN */}
+          {/* Usamos flex-col para que el título y los enlaces se apilen, y flex-wrap para los enlaces */}
+          <div className="flex flex-col items-center gap-2 md:flex-grow">
+            <span className="font-semibold text-white/90 text-sm md:text-base">Barra de Navegación</span>
+            <nav className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium md:gap-8">
+              <a href="#products" className="relative group transition-colors hover:text-white/90">
+                Productos
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </a>
+              <a href="#about" className="relative group transition-colors hover:text-white/90">
+                About Us
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </a>
+              <a href="#contact" className="relative group transition-colors hover:text-white/90">
+                Contacto
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </nav>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contacto</h3>
-            <p className="text-gray-300">Email: info@ccc.com</p>
-            <p className="text-gray-300">Tel: +123 456 7890</p>
+
+          {/* SOCIAL */}
+          <div className="flex items-center gap-4 flex-shrink-0">
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 bg-white/10 rounded-full transition-all hover:bg-white hover:text-[#2387e1] hover:-translate-y-1"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp size={20} />
+            </a>
+
+            <a
+              href="https://www.instagram.com/crystalim_0190/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 bg-white/10 rounded-full transition-all hover:bg-white hover:text-[#E1306C] hover:-translate-y-1"
+              aria-label="Instagram"
+            >
+              <FaInstagram size={20} />
+            </a>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300">&copy; 2023 Comercializadora Castro Cervantes. All rights reserved.</p>
+
+        {/* LÍNEA  */}
+        <hr className="my-6 border-white/20" />
+
+        {/* COPYRIGHT */}
+        <div className="text-center text-[11px] text-white/80 sm:text-xs">
+          <p>
+            &copy; {year} {companyName}. Todos los Derechos Reservados.
+          </p>
         </div>
+
       </div>
     </footer>
   );
