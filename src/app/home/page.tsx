@@ -1,30 +1,30 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import CImage from '../app/assets/Home/Brooms.jpg'
-import C2Image from '../app/assets/Home/Mops.jpg'
-import C3Image from '../app/assets/Home//Soaps.jpg'
+import CImage from '../../assets/Home/Brooms.jpg'
+import C2Image from '../../assets/Home/Mops.jpg'
+import C3Image from '../../assets/Home/Soaps.jpg'
 
 const Home = () => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Hero section para Services */}
-             <section className="py-16 px-4 bg-white text-gray-900">
-        <div className="max-w-7xl mx-auto text-left">
-          {/* Contenedor del encabezado pequeño y línea azul */}
-          <div className="flex items-center justify-left mb-4 space-x-2">
-            {/* Línea decorativa azul */}
-            <div className="w-6 h-0.5 bg-blue-500"></div>
-            
-            <span className="text-base font-medium text-gray-700">
-              Products
-            </span>
-          </div>
-          <span className="text-4xl sm:text-5xl font-extrabold text-base text-gray-700">
-            What we offer for your home and your business
-          </span>
-        </div>
-      </section>
+            <section className="py-16 px-4 bg-white text-gray-900">
+                <div className="max-w-7xl mx-auto text-left">
+                    {/* Contenedor del encabezado pequeño y línea azul */}
+                    <div className="flex items-center justify-left mb-4 space-x-2">
+                        {/* Línea decorativa azul */}
+                        <div className="w-6 h-0.5 bg-blue-500"></div>
+
+                        <span className="text-base font-medium text-gray-700">
+                            Products
+                        </span>
+                    </div>
+                    <span className="text-4xl sm:text-5xl font-extrabold text-base text-gray-700">
+                        What we offer for your home and your business
+                    </span>
+                </div>
+            </section>
 
             {/* Sección de tarjetas de servicios */}
             <section className="py-16 px-4 max-w-7xl mx-auto">
@@ -119,7 +119,7 @@ const Home = () => {
                             Are you looking for something else?
                         </p>
                         <p className="text-gray-700 w-full mb-15">
-                            Explore our complete catalog and find a wide variety of products designed to meet the cleaning needs of any space. 
+                            Explore our complete catalog and find a wide variety of products designed to meet the cleaning needs of any space.
                             At Crystalim, we offer reliable, effective solutions designed for your convenience.
                         </p>
                         <a

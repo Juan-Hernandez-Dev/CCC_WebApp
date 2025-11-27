@@ -1,7 +1,8 @@
 import React from "react";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import Image from "next/image";
-import crystalimLogo from "../../public/Crystalim blanco.png";
+import crystalimLogo from "../assets/footer/Crystalim blanco.png";
+import Link from 'next/link';
 
 type FooterProps = {
   companyName?: string;
@@ -43,18 +44,18 @@ const Footer: React.FC<FooterProps> = ({
             {/* Título: Se alinea horizontalmente con los enlaces y se le añade una línea divisoria (border-r) */}
             <span className="font-semibold text-white text-sm md:text-base pr-4 border-r border-white/50">Barra de Navegación</span>
             
-            <a href="#products" className="relative group transition-colors hover:text-white/90">
+            <Link href="products" className="relative group transition-colors hover:text-white/90">
               Productos
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a href="#about" className="relative group transition-colors hover:text-white/90">
+            </Link>
+            <Link href="aboutus" className="relative group transition-colors hover:text-white/90">
               About Us
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a href="#contact" className="relative group transition-colors hover:text-white/90">
+            </Link>
+            <Link href="contact" className="relative group transition-colors hover:text-white/90">
               Contacto
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-            </a>
+            </Link>
           </nav>
 
           {/* 3. DERECHA: SOCIAL */}
