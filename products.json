@@ -1,0 +1,3749 @@
+{
+  "categorias": [
+    {
+      "nombre": "PRODUCTOS LÍQUIDOS",
+      "productos": [
+        {
+          "nombre": "Amorol",
+          "capacidad": "500ml",
+          "clave": "AL500",
+          "grupo": "AB500"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "500ml",
+          "clave": "JMG500",
+          "grupo": "JM500"
+        },
+        {
+          "nombre": "Gel antibacterial",
+          "capacidad": "500ml",
+          "clave": "GA500",
+          "grupo": "DES500"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "500ml",
+          "clave": "JMU500",
+          "grupo": "JM500"
+        },
+        {
+          "nombre": "Glicerina",
+          "capacidad": "500ml",
+          "clave": "GL500",
+          "grupo": "AB500"
+        },
+        {
+          "nombre": "Jabón lavatrastes",
+          "capacidad": "500ml",
+          "clave": "JL500",
+          "grupo": "DET500"
+        },
+        {
+          "nombre": "Teflon (Abrillantador)",
+          "capacidad": "500ml",
+          "clave": "T500",
+          "grupo": "AB500"
+        },
+        {
+          "nombre": "Lavanda Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "LAI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Porta Lima & Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "FRI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Pera Manzana Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "PMI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Violetas Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "VII",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Pino Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "PI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Manzana Canela Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "MCI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Mar Fresco Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "MFI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Aqua Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "AQI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Manzana Floral Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "MAFI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Eternity Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "ETI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Lima Limón Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "LLI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Menta Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "MEI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Almorol",
+          "capacidad": "1L",
+          "clave": "ALI",
+          "grupo": "ABI"
+        },
+        {
+          "nombre": "Cloro + Detergente en gel",
+          "capacidad": "1L",
+          "clave": "CGI",
+          "grupo": "DESI"
+        },
+        {
+          "nombre": "Mango Mandarina Limpiador Multiusos",
+          "capacidad": "1L",
+          "clave": "MMI",
+          "grupo": "LMI"
+        },
+        {
+          "nombre": "Almorol en Gel",
+          "capacidad": "1L",
+          "clave": "ALGI",
+          "grupo": "ABI"
+        },
+        {
+          "nombre": "Creolina Prodeli",
+          "capacidad": "1L",
+          "clave": "CREI",
+          "grupo": "DESI"
+        },
+        {
+          "nombre": "Ácido Muriático Crystalim",
+          "capacidad": "1L",
+          "clave": "AMI",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Brillo para Llantas",
+          "capacidad": "1L",
+          "clave": "BLI",
+          "grupo": "ABI"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "1L",
+          "clave": "INDI",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Ácido Muriático 900ml Sultan",
+          "capacidad": "900ml",
+          "clave": "AMS",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Cloro Crystalim",
+          "capacidad": "1L",
+          "clave": "ETI",
+          "grupo": "DESI"
+        },
+        {
+          "nombre": "Destapacaños Líquido",
+          "capacidad": "1L",
+          "clave": "DLI",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Gel antibacterial con dispensador",
+          "capacidad": "1L",
+          "clave": "CA1",
+          "grupo": "DESI"
+        },
+        {
+          "nombre": "Gel antibacterial tapa fliptop",
+          "capacidad": "1L",
+          "clave": "CA1",
+          "grupo": "DESI"
+        },
+        {
+          "nombre": "Jabón Desengrasante",
+          "capacidad": "1L",
+          "clave": "JD1",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Jabón para Manos DURAZNO",
+          "capacidad": "1L",
+          "clave": "JMDI",
+          "grupo": "JM1"
+        },
+        {
+          "nombre": "Jabón lavatrastes Crystallin",
+          "capacidad": "1L",
+          "clave": "JL1",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Jabón para Manos HERBAL",
+          "capacidad": "1L",
+          "clave": "JMH1",
+          "grupo": "JM1"
+        },
+        {
+          "nombre": "Glicerina",
+          "capacidad": "1L",
+          "clave": "CL1",
+          "grupo": "ABI"
+        },
+        {
+          "nombre": "Jabón para Manos ALMENDRA",
+          "capacidad": "1L",
+          "clave": "JAM1",
+          "grupo": "JM1"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "1L",
+          "clave": "JMS1",
+          "grupo": "JM1"
+        },
+        {
+          "nombre": "Jabón Alcalino",
+          "capacidad": "1L",
+          "clave": "JA1",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "1L",
+          "clave": "JMCI",
+          "grupo": "JM1"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "1L",
+          "clave": "JMUI",
+          "grupo": "JM1"
+        },
+        {
+          "nombre": "Jabón Rojo",
+          "capacidad": "1L",
+          "clave": "JRI",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Jabón ropa tipo ARIEL",
+          "capacidad": "1L",
+          "clave": "JRA1",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS COLOR",
+          "capacidad": "1L",
+          "clave": "JRCI",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS NEGRO",
+          "capacidad": "1L",
+          "clave": "JRN1",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Jabón tipo ZOTE",
+          "capacidad": "1L",
+          "clave": "JZ1",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Limpia vidrios Crystallin (tipo Windex)",
+          "capacidad": "1L",
+          "clave": "LVI",
+          "grupo": "ABI"
+        },
+        {
+          "nombre": "Pino Gel",
+          "capacidad": "1L",
+          "clave": "PGI",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Prelavador",
+          "capacidad": "1L",
+          "clave": "PRI",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "1L",
+          "clave": "QCI",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Aceite para Mop Prodeli",
+          "capacidad": "1L",
+          "clave": "ACMI",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Sanitizante Crystallin",
+          "capacidad": "1L",
+          "clave": "SI",
+          "grupo": "DES5"
+        },
+        {
+          "nombre": "Sarricida",
+          "capacidad": "1L",
+          "clave": "SARI",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Sarrigel",
+          "capacidad": "1L",
+          "clave": "SCI",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Shampoo con cera",
+          "capacidad": "1L",
+          "clave": "SCI",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Sosa",
+          "capacidad": "1L",
+          "clave": "SCI",
+          "grupo": "DECI"
+        },
+        {
+          "nombre": "Suavizante telas Flor de Luna (Morado)",
+          "capacidad": "1L",
+          "clave": "SMFI",
+          "grupo": "SUI"
+        },
+        {
+          "nombre": "Suavizante telas Momentos Mágicos (Rosa)",
+          "capacidad": "1L",
+          "clave": "SRI",
+          "grupo": "SUI"
+        },
+        {
+          "nombre": "Suavizante Telas Paris (Blanco)",
+          "capacidad": "1L",
+          "clave": "SBPI",
+          "grupo": "SUI"
+        },
+        {
+          "nombre": "Telón (abrillantador)",
+          "capacidad": "1L",
+          "clave": "TI",
+          "grupo": "ABI"
+        },
+        {
+          "nombre": "Vanish",
+          "capacidad": "1L",
+          "clave": "VAI",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Vel Rosita",
+          "capacidad": "1L",
+          "clave": "VRI",
+          "grupo": "DETI"
+        },
+        {
+          "nombre": "Suavizante telas Dawny (Verde)",
+          "capacidad": "1L",
+          "clave": "SVI",
+          "grupo": "SUI"
+        },
+        {
+          "nombre": "Suavizante telas Primaveral (Azul)",
+          "capacidad": "1L",
+          "clave": "SAI",
+          "grupo": "SUI"
+        },
+        {
+          "nombre": "AQUA Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "AOS",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "ETERNITY Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "ET5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "FRUTAL Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "FRS",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "LAVANDA Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "LA5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "LIMA LIMÓN Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "LL5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "LIMÓN Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "LL5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "MANZANA FLORAL Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "MAF5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "MAR FRESCO Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "MF5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "MANGO MANDARINA Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "MM5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "MENTA Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "MES",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "MANZANA CANELA Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "MC5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "PERA MANZANA Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "PM5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "PINO LECHOSO Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "PL5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "PINO Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "P5",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "VIOLETAS Limpiador Multiusos",
+          "capacidad": "5L",
+          "clave": "V15",
+          "grupo": "LM5"
+        },
+        {
+          "nombre": "Ácido Muriático",
+          "capacidad": "5L",
+          "clave": "AM5",
+          "grupo": "DEC1"
+        },
+        {
+          "nombre": "Almorol",
+          "capacidad": "5L",
+          "clave": "AL5",
+          "grupo": "AB5"
+        },
+        {
+          "nombre": "Almorol en gel",
+          "capacidad": "5L",
+          "clave": "ALG5",
+          "grupo": "AB5"
+        },
+        {
+          "nombre": "Brillo para Llantas",
+          "capacidad": "5L",
+          "clave": "CL5",
+          "grupo": "DES5"
+        },
+        {
+          "nombre": "Cloro Crystalim",
+          "capacidad": "5L",
+          "clave": "CC5",
+          "grupo": "DES5"
+        },
+        {
+          "nombre": "Cloro + Detergente en gel",
+          "capacidad": "5L",
+          "clave": "CC5",
+          "grupo": "DES5"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "5L",
+          "clave": "IND5",
+          "grupo": "DEC5"
+        },
+        {
+          "nombre": "Gel antibacterial",
+          "capacidad": "5L",
+          "clave": "GA5",
+          "grupo": "DES5"
+        },
+        {
+          "nombre": "Glicerina",
+          "capacidad": "5L",
+          "clave": "GL5",
+          "grupo": "AB5"
+        },
+        {
+          "nombre": "Hipoclorito Crystallin",
+          "capacidad": "5L",
+          "clave": "HS",
+          "grupo": "DESS"
+        },
+        {
+          "nombre": "Jabón para Manos ALMENDRA",
+          "capacidad": "5L",
+          "clave": "JM45",
+          "grupo": "JM5"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "5L",
+          "clave": "JM65",
+          "grupo": "JM5"
+        },
+        {
+          "nombre": "Jabón para Manos DURAZNO",
+          "capacidad": "5L",
+          "clave": "JM05",
+          "grupo": "JM5"
+        },
+        {
+          "nombre": "Jabón para Manos HERBAL",
+          "capacidad": "5L",
+          "clave": "JM45",
+          "grupo": "JM5"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "5L",
+          "clave": "JM55",
+          "grupo": "JM5"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "5L",
+          "clave": "JM05",
+          "grupo": "JM5"
+        },
+        {
+          "nombre": "Jabón Alcalino",
+          "capacidad": "5L",
+          "clave": "JAS",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Jabón desengrasante",
+          "capacidad": "5L",
+          "clave": "JD5",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Jabón Lavatrastes",
+          "capacidad": "5L",
+          "clave": "JL5",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Jabón Rojo",
+          "capacidad": "5L",
+          "clave": "JRS",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Jabón ropa tipo ARIEL",
+          "capacidad": "5L",
+          "clave": "JR45",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS COLOR",
+          "capacidad": "5L",
+          "clave": "JRCS",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS NEGRO",
+          "capacidad": "5L",
+          "clave": "JRN5",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Pino gel",
+          "capacidad": "5L",
+          "clave": "PC5",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Prelavador",
+          "capacidad": "5L",
+          "clave": "SS",
+          "grupo": "DES5"
+        },
+        {
+          "nombre": "Sanitizante",
+          "capacidad": "5L",
+          "clave": "SARS",
+          "grupo": "DEC5"
+        },
+        {
+          "nombre": "Sarricida",
+          "capacidad": "5L",
+          "clave": "JZ5",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Jabón tipo ZOTE",
+          "capacidad": "5L",
+          "clave": "QC4",
+          "grupo": "DEC5"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "4L",
+          "clave": "SC5",
+          "grupo": "DEC5"
+        },
+        {
+          "nombre": "Sarrigel",
+          "capacidad": "5L",
+          "clave": "LV5",
+          "grupo": "AB5"
+        },
+        {
+          "nombre": "Limpia vidrios Windex",
+          "capacidad": "5L",
+          "clave": "QC5",
+          "grupo": "DEC5"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "5L",
+          "clave": "SC5",
+          "grupo": "DETS"
+        },
+        {
+          "nombre": "Shampoo con cera",
+          "capacidad": "5L",
+          "clave": "SVS",
+          "grupo": "SUS"
+        },
+        {
+          "nombre": "Suavizante telas Downy (Verde)",
+          "capacidad": "5L",
+          "clave": "SMF5",
+          "grupo": "SUS"
+        },
+        {
+          "nombre": "Suavizante telas Flor de Luna (Morado)",
+          "capacidad": "5L",
+          "clave": "SP5",
+          "grupo": "SUS"
+        },
+        {
+          "nombre": "Suavizante Telas Momentos Mágicos (Rosa)",
+          "capacidad": "5L",
+          "clave": "SBP5",
+          "grupo": "SUS"
+        },
+        {
+          "nombre": "Suavizante telas Paris (Blanco)",
+          "capacidad": "5L",
+          "clave": "SA5",
+          "grupo": "SUS"
+        },
+        {
+          "nombre": "Suavizante telas Primaveral (Azul)",
+          "capacidad": "5L",
+          "clave": "T5",
+          "grupo": "AB5"
+        },
+        {
+          "nombre": "Telón (Abrillantador)",
+          "capacidad": "5L",
+          "clave": "VA5",
+          "grupo": "DET5"
+        },
+        {
+          "nombre": "Vanish",
+          "capacidad": "5L",
+          "clave": "VR5",
+          "grupo": "DET5"
+        },
+        {
+          "nombre": "Vel Rosita",
+          "capacidad": "5L",
+          "clave": "JL5",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Vinagre Blanco de Alcohol De Caña LA COSTEÑA",
+          "capacidad": "3.7L",
+          "clave": "AQ20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "AQUA Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "ET20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "ETERNITY Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "FP20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "FRUTAL Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "LA20",
+          "grupo": "JM20"
+        },
+        {
+          "nombre": "LAVANDA Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "MC20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "MANZANA CANELA Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "PM20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "PERA MANZANA Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "MF20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "MAR FRESCO Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "MF20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "MENTA Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "PL20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "PINO LECHOSO Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "PIO",
+          "grupo": "LM10"
+        },
+        {
+          "nombre": "PINO Limpiador Multiusos",
+          "capacidad": "10L",
+          "clave": "P20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "PINO Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "VI20",
+          "grupo": "LM20"
+        },
+        {
+          "nombre": "VIOLETA Limpiador Multiusos",
+          "capacidad": "20L",
+          "clave": "AL20",
+          "grupo": "AB20"
+        },
+        {
+          "nombre": "Almorol",
+          "capacidad": "20L",
+          "clave": "BL20",
+          "grupo": "AB20"
+        },
+        {
+          "nombre": "Brillo para Llantas",
+          "capacidad": "20L",
+          "clave": "CL20",
+          "grupo": "DES20"
+        },
+        {
+          "nombre": "Cloro",
+          "capacidad": "20L",
+          "clave": "CG10",
+          "grupo": "DES20"
+        },
+        {
+          "nombre": "Cloro + Detergente en gel",
+          "capacidad": "10L",
+          "clave": "INDIO",
+          "grupo": "DEC10"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "10L",
+          "clave": "IND20",
+          "grupo": "DEC20"
+        },
+        {
+          "nombre": "Desengrasante Industrial",
+          "capacidad": "20L",
+          "clave": "GA20",
+          "grupo": "DES20"
+        },
+        {
+          "nombre": "Gel antibacterial",
+          "capacidad": "20L",
+          "clave": "HIO",
+          "grupo": "DES10"
+        },
+        {
+          "nombre": "Hipoclorito",
+          "capacidad": "10L",
+          "clave": "H20",
+          "grupo": "DES20"
+        },
+        {
+          "nombre": "Hipoclorito",
+          "capacidad": "20L",
+          "clave": "TIO",
+          "grupo": "AB10"
+        },
+        {
+          "nombre": "Teflon (Abrillantador)",
+          "capacidad": "10L",
+          "clave": "T20",
+          "grupo": "AB20"
+        },
+        {
+          "nombre": "Teflon (Abrillantador)",
+          "capacidad": "20L",
+          "clave": "JA20",
+          "grupo": "DET20"
+        },
+        {
+          "nombre": "Jabón Alcalino",
+          "capacidad": "20L",
+          "clave": "JDIO",
+          "grupo": "DETIO"
+        },
+        {
+          "nombre": "Jabón desengrasante",
+          "capacidad": "10L",
+          "clave": "JDZO",
+          "grupo": "DETZO"
+        },
+        {
+          "nombre": "Jabón desengrasante",
+          "capacidad": "20L",
+          "clave": "JUJO",
+          "grupo": "DETIO"
+        },
+        {
+          "nombre": "Jabón Lavatrastes",
+          "capacidad": "10L",
+          "clave": "JUZO",
+          "grupo": "DETZO"
+        },
+        {
+          "nombre": "Jabón Lavatrastes",
+          "capacidad": "20L",
+          "clave": "JMA20",
+          "grupo": "JM20"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "20L",
+          "clave": "JMC20",
+          "grupo": "JM20"
+        },
+        {
+          "nombre": "Jabón para Manos CEREZA",
+          "capacidad": "20L",
+          "clave": "JMD20",
+          "grupo": "JM20"
+        },
+        {
+          "nombre": "Jabón para Manos UVA",
+          "capacidad": "20L",
+          "clave": "JMD20",
+          "grupo": "JM20"
+        },
+        {
+          "nombre": "Jabón para Manos DURAZNO",
+          "capacidad": "20L",
+          "clave": "JRA20",
+          "grupo": "DETZO"
+        },
+        {
+          "nombre": "Jabón rojo",
+          "capacidad": "20L",
+          "clave": "JRA20",
+          "grupo": "DETZO"
+        },
+        {
+          "nombre": "Jabón ropa tipo ARIEL",
+          "capacidad": "20L",
+          "clave": "JMS20",
+          "grupo": "JM20"
+        },
+        {
+          "nombre": "Jabón para Manos SANDIA",
+          "capacidad": "20L",
+          "clave": "JRC20",
+          "grupo": "DETZO"
+        },
+        {
+          "nombre": "Jabón tipo MÁS COLOR",
+          "capacidad": "20L",
+          "clave": "JRN20",
+          "grupo": "DETZO"
+        },
+        {
+          "nombre": "Jabón ropa tipo MÁS NEGRO",
+          "capacidad": "20L",
+          "clave": "JZ20",
+          "grupo": "DET20"
+        },
+        {
+          "nombre": "Jabón tipo ZOTE",
+          "capacidad": "20L",
+          "clave": "LV20",
+          "grupo": "AB20"
+        },
+        {
+          "nombre": "Limpia vidrios Windex",
+          "capacidad": "20L",
+          "clave": "PG20",
+          "grupo": "DET20"
+        },
+        {
+          "nombre": "Pino Gel",
+          "capacidad": "20L",
+          "clave": "PR20",
+          "grupo": "DET20"
+        },
+        {
+          "nombre": "Prelavador",
+          "capacidad": "20L",
+          "clave": "QC20",
+          "grupo": "DEC20"
+        },
+        {
+          "nombre": "Quita cochambre",
+          "capacidad": "20L",
+          "clave": "S20",
+          "grupo": "DES20"
+        },
+        {
+          "nombre": "Sanitizante",
+          "capacidad": "20L",
+          "clave": "SAR20",
+          "grupo": "DEC20"
+        },
+        {
+          "nombre": "Sarricida",
+          "capacidad": "20L",
+          "clave": "SC20",
+          "grupo": "DEC20"
+        },
+        {
+          "nombre": "Sarrigel",
+          "capacidad": "20L",
+          "clave": "SC20",
+          "grupo": "DET20"
+        },
+        {
+          "nombre": "Shampoo con cera",
+          "capacidad": "20L",
+          "clave": "SV20",
+          "grupo": "SU20"
+        },
+        {
+          "nombre": "Suavizante telas Dawny (Verde)",
+          "capacidad": "20L",
+          "clave": "SMF20",
+          "grupo": "SU20"
+        },
+        {
+          "nombre": "Suavizante telas Flor de luna (Morado)",
+          "capacidad": "20L",
+          "clave": "SR20",
+          "grupo": "SU20"
+        },
+        {
+          "nombre": "Suavizante telas Momentos Mágicos (Rosa)",
+          "capacidad": "20L",
+          "clave": "SBP20",
+          "grupo": "SU20"
+        },
+        {
+          "nombre": "Suavizante telas Paris (Blanco)",
+          "capacidad": "20L",
+          "clave": "SA20",
+          "grupo": "SU20"
+        },
+        {
+          "nombre": "Suavizante telas Primaveral (Azul)",
+          "capacidad": "20L",
+          "clave": "VA20",
+          "grupo": "DET20"
+        },
+        {
+          "nombre": "Vanish",
+          "capacidad": "20L",
+          "clave": "VR20",
+          "grupo": "DET20"
+        },
+        {
+          "nombre": "Vel Rosita",
+          "capacidad": "20L",
+          "clave": "VR20",
+          "grupo": "DET20"
+        }
+      ]
+    },
+    {
+      "nombre": "FERRETERÍA",
+      "productos": [
+        {
+          "nombre": "Candado 32mm De Hierro Gancho Corto HERMEX",
+          "clave": "CH-32",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 38mm De Hierro Gancho Corto HERMEX",
+          "clave": "CH-38",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 50mm De Hierro Gancho Corto HERMEX",
+          "clave": "CH-50",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 20mm Gancho corto Color Laton HERMEX",
+          "clave": "CH-20P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 25mm Gancho corto Color Laton HERMEX",
+          "clave": "CH-25P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 30mm Gancho corto Color Laton HERMEX",
+          "clave": "CH-30P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 40mm Gancho corto Color Laton HERMEX",
+          "clave": "CH-40P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 50mm Gancho corto Color Laton HERMEX",
+          "clave": "CH-50P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 25mm Gancho Largo Color Laton HERMEX",
+          "clave": "CH-50PL",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 65mm Redondo Gancho Largo Llave De Puntos HERMEX",
+          "clave": "CA-65LQ",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 50mm Antipalanca Cuerpo De Hierro HERMEX",
+          "clave": "COR-50HP",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 70mm Antipalanca Cuerpo De Hierro HERMEX",
+          "clave": "COR-70HP",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 80mm Antipalanca Cuerpo De Hierro HERMEX",
+          "clave": "COR-80HP",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 80mm Antipalanca Blindado Llave de Puntos HERMEX",
+          "clave": "COR-80Q",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Candado 70mm De Hierro Con Coraza Llave Anti Ganzua HERMEX",
+          "clave": "CHR-70A",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Led 3w Tipo Bullbo Luz De Día VOLTECK",
+          "clave": "LED-30GB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Led 8w Tipo Bullbo Luz De Día VOLTECK",
+          "clave": "LED-60FB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara De Led 14w Tipo Bullbo A19 Luz De Día VOLTECK",
+          "clave": "LED-100FB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara De Led 16w Tipo Bullbo A19 Luz De Día VOLTECK",
+          "clave": "LED-125FB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara De Led 18w Tipo Bullbo A25 Luz De Día VOLTECK",
+          "clave": "LED-150FB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Led 40w Alta Potencia Luz De Día VOLTECK",
+          "clave": "LED-350",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Led 70w Alta Potencia Base E27 VOLTECK",
+          "clave": "LED-750E",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Espiral 105w Luz De Día VOLTECK",
+          "clave": "F-105EC",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Espiral 45w Luz De Día VOLTECK",
+          "clave": "F-45EC",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Espiral 85w Alta Potencia Luz De Día VOLTECK",
+          "clave": "F-85EC",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Foco led 10w",
+          "clave": "F-10",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Foco led 24w GO by Konning",
+          "clave": "F-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Suburbano De Led 4w Con Panel Solar VOLTECK",
+          "clave": "SUB-900L",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lampara Led 32w Tipo Ventilador 4 aspas VOLTECK",
+          "clave": "LED-350V",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Paquete Foco económico con 10 piezas",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 10w Luz de día VOLTECK",
+          "clave": "LED75FBX4",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 14w Luz de día VOLTECK",
+          "clave": "LED100FBX4",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 16w Luz de día VOLTECK",
+          "clave": "LED125FBX4",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 18w Luz de día VOLTECK",
+          "clave": "LED150FBX4",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Foco Led Paquete con 4 10w LUZ CALIDA VOLTECK",
+          "clave": "LED75CBX4",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta de Empaque Canela 48mm x 40m PRETUL",
+          "clave": "CCA-40P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta de Empaque Transparente 48mm x 150m TRUPER",
+          "clave": "CTR-150",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta de Empaque Transparente 48mm X 40m TRUPER",
+          "clave": "CTR-40",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta Masking Tape 24mm x 50m TRUPER",
+          "clave": "MSK-1",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta de Aluminio 48mm x 10m TRUPER",
+          "clave": "CALU-10",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta Para Ducto 30m Espesor 0.19mm TRUPER",
+          "clave": "CDU-30X",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta Doble Cara 19mm x 1.5m TRUPER",
+          "clave": "CDC-1915",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta Doble Cara 25mm x 10m TRUPER",
+          "clave": "CDC-25100",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta Doble Cara Reutilizable 3m x 10mm Transparente TRUPER",
+          "clave": "CDR-310",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta De Aislar Negra 18m x 19mm VOLTECK",
+          "clave": "MV-33",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cinta sella roscas 1/2\" x 7m FOSET",
+          "clave": "CTF-1-2F",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Llave de Esfera de laton 115g entrada 1/2\" FOSET",
+          "clave": "LLE-115L",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Llave de Esfera con Mineral Corto laton 130g 1/2\" FOSET",
+          "clave": "LLE-130L",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Llave para Manguera De Laton 120g Entrada 1/2\" FOSET",
+          "clave": "LLJ-120",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Llave de Nariz de Laton cromado 135g Entrada 1/2\" FOSET",
+          "clave": "LLJ-135C",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Portalampara de Baquelita con Cadena Y Doble Contacto VOLTECK",
+          "clave": "POBA-16",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Portalampara de Baquelita con Interruptor de Cadena VOLTECK (Socket)",
+          "clave": "POBA-18",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Particularmente de Baquelita con Interruptor de Cadena VOLTECK (Socket)",
+          "clave": "POBA-18",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Multicontacto BLANCO Domestico 6 Entradas VOLTECK",
+          "clave": "MUL-6E",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Multicontacto NEGRO Domestico económico 6 Entradas VOLTECK",
+          "clave": "MUL-6EN",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Extension Domestica 2m BLANCA Polarizada VOLTECK",
+          "clave": "ED-2B",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Extension Domestica 3m BLANCA Polarizada VOLTECK",
+          "clave": "ED-3B",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Extension Domestica 4m BLANCA Polarizada VOLTECK",
+          "clave": "ED-4B",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Extension Domestica 5m BLANCA Polarizada VOLTECK",
+          "clave": "ED-5B",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Abrillantador Para Muebles en Aerosol 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aceite Multigrado 25w 50 Para Motor Gasolina 950 ml ROSHFRANS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cera Líquida Silicon 473 ml KLINTEK",
+          "clave": "EA-31",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aceite Mineral Para Compresor 1 litro TRUPER",
+          "clave": "ACM-32",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lata de gas 275g con valvula roscada TRUPER",
+          "clave": "CAS-275",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lubricante Multiusos en Aerosol 400ml TRUPER",
+          "clave": "WT400",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Polish En Pasta Rosa Para Auto 250g KLINTEK",
+          "clave": "EA-22",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Sellador Acrílico 280ml BLANCO TRUPER",
+          "clave": "SACRI-100T",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Sellador Transparente 100% Silicon 85g TRUPER",
+          "clave": "SIL-85T",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Limpiador Carburadores 400ml G-TWO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tira Super Glue Xtron c/12 (Pegamento)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aceite rojo para muebles 480ml KLINTEK",
+          "clave": "AMU-48",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aceite rojo para muebles 240ml KLINTEK",
+          "clave": "AMU-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Afloja Todo 400ml G-TWO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Afloja Todo 172ml G-TWO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Destornillador 3.6V 2 Posiciones Pro TRUPER",
+          "clave": "DESI-36X",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Medidor Infrarrojo de temperatura de -50°C a 500°C TRUPER",
+          "clave": "METE-500",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Esmeriladora Angular 4 1/2\" 700w TRUPER (pulidora)",
+          "clave": "ESM241-ZA12",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rotomartillo 3/8\" 12V 1 Bateria 24H Pro TRUPER",
+          "clave": "ROTI-12A",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Engrapadora/Clavadora Tipo Pistola Uso Rudo TRUPER",
+          "clave": "ET-50X",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Desarmador Tipo Matraca Con 17 Puntas Y 7 Dados TRUPER",
+          "clave": "JDM-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Desarmador De Precision Con 106 Puntas Intercambiables TRUPER",
+          "clave": "JOY-106",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Mini Soldadora Inversora 130A Bi Voltaje 127/220V TRUPER",
+          "clave": "SOIN-120-MBT",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Espátula Rectangular 15 x 8cm Acero Inoxidable Mango Madera TRUPER",
+          "clave": "ETR-6",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Llave 9' Para Tanque De Gas TRUPER",
+          "clave": "LL-GA",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Martillo Pulido 7oz Uña Curva Mango Madera TRUPER",
+          "clave": "MA-7",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pinza De Presion 6\" Tipo C con Mordaza Autoajustable TRUPER",
+          "clave": "PPC-6R",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tijera Para Ramas 80cm Uso Rudo Mangos De Madera TRUPER",
+          "clave": "T-40",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tijera Para Poda 50cm Mangos De Madera TRUPER",
+          "clave": "T-19",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Flexometro Contra Impactos 8m Cinta Negra 25mm TRUPER",
+          "clave": "FCN-8M",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Hidrolavadora electrica 1800 PSI TRUPER",
+          "clave": "HILA-1800",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escalera De Tijera Tipo II 6 Peldaños y Bandeja TRUPER",
+          "clave": "EST-26",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escalera Tijera Tipo II 9 Peldaños y Bandeja TRUPER",
+          "clave": "EST-29",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pija #6 x 1\" c/20 FIERO",
+          "clave": "PJ-625a",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pija #6 x 2\" c/13 FIERO",
+          "clave": "PJ-650a",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Manguera azul 10m 1/2\" 3 capas Conexiones Plasticas PRETUL",
+          "clave": "MAN-10X1-2PA",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 1-1/2\" c/20 FIERO",
+          "clave": "CLC1-1/2",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 2\" c/20 FIERO",
+          "clave": "CLC2-NA",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 2-1/2\" c/15 FIERO",
+          "clave": "CLC2-1/2-NA",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clevos Negros Para Concreto 3\" c/12 FIERO",
+          "clave": "CLC3-NA",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 1\" c/130 FIERO",
+          "clave": "CLE-1A",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 1-1/2\" c/70 FIERO",
+          "clave": "CLE-1-1/2A",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 2\" c/35 FIERO",
+          "clave": "CLE-2A",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Clavos Estandar Con Cabeza 2-1/2\" c/20 FIERO",
+          "clave": "CLE-2-1/2A",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Brocha Profesional 2\" Mango Plastico TRUPER",
+          "clave": "BRT-2",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Brocha Profesional 4\" Mango Plastico TRUPER",
+          "clave": "BRT-4",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Calculadora 15cm De Escritorio TRUPER",
+          "clave": "CALC-15E",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Calculadora 19cm De Escritorio TRUPER",
+          "clave": "CALC-19E",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Metalica Para Jardín Curva 22 Dientes Mango 48\" TRUPER",
+          "clave": "EM-22",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Plastica Flex Para Jardín 22 dientes Mango 48\" PRETUL",
+          "clave": "EP-22P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rack De Plastico Para Escoba y Trapeador Exhibidor TRUPER",
+          "clave": "RES",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Embudo Plastico 250ML Cuello Rigido TRUPER",
+          "clave": "EMB-25",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pila Duracell AAA c/10",
+          "clave": "PU-625a",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pila Duracell AAA c/10",
+          "clave": "PU-650a",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pila Eveready AA tira C/24",
+          "clave": "PU-625a",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pila Eveready AAA Tira c/20",
+          "clave": "PU-650a",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bascula Digital Para Cocina Con Tazon 5kg TRUPER",
+          "clave": "BASE-5T",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bascula Digital Plato de Poliprop 5kg PRETUL",
+          "clave": "BASE-SEPP",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fumigador Domestico 1L TRUPER",
+          "clave": "FDO-1",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fumigador Domestico 2.5L Mango Ergonomico TRUPER",
+          "clave": "FDO-2X",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fumigador Domestico 1L KAWASHIMA",
+          "clave": "BASE-SEPP",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Grapas caja c/1000 5/16\" Corona 10.7 mm TRUPER",
+          "clave": "ET-50-5-16",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Organizador 44 Gavetas TRUPER",
+          "clave": "ORG-44",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Piedra Para asentar 150mm Doble Grano 150 y 240 TRUPER",
+          "clave": "PIAS-109",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Reflector Ultra Delgado Led 200w Luz De Dia VOLTECK",
+          "clave": "REF406L",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Encendedor Multiusos Con Repuesto XTRON",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Encendedor c/25 YAMA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Encendedor Grande c/15 TOKAI",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Azadon Jardinero Mango Fibra De Vidrio 150cm TRUPER",
+          "clave": "ATJ-F",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante MEDIANO de Nylon recubierto de Poliuretano PRETUL",
+          "clave": "CU-112P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante GRANDE de Nylon recubierto de Poliuretano PRETUL",
+          "clave": "CU-113P",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Etiquetadora manual",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Regadera Plato Cuadrado 10° (25cm) Con Brazo Cromo FOSET",
+          "clave": "R-310",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Linterna De Minero LED 350lm Con Sensor Recargable TRUPER",
+          "clave": "LI-CA-125R",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Lija de agua grano 220 TRUPER",
+          "clave": "LIAG-220",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rafia De 410m Color Blanco Calibre 2.2g/m FIERO",
+          "clave": "RAF-290",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toalla Multiusos Uso Rudo SCOTT SHOP",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Calentador De Agua Para 20L 1000w VOLTECK (Resistencia)",
+          "clave": "CAGUES",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Calentador para agua 127 V XTRON (Resistencia 20 litros)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tambo de Plastico Sin Tapa 220 litros",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Accesorios Para Baño Metálicos Juego Con 6 Piezas FOSET",
+          "clave": "AEA7000",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rollo de Papel Termico 57 x 40 mm",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Raqueta Electrica Recargable Mata Insectos Mosca Mosquitos GEKCO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Raqueta Mata Mosca y Mosquito Recargable VOLTECK",
+          "clave": "RAQ-35",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante T/7 de Nitrilo recubierto ANTE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "TRAPEADORES",
+      "productos": [
+        {
+          "nombre": "Trapeador Hilaza BLANCO #24",
+          "clave": "HI-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Hilaza BLANCO #30",
+          "clave": "HI-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilaza COLOR #24",
+          "clave": "PLC-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilaza COLOR #30",
+          "clave": "PLC-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Magitel #24",
+          "clave": "MA-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Magitel #30",
+          "clave": "MA-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilo BLANCO #24",
+          "clave": "PA-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilo BLANCO #30",
+          "clave": "PA-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilo BLANCO #50",
+          "clave": "PA-50",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilaza BLANCO #24",
+          "clave": "PL-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilaza BLANCO #30",
+          "clave": "PL-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilo COLOR #24",
+          "clave": "PAC-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilo COLOR #30",
+          "clave": "PAC-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Pabilo COLOR #50",
+          "clave": "PAC-50",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Hilaza COLOR #24",
+          "clave": "HIC-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Hilaza COLOR #30",
+          "clave": "HIC-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Hilaza Española #24",
+          "clave": "HE-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Hilaza Española #30",
+          "clave": "HE-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Hilaza Española #40",
+          "clave": "HE-40",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Magico #24",
+          "clave": "MAC-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Magico #30",
+          "clave": "MAC-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Repuesto Microtela #24",
+          "clave": "MIR-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Repuesto Microtela #30",
+          "clave": "MI-R30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Microtela #24",
+          "clave": "MI-24",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Microtela #30",
+          "clave": "MI-30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Microtela #40",
+          "clave": "MI-40",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Microtela #50",
+          "clave": "MI-50",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Trapeador Mini",
+          "clave": "TM",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "ESCOBAS, CEPILLOS Y JALADORES",
+      "productos": [
+        {
+          "nombre": "Baston Metalico 137cm Con Rosca",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Abanico Grande ASEO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial SUAVE 50cm KLINTEK",
+          "clave": "CEP150",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial SUAVE 60cm KLINTEK",
+          "clave": "CEP160",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Eco LUPITA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Baston Capuchon Madera Venta",
+          "clave": "BCV",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Borgui con Bolsa ASEO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Super Plus ABEJA REYNA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Payaso",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Baston Madera Venta",
+          "clave": "BMV",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial Cerda Rígida 40cm KLINTEK",
+          "clave": "CEP40",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Uso Rudo (Con baston inclinado) ASEO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Colorama IDEAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Abanico Corto (abanico mediano) ABEJA REYNA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Industrial Cerda Rígida 30cm KLINTEK",
+          "clave": "CEP130",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Uso Rudo ECONOMICO (Con bastón inclinado) ASEO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Veneciana IDEAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Mini",
+          "clave": "EM",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Emperador ABEJA REYNA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cladiador ABEJA REYNA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Italiana (abanico chico) ABEJA REYNA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Jumbo SUAVE ABEJA REYNA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Pinky Broom (Veneciana COLOR) IDEAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Super Jumbo ABEJA REYNA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Cepillo Suave Baston Inclinado",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Italmax (Abanico chico)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escoba Espiga Seis Hilos (bastón naranja)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jalador para piso 40cm",
+          "clave": "1-40",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jalador para piso 50cm",
+          "clave": "1-50",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jalador piso uso rudo 45cm Dura flex",
+          "clave": "1-45",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jalador piso uso rudo 55cm Dura flex",
+          "clave": "1-55",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jalador piso uso rudo 75cm Dura flex",
+          "clave": "1-75",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "JARCERÍA ",
+      "productos": [
+        {
+          "nombre": "Atomizador 1 litro",
+          "clave": "A1000",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Atomizador 250ml",
+          "clave": "A250",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Atomizador Polietileno Con Pistola Uso Rudo 500 ml",
+          "clave": "AP500",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Atomizador 500ml",
+          "clave": "A500",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Atomizador Economico (Valvula, Pistola)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Atomizador CANYON Uso Rudo (Valvula, Pistola)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Atomizador ECONOMICO Uso Rudo (Valvula, Pistola)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo Mano Mini KLINTEK",
+          "clave": "CELI20",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo mano mini Lupita",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo Mano Flexible KLINTEK",
+          "clave": "CELI30",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo alague",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo Mano KLINTEK",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo de mano Lupita",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo tipo plancha",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillos Multiusos Paq c/3 FASHION CLEAN",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo Lavaplatos FLIPP",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cepillo Para Biberón Económico",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escobeta Mango Plástico KLINTEK",
+          "clave": "CELIJO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escobeta mango plástico",
+          "clave": "EP",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escobeta Lechuguilla",
+          "clave": "EL",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cubeta Carrasco #12",
+          "clave": "CU12",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cubeta carrasco #15 (cilíndrica)",
+          "clave": "CU15",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cubeta carrasco #16 (Cónica)",
+          "clave": "CU16",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cubeta Carrasco #18 (cilíndrica)",
+          "clave": "CU18",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cubeta Economica (Cónica) #12",
+          "clave": "CE12",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cubeta flexible #14 FLIPP",
+          "clave": "CF14",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cubeta flexible #18 FLIPP",
+          "clave": "CF18",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Franela Gris",
+          "clave": "FGI",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Franela Blanca",
+          "clave": "FLB1",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Franela Roja",
+          "clave": "FLR1",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra extra grande 40x60 DON MICRO",
+          "clave": "FLR1",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra 40x40cm KLINTEK",
+          "clave": "MIC40",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra 40x60cm KLINTEK",
+          "clave": "MIC60",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra Extra Grande 40x60 cm ABEJA REYNA",
+          "clave": "MIA",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra Special Chica 40x40 MIROSLAVA",
+          "clave": "MIS",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra Estampada 40x40 cm MIROSLAVA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Telas absorbentes c/3 MIROSLAVA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra Mini paq c/4 30x30 FASHION CLEAN",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tela Microfibra Jumbo 50x100 cm FASHION CLEAN",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pinza de Madera c/20",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pinza economica c/36",
+          "clave": "PE36",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pinza jumbo c/36",
+          "clave": "PJ36",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pinza larga Tendal c/36",
+          "clave": "PT36",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Piedra pomez bolsita",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Esponja Tipo Ocho FASHION CLEAN",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Estropajo de lxte Paquete c/10",
+          "clave": "ESIO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Destapacaños Mini para lavabo",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Destapacaños Economico (bomba negra)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Destapacaños Grande de Colores",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Destapacaños De 15cm KLINTEK (Bomba negra)",
+          "clave": "BODE6",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escobillon C/Base Para Baño KLINTEK",
+          "clave": "CESA14",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Escobillon c/base para baño Lupita",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Recogedor Plastico Baston Lamina Y Orilla De Hule",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Recogedor Medio Bote lamina",
+          "clave": "RMB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Recogedor Plastico Con Baston Madera KLINTEK",
+          "clave": "RECO1B",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Recogedor Plastico Mano KLINTEK",
+          "clave": "RECO9",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Recogedor plástico STELA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Recogedor abatible con ruedas OVAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tendedero Lazo 10m De Polietileno KLINTEK",
+          "clave": "LAZO10",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tendedero Lazo de Cañamo BLANCO 10m",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tendedero Lazo de Cañamo CAFE 10m",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tendedero Lazo 7m 50 cm",
+          "clave": "T750",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tendedero Lazo Nylon 10m FASHION CLEAN",
+          "clave": "TN10",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ganchos Plástico para ropa c/10",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jalador vidrios",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Limpia Hornos 470g MONY (Quitacochambre)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Matamoscas Mediano",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Matamoscas Grande",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante Latex GRANDE OVAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante T/8 de Nylon recubierto de Poliuretano ANTE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante T/9 de Nylon recubierto de Poliuretano ANTE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante T/10 de Nylon recubierto de Poliuretano ANTE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante latex CHICO #7 HULTEX",
+          "clave": "GU7",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante latex MEDIANO #8 HULTEX",
+          "clave": "GU8",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante latex GRANDE #9 HULTEX",
+          "clave": "GU9",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante verde Solvex CHICO #7",
+          "clave": "GUS7",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante verde Solvex MEDIANO #8",
+          "clave": "GUS8",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante verde Solvex GRANDE #9",
+          "clave": "GUS9",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante latex MEDIANO TRUPER",
+          "clave": "GU332",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante latex GRANDE TRUPER",
+          "clave": "GU333",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante latex Industrial MEDIANO TRUPER",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante latex Industrial GRANDE TRUPER",
+          "clave": "GU323",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante MEDIANO AZUL de Nitrilo c/100 DERMACARE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante GRANDE AZUL de Nitrilo c/100 DERMACARE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante MEDIANO NEGRO de Nitrilo c/100 DERMACARE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Guante GRANDE NEGRO de Nitrilo c/100 DERMACARE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Base para Mop 40cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Base para Mop 60cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Base para Mop 90cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Base para Mop 125cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Funda para Mop 40cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Funda para Mop 60cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Funda para Mop 90cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Funda para Mop 125cm CASTOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "BOLSAS",
+      "productos": [
+        {
+          "nombre": "Bolsa negra 60 x 90 cm",
+          "clave": "B-60",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa negra 90 x 1.20 cm",
+          "clave": "B-90",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Chica 25 x 40 cm",
+          "clave": "BC",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Mediana 25 x 50 cm",
+          "clave": "BM",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Grande 30 x 60 cm",
+          "clave": "BX",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa Negra Camiseta Jumbo 45 x 85 cm",
+          "clave": "BJ",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa Negra ROLLO 90 x 120cm C/10",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa Negra ROLLO 60 x 90cm C/22 PLAXIM",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bolsa Negra ROLLO 90 x 120cm C/11 PLAXIM",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "FIBRAS",
+      "productos": [
+        {
+          "nombre": "Fibra P66 Blanca Scotch Brite",
+          "clave": "(FBS) FSB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra P94 Verde c/Esponja Scotch Brite",
+          "clave": "(FVE1) FSB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra P96 Verde Scotch Brite",
+          "clave": "(FVS) FSB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra P76 Negra Scotch Brite",
+          "clave": "(FNS) FSB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra rasposo de color",
+          "clave": "(FBS) FSB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra verde con esponja polifibra c/2",
+          "clave": "FVE2",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra verde polifibra c/3",
+          "clave": "FV3",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra Cuadrítela trastes",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra negra Polifibra",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra para trastes King Wash",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra Tallon oro",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra Tallon plata",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra acero chica 30g",
+          "clave": "PASO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra acero mediana 50g",
+          "clave": "PASO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra acero grande 70g",
+          "clave": "PASO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra fregon",
+          "clave": "PASO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "TIRA Fibra Verde c/Esponja Scotch Brite c/6",
+          "clave": "(FVEG) FSB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "TIRA Fibra VERDE Scotch Brite c/6",
+          "clave": "(FVS6) FSB",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "TIRA Fibra Acero Inoxidable c/12",
+          "clave": "PASO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra de Acero Inoxidable Jumbo c/2",
+          "clave": "PASO",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra tipo ajax c/10",
+          "clave": "PASO",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "FIBRAS PARA CUERPO",
+      "productos": [
+        {
+          "nombre": "Fibra cuerpo Saluk Fashion",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra cuerpo Miroslava",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra Cuerpo Bebe Miroslava",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra Cuerpo bebe c/2 Fashion Clean",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra cuerpo burbuja c/3 Fashion",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra Cuerpo Burbuja C/Jabon GRANDE T TAIO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Fibra cuerpo burbuja Grande",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "PASTILLAS / AROMATIZANTES",
+      "productos": [
+        {
+          "nombre": "Aromatizante Aerosol AMOUR 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Aerosol AQUA 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Aerosol BRISA DE LOS ALPES 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Aerosol CITRICO 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Aerosol HAWAIIAN 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Aerosol MANZANA CANELA 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Aerosol PARAISO FLORAL 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Aerosol SENSACIÓN CAMPESTRE 400ml WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Baby Aerosol 480ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Bosque del Rocio Aerosol 480ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Citricos Aerosol 480ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Lavanda Aerosol 480ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Manzana Canela Aerosol 480ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pastilla Bellazul 50g",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pastilla de aroma WIESE 70g",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pastilla de aroma PRODELI 70g",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pastilla de aroma MONY 80g",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pastilla de cloro por kilo",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pastilla de cloro c/3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tira de pastilla de cloro con 10/3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Tapete popote Mingitorio WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Aromatizante Líquido Canela 1L",
+          "clave": "ACAI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chica Fresa 1L",
+          "clave": "ACFI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chicle 1L",
+          "clave": "ACCI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Ck One 1L",
+          "clave": "ACKI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Coco 1L",
+          "clave": "ACOI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Eternity 1L",
+          "clave": "AETI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Fresco Bosque 1L",
+          "clave": "AFBI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Lima Limón 1L",
+          "clave": "ALLI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chanel 1L",
+          "clave": "ACHI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Drakar 1L",
+          "clave": "ADRI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Invictus 1L",
+          "clave": "AINI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Paco Rabanne 1L",
+          "clave": "APRI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Polo 1L",
+          "clave": "APOI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Sport 1L",
+          "clave": "ASPI",
+          "grupo": "ARI"
+        },
+        {
+          "nombre": "Aromatizante Líquido Canela 5L",
+          "clave": "ACAS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chica Fresa 5L",
+          "clave": "ACFS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Ck One 5L",
+          "clave": "ACKS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Coco 5L",
+          "clave": "ACOS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Eternity 5L",
+          "clave": "AETS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Fresco Bosque 5L",
+          "clave": "AFBS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chanel 5L",
+          "clave": "ACHS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Drakar 5L",
+          "clave": "ADRS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Invictus 5L",
+          "clave": "AINS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Paco Rabanne 5L",
+          "clave": "APRS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Polo 5L",
+          "clave": "APOS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Sport 5L",
+          "clave": "ASPS",
+          "grupo": "AR5"
+        },
+        {
+          "nombre": "Aromatizante Líquido Canela 20L",
+          "clave": "ACA20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chica Fresa 20L",
+          "clave": "ACF20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Ck One 20L",
+          "clave": "ACK20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Eternity 20L",
+          "clave": "AET20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Fresco Bosque 20L",
+          "clave": "AFB20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Chanel 20L",
+          "clave": "ACH20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Drakar 20L",
+          "clave": "ADR20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Invictus 20L",
+          "clave": "AIN20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Paco Rabanne 20L",
+          "clave": "APR20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Polo 20L",
+          "clave": "APO20",
+          "grupo": "AR20"
+        },
+        {
+          "nombre": "Aromatizante Líquido Sport 20L",
+          "clave": "ASP20",
+          "grupo": "AR20"
+        }
+      ]
+    },
+    {
+      "nombre": "PAPEL",
+      "productos": [
+        {
+          "nombre": "Rollo papel JUMBO 360m DALIA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rollo papel JUNIOR 160m DALIA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rollo papel JUMBO 360m ELITE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rollo papel JUNIOR 160m ELITE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rollo de papel institucional JUNIOR 180m INSTITUCIONAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rollo de papel institucional JUMBO 400m INSTITUCIONAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pañuelos KLEENEX c/90",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toalla Interdoblada DALIA c/100 (Sanitas DALITAS)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toalla interdoblada ELITE c/100 (Sanitas papel)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Servilleta Barra Mesa PETALO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Servilleta De Mesa c/500 BIO NAPKINS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toalla interdoblada c/100 SANILUX (sanitas papel)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toalla en rollo 160m ELITE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toalla en rollo 180m FAPSA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "DESPACHADORES Y BOTES DE BASURA",
+      "productos": [
+        {
+          "nombre": "Bote negro CHICO con tapa balancin",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bote negro MEDIANO con tapa balancin",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Bote negro GRANDE con tapa balancin",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Despachador papel Institucional JUNIOR OVAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Despachador papel Institucional JUNIOR Calgary",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Despachador papel Jumbo INSTITUCIONAL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Despachador jabón OVAL 1 litro",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Despachador Jabón líquido 1 litro",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Dispensador de Aromatizante Automatico WIESE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Despachador toalla interdoblada CALGARY (sanitas)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Despachador toalla interdoblada OVAL (Sanitas)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "DETERGENTES EN POLVO",
+      "productos": [
+        {
+          "nombre": "Jabón polvo 1 kg Tipo ARIEL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jabón polvo 1 kg Tipo ROMA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jabón polvo 10 kg Tipo ARIEL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jabón polvo 10 kg Tipo ROMA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jabón polvo ROMA ORIGINAL 1kg",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jabón polvo ROMA ORIGINAL 10kg",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "VENENOS",
+      "productos": [
+        {
+          "nombre": "Insecticida en Aerosol Aroma Limon 484ml + 1 Insecticida Maton 210ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 500ml + 1 Insecticida de aroma limón 210ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Aroma Limón 484ml + 1 Casa y Jardin 210ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 432ml + 1 Insecticida Aroma Limón 200ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Aroma Limón 484ml + 1 Insecticida Aroma Limón 200ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 432ml + 1 Insecticida Casa y Jardin 200ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 432ml + 1 Insecticida Maton 170ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 500ml + 1 Insecticida Casa y Jardin 210ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 450ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Aroma limón 484ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Maton 500ml + 1 Insecticida Maton 210ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Aerosol Casa y Jardin 450ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pega Ratas chica c/2 Clean House",
+          "clave": "XTI",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pega Ratas Mediana c/2 Clean House",
+          "clave": "XT3",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pega Ratas Grande c/2 Clean House",
+          "clave": "XT5",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Raidolito VERDE c/10 Espirales RAID",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Raidolito MORADO c/10 Espirales RAID",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Insecticida en Espirales VERDE c/50 VAPE (RAIDOLITO)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Laminitas RAID c/108 + Aparato Gratis",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Laminitas RAID c/108",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Pegamoscas c/4 YUAN MART",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Churros Para Rata 200g C REAL B",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Fumin 100ml",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Fumin 250ml",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno POLVEX",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Tipo Jeringa Gel 30 G SANGHA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Láminitas XTRON c/30",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Cereal Rosa para rata",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Mata Hormigas EXTERMINADOR",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Hormiga",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Huevito Rata",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno SIN OLOR Para Cucaracha 1 Litro FLIT CONTROL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Mata Insectos Extra Concentrado 500ml KILLER",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Para Mosca 1 litro FLIT CONTROL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Para Cucaracha 1 Litro FLIT CONTROL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Mosquicida Soluble (AZUL)",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Costalito Mágico",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ácido Bórico Sobres",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Veneno Extermina Chinche KILLER",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Repelente de Mosquitos 230ml GDOS",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "PERFUMERÍA",
+      "productos": [
+        {
+          "nombre": "Agua Oxigenada 125ml PROFESA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Agua Oxigenada 250ml PROFESA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Agua Oxigenada 500ml PROFESA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rastrillo Gillet 2 hojas c/24 + 8",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rastrillo Bic 3 hojas c/12 + 2",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rastrillo lord 2 hojas c/48",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rastrillo Bic 3 hojas c/12 + 4 rastrillo flex2",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jabón de Tocador c/4 150g Dermatologico LIRIO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rastrillo Gillette 3 hojas c/12",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toallita Húmeda c/100 FASHION CLEAN",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Jabón de Tocador c/14 150g Dermatologico LIRIO",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Rastrillo Schick Xtreme c/12 + 2",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toallita Humeda c/80 BABY SKY",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Toallita humeda Bote c/95 LYSOL",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Gel para cabello 250g NATURALS ULTRA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Cofia Blanca c/100 PROSAFE",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Vaselina 85g ALONDRA",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    },
+    {
+      "nombre": "DULCERÍA",
+      "productos": [
+        {
+          "nombre": "Ferrero c/12 Caja Dorada CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero c/10 Caja dorada CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero c/8 Caja Dorada CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero c/3 Empaque Plastico CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero c/24 Caja Plástico CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero c/17 Pino Plástico CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero Collection C/7 Caja Dorada CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero c/16 Baul Plástico CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Ferrero Collection Corazón c/8 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Huevito NIÑA KINDER CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Huevito NIÑO KINDER CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Huevito UNISEX KINDER CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Huevo Gigante Niña 100g KINDER CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Huevo Gigante Niño 100g KINDER CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Nutella 350 g CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Nutella 650 g CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Kinder delice c/5 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Kinder Delice c/10 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Kinder Delice c/15 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Kinder Maxi c/36 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Kinder Mini C/4 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Kinder Bueno C/2 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Kinder Bueno White C/2 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Conejo c/3 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Conejo c/3 Vitrolero 600g CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Conejo Caja c/24 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Conejo c/10 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Vitrolero Jose Cuervo 300g CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Baileys c/12 Bolsita Relleno Licor CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Jose Cuervo c/12 Bolsita Relleno Licor CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin c/10 Caja Negra 100g CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Masterpieces Café c/10 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Masterpieces c/30 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo ALMENDRAS Con Chocolate c/20 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo BAILEYS ORIGINAL Relleno De Licor c/20 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo JOSE CUERVO ESPECIAL Relleno De Licor c/20 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo JOHNNIE WALKER Relleno De Licor c/18 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo BAILEYS AVELLANA Relleno De Licor C/20 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo TEQUILA 1800 Relleno De Licor c/20 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo ALMENDRAS ZERO Con Chocolate 185g CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Turin Tubo CARAJILLO Relleno De Licor c/20 CHOCO CO3",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        },
+        {
+          "nombre": "Espuma para fiesta 270ml GDOS FUNNY SNOW",
+          "clave": "123456",
+          "grupo": "ABCDEF"
+        }
+      ]
+    }
+  ]
+}

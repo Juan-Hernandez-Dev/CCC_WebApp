@@ -123,7 +123,7 @@ const Home = () => {
                             At Crystalim, we offer reliable, effective solutions designed for your convenience.
                         </p>
                         <a
-                            href="/productos"
+                            href="/catalog"
                             className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
                         >
                             View all Products →
