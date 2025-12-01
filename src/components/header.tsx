@@ -53,15 +53,15 @@ export default function Header() {
           <ul className="flex items-center gap-6">
             <li className="relative group">
               <Link
-                href="/productos"
-                className={`relative font-medium px-1 ${isActive("/productos") ? "text-blue-900" : "text-black hover:text-blue-500"}`}
-                aria-current={isActive("/productos") ? "page" : undefined}
+                href="/products"
+                className={`relative font-medium px-1 ${isActive("/products") ? "text-blue-900" : "text-black hover:text-blue-500"}`}
+                aria-current={isActive("/products") ? "page" : undefined}
               >
                 Productos
               </Link>
               <span
                 className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-blue-500 rounded transition-all duration-300 origin-center ${
-                  isActive("/productos") ? "w-full" : "group-hover:w-full"
+                  isActive("/products") ? "w-full" : "group-hover:w-full"
                 }`}
               />
             </li>
@@ -83,15 +83,15 @@ export default function Header() {
 
             <li className="relative group">
               <Link
-                href="/contacto"
-                className={`relative font-medium px-1 ${isActive("/contacto") ? "text-blue-900" : "text-black hover:text-blue-500"}`}
-                aria-current={isActive("/contacto") ? "page" : undefined}
+                href="/contact"
+                className={`relative font-medium px-1 ${isActive("/contact") ? "text-blue-900" : "text-black hover:text-blue-500"}`}
+                aria-current={isActive("/contact") ? "page" : undefined}
               >
                 Contacto
               </Link>
               <span
                 className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-blue-500 rounded transition-all duration-300 origin-center ${
-                  isActive("/contacto") ? "w-full" : "group-hover:w-full"
+                  isActive("/contact") ? "w-full" : "group-hover:w-full"
                 }`}
               />
             </li>
@@ -113,10 +113,10 @@ export default function Header() {
         <div className="md:hidden bg-white border-t border-gray-200 absolute top-full left-0 right-0 shadow-lg">
           <nav className="px-4 py-2 space-y-1">
             <Link
-              href="/productos"
-              className={`block py-2.5 px-3 rounded text-sm font-medium ${isActive("/productos") ? "text-blue-900 bg-blue-50 border-l-4 border-blue-500" : "text-black hover:bg-blue-50"}`}
+              href="/products"
+              className={`block py-2.5 px-3 rounded text-sm font-medium ${isActive("/products") ? "text-blue-900 bg-blue-50 border-l-4 border-blue-500" : "text-black hover:bg-blue-50"}`}
               onClick={() => setIsMobileMenuOpen(false)}
-              aria-current={isActive("/productos") ? "page" : undefined}
+              aria-current={isActive("/products") ? "page" : undefined}
             >
               Productos
             </Link>
@@ -131,10 +131,10 @@ export default function Header() {
             </Link>
 
             <Link
-              href="/contacto"
-              className={`block py-2.5 px-3 rounded text-sm font-medium ${isActive("/contacto") ? "text-blue-900 bg-blue-50 border-l-4 border-blue-500" : "text-black hover:bg-blue-50"}`}
+              href="/contact"
+              className={`block py-2.5 px-3 rounded text-sm font-medium ${isActive("/contact") ? "text-blue-900 bg-blue-50 border-l-4 border-blue-500" : "text-black hover:bg-blue-50"}`}
               onClick={() => setIsMobileMenuOpen(false)}
-              aria-current={isActive("/contacto") ? "page" : undefined}
+              aria-current={isActive("/contact") ? "page" : undefined}
             >
               Contacto
             </Link>
