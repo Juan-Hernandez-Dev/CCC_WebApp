@@ -14,16 +14,50 @@ export default function Header() {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+
     const applyPadding = () => {
       const h = Math.ceil(el.getBoundingClientRect().height);
       document.querySelectorAll("main, .min-h-screen").forEach((node) => {
         (node as HTMLElement).style.paddingTop = `${h}px`;
       });
     };
-    applyPadding();
-    window.addEventListener("resize", applyPadding);
-    return () => window.removeEventListener("resize", applyPadding);
-  }, []);
+
+    // Medida inicial en el siguiente frame (evita medir antes de layout final)
+    let raf1: number | null = null;
+    let raf2: number | null = null;
+    raf1 = requestAnimationFrame(() => {
+      raf2 = requestAnimationFrame(applyPadding);
+    });
+
+    // Observador para cambios de tamaño del header (imagen, fuente, etc.)
+    let ro: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== "undefined") {
+      ro = new ResizeObserver(() => applyPadding());
+      ro.observe(el);
+      // Además recalcular cuando la página completa carga (CSS/imagenes) y cuando las fuentes se estabilizan
+      window.addEventListener("load", applyPadding);
+      if ((document as any).fonts && (document as any).fonts.ready) {
+        (document as any).fonts.ready.then(applyPadding).catch(() => {});
+      }
+    } else {
+      // Fallback: escucha resize de la ventana y load de la página
+      window.addEventListener("resize", applyPadding);
+      window.addEventListener("load", applyPadding);
+    }
+
+    return () => {
+      if (raf1) cancelAnimationFrame(raf1);
+      if (raf2) cancelAnimationFrame(raf2);
+       if (ro) {
+         ro.disconnect();
+       } else {
+         window.removeEventListener("resize", applyPadding);
+         window.removeEventListener("load", applyPadding);
+       }
+      // remover listener de load si se añadió junto con ResizeObserver
+      window.removeEventListener("load", applyPadding);
+     };
+   }, [pathname]);
 
   const isActive = (href: string) => {
     if (!pathname) return false;
@@ -36,17 +70,17 @@ export default function Header() {
       className="fixed inset-x-0 top-0 z-50 bg-white border-b border-gray-200"
       role="banner"
     >
-      <div className="max-w-[1180px] mx-auto px-4 py-3 flex items-center justify-between h-14 sm:h-16">
+      <div className="max-w-330 mx-auto px-4 py-3 flex items-center justify-between h-14 sm:h-16">
         {/* Logo solo */}
         <Link href="/" className="flex items-center gap-3 no-underline hover:opacity-90 transition-opacity">
-          <Image
-            src={CImage}
-            alt="brand"
-            width={36}
-            height={36}
-            className="block w-8 h-8 sm:w-9 sm:h-9"
-          />
-        </Link>
+           <Image
+             src={CImage}
+             alt="brand"
+             width={36}
+             height={36}
+             className="block w-8 h-8 sm:w-9 sm:h-9"
+           />
+         </Link>
 
         {/* Desktop Navigation */}
         <nav aria-label="Main navigation" className="hidden md:block">
