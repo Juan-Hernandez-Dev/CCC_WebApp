@@ -26,8 +26,23 @@ export async function GET(req: NextRequest) {
     const isAllowed = allowedHosts.some((h) => parsed.hostname.endsWith(h));
     if (!isAllowed) return NextResponse.json({ error: 'Host not allowed' }, { status: 403 });
 
-    const upstream = await fetch(url, { method: 'GET' });
-    if (!upstream.ok) return NextResponse.json({ error: 'Upstream fetch failed' }, { status: 502 });
+    // Fetch with timeout (10 seconds max)
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
+
+    const upstream = await fetch(url, { 
+      method: 'GET',
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
+    });
+    clearTimeout(timeoutId);
+
+    if (!upstream.ok) {
+      console.error(`[image-proxy] Upstream fetch failed: ${url} - Status: ${upstream.status}`);
+      return new Response(null, { status: upstream.status });
+    }
 
     // Forward content-type and stream body. Add caching to reduce repeated upstream hits
     const headers = new Headers(upstream.headers as HeadersInit);
@@ -38,7 +53,8 @@ export async function GET(req: NextRequest) {
       status: upstream.status,
       headers,
     });
-  } catch (err) {
-    return NextResponse.json({ error: 'Server error' }, { status: 500 });
+  } catch (err: any) {
+    console.error('[image-proxy] Error:', err?.message || err);
+    return new Response(null, { status: 500 });
   }
 }

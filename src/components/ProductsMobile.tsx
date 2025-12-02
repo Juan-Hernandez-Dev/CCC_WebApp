@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import data from "../components/products.json";
 
@@ -16,14 +16,6 @@ type ProductImageState = {
   [key: string]: 'loading' | 'loaded' | 'error';
 };
 
-// Función para optimizar URL de Google Fotos con fallbacks
-const optimizeGooglePhotosUrl = (url: string, attempt: number = 0): string => {
-  if (!url) return url;
-  if (attempt === 0) return url.replace(/=s\d+/, '=w400-h400');
-  if (attempt === 1) return url.replace(/=s\d+/, '=w600-h600');
-  return url.replace(/=s\d+/, '=s800');
-};
-
 const getProxyUrl = (url?: string) => (url ? `/api/image-proxy?url=${encodeURIComponent(url)}` : undefined);
 
 export default function ProductsMobile() {
@@ -32,6 +24,7 @@ export default function ProductsMobile() {
   const [page, setPage] = useState(1);
   const [showPageMenu, setShowPageMenu] = useState(false);
   const [imageStates, setImageStates] = useState<ProductImageState>({});
+  const listRef = useRef<HTMLDivElement | null>(null);
   const PAGE_SIZE = 12;
 
   // Productos filtrados por categoría seleccionada
@@ -56,7 +49,32 @@ export default function ProductsMobile() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
-  // Usaremos lazy-loading nativo y un proxy en el servidor para simplificar la carga de imágenes
+  // Initialize image states for current products on page/category change
+  useEffect(() => {
+    const newStates: ProductImageState = {};
+    visibleProducts.forEach((p, idx) => {
+      const imageKey = p.imagen || `noimg-${idx}`;
+      newStates[imageKey] = p.imagen ? 'loading' : 'error';
+    });
+    setImageStates(newStates);
+  }, [page, selectedCategoria]);
+
+  // Detect images that have already loaded (e.g., from cache) and update state
+  useEffect(() => {
+    if (!listRef.current) return;
+    const imgs = Array.from(listRef.current.querySelectorAll('img[data-image-key]')) as HTMLImageElement[];
+    imgs.forEach((img) => {
+      const key = img.dataset.imageKey ?? '';
+      if (!key) return;
+      if (img.complete) {
+        if (img.naturalWidth && img.naturalWidth > 0) {
+          setImageStates(prev => ({ ...prev, [key]: 'loaded' }));
+        } else {
+          setImageStates(prev => ({ ...prev, [key]: 'error' }));
+        }
+      }
+    });
+  }, [visibleProducts, page, selectedCategoria]);
 
   // Precio determinístico basado en nombre (evita Math.random para SSR/CSR mismatch)
   const computePrice = (nombre?: string) => {
@@ -113,7 +131,7 @@ export default function ProductsMobile() {
       <div className="space-y-3 sm:space-y-4">
         {visibleProducts.map((p, idx) => {
           const price = computePrice(p.nombre);
-          const imageKey = p.imagen || '';
+          const imageKey = p.imagen || `noimg-${idx}`;
           return (
             <article
               key={`${p.nombre}-${idx}`}
@@ -123,17 +141,14 @@ export default function ProductsMobile() {
               <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-md flex items-center justify-center overflow-hidden shrink-0 relative">
                 {p.imagen ? (
                   <>
-                    {imageStates[imageKey] === 'loading' && (
-                      <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center">
-                        <span className="text-gray-400 text-xs">...</span>
-                      </div>
-                    )}
                     <img
-                      src={getProxyUrl(optimizeGooglePhotosUrl(p.imagen))}
+                      key={imageKey}
+                      data-image-key={imageKey}
+                      src={getProxyUrl(p.imagen)}
                       alt={p.nombre}
                       loading="lazy"
                       decoding="async"
-                      className={`w-full h-full object-contain transition-opacity duration-300 ${imageStates[imageKey] === 'loaded' ? 'opacity-100' : 'opacity-0'}`}
+                      className={`w-full h-full object-contain`}
                       onLoad={() => setImageStates(prev => ({ ...prev, [imageKey]: 'loaded' }))}
                       onError={() => setImageStates(prev => ({ ...prev, [imageKey]: 'error' }))}
                     />
@@ -147,6 +162,13 @@ export default function ProductsMobile() {
                   <div className="text-gray-400 text-xs">—</div>
                 )}
               </div>
+
+              {/* Non-blocking loading indicator for mobile list */}
+              {imageStates[imageKey] === 'loading' && (
+                <div className="mt-1">
+                  <span className="inline-block w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin mr-2" aria-hidden />
+                </div>
+              )}
 
               {/* contenido */}
               <div className="flex-1 min-w-0">
