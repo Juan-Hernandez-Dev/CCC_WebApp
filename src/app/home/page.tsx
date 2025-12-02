@@ -94,22 +94,12 @@ const Home = () => {
                             Explore our complete catalog and find a wide variety of products designed to meet the cleaning needs of any space. 
                             At Crystalim, we offer reliable, effective solutions designed for your convenience.
                         </p>
-<<<<<<< HEAD
-
-                             <Link
-                                href="/catalog"
-                            className="py-2 inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"                            >
-                                See all products →
-                            </Link>
-
-=======
                         <a
                             href="/catalog"
                             className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
                         >
                             View all Products →
                         </a>
->>>>>>> ba981741e8356ffa82b1bbed73c21c009e0a2f3b
                     </div>
                     {/* Columna vacía para mantener la estructura de dos columnas */}
                     <div></div>
