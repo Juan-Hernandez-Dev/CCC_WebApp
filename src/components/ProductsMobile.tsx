@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useMemo, useState, useRef } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import data from "../components/products.json";
 
@@ -16,48 +16,15 @@ type ProductImageState = {
   [key: string]: 'loading' | 'loaded' | 'error';
 };
 
-interface CacheEntry {
-  timestamp: number;
-  status: 'loaded' | 'error';
-}
-
-const CACHE_KEY = 'product_images_cache';
-
-// Inicializar caché
-const getImageCache = (): Record<string, CacheEntry> => {
-  if (typeof window === 'undefined') return {};
-  try {
-    const cached = localStorage.getItem(CACHE_KEY);
-    return cached ? JSON.parse(cached) : {};
-  } catch {
-    return {};
-  }
-};
-
-const saveImageCache = (cache: Record<string, CacheEntry>) => {
-  if (typeof window === 'undefined') return;
-  try {
-    localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
-  } catch {
-    // Silenciosamente ignorar errores de localStorage
-  }
-};
-
 // Función para optimizar URL de Google Fotos con fallbacks
 const optimizeGooglePhotosUrl = (url: string, attempt: number = 0): string => {
-  // Intento 0: w400-h400 (sin aspectratio)
-  // Intento 1: w600-h600 (resolución más alta)
-  // Intento 2: URL original sin cambios
-  
-  if (attempt === 0) {
-    return url.replace(/=s\d+/, '=w400-h400');
-  } else if (attempt === 1) {
-    return url.replace(/=s\d+/, '=w600-h600');
-  } else {
-    // Fallback: URL original pero con tamaño más grande
-    return url.replace(/=s\d+/, '=s800');
-  }
+  if (!url) return url;
+  if (attempt === 0) return url.replace(/=s\d+/, '=w400-h400');
+  if (attempt === 1) return url.replace(/=s\d+/, '=w600-h600');
+  return url.replace(/=s\d+/, '=s800');
 };
+
+const getProxyUrl = (url?: string) => (url ? `/api/image-proxy?url=${encodeURIComponent(url)}` : undefined);
 
 export default function ProductsMobile() {
   const categorias = useMemo(() => data.categorias.map((c) => c.nombre), []);
@@ -65,11 +32,6 @@ export default function ProductsMobile() {
   const [page, setPage] = useState(1);
   const [showPageMenu, setShowPageMenu] = useState(false);
   const [imageStates, setImageStates] = useState<ProductImageState>({});
-  const intersectionObserverRef = useRef<IntersectionObserver | null>(null);
-  const imageCacheRef = useRef<Record<string, CacheEntry>>(getImageCache());
-  const pendingLoadsRef = useRef<Set<string>>(new Set());
-  const retryCountRef = useRef<Map<string, number>>(new Map());
-  const retryTimeoutsRef = useRef<Map<string, NodeJS.Timeout>>(new Map());
   const PAGE_SIZE = 12;
 
   // Productos filtrados por categoría seleccionada
@@ -94,119 +56,7 @@ export default function ProductsMobile() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
-  // Función para cargar imagen con reintentos infinitos (delays largos)
-  const loadImage = (imageUrl: string, retryCount = 0) => {
-    // Verificar si ya está en caché
-    const cached = imageCacheRef.current[imageUrl];
-    if (cached && cached.status === 'loaded') {
-      setImageStates(prev => ({
-        ...prev,
-        [imageUrl]: cached.status
-      }));
-      return;
-    }
-
-    // Evitar cargas duplicadas simultáneas
-    if (pendingLoadsRef.current.has(imageUrl)) return;
-    pendingLoadsRef.current.add(imageUrl);
-
-    setImageStates(prev => ({
-      ...prev,
-      [imageUrl]: 'loading'
-    }));
-
-    const img = new window.Image();
-    
-    img.onload = () => {
-      // Guardar en caché
-      imageCacheRef.current[imageUrl] = {
-        timestamp: Date.now(),
-        status: 'loaded'
-      };
-      saveImageCache(imageCacheRef.current);
-
-      setImageStates(prev => ({
-        ...prev,
-        [imageUrl]: 'loaded'
-      }));
-      
-      pendingLoadsRef.current.delete(imageUrl);
-      retryCountRef.current.delete(imageUrl);
-    };
-    
-    img.onerror = () => {
-      pendingLoadsRef.current.delete(imageUrl);
-      
-      const newRetryCount = (retryCountRef.current.get(imageUrl) || 0) + 1;
-      retryCountRef.current.set(imageUrl, newRetryCount);
-      
-      // Cambiar formato de URL cada 5 intentos (más espaciado)
-      const urlAttempt = Math.floor((newRetryCount - 1) / 5);
-      
-      // Delays mucho más largos para evitar 429
-      let delayMs: number;
-      if (newRetryCount <= 1) {
-        delayMs = 10000; // 10 segundos primer reintento
-      } else if (newRetryCount <= 3) {
-        delayMs = 15000; // 15 segundos
-      } else if (newRetryCount <= 6) {
-        delayMs = 20000; // 20 segundos
-      } else {
-        delayMs = 30000; // 30 segundos para reintentos posteriores
-      }
-      
-      // Agregar jitter aleatorio (±5 segundos) para evitar sincronización
-      const jitter = Math.random() * 10000 - 5000;
-      delayMs = Math.max(5000, delayMs + jitter); // Mínimo 5 segundos
-      
-      // Limpiar timeout anterior si existe
-      const oldTimeout = retryTimeoutsRef.current.get(imageUrl);
-      if (oldTimeout) clearTimeout(oldTimeout);
-      
-      // Programar reintento infinito
-      const newTimeout = setTimeout(() => {
-        loadImage(imageUrl, newRetryCount);
-      }, delayMs);
-      
-      retryTimeoutsRef.current.set(imageUrl, newTimeout);
-      
-      // Mantener estado en "loading" indefinidamente
-      setImageStates(prev => ({
-        ...prev,
-        [imageUrl]: 'loading'
-      }));
-    };
-    
-    // Usar URL optimizada con fallbacks
-    const urlAttempt = Math.floor((retryCount) / 5);
-    img.src = optimizeGooglePhotosUrl(imageUrl, urlAttempt);
-  };
-
-  // Usar Intersection Observer para lazy loading verdadero
-  useEffect(() => {
-    intersectionObserverRef.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const imageUrl = entry.target.getAttribute('data-image-url');
-            if (imageUrl) {
-              loadImage(imageUrl);
-            }
-          }
-        });
-      },
-      { rootMargin: '50px' }
-    );
-
-    return () => {
-      if (intersectionObserverRef.current) {
-        intersectionObserverRef.current.disconnect();
-      }
-      // Limpiar todos los timeouts de reintentos al desmontar
-      retryTimeoutsRef.current.forEach(timeout => clearTimeout(timeout));
-      retryTimeoutsRef.current.clear();
-    };
-  }, []);
+  // Usaremos lazy-loading nativo y un proxy en el servidor para simplificar la carga de imágenes
 
   // Precio determinístico basado en nombre (evita Math.random para SSR/CSR mismatch)
   const computePrice = (nombre?: string) => {
@@ -270,15 +120,7 @@ export default function ProductsMobile() {
               className="bg-white rounded-lg shadow-sm border border-gray-100 p-3 sm:p-4 flex gap-3 sm:gap-4 active:bg-gray-50 transition-colors"
             >
               {/* imagen */}
-              <div 
-                className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-md flex items-center justify-center overflow-hidden shrink-0 relative"
-                ref={(el) => {
-                  if (el && p.imagen && intersectionObserverRef.current) {
-                    el.setAttribute('data-image-url', p.imagen);
-                    intersectionObserverRef.current.observe(el);
-                  }
-                }}
-              >
+              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-md flex items-center justify-center overflow-hidden shrink-0 relative">
                 {p.imagen ? (
                   <>
                     {imageStates[imageKey] === 'loading' && (
@@ -287,23 +129,13 @@ export default function ProductsMobile() {
                       </div>
                     )}
                     <img
-                      src={optimizeGooglePhotosUrl(p.imagen)}
+                      src={getProxyUrl(optimizeGooglePhotosUrl(p.imagen))}
                       alt={p.nombre}
-                      className={`w-full h-full object-contain transition-opacity duration-300 ${
-                        imageStates[imageKey] === 'loaded' ? 'opacity-100' : 'opacity-0'
-                      }`}
-                      onLoad={() => {
-                        setImageStates(prev => ({
-                          ...prev,
-                          [imageKey]: 'loaded'
-                        }));
-                      }}
-                      onError={() => {
-                        setImageStates(prev => ({
-                          ...prev,
-                          [imageKey]: 'error'
-                        }));
-                      }}
+                      loading="lazy"
+                      decoding="async"
+                      className={`w-full h-full object-contain transition-opacity duration-300 ${imageStates[imageKey] === 'loaded' ? 'opacity-100' : 'opacity-0'}`}
+                      onLoad={() => setImageStates(prev => ({ ...prev, [imageKey]: 'loaded' }))}
+                      onError={() => setImageStates(prev => ({ ...prev, [imageKey]: 'error' }))}
                     />
                     {imageStates[imageKey] === 'error' && (
                       <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
