@@ -24,7 +24,11 @@ export default function ProductsMobile() {
   const [page, setPage] = useState(1);
   const [showPageMenu, setShowPageMenu] = useState(false);
   const [imageStates, setImageStates] = useState<ProductImageState>({});
+<<<<<<< HEAD
   const listRef = useRef<HTMLDivElement | null>(null);
+=======
+  const [showAll, setShowAll] = useState(false); // <-- nuevo estado
+>>>>>>> 84ec1c95a74e9cd3efbfa9dc813a797d6e7f20ad
   const PAGE_SIZE = 12;
 
   // Productos filtrados por categoría seleccionada
@@ -41,7 +45,8 @@ export default function ProductsMobile() {
   const pageCount = Math.max(1, Math.ceil(productsByCategory.length / PAGE_SIZE));
   if (page > pageCount) setPage(1);
 
-  const visibleProducts = productsByCategory.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  // Mostrar todos si showAll es true, sino paginar normalmente
+  const visibleProducts = showAll ? productsByCategory : productsByCategory.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   // cierra el menú si se selecciona una página (evita que queden "..." duplicados)
   useEffect(() => {
@@ -109,10 +114,12 @@ export default function ProductsMobile() {
               onChange={(e) => {
                 setSelectedCategoria(e.target.value);
                 setPage(1);
+                setShowAll(false); // volver a paginado al cambiar categoría
               }}
               className="appearance-none bg-blue-600 text-white text-xs sm:text-sm font-medium px-3 py-2 rounded-md pr-8 shadow-sm min-h-[44px] w-full"
               aria-label="Seleccionar categoría"
             >
+              <option value="ALL">Todos</option>
               {categorias.map((c) => (
                 <option key={c} value={c}>
                   {c}
@@ -273,7 +280,10 @@ export default function ProductsMobile() {
               return (
                 <button
                   key={`page-${num}-${idx}`}
-                  onClick={() => setPage(num)}
+                  onClick={() => {
+                    setShowAll(false);
+                    setPage(num);
+                  }}
                   className={`px-3 py-2 rounded text-sm min-h-[44px] ${isActive ? "bg-blue-600 text-white" : "bg-white border border-gray-200"}`}
                 >
                   {num}
@@ -305,12 +315,28 @@ export default function ProductsMobile() {
         {showPageMenu && (
           <div className="absolute left-1/2 transform -translate-x-1/2 top-full mt-2 w-64 max-h-72 overflow-y-auto bg-white border border-gray-200 rounded shadow-lg z-20">
             <div className="px-3 py-2 border-b border-gray-100 text-xs text-gray-600">Seleccionar página</div>
+
+            {/* Botón para ver todos / volver al paginado */}
+            <div className="p-2 border-b">
+              <button
+                onClick={() => {
+                  setShowAll((s) => !s);
+                  setPage(1);
+                  setShowPageMenu(false);
+                }}
+                className="w-full py-2 rounded text-sm bg-white border border-gray-200"
+              >
+                {showAll ? "Usar paginado" : "Ver todos"}
+              </button>
+            </div>
+
             <div className="p-2 grid grid-cols-3 gap-2">
               {Array.from({ length: pageCount }, (_, i) => i + 1).map((pNum) => (
                 <button
                   key={`menu-page-${pNum}`}
                   onClick={() => {
                     setPage(pNum);
+                    setShowAll(false);
                     setShowPageMenu(false);
                   }}
                   className={`py-2 rounded text-sm ${pNum === page ? "bg-blue-600 text-white" : "bg-white border border-gray-200"}`}
