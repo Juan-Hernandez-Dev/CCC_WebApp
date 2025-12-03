@@ -2,7 +2,7 @@
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import data from "../components/products.json";
+import data from "./products.json";
 
 type Producto = {
   nombre: string;
@@ -10,6 +10,12 @@ type Producto = {
   clave?: string;
   grupo?: string;
   imagen?: string;
+  descripcion?: string;
+  precioDescuento?: number;
+  precioOriginal?: number;
+  enDescuento?: boolean;
+  descuento?: number;
+  categoria?: string;
 };
 
 type ProductImageState = {
@@ -23,17 +29,14 @@ export default function ProductsMobile() {
   const [selectedCategoria, setSelectedCategoria] = useState<string>(categorias[0] ?? "ALL");
   const [page, setPage] = useState(1);
   const [showPageMenu, setShowPageMenu] = useState(false);
+  const [showAll, setShowAll] = useState(false);
   const [imageStates, setImageStates] = useState<ProductImageState>({});
-<<<<<<< HEAD
   const listRef = useRef<HTMLDivElement | null>(null);
-=======
-  const [showAll, setShowAll] = useState(false); // <-- nuevo estado
->>>>>>> 84ec1c95a74e9cd3efbfa9dc813a797d6e7f20ad
   const PAGE_SIZE = 12;
 
   // Productos filtrados por categoría seleccionada
   const allProducts: Producto[] = useMemo(() => {
-    return data.categorias.flatMap((c) => c.productos || []);
+    return data.categorias.flatMap((c) => (c.productos || []).map(p => ({ ...p, categoria: c.nombre })));
   }, []);
 
   const productsByCategory: Producto[] = useMemo(() => {
@@ -43,16 +46,23 @@ export default function ProductsMobile() {
   }, [selectedCategoria, allProducts]);
 
   const pageCount = Math.max(1, Math.ceil(productsByCategory.length / PAGE_SIZE));
-  if (page > pageCount) setPage(1);
 
-  // Mostrar todos si showAll es true, sino paginar normalmente
-  const visibleProducts = showAll ? productsByCategory : productsByCategory.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  // Ensure page stays within range when pageCount changes
+  useEffect(() => {
+    if (page > pageCount) setPage(1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Mostrar todos si showAll es true, sino paginar normalmente (memoized)
+  const visibleProducts = useMemo(() => {
+    return showAll ? productsByCategory : productsByCategory.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  }, []);
 
   // cierra el menú si se selecciona una página (evita que queden "..." duplicados)
   useEffect(() => {
     if (showPageMenu) setShowPageMenu(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page]);
+  }, []);
 
   // Initialize image states for current products on page/category change
   useEffect(() => {
@@ -62,7 +72,7 @@ export default function ProductsMobile() {
       newStates[imageKey] = p.imagen ? 'loading' : 'error';
     });
     setImageStates(newStates);
-  }, [page, selectedCategoria]);
+  }, []);
 
   // Detect images that have already loaded (e.g., from cache) and update state
   useEffect(() => {
@@ -79,7 +89,7 @@ export default function ProductsMobile() {
         }
       }
     });
-  }, [visibleProducts, page, selectedCategoria]);
+  }, []);
 
   // Precio determinístico basado en nombre (evita Math.random para SSR/CSR mismatch)
   const computePrice = (nombre?: string) => {
@@ -137,15 +147,26 @@ export default function ProductsMobile() {
       {/* Lista de productos (cards) */}
       <div className="space-y-3 sm:space-y-4">
         {visibleProducts.map((p, idx) => {
-          const price = computePrice(p.nombre);
+          const fallback = computePrice(p.nombre);
           const imageKey = p.imagen || `noimg-${idx}`;
+          const original = p.precioOriginal ?? fallback;
+          const discountAmount = (p as any).descuento ?? 0;
+          const finalPrice = discountAmount > 0 ? Math.max(0, original - discountAmount) : original;
+          const discountPercent = discountAmount > 0 && original > 0 ? Math.round((discountAmount / original) * 100) : 0;
+
           return (
             <article
               key={`${p.nombre}-${idx}`}
-              className="bg-white rounded-lg shadow-sm border border-gray-100 p-3 sm:p-4 flex gap-3 sm:gap-4 active:bg-gray-50 transition-colors"
+              className="h-32 max-h-32 bg-white rounded-lg p-3 sm:p-4 flex gap-3 sm:gap-4 shadow-sm border border-gray-100 transition-shadow hover:shadow-md overflow-hidden"
             >
               {/* imagen */}
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-md flex items-center justify-center overflow-hidden shrink-0 relative">
+              <div
+                className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden shrink-0 relative border border-gray-200"
+                style={{
+                  backgroundImage: 'radial-gradient(#e5e7eb 1.5px, transparent 1.5px)',
+                  backgroundSize: '12px 12px'
+                }}
+              >
                 {p.imagen ? (
                   <>
                     <img
@@ -178,28 +199,30 @@ export default function ProductsMobile() {
               )}
 
               {/* contenido */}
-              <div className="flex-1 min-w-0">
-                <h3 className="text-sm sm:text-base font-semibold text-gray-800 truncate">{p.nombre}</h3>
-                <p className="text-xs text-gray-500 mt-1 line-clamp-2 sm:line-clamp-3">
-                  {p.capacidad ? `${p.capacidad} • ` : ""}
-                  {p.clave ? `Clave: ${p.clave} • ` : ""}
-                  {p.grupo ? `Grupo: ${p.grupo}` : ""}
-                </p>
+              <div className="flex-1 min-w-0 flex flex-col justify-center">
+                <h3 className="text-xs sm:text-sm font-semibold text-gray-800 line-clamp-2">{p.nombre}</h3>
+                
+                {p.descripcion && (
+                  <p className="text-xs text-gray-500 mt-1 line-clamp-1 sm:line-clamp-2">{p.descripcion}</p>
+                )}
 
-                <div className="flex items-center justify-between mt-3 sm:mt-4">
-                  <div className="flex items-center gap-1 sm:gap-2 flex-wrap">
-                    <span className="inline-block bg-blue-50 text-blue-600 text-xs font-semibold px-1.5 sm:px-2 py-0.5 sm:py-1 rounded">
-                      {p.grupo ?? "CAT"}
-                    </span>
-                    <span className="inline-block bg-orange-100 text-orange-700 text-xs font-medium px-1.5 sm:px-2 py-0.5 sm:py-1 rounded">
-                      20% Descuento
-                    </span>
+                <div className="flex flex-col items-center justify-center gap-1 mt-2 sm:mt-3">
+                  <div className="flex items-baseline gap-1.5">
+                    <span className="text-sm sm:text-base font-bold text-blue-600">${finalPrice.toFixed(2)}</span>
+                    {original !== finalPrice && (
+                      <span className="text-xs text-gray-400 line-through">${original.toFixed(2)}</span>
+                    )}
                   </div>
-
-                  <div className="text-right">
-                    <div className="text-xs sm:text-sm text-gray-400 line-through">${(price + 8).toFixed(0)}</div>
-                    <div className="text-base sm:text-lg font-bold text-blue-600">${price.toFixed(0)}</div>
-                  </div>
+                  {discountAmount > 0 && (
+                    <div className="flex flex-col gap-1 w-full items-center">
+                      <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-2 py-0.5 rounded-full">
+                        {p.categoria ?? selectedCategoria}
+                      </span>
+                      <span className="inline-block bg-orange-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
+                        {discountPercent}% Descuento
+                      </span>
+                    </div>
+                  )}
                 </div>
               </div>
             </article>

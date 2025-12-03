@@ -67,8 +67,9 @@ export default function Header() {
   return (
     <header
       ref={ref}
-      className="fixed inset-x-0 top-0 z-50 bg-white border-b border-gray-200"
+      className="fixed inset-x-0 top-0 bg-white border-b border-gray-200"
       role="banner"
+      style={{ zIndex: 99999, pointerEvents: 'auto' }}
     >
       <div className="max-w-330 mx-auto px-4 py-3 flex items-center justify-between h-14 sm:h-16">
         {/* Logo solo */}
