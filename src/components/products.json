@@ -5,64 +5,78 @@
       "productos": [
         {
           "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
-          "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rastrillo lord 2 hojas c/48",
-          "imagen": "https://lh3.googleusercontent.com/d/15RQNBRo0m-9bT6AQnKfWdUzP7C_HpZm2=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/15RQNBRo0m-9bT6AQnKfWdUzP7C_HpZm2=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Gel para cabello 250g NATURALS ULTRA",
           "capacidad": "250g",
-          "imagen": "https://lh3.googleusercontent.com/d/1Dfzbz-djVEP_qKpNHlaZHtZjjWBrL9R_=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Dfzbz-djVEP_qKpNHlaZHtZjjWBrL9R_=w200-h200-c"
         },
         {
           "nombre": "Toallita Humeda c/80 BABY SKY",
-          "imagen": "https://lh3.googleusercontent.com/d/1MRLQijoHscq0wma5SsDd6uxkn3tsF7gC=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1MRLQijoHscq0wma5SsDd6uxkn3tsF7gC=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Vaselina 85g ALONDRA",
-          "imagen": "https://lh3.googleusercontent.com/d/1SXyyBF9F8BidB8f1M17SCyE-iapYWFa8=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1SXyyBF9F8BidB8f1M17SCyE-iapYWFa8=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rastrillo Schick Xtreme c/12 + 2",
-          "imagen": "https://lh3.googleusercontent.com/d/1W82PACf3qspd8qtBGi8D2cpeO5yFzhi_=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1W82PACf3qspd8qtBGi8D2cpeO5yFzhi_=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rastrillo Bic 3 hojas c/12 + 2",
-          "imagen": "https://lh3.googleusercontent.com/d/1YraYJFsRrSykz0bRq92EMke862UcEll8=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1YraYJFsRrSykz0bRq92EMke862UcEll8=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Toallita Húmeda c/100 FASHION CLEAN",
-          "imagen": "https://lh3.googleusercontent.com/d/1_CFAt6ScALgNkZPEkj2oKllrF5dD18By=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1_CFAt6ScALgNkZPEkj2oKllrF5dD18By=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Agua Oxigenada 500ml PROFESA",
-          "imagen": "https://lh3.googleusercontent.com/d/1_IB2KQ7chgz4ghvdLc3RdgQyKzy3I9t4=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1_IB2KQ7chgz4ghvdLc3RdgQyKzy3I9t4=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Jabón de Tocador c/4 150g Dermatologico LIRIO",
-          "imagen": "https://lh3.googleusercontent.com/d/1fVHFrzTClqrgrGPO2ieXOPfp7dxOqXmp=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1fVHFrzTClqrgrGPO2ieXOPfp7dxOqXmp=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rastrillo Gillet 2 hojas c/24 + 8",
-          "imagen": "https://lh3.googleusercontent.com/d/1gl06x1-BQR7brVujoBnJxD2DabY21Yz5=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1gl06x1-BQR7brVujoBnJxD2DabY21Yz5=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rastrillo Gillette 3 hojas c/12",
-          "imagen": "https://lh3.googleusercontent.com/d/1mlJuqfPh-Qq12LXfkq7qCz20ZcLAU1Ql=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1mlJuqfPh-Qq12LXfkq7qCz20ZcLAU1Ql=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Jabón de Tocador c/14 150g Dermatologico LIRIO",
-          "imagen": "https://lh3.googleusercontent.com/d/1qY1XPl9lLVCA-63fhKrOlIUHz8LeoeNn=s220"
+          "capacidad": " ",
+          "imagen": "https://lh3.googleusercontent.com/d/1qY1XPl9lLVCA-63fhKrOlIUHz8LeoeNn=w200-h200-c"
         },
         {
           "nombre": "Cofia Blanca c/100 PROSAFE",
-          "imagen": "https://lh3.googleusercontent.com/d/1sbSQqoqLeEiLQu-vYMxrlzEcpyAsSpIF=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1sbSQqoqLeEiLQu-vYMxrlzEcpyAsSpIF=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Toallita humeda Bote c/95 LYSOL",
-          "imagen": "https://lh3.googleusercontent.com/d/1vu7lMEYrryA3L5M5samQYEhzf0meRQMX=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1vu7lMEYrryA3L5M5samQYEhzf0meRQMX=w200-h200-c",
+          "capacidad": " "
         }
       ]
     },
@@ -71,127 +85,153 @@
       "productos": [
         {
           "nombre": "Raidolito MORADO c/10 Espirales RAID",
-          "imagen": "https://lh3.googleusercontent.com/d/1CGJH1c-ZyH_zAaveieP1_lglWAbNgNCw=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1CGJH1c-ZyH_zAaveieP1_lglWAbNgNCw=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Raidolito VERDE c/10 Espirales RAID",
-          "imagen": "https://lh3.googleusercontent.com/d/1D_gvA2S2bWHOa7WBfeet5ud8IJ4mTN_m=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1D_gvA2S2bWHOa7WBfeet5ud8IJ4mTN_m=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Churros Para Rata 200g C REAL B",
-          "imagen": "https://lh3.googleusercontent.com/d/10hX3b1sWfhb2fGzjd1JGEc-xXgaqPa-M=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/10hX3b1sWfhb2fGzjd1JGEc-xXgaqPa-M=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Laminitas RAID c/108",
-          "imagen": "https://lh3.googleusercontent.com/d/11ssx42AsQyDXDf3GgYM1D-rjrShMsIbL=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/11ssx42AsQyDXDf3GgYM1D-rjrShMsIbL=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Hormiga",
-          "imagen": "https://lh3.googleusercontent.com/d/1EhDH-QlAr3vKw0dxJv5c3A0y6ucIbusA=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1EhDH-QlAr3vKw0dxJv5c3A0y6ucIbusA=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Mata Hormigas EXTERMINADOR",
-          "imagen": "https://lh3.googleusercontent.com/d/1HVtU_QpJzx9QqYKXFQejIZOyK4QIX5gj=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1HVtU_QpJzx9QqYKXFQejIZOyK4QIX5gj=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Extermina Chinche KILLER",
-          "imagen": "https://lh3.googleusercontent.com/d/1MGaq2TvVBesV_nmvs-2fU7R2NamVSgNF=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1MGaq2TvVBesV_nmvs-2fU7R2NamVSgNF=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Churros Para Rata 200g C REAL B",
-          "imagen": "https://lh3.googleusercontent.com/d/1Pz8UbdaIUFVpu-QyiNSbmI0uYLCPCTEF=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Pz8UbdaIUFVpu-QyiNSbmI0uYLCPCTEF=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Tipo Jeringa Gel 30 G SANGHA",
-          "imagen": "https://lh3.googleusercontent.com/d/1QPhULb44UjbFaRLceQZfEGFj3yFfyL-r=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1QPhULb44UjbFaRLceQZfEGFj3yFfyL-r=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Fumin 250ml",
           "capacidad": "250ml",
-          "imagen": "https://lh3.googleusercontent.com/d/1QlA66qdL0U4mQAkdeCfplyKktcCwwPmW=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1QlA66qdL0U4mQAkdeCfplyKktcCwwPmW=w200-h200-c"
         },
         {
           "nombre": "Pega Ratas Mediana c/2 Clean House",
-          "imagen": "https://lh3.googleusercontent.com/d/1UrHMl6zFvBICPjPWWRGqtTgWXsz2ifvL=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1UrHMl6zFvBICPjPWWRGqtTgWXsz2ifvL=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Insecticida en Espirales VERDE c/50 VAPE (RAIDOLITO)",
-          "imagen": "https://lh3.googleusercontent.com/d/1XFzGfUhiFGy-f3EOMnb7wpd5gjK_uhnU=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1XFzGfUhiFGy-f3EOMnb7wpd5gjK_uhnU=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Cereal Rosa para rata",
-          "imagen": "https://lh3.googleusercontent.com/d/1bLTMs10EWTmLKfVmNCHr_r7KoONs2JnV=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1bLTMs10EWTmLKfVmNCHr_r7KoONs2JnV=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Insecticida en Aerosol Maton 450ml GDOS",
           "capacidad": "450ml",
-          "imagen": "https://lh3.googleusercontent.com/d/1na7WbsSuY0wxdWpJpm46vzM-rzFSf2V0=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1na7WbsSuY0wxdWpJpm46vzM-rzFSf2V0=w200-h200-c"
         },
         {
           "nombre": "Pega Ratas Grande c/2 Clean House",
-          "imagen": "https://lh3.googleusercontent.com/d/1soyZuCFK38hVavtOmynQInb3BDTuab_Q=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1soyZuCFK38hVavtOmynQInb3BDTuab_Q=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Mata Insectos Extra Concentrado 500ml KILLER",
-          "imagen": "https://lh3.googleusercontent.com/d/1uPDduTZ9z_VDpj5ne_e4TG1kbjBReihM=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1uPDduTZ9z_VDpj5ne_e4TG1kbjBReihM=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno POLVEX",
-          "imagen": "https://lh3.googleusercontent.com/d/1-xrznguLlyvSG7Bj2hYB0QGVYmdVyjoq=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1-xrznguLlyvSG7Bj2hYB0QGVYmdVyjoq=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Repelente de Mosquitos 230ml GDOS",
-          "imagen": "https://lh3.googleusercontent.com/d/198ZJTvDjFOU9wjW73eSAgz7Htz03PBd4=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/198ZJTvDjFOU9wjW73eSAgz7Htz03PBd4=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Huevito Rata",
-          "imagen": "https://lh3.googleusercontent.com/d/19Jy_gks8DlsleeGbLIIoHNYiwOfYTDGm=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/19Jy_gks8DlsleeGbLIIoHNYiwOfYTDGm=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Laminitas RAID c/108 + Aparato Gratis",
-          "imagen": "https://lh3.googleusercontent.com/d/1HmPyzuN8L7kTVNpK2Jo_mPVz8MjZq-Bd=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1HmPyzuN8L7kTVNpK2Jo_mPVz8MjZq-Bd=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Para Cucaracha 1 Litro FLIT CONTROL",
-          "imagen": "https://lh3.googleusercontent.com/d/1Mi5uULr1Yn1M59GwBOfgjMEKsNMDHlAF=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Mi5uULr1Yn1M59GwBOfgjMEKsNMDHlAF=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Para Mosca 1 litro FLIT CONTROL",
           "capacidad": "1L",
-          "imagen": "https://lh3.googleusercontent.com/d/1PVwsU4H71gRI2mKVzA1Qn1VS77i73DQU=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1PVwsU4H71gRI2mKVzA1Qn1VS77i73DQU=w200-h200-c"
         },
         {
           "nombre": "Veneno Costalito Mágico",
-          "imagen": "https://lh3.googleusercontent.com/d/1QTPmwslvYjxDxr5K-oQNfbZlNzuAO5h5=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1QTPmwslvYjxDxr5K-oQNfbZlNzuAO5h5=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Fumin 100ml",
           "capacidad": "100ml",
-          "imagen": "https://lh3.googleusercontent.com/d/1Rif9404KIzXfzRXn8KOMxLvoNbf_97s3=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Rif9404KIzXfzRXn8KOMxLvoNbf_97s3=w200-h200-c"
         },
         {
           "nombre": "Pega Ratas chica c/2 Clean House",
-          "imagen": "https://lh3.googleusercontent.com/d/1TeXCRLI9-8XRSGv45wMIILKi1UH-Om_w=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1TeXCRLI9-8XRSGv45wMIILKi1UH-Om_w=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Pegamoscas c/4 YUAN MART",
-          "imagen": "https://lh3.googleusercontent.com/d/1WRHdFhWYXin5KhX4C-IfUHHU42fbj7DX=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1WRHdFhWYXin5KhX4C-IfUHHU42fbj7DX=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Láminitas XTRON c/30",
-          "imagen": "https://lh3.googleusercontent.com/d/1_mRheniejU5YMlyToFoFU7JuM0wsv-CK=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1_mRheniejU5YMlyToFoFU7JuM0wsv-CK=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Ácido Bórico Sobres",
-          "imagen": "https://lh3.googleusercontent.com/d/1j69SrkbtHnEEDFSY1NGpNmdYhcyL3Uvb=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1j69SrkbtHnEEDFSY1NGpNmdYhcyL3Uvb=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno SIN OLOR Para Cucaracha 1 Litro FLIT CONTROL",
-          "imagen": "https://lh3.googleusercontent.com/d/1k6ezXPhqXeirylGh6txcDgT5C5vD1uJy=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1k6ezXPhqXeirylGh6txcDgT5C5vD1uJy=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Veneno Mosquicida Soluble (AZUL)",
-          "imagen": "https://lh3.googleusercontent.com/d/1FnlVnTBabl6OIR1fcGaMFbcUHcvP8XHd=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1FnlVnTBabl6OIR1fcGaMFbcUHcvP8XHd=w200-h200-c",
+          "capacidad": " "
         }
       ]
     },
@@ -200,51 +240,63 @@
       "productos": [
         {
           "nombre": "Trapeador Pabilo BLANCO #24",
-          "imagen": "https://lh3.googleusercontent.com/d/14RJta9nhQ7WFP0pq3nqHgxnQXn8gReKY=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/14RJta9nhQ7WFP0pq3nqHgxnQXn8gReKY=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Hilaza BLANCO #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1Gu-5P7Tqr40jbUHb0IT0aDJHOBPVih0p=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Gu-5P7Tqr40jbUHb0IT0aDJHOBPVih0p=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Pabilaza COLOR #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1VUL3R6_NuND0PO9fkQ7npElVQHLaIGyQ=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1VUL3R6_NuND0PO9fkQ7npElVQHLaIGyQ=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Magitel #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1XlZM-tfeLHFf3mqw0pYmTBwDiN7pw7ZD=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1XlZM-tfeLHFf3mqw0pYmTBwDiN7pw7ZD=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Microtela #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1YT27qm-bh6brc9R3mu_05vtV_z9_QzN-=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1YT27qm-bh6brc9R3mu_05vtV_z9_QzN-=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Mini",
-          "imagen": "https://lh3.googleusercontent.com/d/1_MCg6vu8-VwaYJ47pJ28RtjL55a7kS_x=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1_MCg6vu8-VwaYJ47pJ28RtjL55a7kS_x=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Magico #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1bM9EL0Ps7LsQMSz1G-VeDmYPraeS2bP4=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1bM9EL0Ps7LsQMSz1G-VeDmYPraeS2bP4=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Pabilaza BLANCO #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1dGPSC78L5L8sNvwM7FfnIMReApxknz3m=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1dGPSC78L5L8sNvwM7FfnIMReApxknz3m=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Hilaza COLOR #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1gDNdCQY425bRIWVYF-6m0Q8I5nf5SR3K=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1gDNdCQY425bRIWVYF-6m0Q8I5nf5SR3K=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Hilaza Española #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1pCdcyAY0AYS2x4pEh3OPX3U8KK13qH_T=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1pCdcyAY0AYS2x4pEh3OPX3U8KK13qH_T=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Repuesto Microtela #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1qXqZavL5s7sAo_Ye1p_N0VoJQErMpnU1=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1qXqZavL5s7sAo_Ye1p_N0VoJQErMpnU1=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Trapeador Pabilo COLOR #24",
-          "imagen": "https://lh3.googleusercontent.com/d/1uzlQIM2KqxxlTb8AygOIj81vw8PwJZHm=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1uzlQIM2KqxxlTb8AygOIj81vw8PwJZHm=w200-h200-c",
+          "capacidad": " "
         }
       ]
     },
@@ -253,247 +305,308 @@
       "productos": [
         {
           "nombre": "Tela Microfibra Special Chica 40x40 MIROSLAVA",
-          "imagen": "https://lh3.googleusercontent.com/d/1BO4wX_xUh8MgeJYPZaqvNC2sfAjSAyKZ=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1BO4wX_xUh8MgeJYPZaqvNC2sfAjSAyKZ=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tela Microfibra extra grande 40x60 DON MICRO",
-          "imagen": "https://lh3.googleusercontent.com/d/1SwptJKPvol1lL3qQNH13Y_OASUu61CsP=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1SwptJKPvol1lL3qQNH13Y_OASUu61CsP=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo de mano Lupita",
-          "imagen": "https://lh3.googleusercontent.com/d/1nBymsFJmHxQH9Brg05ibpibOVrW2oRrL=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1nBymsFJmHxQH9Brg05ibpibOVrW2oRrL=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tela Microfibra Extra Grande 40x60 cm ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/1wQwhLJlm64p6ulGvsAuZtux5xqeH9ci2=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1wQwhLJlm64p6ulGvsAuZtux5xqeH9ci2=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tela Microfibra 40x60cm KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1zlcdao2MEFN6S_T-QPYMxpPROAlNotr_=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1zlcdao2MEFN6S_T-QPYMxpPROAlNotr_=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo alague",
-          "imagen": "https://lh3.googleusercontent.com/d/14JCLGE3_MRlFfI9gsREKShaVEy9R2Fxn=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/14JCLGE3_MRlFfI9gsREKShaVEy9R2Fxn=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo tipo plancha",
-          "imagen": "https://lh3.googleusercontent.com/d/14c1EezEC3OlME-COUcho0e4Kav4QEL4M=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/14c1EezEC3OlME-COUcho0e4Kav4QEL4M=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Atomizador ECONOMICO Uso Rudo (Valvula, Pistola)",
-          "imagen": "https://lh3.googleusercontent.com/d/15RbUMvKKtgTQoAo10oALN2s-FlpJMQ6h=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/15RbUMvKKtgTQoAo10oALN2s-FlpJMQ6h=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Piedra pomez bolsita",
-          "imagen": "https://lh3.googleusercontent.com/d/15rBXXxB27kix0OSVheZlkV4kliWzxAMy=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/15rBXXxB27kix0OSVheZlkV4kliWzxAMy=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escobillon c/base para baño Lupita",
-          "imagen": "https://lh3.googleusercontent.com/d/1825K1cvagzEAmnkmrC2VJuJ4pyz-BNRq=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1825K1cvagzEAmnkmrC2VJuJ4pyz-BNRq=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tela Microfibra Special Chica 40x40 MIROSLAVA",
-          "imagen": "https://lh3.googleusercontent.com/d/18nuD4UDX8Gtj_gzArLGg--nLeg3yI09z=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/18nuD4UDX8Gtj_gzArLGg--nLeg3yI09z=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escobeta Lechuguilla",
-          "imagen": "https://lh3.googleusercontent.com/d/19Cd22nHzaD-lnQ-Ronl_q0IYcProGFjL=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/19Cd22nHzaD-lnQ-Ronl_q0IYcProGFjL=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Atomizador CANYON Uso Rudo (Valvula, Pistola)",
-          "imagen": "https://lh3.googleusercontent.com/d/1FzJ91OqHFFov8Mk_4VwO-sj3a3mlHFA2=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1FzJ91OqHFFov8Mk_4VwO-sj3a3mlHFA2=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Jalador vidrios",
-          "imagen": "https://lh3.googleusercontent.com/d/1GJrphVKy-jZPpWAQl5GwRWEabYXtACXp=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1GJrphVKy-jZPpWAQl5GwRWEabYXtACXp=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Estropajo de lxte Paquete c/10",
-          "imagen": "https://lh3.googleusercontent.com/d/1GztR27N5a-AfezItN8jI_NxZjevABhPi=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1GztR27N5a-AfezItN8jI_NxZjevABhPi=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Destapacaños Grande de Colores",
-          "imagen": "https://lh3.googleusercontent.com/d/1HKI_p6m_EHEQQAdzWdYRE0dUhl6Ds-Rb=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1HKI_p6m_EHEQQAdzWdYRE0dUhl6Ds-Rb=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tendedero Lazo de Cañamo BLANCO 10m",
-          "imagen": "https://lh3.googleusercontent.com/d/1JfKLl9z-PDNkfYTfUURkNSl0Qi70OQMA=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1JfKLl9z-PDNkfYTfUURkNSl0Qi70OQMA=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo Mano Flexible KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1KDxAYQ1YXCzMBfKBWuc2eem5J3fG_2EB=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1KDxAYQ1YXCzMBfKBWuc2eem5J3fG_2EB=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo Lavaplatos FLIPP",
-          "imagen": "https://lh3.googleusercontent.com/d/1Kx7-6lJxkPwxYUMCqAdyAaQ1MaQysb5a=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Kx7-6lJxkPwxYUMCqAdyAaQ1MaQysb5a=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Recogedor plástico STELA",
-          "imagen": "https://lh3.googleusercontent.com/d/1L2cOMUzS0vlmDUxV5pfJFY8bl-HJXrxb=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1L2cOMUzS0vlmDUxV5pfJFY8bl-HJXrxb=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Recogedor Plastico Con Baston Madera KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1LcEk053Khl0hH9M1yyA2sXufdsz-P-Zo=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1LcEk053Khl0hH9M1yyA2sXufdsz-P-Zo=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Funda para Mop 40cm CASTOR",
-          "imagen": "https://lh3.googleusercontent.com/d/1NFnoqES6y3Jw12eRoqDzLJEzc-Ij-Jhf=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1NFnoqES6y3Jw12eRoqDzLJEzc-Ij-Jhf=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Atomizador Economico (Valvula, Pistola)",
-          "imagen": "https://lh3.googleusercontent.com/d/1Nc49kgPfQFJCS8CKyYIUtwKUx3OyDuD4=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Nc49kgPfQFJCS8CKyYIUtwKUx3OyDuD4=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Matamoscas Grande",
-          "imagen": "https://lh3.googleusercontent.com/d/1PhOZxhuwaX5Sg5p9M2V-FBPqHlczGjAq=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1PhOZxhuwaX5Sg5p9M2V-FBPqHlczGjAq=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tela Microfibra Estampada 40x40 cm MIROSLAVA",
-          "imagen": "https://lh3.googleusercontent.com/d/1R6rkAuRKkYHjsWMiZkeWHpBlia6ecBU5=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1R6rkAuRKkYHjsWMiZkeWHpBlia6ecBU5=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Recogedor Plastico Baston Lamina Y Orilla De Hule",
-          "imagen": "https://lh3.googleusercontent.com/d/1Tbc6dfNeOuhuktW91c1GOgmZwnO183KX=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Tbc6dfNeOuhuktW91c1GOgmZwnO183KX=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Atomizador Polietileno Con Pistola Uso Rudo 500 ml",
-          "imagen": "https://lh3.googleusercontent.com/d/1TgQx7ovZZdUm-03Iv1_4Y9g2OsLKcKYq=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1TgQx7ovZZdUm-03Iv1_4Y9g2OsLKcKYq=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tela Microfibra Mini paq c/4 30x30 FASHION CLEAN",
-          "imagen": "https://lh3.googleusercontent.com/d/1U9coba1k6f5rHHhRvpEHGJrRE5nzjWfA=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1U9coba1k6f5rHHhRvpEHGJrRE5nzjWfA=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante verde Solvex MEDIANO #8",
-          "imagen": "https://lh3.googleusercontent.com/d/1UMcXfCQdFkGcsk7lgM3O9Ml9rBD3boT7=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1UMcXfCQdFkGcsk7lgM3O9Ml9rBD3boT7=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante T/10 de Nylon recubierto de Poliuretano ANTE",
-          "imagen": "https://lh3.googleusercontent.com/d/1WCYe-S0Fvt3ZWhj08HcBNBm2I5Byuj9r=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1WCYe-S0Fvt3ZWhj08HcBNBm2I5Byuj9r=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tela Microfibra Jumbo 50x100 cm FASHION CLEAN",
-          "imagen": "https://lh3.googleusercontent.com/d/1X_aSmKfzMSrbstnc5nIlItwWwXxIs1jm=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1X_aSmKfzMSrbstnc5nIlItwWwXxIs1jm=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escobeta mango plástico",
-          "imagen": "https://lh3.googleusercontent.com/d/1YSC6hsQp_ZYSwRqF2Lz8gpTbfFIfC-IO=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1YSC6hsQp_ZYSwRqF2Lz8gpTbfFIfC-IO=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo Para Biberón Económico",
-          "imagen": "https://lh3.googleusercontent.com/d/1ZLM106xcgFyKukf5yWiCW-Idti3zKfzn=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1ZLM106xcgFyKukf5yWiCW-Idti3zKfzn=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Recogedor Plastico Mano KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1ZYtk3Q-UZZxpwx3LTjL6t6yOtV-N9VQs=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1ZYtk3Q-UZZxpwx3LTjL6t6yOtV-N9VQs=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo Mano Mini KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1ZqmTaI-PE_ZyNzuE04Nj2LC9gkFz2gio=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1ZqmTaI-PE_ZyNzuE04Nj2LC9gkFz2gio=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tendedero Lazo 7m 50 cm",
-          "imagen": "https://lh3.googleusercontent.com/d/1ayNgPgUjTEHWJslr-byalfWP3n_LGmcq=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1ayNgPgUjTEHWJslr-byalfWP3n_LGmcq=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tendedero Lazo 10m De Polietileno KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1bBgDdgIr1FgeEURDY3W5bZ9JBmA2cxtK=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1bBgDdgIr1FgeEURDY3W5bZ9JBmA2cxtK=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillos Multiusos Paq c/3 FASHION CLEAN",
-          "imagen": "https://lh3.googleusercontent.com/d/1ckdTnfdMWwWUGLTA_hN1ShNv7d3fhUuI=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1ckdTnfdMWwWUGLTA_hN1ShNv7d3fhUuI=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Base para Mop 40cm CASTOR",
-          "imagen": "https://lh3.googleusercontent.com/d/1d4ML4UWPpVFRiAPsrniTWuh0nvgX3yJU=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1d4ML4UWPpVFRiAPsrniTWuh0nvgX3yJU=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Recogedor Medio Bote lamina",
-          "imagen": "https://lh3.googleusercontent.com/d/1gwBDWvKsYmLYZVoBdKyZ4JT-8fcTHUm7=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1gwBDWvKsYmLYZVoBdKyZ4JT-8fcTHUm7=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Recogedor lamina",
-          "imagen": "https://lh3.googleusercontent.com/d/1mBW-CoaeBOTaUdNRYyjifY5Z1Uq6TJUb=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1mBW-CoaeBOTaUdNRYyjifY5Z1Uq6TJUb=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Destapacaños De 15cm KLINTEK (Bomba negra)",
-          "imagen": "https://lh3.googleusercontent.com/d/1pBYUBDGw4oOPU2KQNJLHtRIrTgm47DqR=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1pBYUBDGw4oOPU2KQNJLHtRIrTgm47DqR=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Matamoscas Mediano",
-          "imagen": "https://lh3.googleusercontent.com/d/1pWYzX-zb_RnHbOcO3wKnvotPJGHt1Z5J=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1pWYzX-zb_RnHbOcO3wKnvotPJGHt1Z5J=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Pinza de Madera c/20",
-          "imagen": "https://lh3.googleusercontent.com/d/1r3tLFMrrV1Xe5kV6NjGn-PM_zAHv7_hA=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1r3tLFMrrV1Xe5kV6NjGn-PM_zAHv7_hA=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Pinza jumbo c/36",
-          "imagen": "https://lh3.googleusercontent.com/d/1rgVX45xdKt1cjR49HTGoiWnvTEJ31vn1=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1rgVX45xdKt1cjR49HTGoiWnvTEJ31vn1=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Destapacaños Economico (bomba negra)",
-          "imagen": "https://lh3.googleusercontent.com/d/1rwAcoL818tPRUpDlvT1uc3XAxpoXjQAc=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1rwAcoL818tPRUpDlvT1uc3XAxpoXjQAc=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo Mano Flexible KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1sQquYL1MGWd7cojkMxTrOLBfGAnjzkDA=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1sQquYL1MGWd7cojkMxTrOLBfGAnjzkDA=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante T/8 de Nylon recubierto de Poliuretano ANTE",
-          "imagen": "https://lh3.googleusercontent.com/d/1svhcMUFQGAenyUhiHI9WqT5b6SarVrY3=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1svhcMUFQGAenyUhiHI9WqT5b6SarVrY3=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo mano mini Lupita",
-          "imagen": "https://lh3.googleusercontent.com/d/1vKoQRzvvA040wPFT5azq55vWs2a9YsqO=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1vKoQRzvvA040wPFT5azq55vWs2a9YsqO=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Limpia Hornos 470g MONY (Quitacochambre)",
-          "imagen": "https://lh3.googleusercontent.com/d/1xgn9sUrK-abyGYd5pTJ0hSsTCtXLtoWi=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1xgn9sUrK-abyGYd5pTJ0hSsTCtXLtoWi=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Destapacaños Mini para lavabo",
-          "imagen": "https://lh3.googleusercontent.com/d/1y2roTOpMDPkIL05OkzAYXUeZ3LPCGMto=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1y2roTOpMDPkIL05OkzAYXUeZ3LPCGMto=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Ganchos Plástico para ropa c/10",
-          "imagen": "https://lh3.googleusercontent.com/d/1yuq80smSNdk7eq8I75Rw75spQdVOsq0I=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1yuq80smSNdk7eq8I75Rw75spQdVOsq0I=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Recogedor abatible con ruedas OVAL",
-          "imagen": "https://lh3.googleusercontent.com/d/16IzTyjhK6vXNufOJrndSxM5GeZum4bVI=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/16IzTyjhK6vXNufOJrndSxM5GeZum4bVI=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Esponja Tipo Ocho FASHION CLEAN",
-          "imagen": "https://lh3.googleusercontent.com/d/19sFPa7f1uwfR2BNnRWzpMQLdArRBbl9C=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/19sFPa7f1uwfR2BNnRWzpMQLdArRBbl9C=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Tipo jerga",
-          "imagen": "https://lh3.googleusercontent.com/d/1PSbX72Gq8TLUKPcjMZ-3wwaX1y7eICAg=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1PSbX72Gq8TLUKPcjMZ-3wwaX1y7eICAg=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Telas absorbentes c/3 MIROSLAVA",
-          "imagen": "https://lh3.googleusercontent.com/d/1dkUqMYG_MwXq6riTrSBPr29N8jgyEOUQ=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1dkUqMYG_MwXq6riTrSBPr29N8jgyEOUQ=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante GRANDE NEGRO de Nitrilo c/100 DERMACARE",
-          "imagen": "https://lh3.googleusercontent.com/d/1dpWhNOkola2XPwPXWqeZDMy7b6XjsOKw=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1dpWhNOkola2XPwPXWqeZDMy7b6XjsOKw=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante latex CHICO #7 HULTEX",
-          "imagen": "https://lh3.googleusercontent.com/d/1rLRbMw-alK73fwieEONq_MLIhnOhW10M=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1rLRbMw-alK73fwieEONq_MLIhnOhW10M=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante GRANDE AZUL de Nitrilo c/100 DERMACARE",
-          "imagen": "https://lh3.googleusercontent.com/d/1v3-44YND7Ds0RQmJic_5RB-dr7v1LEGQ=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1v3-44YND7Ds0RQmJic_5RB-dr7v1LEGQ=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante T/9 de Nylon recubierto de Poliuretano ANTE",
-          "imagen": "https://lh3.googleusercontent.com/d/1wPsrcEI2qo03hwLlhxVS3HFgtK7tohC-=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1wPsrcEI2qo03hwLlhxVS3HFgtK7tohC-=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Guante Latex GRANDE OVAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1y_AOGLOxE4OL5qtgKipsVov7s6QOWovk=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1y_AOGLOxE4OL5qtgKipsVov7s6QOWovk=w200-h200-c",
+          "capacidad": " "
         }
       ]
     },
@@ -502,59 +615,73 @@
       "productos": [
         {
           "nombre": "Toalla en rollo 180m FAPSA",
-          "imagen": "https://lh3.googleusercontent.com/d/122gDx6vRkFHmlsBxCofLkPOC434itm0L=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/122gDx6vRkFHmlsBxCofLkPOC434itm0L=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Pañuelos KLEENEX c/90",
-          "imagen": "https://lh3.googleusercontent.com/d/15fILGEZFPVq2xY3MH3ONmBN23ug6Y6Ye=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/15fILGEZFPVq2xY3MH3ONmBN23ug6Y6Ye=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rollo papel JUMBO 360m ELITE",
-          "imagen": "https://lh3.googleusercontent.com/d/19SAod7dNMsedjNG2jHsYqPqnQCvImC8v=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/19SAod7dNMsedjNG2jHsYqPqnQCvImC8v=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rollo de papel institucional JUMBO 400m INSTITUCIONAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1B-NCcuFbsYkrvx17i8vsCbHkvHfB7o1D=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1B-NCcuFbsYkrvx17i8vsCbHkvHfB7o1D=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rollo papel JUNIOR 160m DALIA",
-          "imagen": "https://lh3.googleusercontent.com/d/1DmX-TKOcUHC53DFhdOnnoKblEFu6QDox=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1DmX-TKOcUHC53DFhdOnnoKblEFu6QDox=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Toalla interdoblada ELITE c/100 (Sanitas papel)",
-          "imagen": "https://lh3.googleusercontent.com/d/1JAeORQYHZ8VhfJXdOHyHjmhqAyl6W1cV=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1JAeORQYHZ8VhfJXdOHyHjmhqAyl6W1cV=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Servilleta De Mesa c/500 BIO NAPKINS",
-          "imagen": "https://lh3.googleusercontent.com/d/1PbHhGK0lzjTfcskd09KmDWx9SH9rFOyk=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1PbHhGK0lzjTfcskd09KmDWx9SH9rFOyk=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Toalla Interdoblada DALIA c/100 (Sanitas DALITAS)",
-          "imagen": "https://lh3.googleusercontent.com/d/1Wpu298yKrFMFIfeOtJlmdKMbVzYkgilW=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Wpu298yKrFMFIfeOtJlmdKMbVzYkgilW=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rollo papel JUNIOR 160m ELITE",
-          "imagen": "https://lh3.googleusercontent.com/d/1XqzM88YJuvvMGeZOSRj2gLEbyHhIx83m=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1XqzM88YJuvvMGeZOSRj2gLEbyHhIx83m=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Servilleta Barra Mesa PETALO",
-          "imagen": "https://lh3.googleusercontent.com/d/1YK6mlfg32_eJ0HTyN1EzHfWqqS8d6gCf=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1YK6mlfg32_eJ0HTyN1EzHfWqqS8d6gCf=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rollo de papel institucional JUNIOR 180m INSTITUCIONAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1gLN4uA8YJHUDJ6JQRbci2xdx6WmopjwA=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1gLN4uA8YJHUDJ6JQRbci2xdx6WmopjwA=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Toalla en rollo 160m ELITE",
-          "imagen": "https://lh3.googleusercontent.com/d/1k7Y6upj4aNVKhpo_Or3-4jACg5LmZ8Qe=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1k7Y6upj4aNVKhpo_Or3-4jACg5LmZ8Qe=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Toalla interdoblada c/100 SANILUX (sanitas papel)",
-          "imagen": "https://lh3.googleusercontent.com/d/1kBS05-5H1wI1tW5iVGXAMQSPStqYzpt_=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1kBS05-5H1wI1tW5iVGXAMQSPStqYzpt_=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Rollo papel JUMBO 360m DALIA",
-          "imagen": "https://lh3.googleusercontent.com/d/1woMRm1mvEuMSWr_vduxQ5ycRJ5gItqKH=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1woMRm1mvEuMSWr_vduxQ5ycRJ5gItqKH=w200-h200-c",
+          "capacidad": " "
         }
       ]
     },
@@ -563,31 +690,38 @@
       "productos": [
         {
           "nombre": "Fibra Cuerpo Burbuja C/Jabon GRANDE T TAIO",
-          "imagen": "https://lh3.googleusercontent.com/d/105MP8tY6rh94unibrVbDbuo6MgrzxKD-=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/105MP8tY6rh94unibrVbDbuo6MgrzxKD-=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra cuerpo Miroslava",
-          "imagen": "https://lh3.googleusercontent.com/d/1Iu6AOxTDf1NHWYCFGdW-8-TLs7xape0D=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Iu6AOxTDf1NHWYCFGdW-8-TLs7xape0D=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra cuerpo burbuja c/3 Fashion",
-          "imagen": "https://lh3.googleusercontent.com/d/1SVkb-kTySnIslv92za7CB8ple7xoLUQ9=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1SVkb-kTySnIslv92za7CB8ple7xoLUQ9=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra cuerpo Saluk Fashion",
-          "imagen": "https://lh3.googleusercontent.com/d/1WpJ_W9CXwDIk-TncxvsZ3ERaCKFm5yWJ=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1WpJ_W9CXwDIk-TncxvsZ3ERaCKFm5yWJ=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra Cuerpo Bebe Miroslava",
-          "imagen": "https://lh3.googleusercontent.com/d/1aWzuKw4lEXHMIMqXg_Yx5U9ltiCBj-VI=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1aWzuKw4lEXHMIMqXg_Yx5U9ltiCBj-VI=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra cuerpo burbuja Grande",
-          "imagen": "https://lh3.googleusercontent.com/d/1nNdYC33y6jIbaSMNXVV7Fl9hoiSW4G4m=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1nNdYC33y6jIbaSMNXVV7Fl9hoiSW4G4m=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra Cuerpo bebe c/2 Fashion Clean",
-          "imagen": "https://lh3.googleusercontent.com/d/1xmmPCb8Gqqft-LCgYuMTdGWcQ1ii2h5a=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1xmmPCb8Gqqft-LCgYuMTdGWcQ1ii2h5a=w200-h200-c",
+          "capacidad": " "
         }
       ]
     },
@@ -596,63 +730,78 @@
       "productos": [
         {
           "nombre": "Fibra Cuadrítela trastes",
-          "imagen": "https://lh3.googleusercontent.com/d/180Xbnb-sJKruftWu7vVqhFJ-JMSgxotu=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/180Xbnb-sJKruftWu7vVqhFJ-JMSgxotu=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra P96 Verde Scotch Brite",
-          "imagen": "https://lh3.googleusercontent.com/d/1XZMoPvMPi5jHwtkrrUunb67J5VT2E10b=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1XZMoPvMPi5jHwtkrrUunb67J5VT2E10b=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra P66 Blanca Scotch Brite",
-          "imagen": "https://lh3.googleusercontent.com/d/1p08qNBJ14CM5IZvUJd1Hd906IUboJTgG=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1p08qNBJ14CM5IZvUJd1Hd906IUboJTgG=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra de Acero Inoxidable Jumbo c/2",
-          "imagen": "https://lh3.googleusercontent.com/d/1zvUkm-0XmK8GMNH_xrYXpCx1P1IIqJi7=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1zvUkm-0XmK8GMNH_xrYXpCx1P1IIqJi7=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra Tallon plata",
-          "imagen": "https://lh3.googleusercontent.com/d/14FFd-A9r7eAPcbXIR8gZqjz-FFM6YnfG=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/14FFd-A9r7eAPcbXIR8gZqjz-FFM6YnfG=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra fregon",
-          "imagen": "https://lh3.googleusercontent.com/d/15_FdLLz8D1wLv8_lIdSIVr_erT3lAQG3=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/15_FdLLz8D1wLv8_lIdSIVr_erT3lAQG3=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "TIRA Fibra Verde c/Esponja Scotch Brite c/6",
-          "imagen": "https://lh3.googleusercontent.com/d/16jX2s29PFi4IBfm-DVllLWa_PB3l4yWv=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/16jX2s29PFi4IBfm-DVllLWa_PB3l4yWv=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra P76 Negra Scotch Brite",
-          "imagen": "https://lh3.googleusercontent.com/d/1JRszykL9I5NtvYtAPz8kliVI3HVNrmsq=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1JRszykL9I5NtvYtAPz8kliVI3HVNrmsq=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra para trastes King Wash",
-          "imagen": "https://lh3.googleusercontent.com/d/1OefsJh9CkfLzSdyAf-GORYaVt6SEdbCI=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1OefsJh9CkfLzSdyAf-GORYaVt6SEdbCI=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra Tallon oro",
-          "imagen": "https://lh3.googleusercontent.com/d/1R9U9Y8CGMKtu3YVydfhJD7ZGWnEd-PeA=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1R9U9Y8CGMKtu3YVydfhJD7ZGWnEd-PeA=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra tipo ajax c/10",
-          "imagen": "https://lh3.googleusercontent.com/d/1U7Tbuw_I2VmGhnhrHunTmiPr3nPxPSPb=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1U7Tbuw_I2VmGhnhrHunTmiPr3nPxPSPb=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra P94 Verde c/Esponja Scotch Brite",
-          "imagen": "https://lh3.googleusercontent.com/d/1UB3-t9irRnB_uIrvQXwGo0pbW_V-vOUF=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1UB3-t9irRnB_uIrvQXwGo0pbW_V-vOUF=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "TIRA Fibra Acero Inoxidable c/12",
-          "imagen": "https://lh3.googleusercontent.com/d/1aBSrjcxp55DEmT7R8zbR21A7JwlSFq4E=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1aBSrjcxp55DEmT7R8zbR21A7JwlSFq4E=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra rasposo de color",
-          "imagen": "https://lh3.googleusercontent.com/d/1ijfN_yGAK6ItLWdrb0vMAGz2L-XX5d07=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1ijfN_yGAK6ItLWdrb0vMAGz2L-XX5d07=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Fibra negra Polifibra",
-          "imagen": "https://lh3.googleusercontent.com/d/1mSgeeaerFAsWWxW_6k0vB5DyHv97dHzu=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1mSgeeaerFAsWWxW_6k0vB5DyHv97dHzu=w200-h200-c",
+          "capacidad": " "
         }
       ]
     },
@@ -661,388 +810,98 @@
       "productos": [
         {
           "nombre": "Escoba Cepillo Industrial Cerda Rígida 40cm KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1-rFxXGJjUov4FoEa-yHzvSQiS2iibJfi=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1-rFxXGJjUov4FoEa-yHzvSQiS2iibJfi=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cepillo Industrial SUAVE 50cm KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/10vy3sM6l9G3SC7W6A9Teb55z31sfQYAa=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/10vy3sM6l9G3SC7W6A9Teb55z31sfQYAa=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cladiador ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/134cRa7t19cHx2mx25Q4pPeZgP8BfCKpy=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/134cRa7t19cHx2mx25Q4pPeZgP8BfCKpy=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cepillo Uso Rudo (Con baston inclinado) ASEO",
-          "imagen": "https://lh3.googleusercontent.com/d/13t_fn_Dm6p0kt7FgDZq6Rn54I1CKBBEZ=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/13t_fn_Dm6p0kt7FgDZq6Rn54I1CKBBEZ=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Super Plus ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/15s2bTSCRDNV3rljWkLyyIKyemYN7xRIK=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/15s2bTSCRDNV3rljWkLyyIKyemYN7xRIK=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cepillo Payaso",
-          "imagen": "https://lh3.googleusercontent.com/d/19eF8_YNErz-MjynpTDchk2t_r9vXlfcF=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/19eF8_YNErz-MjynpTDchk2t_r9vXlfcF=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Pinky Broom (Veneciana COLOR) IDEAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1ADDvZYyzaJyuCJtRteIBugW8ETLjDYVD=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1ADDvZYyzaJyuCJtRteIBugW8ETLjDYVD=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cepillo Jumbo SUAVE ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/1AY--_b21oCxqfNt_V-Q4vTr9-erqKxTL=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1AY--_b21oCxqfNt_V-Q4vTr9-erqKxTL=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Abanico Grande ASEO",
-          "imagen": "https://lh3.googleusercontent.com/d/1Aad_7-AZPvRl4ixrGQ-9DTeWKH-8MLQY=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1Aad_7-AZPvRl4ixrGQ-9DTeWKH-8MLQY=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Emperador ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/1BaMafPfQs7u2nGBkDTxgEnDgHbPQ-fT0=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1BaMafPfQs7u2nGBkDTxgEnDgHbPQ-fT0=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Cepillo corto ASEO",
-          "imagen": "https://lh3.googleusercontent.com/d/1NB0Yh34uKvsudIg8HuedPpDgr_HDD72s=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1NB0Yh34uKvsudIg8HuedPpDgr_HDD72s=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cepillo Industrial Cerda Rígida 30cm KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1RA-uHvkDlYYBI-M9OnhsKiHX0kZbZWIE=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1RA-uHvkDlYYBI-M9OnhsKiHX0kZbZWIE=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Italiana (abanico chico) ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/1RYw1m0P8W_q8q7CD1TKV1TXStmLVsAH_=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1RYw1m0P8W_q8q7CD1TKV1TXStmLVsAH_=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cepillo Industrial SUAVE 60cm KLINTEK",
-          "imagen": "https://lh3.googleusercontent.com/d/1SCozO72TfyYedwWxboyEH6Mm__USlPaN=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1SCozO72TfyYedwWxboyEH6Mm__USlPaN=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Italmax (Abanico chico)",
-          "imagen": "https://lh3.googleusercontent.com/d/1SI_w84gC-IQ5p4MqQxSwJyeySv8snAfY=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1SI_w84gC-IQ5p4MqQxSwJyeySv8snAfY=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Espiga Seis Hilos (bastón naranja)",
-          "imagen": "https://lh3.googleusercontent.com/d/1SJxn4Uxg87DEan-uy1gIG-Laa5902k69=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1SJxn4Uxg87DEan-uy1gIG-Laa5902k69=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Colorama IDEAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1VE9zjgEq914YYatvVYLRPwvrm_-PoSxX=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1VE9zjgEq914YYatvVYLRPwvrm_-PoSxX=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Mini",
-          "imagen": "https://lh3.googleusercontent.com/d/1VlIeqATVXHeyY_hbwrtomBlqDjFqVisQ=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1VlIeqATVXHeyY_hbwrtomBlqDjFqVisQ=w200-h200-c",
+          "capacidad": " "
         },
         {
           "nombre": "Escoba Cepillo Super Jumbo ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/1_iMTceTY6VjaV7SKibwriOA1XnYb1VMc=s220"
-        },
-        {
-          "nombre": "Escoba Cepillo Borgui con Bolsa ASEO",
-          "imagen": "https://lh3.googleusercontent.com/d/1blvlAulkjWaCypC-GnEOUfEnWW7mVtIf=s220"
-        },
-        {
-          "nombre": "Escoba Cepillo Uso Rudo ECONOMICO (Con bastón inclinado) ASEO",
-          "imagen": "https://lh3.googleusercontent.com/d/1cnFju9ma5cvoJE4L6W_ylKjYD6qqRDbI=s220"
-        },
-        {
-          "nombre": "Baston Madera Venta",
-          "imagen": "https://lh3.googleusercontent.com/d/1g5aPrNBi1GuKzo--UgAWyuwfsobOZoJO=s220"
-        },
-        {
-          "nombre": "Escoba Veneciana IDEAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1goMgz3cXgU-rjbfVcO5l8exkefQvvzLS=s220"
-        },
-        {
-          "nombre": "Escoba Cepillo Eco LUPITA",
-          "imagen": "https://lh3.googleusercontent.com/d/1nWAP8TODYcD-nN2VdwKxMvLS5vopOvlU=s220"
-        },
-        {
-          "nombre": "Escoba Abanico Corto (abanico mediano) ABEJA REYNA",
-          "imagen": "https://lh3.googleusercontent.com/d/1qYhihLXrNAfXK5KXSRheVdwQjaDV9RvL=s220"
-        },
-        {
-          "nombre": "Escoba Cepillo Suave Baston Inclinado",
-          "imagen": "https://lh3.googleusercontent.com/d/1sCwmBWAbPTMeSEU2HzQkopI9JmjCMWDU=s220"
-        },
-        {
-          "nombre": "Baston Metalico 137cm Con Rosca",
-          "imagen": "https://lh3.googleusercontent.com/d/1xhQbiHuKpgLmxg03_fg5avEkiTC73LYg=s220"
-        }
-      ]
-    },
-    {
-      "nombre": "Detergente en polvo",
-      "productos": [
-        {
-          "nombre": "Jabón polvo 10 kg Tipo ARIEL",
-          "capacidad": "10kg",
-          "imagen": "https://lh3.googleusercontent.com/d/14R6EZPIHT7Wow2Oi2dsyR5SNdQ1HBL99=s220"
-        },
-        {
-          "nombre": "Jabón polvo 1 kg Tipo ARIEL",
-          "capacidad": "1kg",
-          "imagen": "https://lh3.googleusercontent.com/d/1CjeUgsPDWUEQIHmjtg7uZ-BVNKLAJmlr=s220"
-        },
-        {
-          "nombre": "Jabón polvo 10 kg Tipo ROMA",
-          "capacidad": "10kg",
-          "imagen": "https://lh3.googleusercontent.com/d/1LZ3cldOcAItDaYZR7AoFMlcy6AiesX2R=s220"
-        },
-        {
-          "nombre": "Jabón polvo ROMA ORIGINAL 1kg",
-          "capacidad": "1kg",
-          "imagen": "https://lh3.googleusercontent.com/d/1PzAFp2MSY4F74pxqCyn5DHVhSWUAqYs7=s220"
-        },
-        {
-          "nombre": "Jabón polvo ROMA ORIGINAL 10kg",
-          "capacidad": "10kg",
-          "imagen": "https://lh3.googleusercontent.com/d/1bk1haoD9Li4BMwKSC0g-y10MgBiH_T4C=s220"
-        },
-        {
-          "nombre": "Jabón polvo 1 kg Tipo ROMA",
-          "capacidad": "1kg",
-          "imagen": "https://lh3.googleusercontent.com/d/1eVVrmVDrN_IDLXCEk_0IdkYPzC-jkJZJ=s220"
-        }
-      ]
-    },
-    {
-      "nombre": "Despachadores y botes de basura",
-      "productos": [
-        {
-          "nombre": "Despachador jabón OVAL 1 litro",
-          "imagen": "https://lh3.googleusercontent.com/d/10N_I3r92G-KSPX68vnHfYwWi5qgpBSrs=s220"
-        },
-        {
-          "nombre": "Dispensador de Aromatizante Automatico WIESE",
-          "imagen": "https://lh3.googleusercontent.com/d/168lP4yiNgEqlksLaUc6bO1gbdLELLI0D=s220"
-        },
-        {
-          "nombre": "Despachador toalla interdoblada OVAL (Sanitas)",
-          "imagen": "https://lh3.googleusercontent.com/d/1AEbPH2cf7yici0aikbkHb94xnA3YCkDw=s220"
-        },
-        {
-          "nombre": "Bote negro CHICO con tapa balancin",
-          "imagen": "https://lh3.googleusercontent.com/d/1BbyRJxznh3WCeLHVheikKClDLiS8oMlO=s220"
-        },
-        {
-          "nombre": "Despachador papel Institucional JUNIOR OVAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1P3uXMUfkTaJj7IeuPnbYUTETY_lqRTat=s220"
-        },
-        {
-          "nombre": "Despachador papel Jumbo INSTITUCIONAL",
-          "imagen": "https://lh3.googleusercontent.com/d/1R6IwZFN7FvgEEhjv1W8Jxx0xOXPO1uha=s220"
-        },
-        {
-          "nombre": "Bote negro GRANDE con tapa balancin",
-          "imagen": "https://lh3.googleusercontent.com/d/1aYWJCbm7PyoGN5jfHobXCBIYTa8I5AsT=s220"
-        },
-        {
-          "nombre": "Despachador Jabón líquido 1 litro",
-          "capacidad": "1L",
-          "imagen": "https://lh3.googleusercontent.com/d/1asetU4qxYeL7B5uK_SgWR_ZxF_RiUpOa=s220"
-        },
-        {
-          "nombre": "Despachador papel Institucional JUNIOR Calgary",
-          "imagen": "https://lh3.googleusercontent.com/d/1kyYHlGhzg6fjIPDX36ix5hY13VsJ1xiu=s220"
-        },
-        {
-          "nombre": "Bote negro MEDIANO con tapa balancin",
-          "imagen": "https://lh3.googleusercontent.com/d/1qbC18sdNFn1cWhJLEsdfeUXoIXs8_y03=s220"
-        },
-        {
-          "nombre": "Despachador toalla interdoblada CALGARY (sanitas)",
-          "imagen": "https://lh3.googleusercontent.com/d/1r6kADXRhu2vxkn9YTvf9ax3CWPeuT0H8=s220"
-        }
-      ]
-    },
-    {
-      "nombre": "Dulcería",
-      "productos": [
-        {
-          "nombre": "Turin Vitrolero Jose Cuervo 300g CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/11jCoA7Pqdo4CBzKGE0ToafWCzUl_y7y8=s220"
-        },
-        {
-          "nombre": "Turin Conejo Caja c/24 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/12CF3285LMOHOeeSmJWeLkv_UQCDooDZa=s220"
-        },
-        {
-          "nombre": "Turin Tubo BAILEYS ORIGINAL Relleno De Licor c/20 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/13YnYAUxjK6XlxXKHzyshxrQe8HWoNFvw=s220"
-        },
-        {
-          "nombre": "Nutella 350 g CHOCO CO3",
-          "capacidad": "350g",
-          "imagen": "https://lh3.googleusercontent.com/d/15FQOke-GWEJ7VgII7-gG3gD7-8MQcddF=s220"
-        },
-        {
-          "nombre": "Turin Tubo ALMENDRAS Con Chocolate c/20 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/17rNbd8SPTmd1bEi_nZ2K2eQPvExvJW50=s220"
-        },
-        {
-          "nombre": "Turin Tubo CARAJILLO Relleno De Licor c/20 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/195zKpsRBowHNtucQdBdFCERspbQwGRmK=s220"
-        },
-        {
-          "nombre": "Turin Masterpieces Café c/10 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/19b6srDn-6f7nNNAM1n4BTL1fqBlhyBIo=s220"
-        },
-        {
-          "nombre": "Kinder Bueno C/2 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1AVcI76I5ewhQxZYlSbtAWI2tLlG1bH1w=s220"
-        },
-        {
-          "nombre": "Kinder delice c/5 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1CjJpHG7oxhWwCnv3CjQckmc9kaKZ9L7N=s220"
-        },
-        {
-          "nombre": "Espuma para fiesta 270ml GDOS FUNNY SNOW",
-          "imagen": "https://lh3.googleusercontent.com/d/1E1YxuL_C0KvZ6JEc5KjoZASgfdfE8GqO=s220"
-        },
-        {
-          "nombre": "Kinder Maxi c/36 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1HFH33cEXLVpV2DgmIqLzFcFHavZUW_wV=s220"
-        },
-        {
-          "nombre": "Kinder Mini C/4 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1HPI2zSFUCDjiMoOgUPXCd5rVE2Pl3kHi=s220"
-        },
-        {
-          "nombre": "Huevo Gigante Niña 100g KINDER CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1JSzmERCPAhgnlU93tqp8do3557FVbsbK=s220"
-        },
-        {
-          "nombre": "Ferrero c/17 Pino Plástico CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1LSXlj54sCHZ603c-sqysnByNUNW3Oyyu=s220"
-        },
-        {
-          "nombre": "Turin Tubo BAILEYS AVELLANA Relleno De Licor C/20 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1OT_cZrnnNAxZwWHNCB6vUxxrNVg4ckYs=s220"
-        },
-        {
-          "nombre": "Turin Conejo c/10 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1QTdNjlkvhlC1_pHzsLY6_aGOovY-DMs_=s220"
-        },
-        {
-          "nombre": "Turin Conejo c/3 Vitrolero 600g CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1QrbUcXT69q2Eno7K9goh7dPX2RhwfZoz=s220"
-        },
-        {
-          "nombre": "Huevito NIÑA KINDER CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1SoUNBhHx0cnJytxi82bm28G8n5wE4YJX=s220"
-        },
-        {
-          "nombre": "Kinder Delice c/10 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1V3ts-V-Ap_EuGG-vVCHt0ssYUez__zGz=s220"
-        },
-        {
-          "nombre": "Turin c/10 Caja Negra 100g CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1VbMb_5MpzmGz27JFsXixozx7njFdQlFX=s220"
-        },
-        {
-          "nombre": "Ferrero c/24 Caja Plástico CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1YkNWolHq13i1FtwqhFia0ctlb4k-CP07=s220"
-        },
-        {
-          "nombre": "Kinder Bueno White C/2 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1_8H-u60xHylFUQMifiBXG3lqJelF2_xY=s220"
-        },
-        {
-          "nombre": "Huevo Gigante Niño 100g KINDER CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1aL3KkEzzpMXcGr3LSajxIY70Zu7fTpDa=s220"
-        },
-        {
-          "nombre": "Ferrero c/3 Empaque Plastico CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1aWUhzS-KZUDO9Ii95IX_74hnAuuXSW_U=s220"
-        },
-        {
-          "nombre": "Turin Conejo c/3 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1bHrm-iR76c3cDJVMMRVeq_fBw5FtojrD=s220"
-        },
-        {
-          "nombre": "Turin Tubo BAILEYS ORIGINAL Relleno De Licor c/20 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1bIz1JQOE3ytFqy1cw8x72uq1cBlb-KJS=s220"
-        },
-        {
-          "nombre": "Turin Masterpieces c/30 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1hPUN3cBeNKKMQLIfopmdqNGLePsYDqpv=s220"
-        },
-        {
-          "nombre": "Kinder Delice c/15 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1iQYqHey0Z0IdU8yNfDyibTGxfcOYRQxg=s220"
-        },
-        {
-          "nombre": "Ferrero c/12 Caja Dorada CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1kWjxkMX-mqPwAyKWxUyc7RfYV6hajwG2=s220"
-        },
-        {
-          "nombre": "Turin Tubo ALMENDRAS ZERO Con Chocolate 185g CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1n5kxuaGqNzeoeNiR2ywRWTShJ0fD06vL=s220"
-        },
-        {
-          "nombre": "Ferrero c/16 Baul Plástico CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1ouP3DB8m22H8-5xEWST5697jH8gKeZxg=s220"
-        },
-        {
-          "nombre": "Ferrero Collection Corazón c/8 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1p_IXngwftiQSAoDSqcpVTLttsOEHWnuk=s220"
-        },
-        {
-          "nombre": "Ferrero c/8 Caja Dorada CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1qQLcs9VX9q4G6lIdYvahvE9HHkqkhS8y=s220"
-        },
-        {
-          "nombre": "Ferrero Collection C/7 Caja Dorada CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1qgixgapnwesQVBbqnF-CZ-2QeKhyxTFw=s220"
-        },
-        {
-          "nombre": "Turin Tubo JOSE CUERVO ESPECIAL Relleno De Licor c/20 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1t8QsyhVVCO4jRfoHQxJoLP7LNNxm4pTg=s220"
-        },
-        {
-          "nombre": "Nutella 650 g CHOCO CO3",
-          "capacidad": "650g",
-          "imagen": "https://lh3.googleusercontent.com/d/1ubS83wF1NBZ5CFn5nACSbIlM8HKjjGDP=s220"
-        },
-        {
-          "nombre": "Turin Baileys c/12 Bolsita Relleno Licor CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1vN8V3KrAjsSlsNsmLc6TPUGIXsfaOdSL=s220"
-        },
-        {
-          "nombre": "Huevito NIÑO KINDER CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1vYdrTTazI67PensWFwsWKNTh7QF32ZIG=s220"
-        },
-        {
-          "nombre": "Turin Jose Cuervo c/12 Bolsita Relleno Licor CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1vaaTw0KJ-xpJL9bOWrW9_CAkyUao5PDu=s220"
-        },
-        {
-          "nombre": "Turin Tubo TEQUILA 1800 Relleno De Licor c/20 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1vwA1pHyIc7iB0Axjg6tH3VEYmvBc4u5r=s220"
-        },
-        {
-          "nombre": "Huevito UNISEX KINDER CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1w7JGCbSgwiTdo2y9Nw0EDTYFWkRumF1G=s220"
-        },
-        {
-          "nombre": "Turin Tubo JOHNNIE WALKER Relleno De Licor c/18 CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1wNuKgE_aa7tXzUh5k2k0vTyXDhHBLZ3G=s220"
-        },
-        {
-          "nombre": "Ferrero c/10 Caja dorada CHOCO CO3",
-          "imagen": "https://lh3.googleusercontent.com/d/1yichOmwe3YAFJFC0n5-enmmuCnoVJv17=s220"
-        }
-      ]
-    },
-    {
-      "nombre": "Bolsas",
-      "productos": [
-        {
-          "nombre": "Bolsa Negra ROLLO 60 x 90cm C/22 PLAXIM",
-          "imagen": "https://lh3.googleusercontent.com/d/1jZBja-QIsGd-IzO-V8DPtRPqU1Ldhz0F=s220"
-        },
-        {
-          "nombre": "Bolsa Negra ROLLO 90 x 120cm C/11 PLAXIM",
-          "imagen": "https://lh3.googleusercontent.com/d/1t0xpWMEQyDFl7L6Jm4aQcv6N1wrkX_As=s220"
+          "imagen": "https://lh3.googleusercontent.com/d/1_iMTceTY6VjaV7S",
+          "capacidad": " "
         }
       ]
     }

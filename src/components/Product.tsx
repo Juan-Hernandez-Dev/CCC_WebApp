@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import productsData from "./products.json";
 
 const PRODUCTS_PER_PAGE = 12; // 4 columns x 3 rows
@@ -13,6 +13,7 @@ export default function ProductPage() {
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState<number | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [imageStates, setImageStates] = useState<Record<string, 'loading' | 'loaded' | 'error'>>({});
+  const gridRef = useRef<HTMLDivElement | null>(null);
 
   const handleCategorySelect = (index: number | null) => {
     setSelectedCategoryIndex(index);
@@ -37,6 +38,34 @@ export default function ProductPage() {
   const onImgError = (key: string) => {
     setImageStates(prev => ({ ...prev, [key]: 'error' }));
   };
+
+  // Initialize image states for current products on page change
+  React.useEffect(() => {
+    const newStates: Record<string, 'loading' | 'loaded' | 'error'> = {};
+    paginatedProducts.forEach((product, idx) => {
+      const key = product.imagen || `noimg-${idx}`;
+      newStates[key] = product.imagen ? 'loading' : 'error';
+    });
+    setImageStates(newStates);
+  }, [currentPage, selectedCategoryIndex]);
+
+  // After render, check <img> elements that may have already completed loading
+  useEffect(() => {
+    if (!gridRef.current) return;
+    const imgs = Array.from(gridRef.current.querySelectorAll('img[data-image-key]')) as HTMLImageElement[];
+    imgs.forEach((img) => {
+      const key = img.dataset.imageKey ?? '';
+      if (!key) return;
+      if (img.complete) {
+        // naturalWidth == 0 indicates a broken image
+        if (img.naturalWidth && img.naturalWidth > 0) {
+          setImageStates(prev => ({ ...prev, [key]: 'loaded' }));
+        } else {
+          setImageStates(prev => ({ ...prev, [key]: 'error' }));
+        }
+      }
+    });
+  }, [paginatedProducts, currentPage, selectedCategoryIndex]);
 
   const renderPaginationButtons = () => {
     const pages: (number | string)[] = [];
@@ -88,7 +117,7 @@ export default function ProductPage() {
             <p className="text-gray-500">No hay productos para mostrar.</p>
           ) : (
             <>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+                  <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
                 {paginatedProducts.map((product, idx) => {
                   const key = product.imagen || `noimg-${idx}`;
                   const state = imageStates[key] || (product.imagen ? 'loading' : 'error');
@@ -99,18 +128,14 @@ export default function ProductPage() {
                       <div className="aspect-[3/2] w-full overflow-hidden bg-gray-100 flex items-center justify-center relative">
                         {product.imagen ? (
                           <>
-                            {state === 'loading' && (
-                              <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center">
-                                <span className="text-gray-400 text-xs">Cargando...</span>
-                              </div>
-                            )}
-
                             <img
+                              key={key}
+                              data-image-key={key}
                               src={proxySrc}
                               alt={product.nombre}
                               loading="lazy"
                               decoding="async"
-                              className={`w-full h-full object-contain transition-opacity duration-300 ${state === 'loaded' ? 'opacity-100' : 'opacity-0'}`}
+                              className={`w-full h-full object-contain`}
                               onLoad={() => onImgLoad(key)}
                               onError={() => onImgError(key)}
                             />
@@ -124,7 +149,16 @@ export default function ProductPage() {
                         ) : (
                           <div className="text-gray-400 text-xs">Sin imagen</div>
                         )}
+
                       </div>
+
+                      {/* Small non-blocking loading indicator */}
+                      {state === 'loading' && (
+                        <div className="mt-2 flex items-center" aria-hidden>
+                          <span className="inline-block w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin mr-2" />
+                          <span className="text-xs text-gray-500">Cargando imagen...</span>
+                        </div>
+                      )}
 
                       <div className="p-2 flex flex-col">
                         <span className="inline-block bg-blue-600 text-white text-xs font-semibold rounded-full px-2 py-0.5 mb-1 select-none truncate max-w-full">
