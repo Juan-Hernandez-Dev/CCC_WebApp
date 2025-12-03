@@ -27,7 +27,6 @@ export default function ProductsMobile() {
   const [imageStates, setImageStates] = useState<ProductImageState>({});
   const listRef = useRef<HTMLDivElement | null>(null);
   const [showAll, setShowAll] = useState(false); // <-- nuevo estado
-  const !List
   const PAGE_SIZE = 12;
 
   // Productos filtrados por categoría seleccionada
