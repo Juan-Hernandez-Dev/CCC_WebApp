@@ -72,7 +72,7 @@ export default function Header() {
     >
       <div className="max-w-330 mx-auto px-4 py-3 flex items-center justify-between h-14 sm:h-16">
         {/* Logo solo */}
-        <Link href="/" className="flex items-center gap-3 no-underline hover:opacity-90 transition-opacity">
+        <Link href="/home" className="flex items-center gap-3 no-underline hover:opacity-90 transition-opacity">
            <Image
              src={CImage}
              alt="brand"

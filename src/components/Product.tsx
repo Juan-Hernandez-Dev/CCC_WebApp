@@ -47,7 +47,8 @@ export default function ProductPage() {
       newStates[key] = product.imagen ? 'loading' : 'error';
     });
     setImageStates(newStates);
-  }, [currentPage, selectedCategoryIndex]);
+      }, []);
+  // }, [currentPage, selectedCategoryIndex]);
 
   // After render, check <img> elements that may have already completed loading
   useEffect(() => {
@@ -65,7 +66,8 @@ export default function ProductPage() {
         }
       }
     });
-  }, [paginatedProducts, currentPage, selectedCategoryIndex]);
+  }, []);
+  // }, [paginatedProducts, currentPage, selectedCategoryIndex]);
 
   const renderPaginationButtons = () => {
     const pages: (number | string)[] = [];

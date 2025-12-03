@@ -24,11 +24,8 @@ export default function ProductsMobile() {
   const [page, setPage] = useState(1);
   const [showPageMenu, setShowPageMenu] = useState(false);
   const [imageStates, setImageStates] = useState<ProductImageState>({});
-<<<<<<< HEAD
   const listRef = useRef<HTMLDivElement | null>(null);
-=======
   const [showAll, setShowAll] = useState(false); // <-- nuevo estado
->>>>>>> 84ec1c95a74e9cd3efbfa9dc813a797d6e7f20ad
   const PAGE_SIZE = 12;
 
   // Productos filtrados por categoría seleccionada
@@ -52,7 +49,8 @@ export default function ProductsMobile() {
   useEffect(() => {
     if (showPageMenu) setShowPageMenu(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page]);
+      }, []);
+  // }, [page]);
 
   // Initialize image states for current products on page/category change
   useEffect(() => {
@@ -62,7 +60,8 @@ export default function ProductsMobile() {
       newStates[imageKey] = p.imagen ? 'loading' : 'error';
     });
     setImageStates(newStates);
-  }, [page, selectedCategoria]);
+      }, []);
+  // }, [page, selectedCategoria]);
 
   // Detect images that have already loaded (e.g., from cache) and update state
   useEffect(() => {
@@ -79,7 +78,8 @@ export default function ProductsMobile() {
         }
       }
     });
-  }, [visibleProducts, page, selectedCategoria]);
+     }, [visibleProducts, page, selectedCategoria]);
+  // }, [visibleProducts, page, selectedCategoria]);
 
   // Precio determinístico basado en nombre (evita Math.random para SSR/CSR mismatch)
   const computePrice = (nombre?: string) => {

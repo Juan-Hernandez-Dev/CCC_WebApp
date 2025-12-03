@@ -42,10 +42,10 @@ const Footer: React.FC<FooterProps> = ({
           <nav className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium md:gap-8 md:flex-grow"> 
             
             {/* Título: Se alinea horizontalmente con los enlaces y se le añade una línea divisoria (border-r) */}
-            <span className="font-semibold text-white text-sm md:text-base pr-4 border-r border-white/50">Barra de Navegación</span>
+            <span className="font-semibold text-white text-sm md:text-base pr-4 border-r border-white/50">Navbar</span>
             
             <Link href="products" className="relative group transition-colors hover:text-white/90">
-              Productos
+              Products
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link href="aboutus" className="relative group transition-colors hover:text-white/90">
@@ -53,7 +53,7 @@ const Footer: React.FC<FooterProps> = ({
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link href="contact" className="relative group transition-colors hover:text-white/90">
-              Contacto
+              Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </nav>
@@ -88,7 +88,7 @@ const Footer: React.FC<FooterProps> = ({
         {/* COPYRIGHT (Centrado y debajo de la línea) */}
         <div className="text-center text-[11px] text-white/80 sm:text-xs">
           <p>
-            &copy; {year} {companyName}. Todos los Derechos Reservados.
+            &copy; {year} {companyName}. All Rights Reserved.
           </p>
         </div>
 
