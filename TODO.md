@@ -1,0 +1,2 @@
+- [x] Remove the blue top border from the navbar in src/app/styles.css
+- [x] Replace the logo with CCC.png in src/app/page.tsx
