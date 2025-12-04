@@ -56,7 +56,7 @@ export default function ProductsMobile() {
   // Mostrar todos si showAll es true, sino paginar normalmente (memoized)
   const visibleProducts = useMemo(() => {
     return showAll ? productsByCategory : productsByCategory.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-  }, []);
+  }, [showAll, productsByCategory, page]);
 
   // cierra el menú si se selecciona una página (evita que queden "..." duplicados)
   useEffect(() => {
@@ -72,7 +72,7 @@ export default function ProductsMobile() {
       newStates[imageKey] = p.imagen ? 'loading' : 'error';
     });
     setImageStates(newStates);
-  }, []);
+  }, [visibleProducts]);
 
   // Detect images that have already loaded (e.g., from cache) and update state
   useEffect(() => {
@@ -89,7 +89,7 @@ export default function ProductsMobile() {
         }
       }
     });
-  }, []);
+  }, [visibleProducts]);
 
   // Precio determinístico basado en nombre (evita Math.random para SSR/CSR mismatch)
   const computePrice = (nombre?: string) => {
@@ -105,7 +105,7 @@ export default function ProductsMobile() {
   const goNext = () => setPage((p) => Math.min(pageCount, p + 1));
 
   return (
-    <section className="px-2 sm:px-4 py-4 bg-gray-50 min-h-screen">
+    <div className="px-2 sm:px-4 py-4 bg-gray-50 min-h-screen">
       {/* Header */}
       <div className="mb-8 pt-8">
         {/* Contenedor del encabezado pequeño y línea azul */}
@@ -371,6 +371,6 @@ export default function ProductsMobile() {
           </div>
         )}
       </div>
-    </section>
+    </div>
   );
 }
