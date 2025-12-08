@@ -1,0 +1,138 @@
+{
+    "aboutus": {
+        "section_title": "About Us",
+        "main_title": "Cleaning with a Purpose",
+        "p1": "At Crystalim, we are a company dedicated to providing high-quality cleaning solutions that make a difference in people's lives. Our commitment goes beyond just products; we strive to create sustainable and effective cleaning experiences.",
+        "p2": "Since our beginnings as Comercializadora Castro Cervantes, we have evolved into a trusted brand in the cleaning industry, offering innovative products that combine performance with environmental responsibility.",
+        "p3": "We believe that cleaning should be efficient, safe, and accessible to everyone. That's why we continuously invest in research and development to bring you the best cleaning technologies available.",
+        "mission_title": "Our Mission",
+        "mission_text": "To market cleaning products that stand out for their quality, effectiveness, and commitment to sustainability. We aim to provide comprehensive cleaning solutions that meet the needs of both residential and commercial customers, ensuring exceptional results in every application.",
+        "vision_title": "Our Vision",
+        "vision_text": "To become a leading company in the marketing of cleaning products, recognized for our innovation, quality, and dedication to customer satisfaction. We envision a future where Crystalim is synonymous with excellence in cleaning solutions worldwide.",
+        "innovation": "Innovation",
+        "responsability": "Responsability",
+        "commitment": "Commitment",
+        "loyalty": "Loyalty",
+        "teamwork": "Teamwork",
+        "respect": "Respect",
+        "honesty": "Honesty"
+    },
+    "nav": {
+        "products": "Products",
+        "aboutus": "About Us",
+        "contact": "Contact",
+        "home": "Home"
+    },
+    "home": {
+        "section_label": "Home",
+        "hero_title": "What we offer for your Home and Business",
+        "card": {
+            "brooms_title": "Brooms",
+            "brooms_desc": "Strong and durable brooms, designed to provide efficient cleaning for all your sweeping needs. Perfect for homes and businesses alike.",
+            "mops_title": "Mops",
+            "mops_desc": "Highly absorbent and durable mops, ideal for keeping floors spotless and maintaining a clean environment in any setting.",
+            "soaps_title": "Soaps",
+            "soaps_desc": "Liquid and bar soaps designed to provide deep cleansing without compromising on gentleness or effectiveness."
+        },
+        "cta_title": "Are you looking for something else?",
+        "cta_desc": "Explore our complete catalog and find a wide variety of products designed to meet the cleaning needs of any space. At Crystalim, we offer reliable, effective solutions designed for your convenience.",
+        "cta_button": "View all Products →"
+    },
+    "contact": {
+        "section_label": "Contact",
+        "hero_title": "Have a question? Contact us",
+        "hero_desc": "At Crystalim we care about your experience and are here to help. If you have any questions about our products, need advice, or want to send feedback, our customer support team will be happy to assist you quickly and efficiently.",
+        "get_in_touch": "Get in Touch",
+        "address_label": "Address",
+        "address_text": "Comercializadora Castro Cervantes\nBlock A, Warehouse 64, Central de Abastos.",
+        "phone_label": "Phone",
+        "phone_text": "+52 (449) 137 3010",
+        "email_label": "Email",
+        "email_text": "crystalimadmon@gmail.com",
+        "form_title": "Send us a Message!",
+        "form": {
+            "name_label": "Name",
+            "email_label": "Email",
+            "message_label": "Message",
+            "name_placeholder": "Your name",
+            "email_placeholder": "you@email.com",
+            "message_placeholder": "Your message here...",
+            "submit_button": "Send Message",
+            "submitting": "Sending...",
+            "success_msg": "Message sent successfully! Thank you for your preference.",
+            "loading": "Loading...",
+            "error_msg": "Please check the highlighted fields before sending.",
+            "validation": {
+                "required_name": "Name is required.",
+                "required_email": "Email is required.",
+                "required_message": "Message is required.",
+                "invalid_email": "Email format is not valid."
+            }
+        }
+    },
+    "products": {
+        "catalog_title": "Complete Catalog",
+        "all_categories": "All",
+        "no_products": "No products to display.",
+        "image_unavailable": "Image not available",
+        "no_image": "No image",
+        "discount_text": "Disc",
+        "select_page": "Select page",
+        "search_placeholder": "Search",
+        "category_filter": "Category",
+        "status_filter": "Status",
+        "add_product_btn": "Add Product",
+        "products_title": "All the Products",
+        "table": {
+            "sku": "SKU",
+            "product": "Product",
+            "price": "Price",
+            "category": "Category",
+            "status": "Status",
+            "stock": "Stock",
+            "actions": "Actions"
+        },
+        "pagination": {
+            "first": "First",
+            "prev": "Previous",
+            "next": "Next",
+            "last": "Last"
+        }
+    },
+    "admin": {
+        "section_label": "Admin",
+        "search_placeholder": "Search",
+        "category_filter": "Category",
+        "status_filter": "Status",
+        "add_product_btn": "Add Product",
+        "products_title": "All the Products",
+        "table": {
+            "sku": "SKU",
+            "product": "Product",
+            "price": "Price",
+            "category": "Category",
+            "status": "Status",
+            "stock": "Stock",
+            "actions": "Actions"
+        },
+        "status_labels": {
+            "available": "Available",
+            "restock": "Restock Soon",
+            "out_of_stock": "Out of Stock"
+        }
+    },
+    "footer": {
+        "navbar_title": "Navigation",
+        "products": "Products",
+        "aboutus": "About Us",
+        "contact": "Contact",
+        "copyright": "All Rights Reserved."
+    },
+    "product_component": {
+        "catalog_title": "Complete Catalog",
+        "select_option_all": "All",
+        "no_image": "Image not available",
+        "no_image_short": "No image",
+        "no_products": "No products to display."
+    }
+}

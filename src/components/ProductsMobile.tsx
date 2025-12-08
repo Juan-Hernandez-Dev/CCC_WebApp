@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import data from "./products.json";
 
@@ -25,6 +26,8 @@ type ProductImageState = {
 const getProxyUrl = (url?: string) => (url ? `/api/image-proxy?url=${encodeURIComponent(url)}` : undefined);
 
 export default function ProductsMobile() {
+  const { t } = useTranslation('global');
+  
   const categorias = useMemo(() => data.categorias.map((c) => c.nombre), []);
   const [selectedCategoria, setSelectedCategoria] = useState<string>(categorias[0] ?? "ALL");
   const [page, setPage] = useState(1);
@@ -113,7 +116,7 @@ export default function ProductsMobile() {
           {/* Línea decorativa azul */}
           <div className="w-6 h-0.5 bg-blue-500"></div>
 
-          <h2 className="text-sm sm:text-base font-semibold text-gray-700">Catálogo Completo</h2>
+          <h2 className="text-sm sm:text-base font-semibold text-gray-700">{t('products.catalog_title')}</h2>
         </div>
 
         {/* Category selector */}
@@ -129,7 +132,7 @@ export default function ProductsMobile() {
               className="appearance-none bg-blue-600 text-white text-xs sm:text-sm font-medium px-3 py-2 rounded-md pr-8 shadow-sm min-h-[44px] w-full"
               aria-label="Seleccionar categoría"
             >
-              <option value="ALL">Todos</option>
+              <option value="ALL">{t('products.all_categories')}</option>
               {categorias.map((c) => (
                 <option key={c} value={c}>
                   {c}
@@ -219,7 +222,7 @@ export default function ProductsMobile() {
                         {p.categoria ?? selectedCategoria}
                       </span>
                       <span className="inline-block bg-orange-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
-                        {discountPercent}% Descuento
+                        {discountPercent}% {t('products.discount_text')}
                       </span>
                     </div>
                   )}
@@ -231,7 +234,7 @@ export default function ProductsMobile() {
 
         {/* cuando no hay productos */}
         {visibleProducts.length === 0 && (
-          <div className="py-8 text-center text-gray-500 text-sm sm:text-base">No hay productos en esta categoría.</div>
+          <div className="py-8 text-center text-gray-500 text-sm sm:text-base">{t('products.no_products')}</div>
         )}
       </div>
 
@@ -337,7 +340,7 @@ export default function ProductsMobile() {
         {/* menú desplegable asociado a '...' */}
         {showPageMenu && (
           <div className="absolute left-1/2 transform -translate-x-1/2 top-full mt-2 w-64 max-h-72 overflow-y-auto bg-white border border-gray-200 rounded shadow-lg z-20">
-            <div className="px-3 py-2 border-b border-gray-100 text-xs text-gray-600">Seleccionar página</div>
+            <div className="px-3 py-2 border-b border-gray-100 text-xs text-gray-600">{t('products.select_page')}</div>
 
             {/* Botón para ver todos / volver al paginado */}
             <div className="p-2 border-b">

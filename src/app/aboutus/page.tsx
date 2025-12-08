@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import { useTranslation } from 'react-i18next'; 
 import Image from 'next/image';
 import Icon from "../../assets/aboutus/innovation.png";
 import Icon2 from "../../assets/aboutus/responsability.png";
@@ -9,6 +12,8 @@ import Icon6 from "../../assets/aboutus/respect.png";
 import Icon7 from "../../assets/aboutus/honesty.png"; 
 
 export default function Aboutus() {
+    const { t, i18n } = useTranslation('global'); 
+
     return (
         <div className="min-h-screen bg-white">
             <section className="py-2 sm:py-12 px-4 bg-white text-gray-900">
@@ -19,11 +24,13 @@ export default function Aboutus() {
                         <div className="w-6 h-0.5 bg-blue-500"></div>
 
                         <span className="text-base font-medium text-gray-700">
-                            About Us
+                            {/* Uso de la variable de traducción: t('aboutus.section_title') */}
+                            {t('aboutus.section_title')}
                         </span>
                     </div>
                     <h1 className="text-4xl sm:text-5xl font-extrabold text-primary-dark">
-                        Cleaning with a Purpose
+                        {/* Uso de la variable de traducción: t('aboutus.main_title') */}
+                        {t('aboutus.main_title')}
                     </h1>
                 </div>
             </section>
@@ -34,19 +41,16 @@ export default function Aboutus() {
                     {/* Text Column */}
                     <div className="space-y-4">
                         <p className="text-gray-700 leading-relaxed">
-                            At Crystalim, we are a company dedicated to providing high-quality cleaning solutions
-                            that make a difference in people's lives. Our commitment goes beyond just products;
-                            we strive to create sustainable and effective cleaning experiences.
+                            {/* Uso de la variable de traducción: t('aboutus.p1') */}
+                            {t('aboutus.p1')}
                         </p>
                         <p className="text-gray-700 leading-relaxed">
-                            Since our beginnings as Comercializadora Castro Cervantes, we have evolved into a
-                            trusted brand in the cleaning industry, offering innovative products that combine
-                            performance with environmental responsibility.
+                            {/* Uso de la variable de traducción: t('aboutus.p2') */}
+                            {t('aboutus.p2')}
                         </p>
                         <p className="text-gray-700 leading-relaxed">
-                            We believe that cleaning should be efficient, safe, and accessible to everyone.
-                            That's why we continuously invest in research and development to bring you the
-                            best cleaning technologies available.
+                            {/* Uso de la variable de traducción: t('aboutus.p3') */}
+                            {t('aboutus.p3')}
                         </p>
                     </div>
 
@@ -69,23 +73,25 @@ export default function Aboutus() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Mission */}
                     <div>
-                        <h3 className="text-2xl font-bold text-primary-dark mb-4">Our Mission</h3>
+                        <h3 className="text-2xl font-bold text-primary-dark mb-4">
+                            {/* Uso de la variable de traducción: t('aboutus.mission_title') */}
+                            {t('aboutus.mission_title')}
+                        </h3>
                         <p className="text-gray-700 leading-relaxed">
-                            To market cleaning products that stand out for their quality, effectiveness, and
-                            commitment to sustainability. We aim to provide comprehensive cleaning solutions
-                            that meet the needs of both residential and commercial customers, ensuring
-                            exceptional results in every application.
+                            {/* Uso de la variable de traducción: t('aboutus.mission_text') */}
+                            {t('aboutus.mission_text')}
                         </p>
                     </div>
 
                     {/* Vision */}
                     <div>
-                        <h3 className="text-2xl font-bold text-primary-dark mb-4">Our Vision</h3>
+                        <h3 className="text-2xl font-bold text-primary-dark mb-4">
+                            {/* Uso de la variable de traducción: t('aboutus.vision_title') */}
+                            {t('aboutus.vision_title')}
+                        </h3>
                         <p className="text-gray-700 leading-relaxed">
-                            To become a leading company in the marketing of cleaning products, recognized
-                            for our innovation, quality, and dedication to customer satisfaction. We envision
-                            a future where Crystalim is synonymous with excellence in cleaning solutions
-                            worldwide.
+                            {/* Uso de la variable de traducción: t('aboutus.vision_text') */}
+                            {t('aboutus.vision_text')}
                         </p>
                     </div>
                 </div>
@@ -101,12 +107,13 @@ export default function Aboutus() {
                             <Image
                                 src={Icon}
                                 alt="Innovation Icon"
-                                width={32}     // equivalente al texto de 2xl
+                                width={32}      // equivalente al texto de 2xl
                                 height={32}
                                 className="mb-2"
                             />
                             <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-                            <p className="text-sm font-medium text-black mb-1">Innovation</p>
+                            {/* Uso de la variable de traducción: t('aboutus.innovation') */}
+                            <p className="text-sm font-medium text-black mb-1">{t('aboutus.innovation')}</p>
                         </div>
 
                         {/* Característica 2 */}
@@ -114,12 +121,13 @@ export default function Aboutus() {
                             <Image
                                 src={Icon2}
                                 alt="Responsability Icon"
-                                width={32}     // equivalente al texto de 2xl
+                                width={32}      // equivalente al texto de 2xl
                                 height={32}
                                 className="mb-2"
                             />
                             <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-                            <p className="text-sm font-medium text-black mb-1">Responsability</p>
+                            {/* Uso de la variable de traducción: t('aboutus.responsability') */}
+                            <p className="text-sm font-medium text-black mb-1">{t('aboutus.responsability')}</p>
                         </div>
 
                         {/* Característica 3 */}
@@ -127,12 +135,13 @@ export default function Aboutus() {
                             <Image
                                 src={Icon3}
                                 alt="Commitment Icon"
-                                width={32}     // equivalente al texto de 2xl
+                                width={32}      // equivalente al texto de 2xl
                                 height={32}
                                 className="mb-2"
                             />
                             <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-                            <p className="text-sm font-medium text-black mb-1">Commitment</p>
+                            {/* Uso de la variable de traducción: t('aboutus.commitment') */}
+                            <p className="text-sm font-medium text-black mb-1">{t('aboutus.commitment')}</p>
                         </div>
 
                         {/* Característica 4 */}
@@ -140,12 +149,13 @@ export default function Aboutus() {
                             <Image
                                 src={Icon4}
                                 alt="Loyalty Icon"
-                                width={32}     // equivalente al texto de 2xl
+                                width={32}      // equivalente al texto de 2xl
                                 height={32}
                                 className="mb-2"
                             />
                             <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-                            <p className="text-sm font-medium text-black mb-1">Loyalty</p>
+                            {/* Uso de la variable de traducción: t('aboutus.loyalty') */}
+                            <p className="text-sm font-medium text-black mb-1">{t('aboutus.loyalty')}</p>
                         </div>
 
                         {/* Característica 5 */}
@@ -153,12 +163,13 @@ export default function Aboutus() {
                             <Image
                                 src={Icon5}
                                 alt="Teamwork Icon"
-                                width={32}     // equivalente al texto de 2xl
+                                width={32}      // equivalente al texto de 2xl
                                 height={32}
                                 className="mb-2"
                             />
                             <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-                            <p className="text-sm font-medium text-black mb-1">teamwork</p>
+                            {/* Uso de la variable de traducción: t('aboutus.teamwork') */}
+                            <p className="text-sm font-medium text-black mb-1">{t('aboutus.teamwork')}</p>
                         </div>
 
                         {/* Característica 6 */}
@@ -166,12 +177,13 @@ export default function Aboutus() {
                             <Image
                                 src={Icon6}
                                 alt="Respect Icon"
-                                width={32}     // equivalente al texto de 2xl
+                                width={32}      // equivalente al texto de 2xl
                                 height={32}
                                 className="mb-2"
                             />
                             <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-                            <p className="text-sm font-medium text-black mb-1">Respect</p>
+                            {/* Uso de la variable de traducción: t('aboutus.respect') */}
+                            <p className="text-sm font-medium text-black mb-1">{t('aboutus.respect')}</p>
                         </div>
 
                         {/* Característica 7 */}
@@ -179,12 +191,13 @@ export default function Aboutus() {
                             <Image
                                 src={Icon7}
                                 alt="Honesty Icon"
-                                width={32}     // equivalente al texto de 2xl
+                                width={32}      // equivalente al texto de 2xl
                                 height={32}
                                 className="mb-2"
                             />
                             <div className="w-8 h-[2px] bg-blue-500 rounded"></div>
-                            <p className="text-sm font-medium text-black mb-1">Honesty</p>
+                            {/* Uso de la variable de traducción: t('aboutus.honesty') */}
+                            <p className="text-sm font-medium text-black mb-1">{t('aboutus.honesty')}</p>
                         </div>
 
                     </div>
@@ -193,4 +206,3 @@ export default function Aboutus() {
         </div>
     );
 };
-

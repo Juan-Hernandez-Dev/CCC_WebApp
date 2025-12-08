@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import '../../styles/globals.scss';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
 import Image from '../../assets/Contact/CCC.png';
@@ -27,6 +28,8 @@ interface Errors {
 }
 
 const ContactPage: React.FC = () => {
+    const { t } = useTranslation('global');
+    
     // ESTADO: Almacena los valores del formulario
     const [formData, setFormData] = useState<FormData>({
         name: '',
@@ -126,10 +129,10 @@ const ContactPage: React.FC = () => {
                 <div className="max-w-7xl mx-auto text-left">
                     <div className="flex items-center justify-left mb-4 space-x-2">
                         <div className="w-6 h-0.5" style={{ backgroundColor: '#2387e1' }}></div>
-                        <span className="text-base font-medium" style={{ color: '#1E1E1E' }}>Contact</span>
+                        <span className="text-base font-medium" style={{ color: '#1E1E1E' }}>{t('contact.section_label')}</span>
                     </div>
-                    <span className="text-4xl sm:text-5xl font-extrabold" style={{ color: '#1D3557' }}>¿Tienes alguna Pregunta? Contáctanos</span>
-                    <p className="mt-4" style={{ color: '#1E1E1E' }}>En Crystalim, nos preocupamos por su experiencia y estamos aquí para ayudarle. Si tiene alguna pregunta sobre nuestros productos, necesita asesoramiento o desea enviarnos sus comentarios, nuestro equipo de atención al cliente estará encantado de escucharle y ofrecerle soluciones rápidas y eficaces. ¡Su satisfacción es nuestra prioridad!</p>
+                    <span className="text-4xl sm:text-5xl font-extrabold" style={{ color: '#1D3557' }}>{t('contact.hero_title')}</span>
+                    <p className="mt-4" style={{ color: '#1E1E1E' }}>{t('contact.hero_desc')}</p>
                 </div>
             </section>
 
@@ -139,12 +142,12 @@ const ContactPage: React.FC = () => {
 
                         
                         <div className="space-y-6">
-                            <h3 className="text-2xl font-bold mb-4 font-sans" style={{ color: '#1D3557' }}>Get in Touch</h3>
+                            <h3 className="text-2xl font-bold mb-4 font-sans" style={{ color: '#1D3557' }}>{t('contact.get_in_touch')}</h3>
                             <div className="space-y-4">
                                 <div className="flex items-start space-x-3">
                                     <MdLocationOn className="text-2xl mt-1 flex-shrink-0" style={{ color: '#1D3557' }} />
                                     <div>
-                                        <h4 className="font-bold font-sans" style={{ color: '#1D3557' }}>Dirección</h4>
+                                        <h4 className="font-bold font-sans" style={{ color: '#1D3557' }}>{t('contact.address_label')}</h4>
                                         <p className="font-sans" style={{ color: '#1E1E1E' }}>Comercializadora Castro Cervantes<br />Block A, Bodega 64, Central de Abastos.</p>
                                     </div>
                                 </div>
@@ -159,14 +162,14 @@ const ContactPage: React.FC = () => {
                                 <div className="flex items-start space-x-3">
                                     <MdPhone className="text-2xl mt-1 flex-shrink-0" style={{ color: '#1D3557' }} />
                                     <div>
-                                        <h4 className="font-bold font-sans" style={{ color: '#1D3557' }}>Teléfono</h4>
+                                        <h4 className="font-bold font-sans" style={{ color: '#1D3557' }}>{t('contact.phone_label')}</h4>
                                         <p className="font-sans" style={{ color: '#1E1E1E' }}>+52 (449) 137 3010</p>
                                     </div>
                                 </div>
                                                                 <div className="flex items-start space-x-3">
                                     <MdEmail className="text-2xl mt-1 flex-shrink-0" style={{ color: '#1D3557' }} />
                                     <div>
-                                        <h4 className="font-bold font-sans" style={{ color: '#1D3557' }}>Email</h4>
+                                        <h4 className="font-bold font-sans" style={{ color: '#1D3557' }}>{t('contact.email_label')}</h4>
                                         <p className="font-sans" style={{ color: '#1E1E1E' }}>crystalimadmon@gmail.com</p>
                                     </div>
                                 </div>
@@ -175,13 +178,13 @@ const ContactPage: React.FC = () => {
 
                         
                         <div>
-                            <h3 className="text-2xl font-bold mb-4 font-sans" style={{ color: '#1D3557' }}>¡Envíanos un Mensaje!</h3>
+                            <h3 className="text-2xl font-bold mb-4 font-sans" style={{ color: '#1D3557' }}>{t('contact.form_title')}</h3>
                             {/* Agregado onSubmit y noValidate */}
                             <form className="space-y-4" onSubmit={handleSubmit} noValidate>
                                 
                                 {/* Campo Nombre */}
                                 <div>
-                                    <label htmlFor="name" className="block text-sm font-medium font-sans" style={{ color: '#1E1E1E' }}>Nombre</label>
+                                    <label htmlFor="name" className="block text-sm font-medium font-sans" style={{ color: '#1E1E1E' }}>{t('contact.form.name_label')}</label>
                                     <input
                                         type="text"
                                         id="name"
@@ -200,7 +203,7 @@ const ContactPage: React.FC = () => {
 
                                 {/* Campo Email */}
                                 <div>
-                                    <label htmlFor="email" className="block text-sm font-medium font-sans" style={{ color: '#1E1E1E' }}>Email</label>
+                                    <label htmlFor="email" className="block text-sm font-medium font-sans" style={{ color: '#1E1E1E' }}>{t('contact.form.email_label')}</label>
                                     <input
                                         type="email"
                                         id="email"
@@ -219,7 +222,7 @@ const ContactPage: React.FC = () => {
 
                                 {/* Campo Mensaje */}
                                 <div>
-                                    <label htmlFor="message" className="block text-sm font-medium font-sans" style={{ color: '#1E1E1E' }}>Mensaje</label>
+                                    <label htmlFor="message" className="block text-sm font-medium font-sans" style={{ color: '#1E1E1E' }}>{t('contact.form.message_label')}</label>
                                     <textarea
                                         id="message"
                                         name="message"
@@ -239,17 +242,17 @@ const ContactPage: React.FC = () => {
                                 {/* Mensaje de Éxito o de Carga */}
                                 {submitStatus === 'submitting' && (
                                     <p className="text-center font-sans font-bold" style={{ color: '#2387E1' }}>
-                                        Cargando...
+                                        {t('contact.form.loading')}
                                     </p>
                                 )}
                                 {submitStatus === 'success' && (
                                     <p className="text-center font-sans font-bold" style={{ color: successColor }}>
-                                        ¡Mensaje enviado con éxito! Gracias por su preferencia.
+                                        {t('contact.form.success_msg')}
                                     </p>
                                 )}
                                 {submitStatus === 'error' && (
                                     <p className="text-center font-sans font-bold" style={{ color: errorColor }}>
-                                        Verifica los campos marcados antes de enviar.
+                                        {t('contact.form.error_msg')}
                                     </p>
                                 )}
 
@@ -266,7 +269,7 @@ const ContactPage: React.FC = () => {
                                     disabled={isSubmitting}
                                 >
                                     {/* Texto de Enviando */}
-                                    {isSubmitting ? 'Enviando...' : 'Enviar Mensaje'}
+                                    {isSubmitting ? t('contact.form.submitting') : t('contact.form.submit_button')}
                                 </button>
                             </form>
                         </div>
