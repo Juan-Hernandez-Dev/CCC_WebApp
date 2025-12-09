@@ -1,37 +1,83 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // Componente de tabla de administración de productos
 export default function Administrator() {
     const [search, setSearch] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10; // Ajuste para mostrar más productos por página como en el diseño
+    const [mostrarForm, setMostrarForm] = useState(false);
+    const [formNombre, setFormNombre] = useState("");
+    const [formImagen, setFormImagen] = useState("");
+    const [formCapacidad, setFormCapacidad] = useState("");
+    const [formDescripcion, setFormDescripcion] = useState("");
+    const [formPrecioOriginal, setFormPrecioOriginal] = useState(0);
+    const [formDescuento, setFormDescuento] = useState(0);
+    const [formEnDescuento, setFormEnDescuento] = useState(false);
+    const [formCategoryName, setFormCategoryName] = useState("");
+    const [formMessage, setFormMessage] = useState<string | null>(null);
+    const [editingOriginalNombre, setEditingOriginalNombre] = useState<string | null>(null);
 
-    // Datos de productos (ejemplo)
-    const products = [
-        { sku: "BOL-012", name: "Bolsa negra 60 x 90 cm (B60)", price: "$45.00", category: "BOLSAS", status: "Available", stock: 35 },
-        { sku: "FER-005", name: "Afloja Todo 172ml GD05", price: "$43.00", category: "FERRETERIA", status: "Available", stock: 27 },
-        { sku: "PER-030", name: "Agua Oxigenada 125ml PROESA", price: "$10.00", category: "PERFUMERIA", status: "Available", stock: 42 },
-        { sku: "LIS-013", name: "Almorol 5 litros. (ALS)", price: "$280.00", category: "LIQ. 5 LITROS", status: "Available", stock: 30 },
-        { sku: "ESC-001", name: "Bastón Capuchon Madera Venta (BCV)", price: "$17.00", category: "ESCOBAS", status: "Available", stock: 35 },
-        { sku: "FIB-002", name: "Fibra acero chica 30g. (FA30)", price: "$5.00", category: "FIBRAS", status: "Restock Soon", stock: 4 },
-        { sku: "LII-012", name: "FRUTAL Limpiador Multiusos 1 litro (FR1) LM1", price: "$15.00", category: "LIQ. 1 LITRO", status: "Available", stock: 39 },
-        { sku: "JAR-003", name: "Atomizador 250ml (A250)", price: "$13.00", category: "JARCERIA", status: "Available", stock: 23 },
-        { sku: "ARO-016", name: "Aromatizante CANELA 400ml", price: "$15.00", category: "AROMA", status: "Out of Stock", stock: 0 },
-        { sku: "PAP-011", name: "Rollo papel JUMBO 360m", price: "$77.00", category: "PAPEL", status: "Available", stock: 37 },
+    // Productos cargados desde JSON via API
+    const [products, setProducts] = useState<Array<any>>([]);
+    const [loading, setLoading] = useState(false);
 
-        { sku: "VEN-008", name: "Laminitas RAID C/10B + Aparato Gratis (Veneno)", price: "$230.00", category: "VENENO", status: "Available", stock: 25 },
-        { sku: "DES-009", name: "Bote negro CHICO con tapa balancin", price: "$110.00", category: "DESPACHADORES", status: "Available", stock: 40 },
-        { sku: "LML-008", name: "Jabon para Manos UVA 500ml (UMU500) JM500", price: "$22.00", category: "LIQ. 500 ML", status: "Available", stock: 33 },
-        { sku: "TRA-017", name: "Trapeador HILUX Blanco #24 BG (H24)", price: "$42.00", category: "TRAPEADORES BG", status: "Available", stock: 35 },
-        { sku: "DUL-019", name: "Espuma para fiesta 270ml. GD05 FUNNY SNOW", price: "$20.00", category: "DULCERIA", status: "Available", stock: 46 },
-    ];
+    const loadProducts = async () => {
+        setLoading(true);
+        try {
+            const res = await fetch('/api/products');
+            const data = await res.json();
+            // Transformar en lista plana con campo category
+            const list: Array<any> = [];
+            if (data?.categorias && Array.isArray(data.categorias)) {
+                for (const c of data.categorias) {
+                    if (Array.isArray(c.productos)) {
+                        for (const p of c.productos) {
+                            list.push({ ...p, category: c.nombre });
+                        }
+                    }
+                }
+            }
+            setProducts(list);
+        } catch (err) {
+            console.error('Failed to load products', err);
+            setProducts([]);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    // Cargar productos al montar
+    useEffect(() => {
+        loadProducts();
+    }, []);
+
+    // Abrir modal en modo edición con datos del producto
+    const openEdit = (p: any) => {
+        setFormNombre(p.nombre || '');
+        setFormImagen(p.imagen || '');
+        setFormCapacidad(p.capacidad || '');
+        setFormDescripcion(p.descripcion || '');
+        setFormPrecioOriginal(Number(p.precioOriginal ?? 0));
+        setFormDescuento(Number(p.descuento ?? 0));
+        setFormEnDescuento(Boolean(p.enDescuento));
+        setFormCategoryName(p.category || '');
+        setEditingOriginalNombre(p.nombre || null);
+        setMostrarForm(true);
+    };
 
     // Lógica de PAGINACIÓN
-    const totalPages = Math.ceil(products.length / itemsPerPage);
+    // Filtrar por búsqueda
+    const filtered = products.filter((p) =>
+        (p.nombre || p.name || '').toLowerCase().includes(search.toLowerCase()) ||
+        (p.descripcion || '').toLowerCase().includes(search.toLowerCase()) ||
+        (p.category || '').toLowerCase().includes(search.toLowerCase())
+    );
+
+    const totalPages = Math.ceil(filtered.length / itemsPerPage) || 1;
     const indexStart = (currentPage - 1) * itemsPerPage;
-    const displayedProducts = products.slice(indexStart, indexStart + itemsPerPage);
+    const displayedProducts = filtered.slice(indexStart, indexStart + itemsPerPage);
 
     // Función auxiliar para el ícono de estado
     const statusIcon = (status: string) => {
@@ -132,10 +178,193 @@ export default function Administrator() {
                     </div>
                 </div>
 
-                {/* ADD PRODUCT Button */}
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md active:scale-95 transition mb-6">
-                    Add Product
-                </button>
+            {/* ADD PRODUCT Button */}
+            <button
+                onClick={() => setMostrarForm(true)}
+                className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1 rounded-lg shadow-md active:scale-95 transition mb-6"
+            >
+                Add Product
+            </button>
+
+            {/* MODAL */}
+            {mostrarForm && (
+                <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+                    
+                    {/* Caja del modal */}
+                    <div className="bg-white p-6 rounded-xl w-96 shadow-lg space-y-3 relative">
+
+                        {/* Botón cerrar */}
+                        <button
+                            className="absolute top-2 right-2 text-gray-600 hover:text-black"
+                            onClick={() => setMostrarForm(false)}
+                        >
+                            ✕
+                        </button>
+
+                    
+                        {/* Formulario controlado para enviar al JSON */}
+                        <input
+                            type="text"
+                            placeholder="Nombre del producto"
+                            value={formNombre}
+                            onChange={(e) => setFormNombre(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="text"
+                            placeholder="Imagen (URL)"
+                            value={formImagen}
+                            onChange={(e) => setFormImagen(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="text"
+                            placeholder="Capacidad (ej. 250ml)"
+                            value={formCapacidad}
+                            onChange={(e) => setFormCapacidad(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <textarea
+                            placeholder="Descripción"
+                            value={formDescripcion}
+                            onChange={(e) => setFormDescripcion(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="number"
+                            placeholder="Precio Original"
+                            min="0"
+                            step="0.01"
+                            value={formPrecioOriginal}
+                            onChange={(e) => setFormPrecioOriginal(Number(e.target.value))}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="number"
+                            placeholder="Descuento"
+                            min="0"
+                            step="0.01"
+                            value={formDescuento}
+                            onChange={(e) => setFormDescuento(Number(e.target.value))}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <label className="inline-flex items-center gap-2">
+                            <input
+                                type="checkbox"
+                                checked={formEnDescuento}
+                                onChange={(e) => setFormEnDescuento(e.target.checked)}
+                            />
+                            <span className="text-sm">En Descuento</span>
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Categoria (tal como aparece en products.json)"
+                            value={formCategoryName}
+                            onChange={(e) => setFormCategoryName(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <div className="flex gap-2">
+                            <button
+                                onClick={async () => {
+                                    // Validación básica en cliente
+                                    setFormMessage(null);
+                                    if (!formNombre.trim()) {
+                                        setFormMessage('El nombre es requerido');
+                                        return;
+                                    }
+                                    if (formPrecioOriginal === null || Number.isNaN(formPrecioOriginal) || formPrecioOriginal < 0) {
+                                        setFormMessage('Precio original inválido');
+                                        return;
+                                    }
+                                    if (formDescuento === null || Number.isNaN(formDescuento) || formDescuento < 0) {
+                                        setFormMessage('Descuento inválido');
+                                        return;
+                                    }
+                                    if (!formCategoryName.trim()) {
+                                        setFormMessage('La categoría es requerida');
+                                        return;
+                                    }
+
+                                    const payload = {
+                                        categoryName: formCategoryName,
+                                        product: {
+                                            nombre: formNombre,
+                                            imagen: formImagen || '',
+                                            capacidad: formCapacidad || '',
+                                            descripcion: formDescripcion || '',
+                                            precioOriginal: formPrecioOriginal,
+                                            descuento: formDescuento,
+                                            enDescuento: formEnDescuento,
+                                        },
+                                    };
+
+                                    try {
+                                        let res;
+                                        if (editingOriginalNombre) {
+                                            // Update existing product
+                                            res = await fetch('/api/products', {
+                                                method: 'PUT',
+                                                headers: { 'Content-Type': 'application/json' },
+                                                body: JSON.stringify({ categoryName: formCategoryName, originalNombre: editingOriginalNombre, product: payload.product }),
+                                            });
+                                        } else {
+                                            // Create new
+                                            res = await fetch('/api/products', {
+                                                method: 'POST',
+                                                headers: { 'Content-Type': 'application/json' },
+                                                body: JSON.stringify(payload),
+                                            });
+                                        }
+
+                                        const data = await res.json();
+                                        if (!res.ok) {
+                                            setFormMessage(data?.error || 'Error al guardar');
+                                        } else {
+                                            setFormMessage(editingOriginalNombre ? 'Producto actualizado correctamente' : 'Producto agregado correctamente');
+                                            // limpiar formulario
+                                            setFormNombre('');
+                                            setFormImagen('');
+                                            setFormCapacidad('');
+                                            setFormDescripcion('');
+                                            setFormPrecioOriginal(0);
+                                            setFormDescuento(0);
+                                            setFormEnDescuento(false);
+                                            setFormCategoryName('');
+                                            setEditingOriginalNombre(null);
+                                            // recargar lista
+                                            await loadProducts();
+                                            // opcional: cerrar modal
+                                            setTimeout(() => setMostrarForm(false), 800);
+                                        }
+                                    } catch (err: any) {
+                                        setFormMessage(String(err));
+                                    }
+                                }}
+                                className="bg-green-500 text-white px-4 py-2 rounded w-full"
+                            >
+                                {editingOriginalNombre ? 'Actualizar' : 'Guardar en JSON'}
+                            </button>
+
+                            <button
+                                onClick={() => { setMostrarForm(false); setEditingOriginalNombre(null); }}
+                                className="bg-gray-300 text-gray-800 px-4 py-2 rounded w-full"
+                            >
+                                Cancelar
+                            </button>
+                        </div>
+
+                        {formMessage && <p className="text-sm mt-2">{formMessage}</p>}
+                    </div>
+                </div>
+            )}
 
                 {/* TITLE */}
                 <h2 className="text-2xl font-semibold mb-4 text-gray-800">All the Products</h2>
@@ -158,15 +387,17 @@ export default function Administrator() {
 
                         {/* Cuerpo de la tabla */}
                         <tbody className="bg-white divide-y-0 text-sm text-gray-700">
-                            {displayedProducts.map((p, i) => (
+                            {loading ? (
+                                <tr><td className="p-4">Cargando productos...</td></tr>
+                            ) : displayedProducts.map((p, i) => (
                                 <tr
-                                    key={i}
+                                    key={`${p.nombre}-${i}`}
                                     // Filas alternadas para diferenciar sin usar bordes
                                     className={`${i % 2 === 0 ? "bg-gray-100" : "bg-white"} hover:bg-gray-200 transition duration-150`}
                                 >
                                     <td className="p-3 whitespace-nowrap">{p.sku}</td>
-                                    <td className="p-3 whitespace-nowrap font-medium text-gray-900">{p.name}</td>
-                                    <td className="p-3 whitespace-nowrap">{p.price}</td>
+                                    <td className="p-3 whitespace-nowrap font-medium text-gray-900">{p.nombre}</td>
+                                    <td className="p-3 whitespace-nowrap">{p.precioOriginal ? `$${p.precioOriginal.toFixed(2)}` : ''}</td>
                                     <td className="p-3 whitespace-nowrap text-gray-600">{p.category}</td>
 
                                     {/* STATUS (Usando el componente de icono) */}
@@ -174,26 +405,47 @@ export default function Administrator() {
                                         {statusIcon(p.status)}
                                     </td>
 
-                                    <td className="p-3 whitespace-nowrap">{p.stock}</td>
+                                    <td className="p-3 whitespace-nowrap">{p.stock ?? '-'}</td>
 
                                     {/* ACTIONS */}
                                     <td className="p-3 flex gap-2">
                                         {/* Edit Button */}
-                                        <button className="bg-blue-500 hover:bg-blue-600 text-white p-1.5 rounded-md shadow-sm active:scale-95 transition flex items-center justify-center">
+                                        <button onClick={() => openEdit(p)} className="bg-blue-500 hover:bg-blue-600 text-white p-1.5 rounded-md shadow-sm active:scale-95 transition flex items-center justify-center">
                                             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M17.414 2.586a2 2 0 010 2.828l-9.9 9.9a1 1 0 01-.39.242l-4 1a1 1 0 01-1.213-1.213l1-4a1 1 0 01.242-.39l9.9-9.9a2 2 0 012.828 0z" />
                                             </svg>
                                         </button>
 
                                         {/* Delete Button */}
-                                        <button className="bg-red-500 hover:bg-red-600 text-white p-1.5 rounded-md shadow-sm active:scale-95 transition flex items-center justify-center">
-                                            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                                <path d="M6 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm4 0a1 1 0 012 0v6a1 1 0 11-2 0V8zm3-3h-1.5l-.354-.354A2 2 0 009.586 4H8.414a2 2 0 00-1.414.586L6.646 5H5a1 1 0 000 2h10a1 1 0 100-2z" />
-                                            </svg>
-                                        </button>
+                                            <button
+                                                onClick={async () => {
+                                                    if (!confirm(`Eliminar ${p.nombre} de ${p.category}?`)) return;
+                                                    try {
+                                                        const res = await fetch('/api/products', {
+                                                            method: 'DELETE',
+                                                            headers: { 'Content-Type': 'application/json' },
+                                                            body: JSON.stringify({ categoryName: p.category, nombre: p.nombre }),
+                                                        });
+                                                        const d = await res.json();
+                                                        if (!res.ok) {
+                                                            alert(d?.error || 'Error al eliminar');
+                                                        } else {
+                                                            // recargar lista
+                                                            await loadProducts();
+                                                        }
+                                                    } catch (err) {
+                                                        alert(String(err));
+                                                    }
+                                                }}
+                                                className="bg-red-500 hover:bg-red-600 text-white p-1.5 rounded-md shadow-sm active:scale-95 transition flex items-center justify-center"
+                                            >
+                                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path d="M6 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm4 0a1 1 0 012 0v6a1 1 0 11-2 0V8zm3-3h-1.5l-.354-.354A2 2 0 009.586 4H8.414a2 2 0 00-1.414.586L6.646 5H5a1 1 0 000 2h10a1 1 0 100-2z" />
+                                                </svg>
+                                            </button>
                                     </td>
                                 </tr>
-                            ))}
+                                ))}
                         </tbody>
                     </table>
                 </div>
