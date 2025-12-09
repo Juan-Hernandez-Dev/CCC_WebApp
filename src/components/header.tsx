@@ -1,12 +1,15 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import CImage from "../assets/Navbar/C.png";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
+  const { t } = useTranslation('global');
+  const ref = useRef<HTMLElement | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 

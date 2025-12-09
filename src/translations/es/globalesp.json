@@ -1,0 +1,138 @@
+{
+    "aboutus": {
+        "section_title": "Acerca de Nosotros",
+        "main_title": "Limpiando con un Propósito",
+        "p1": "En Crystalim, somos una empresa dedicada a proporcionar soluciones de limpieza de alta calidad que marcan la diferencia en la vida de las personas. Nuestro compromiso va más allá de solo los productos; nos esforzamos por crear experiencias de limpieza sostenibles y efectivas.",
+        "p2": "Desde nuestros inicios como Comercializadora Castro Cervantes, hemos evolucionado hasta convertirnos en una marca de confianza en la industria de la limpieza, ofreciendo productos innovadores que combinan rendimiento con responsabilidad ambiental.",
+        "p3": "Creemos que la limpieza debe ser eficiente, segura y accesible para todos. Por eso, invertimos continuamente en investigación y desarrollo para ofrecerte las mejores tecnologías de limpieza disponibles.",
+        "mission_title": "Nuestra Misión",
+        "mission_text": "Comercializar productos de limpieza que destaquen por su calidad, efectividad y compromiso con la sostenibilidad. Buscamos ofrecer soluciones de limpieza integrales que satisfagan las necesidades de clientes tanto residenciales como comerciales, asegurando resultados excepcionales en cada aplicación.",
+        "vision_title": "Nuestra Visión",
+        "vision_text": "Convertirnos en una empresa líder en la comercialización de productos de limpieza, reconocida por nuestra innovación, calidad y dedicación a la satisfacción del cliente. Visualizamos un futuro donde Crystalim sea sinónimo de excelencia en soluciones de limpieza a nivel mundial.",
+        "innovation": "Innovación",
+        "responsability": "Responsabilidad",
+        "commitment": "Compromiso",
+        "loyalty": "Lealtad",
+        "teamwork": "Trabajo en Equipo",
+        "respect": "Respeto",
+        "honesty": "Honestidad"
+    },
+    "nav": {
+        "products": "Productos",
+        "aboutus": "Acerca de Nosotros",
+        "contact": "Contacto",
+        "home": "Inicio"
+    },
+    "home": {
+        "section_label": "Inicio",
+        "hero_title": "Lo que ofrecemos para tu Hogar y Negocio",
+        "card": {
+            "brooms_title": "Escobas",
+            "brooms_desc": "Escobas fuertes y duraderas, diseñadas para ofrecer una limpieza eficiente para todas sus necesidades de barrido. Perfectas para hogares y negocios.",
+            "mops_title": "Trapeadores",
+            "mops_desc": "Trapeadores altamente absorbentes y duraderos, ideales para mantener los pisos impecables y conservar un ambiente limpio en cualquier espacio.",
+            "soaps_title": "Jabones",
+            "soaps_desc": "Jabones líquidos y en barra diseñados para proporcionar una limpieza profunda sin comprometer la suavidad ni la eficacia."
+        },
+        "cta_title": "¿Buscas algo más?",
+        "cta_desc": "Explora nuestro catálogo completo y encuentra una amplia variedad de productos diseñados para satisfacer las necesidades de limpieza de cualquier espacio. En Crystalim, ofrecemos soluciones confiables y efectivas pensadas para tu conveniencia.",
+        "cta_button": "Ver todos los Productos →"
+    },
+    "contact": {
+        "section_label": "Contacto",
+        "hero_title": "¿Tienes alguna Pregunta? Contáctanos",
+        "hero_desc": "En Crystalim, nos preocupamos por su experiencia y estamos aquí para ayudarle. Si tiene alguna pregunta sobre nuestros productos, necesita asesoramiento o desea enviarnos sus comentarios, nuestro equipo de atención al cliente estará encantado de escucharle y ofrecerle soluciones rápidas y eficaces.",
+        "get_in_touch": "Ponte en Contacto",
+        "address_label": "Dirección",
+        "address_text": "Comercializadora Castro Cervantes\nBlock A, Bodega 64, Central de Abastos.",
+        "phone_label": "Teléfono",
+        "phone_text": "+52 (449) 137 3010",
+        "email_label": "Email",
+        "email_text": "crystalimadmon@gmail.com",
+        "form_title": "¡Envíanos un Mensaje!",
+        "form": {
+            "name_label": "Nombre",
+            "email_label": "Email",
+            "message_label": "Mensaje",
+            "name_placeholder": "Tu nombre",
+            "email_placeholder": "tu@email.com",
+            "message_placeholder": "Tu mensaje aquí...",
+            "submit_button": "Enviar Mensaje",
+            "submitting": "Enviando...",
+            "success_msg": "¡Mensaje enviado con éxito! Gracias por su preferencia.",
+            "loading": "Cargando...",
+            "error_msg": "Verifica los campos marcados antes de enviar.",
+            "validation": {
+                "required_name": "El nombre es obligatorio.",
+                "required_email": "El email es obligatorio.",
+                "required_message": "El mensaje es obligatorio.",
+                "invalid_email": "El formato del email no es válido."
+            }
+        }
+    },
+    "products": {
+        "catalog_title": "Catálogo Completo",
+        "all_categories": "Todos",
+        "no_products": "No hay productos para mostrar.",
+        "image_unavailable": "Imagen no disponible",
+        "no_image": "Sin imagen",
+        "discount_text": "Desc",
+        "select_page": "Seleccionar página",
+        "search_placeholder": "Buscar",
+        "category_filter": "Categoría",
+        "status_filter": "Estado",
+        "add_product_btn": "Agregar Producto",
+        "products_title": "Todos los Productos",
+        "table": {
+            "sku": "SKU",
+            "product": "Producto",
+            "price": "Precio",
+            "category": "Categoría",
+            "status": "Estado",
+            "stock": "Inventario",
+            "actions": "Acciones"
+        },
+        "pagination": {
+            "first": "Primera",
+            "prev": "Anterior",
+            "next": "Siguiente",
+            "last": "Última"
+        }
+    },
+    "admin": {
+        "section_label": "Admin",
+        "search_placeholder": "Buscar",
+        "category_filter": "Categoría",
+        "status_filter": "Estado",
+        "add_product_btn": "Agregar Producto",
+        "products_title": "Todos los Productos",
+        "table": {
+            "sku": "SKU",
+            "product": "Producto",
+            "price": "Precio",
+            "category": "Categoría",
+            "status": "Estado",
+            "stock": "Inventario",
+            "actions": "Acciones"
+        },
+        "status_labels": {
+            "available": "Disponible",
+            "restock": "Reposición Pronto",
+            "out_of_stock": "Agotado"
+        }
+    },
+    "footer": {
+        "navbar_title": "Barra de Navegación",
+        "products": "Productos",
+        "aboutus": "Acerca de Nosotros",
+        "contact": "Contacto",
+        "copyright": "Todos los Derechos Reservados."
+    },
+    "product_component": {
+        "catalog_title": "Catálogo Completo",
+        "select_option_all": "Todos",
+        "no_image": "Imagen no disponible",
+        "no_image_short": "Sin imagen",
+        "no_products": "No hay productos para mostrar."
+    }
+}

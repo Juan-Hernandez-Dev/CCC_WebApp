@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import productsData from "./products.json";
 
 const PRODUCTS_PER_PAGE = 12; // 4 columns x 3 rows
@@ -8,6 +9,8 @@ const PRODUCTS_PER_PAGE = 12; // 4 columns x 3 rows
 const getProxyUrl = (url?: string) => (url ? `/api/image-proxy?url=${encodeURIComponent(url)}` : undefined);
 
 export default function ProductPage() {
+  const { t } = useTranslation('global');
+  
   const categorias = productsData.categorias;
 
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState<number | null>(null);
@@ -131,7 +134,7 @@ export default function ProductPage() {
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-1 bg-blue-500 rounded"></div>
-            <h1 className="text-xl font-semibold text-gray-700">Catálogo Completo</h1>
+            <h1 className="text-xl font-semibold text-gray-700">{t('products.catalog_title')}</h1>
           </div>
 
           {/* Category Selector */}
@@ -189,7 +192,7 @@ export default function ProductPage() {
 
         {/* Products Grid */}
         {paginatedProducts.length === 0 ? (
-          <p className="text-gray-500 text-center py-12">No hay productos para mostrar.</p>
+          <p className="text-gray-500 text-center py-12">{t('products.no_products')}</p>
         ) : (
           <>
             <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10" style={{ gridAutoRows: '1fr' }}>
@@ -227,12 +230,12 @@ export default function ProductPage() {
 
                           {state === 'error' && (
                             <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                              <div className="text-gray-400 text-xs text-center px-2">Imagen no disponible</div>
+                              <div className="text-gray-400 text-xs text-center px-2">{t('products.image_unavailable')}</div>
                             </div>
                           )}
                         </>
                       ) : (
-                        <div className="text-gray-400 text-xs">Sin imagen</div>
+                        <div className="text-gray-400 text-xs">{t('products.no_image')}</div>
                       )}
 
                       {state === 'loading' && (
@@ -267,7 +270,7 @@ export default function ProductPage() {
                         </span>
                         {discountAmount > 0 && (
                           <span className="inline-block bg-orange-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
-                            {discountPercent}% Desc
+                            {discountPercent}% {t('products.discount_text')}
                           </span>
                         )}
                       </div>

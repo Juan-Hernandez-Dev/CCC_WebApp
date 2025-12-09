@@ -1,6 +1,7 @@
 "use client"; // <--- ¡Esta es la solución!
 
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import ProductsMobile from '../../components/ProductsMobile';
 import Product from '../../components/Product'; // Asumo que Product es el componente de escritorio
 
@@ -8,6 +9,8 @@ import Product from '../../components/Product'; // Asumo que Product es el compo
 const MOBILE_BREAKPOINT = 768;
 
 export default function ProductsPage() {
+  const { t } = useTranslation('global');
+  
   // 1. Hook para rastrear si es móvil
   const [isMobile, setIsMobile] = useState(() => {
     // Inicializa el estado solo en el cliente
