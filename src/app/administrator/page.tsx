@@ -1,9 +1,16 @@
 "use client";
 
+<<<<<<< HEAD
 import { useState, useEffect } from "react";
+=======
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+>>>>>>> 7b67b0fb6b20dc48eee87397d596b291cb027ddb
 
 // Componente de tabla de administración de productos
 export default function Administrator() {
+    const { t } = useTranslation('global');
+    
     const [search, setSearch] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10; // Ajuste para mostrar más productos por página como en el diseño
@@ -124,7 +131,7 @@ export default function Administrator() {
                         {/* Línea decorativa y texto */}
                         <div className="flex items-center mb-6 space-x-2">
                             <div className="flex w-6 h-0.5 bg-blue-500 rounded-full"></div>
-                            <span className="text-sm font-medium text-gray-600">Admin</span>
+                            <span className="text-sm font-medium text-gray-600">{t('admin.section_label')}</span>
                         </div>
                     </div>
                 </section>
@@ -144,7 +151,7 @@ export default function Administrator() {
 
                                 <input
                                     className="focus:outline-none text-sm w-full"
-                                    placeholder="Search"
+                                    placeholder={t('admin.search_placeholder')}
                                     value={search}
                                     onChange={(e) => setSearch(e.target.value)}
                                 />
@@ -162,7 +169,7 @@ export default function Administrator() {
 
                         {/* Category Dropdown */}
                         <button className="bg-white border border-gray-300 rounded-lg px-4 py-2 shadow-sm flex items-center gap-2 active:scale-95 transition hover:bg-gray-100">
-                            <span className="text-sm text-gray-700">Category</span>
+                            <span className="text-sm text-gray-700">{t('admin.category_filter')}</span>
                             <svg className="w-4 h-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.085l3.71-3.854a.75.75 0 111.08 1.04l-4.24 4.4a.75.75 0 01-1.08 0L5.25 8.29a.75.75 0 01-.02-1.08z" />
                             </svg>
@@ -170,7 +177,7 @@ export default function Administrator() {
 
                         {/* Status Dropdown */}
                         <button className="bg-white border border-gray-300 rounded-lg px-4 py-2 shadow-sm flex items-center gap-2 active:scale-95 transition hover:bg-gray-100">
-                            <span className="text-sm text-gray-700">Status</span>
+                            <span className="text-sm text-gray-700">{t('admin.status_filter')}</span>
                             <svg className="w-4 h-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.085l3.71-3.854a.75.75 0 111.08 1.04l-4.24 4.4a.75.75 0 01-1.08 0L5.25 8.29a.75.75 0 01-.02-1.08z" />
                             </svg>
@@ -178,6 +185,7 @@ export default function Administrator() {
                     </div>
                 </div>
 
+<<<<<<< HEAD
             {/* ADD PRODUCT Button */}
             <button
                 onClick={() => setMostrarForm(true)}
@@ -365,9 +373,15 @@ export default function Administrator() {
                     </div>
                 </div>
             )}
+=======
+                {/* ADD PRODUCT Button */}
+                <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md active:scale-95 transition mb-6">
+                    {t('admin.add_product_btn')}
+                </button>
+>>>>>>> 7b67b0fb6b20dc48eee87397d596b291cb027ddb
 
                 {/* TITLE */}
-                <h2 className="text-2xl font-semibold mb-4 text-gray-800">All the Products</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-gray-800">{t('admin.products_title')}</h2>
 
                 {/* TABLE - SIN LÍNEAS DIVISORIAS Y FILAS ALTERNADAS */}
                 <div className="overflow-x-auto shadow-lg rounded-lg border border-gray-200">
@@ -375,13 +389,13 @@ export default function Administrator() {
                         {/* Encabezado con fondo azul */}
                         <thead className="bg-blue-600 text-white text-sm font-medium tracking-wider">
                             <tr>
-                                <th className="p-3 text-left">SKU</th>
-                                <th className="p-3 text-left">Product</th>
-                                <th className="p-3 text-left">Price</th>
-                                <th className="p-3 text-left">Category</th>
-                                <th className="p-3 text-left">Status</th>
-                                <th className="p-3 text-left">Stock</th>
-                                <th className="p-3 text-left">Actions</th>
+                                <th className="p-3 text-left">{t('admin.table.sku')}</th>
+                                <th className="p-3 text-left">{t('admin.table.product')}</th>
+                                <th className="p-3 text-left">{t('admin.table.price')}</th>
+                                <th className="p-3 text-left">{t('admin.table.category')}</th>
+                                <th className="p-3 text-left">{t('admin.table.status')}</th>
+                                <th className="p-3 text-left">{t('admin.table.stock')}</th>
+                                <th className="p-3 text-left">{t('admin.table.actions')}</th>
                             </tr>
                         </thead>
 

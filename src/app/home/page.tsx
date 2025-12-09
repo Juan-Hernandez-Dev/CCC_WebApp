@@ -1,11 +1,14 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import CImage from '../../assets/Home/Brooms.jpg'
 import C2Image from '../../assets/Home/Mops.jpg'
 import C3Image from '../../assets/Home//Soaps.jpg'
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+    const { t } = useTranslation('global');
     return (
         <div className="min-h-screen">
             {/* Hero section para Services */}
@@ -13,8 +16,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto text-left">
             <div className="flex items-center justify-left mb-4 space-x-2">
                 <div className="w-6 h-0.5 bg-blue-500"></div>
-                <span className="text-base font-medium text-gray-700">Home</span>
-                </div><h1 className="text-4xl sm:text-5xl font-extrabold">What we offer for your Home and Business</h1>
+                <span className="text-base font-medium text-gray-700">{t('home.section_label')}</span>
+                </div><h1 className="text-4xl sm:text-5xl font-extrabold">{t('home.hero_title')}</h1>
         </div>
       </section>
             {/* Sección de tarjetas de servicios */}
@@ -33,10 +36,9 @@ const Home = () => {
                             />
                         </div>
                         <div className="p-6">
-                            <h3 className="text-xl font-bold text-black mb-3">Brooms</h3>
+                            <h3 className="text-xl font-bold text-black mb-3">{t('home.card.brooms_title')}</h3>
                             <p className="text-gray-600 mb-4">
-                                Strong and durable brooms, designed to provide efficient cleaning for all your
-                                sweeping needs. Perfect for homes and businesses alike.
+                                {t('home.card.brooms_desc')}
                             </p>
                         </div>
                     </div>
@@ -53,10 +55,9 @@ const Home = () => {
                             />
                         </div>
                         <div className="p-6">
-                            <h3 className="text-xl font-bold text-black mb-3">Mops</h3>
+                            <h3 className="text-xl font-bold text-black mb-3">{t('home.card.mops_title')}</h3>
                             <p className="text-gray-600 mb-4">
-                                Highly absorbent and durable mops, ideal for keeping floors spotless and
-                                maintaining a clean environment in any setting.
+                                {t('home.card.mops_desc')}
                             </p>
                         </div>
                     </div>
@@ -73,10 +74,9 @@ const Home = () => {
                             />
                         </div>
                         <div className="p-6">
-                            <h3 className="text-xl font-bold text-black mb-3">Soaps</h3>
+                            <h3 className="text-xl font-bold text-black mb-3">{t('home.card.soaps_title')}</h3>
                             <p className="text-gray-600 mb-4">
-                                Liquid and bar soaps designed to provide deep cleansing without compromising
-                                on gentleness or effectiveness.
+                                {t('home.card.soaps_desc')}
                             </p>
 
                         </div>
@@ -89,16 +89,15 @@ const Home = () => {
                 <div className="grid grid-cols-1 gap-8 items-center">
                     {/* Columna de texto */}
                     <div className="space-y-4">
-                          <h1 className=" py-2 text-4xl sm:text-5xl font-extrabold">Are you looking for something else?</h1>
+                          <h1 className=" py-2 text-4xl sm:text-5xl font-extrabold">{t('home.cta_title')}</h1>
                         <p className="py-4 text-gray-600 mb-4">
-                            Explore our complete catalog and find a wide variety of products designed to meet the cleaning needs of any space. 
-                            At Crystalim, we offer reliable, effective solutions designed for your convenience.
+                            {t('home.cta_desc')}
                         </p>
                         <a
                             href="/catalog"
                             className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
                         >
-                            View all Products →
+                            {t('home.cta_button')} →
                         </a>
                     </div>
                     {/* Columna vacía para mantener la estructura de dos columnas */}
