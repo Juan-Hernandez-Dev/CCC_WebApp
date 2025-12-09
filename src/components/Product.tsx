@@ -13,7 +13,9 @@ export default function ProductPage() {
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState<number | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [imageStates, setImageStates] = useState<Record<string, 'loading' | 'loaded' | 'error'>>({});
+  const [showCategoryMenu, setShowCategoryMenu] = useState(false);
   const gridRef = useRef<HTMLDivElement | null>(null);
+  const categoryMenuRef = useRef<HTMLDivElement>(null);
 
   const handleCategorySelect = (index: number | null) => {
     setSelectedCategoryIndex(index);
@@ -66,6 +68,19 @@ export default function ProductPage() {
       }
     });
   }, []);
+
+  // Lógica para cerrar el menú de categorías al hacer clic fuera
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (categoryMenuRef.current && !categoryMenuRef.current.contains(event.target as Node)) {
+        setShowCategoryMenu(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [categoryMenuRef]);
 
   const renderPaginationButtons = () => {
     const pages: (number | string)[] = [];
@@ -121,19 +136,54 @@ export default function ProductPage() {
 
           {/* Category Selector */}
           <div className="w-full sm:w-48">
-            <select
-              className="w-full px-4 py-2.5 rounded-lg bg-blue-600 text-white font-semibold border-0 cursor-pointer hover:bg-blue-700 transition"
-              value={selectedCategoryIndex !== null ? selectedCategoryIndex : ''}
-              onChange={(e) => {
-                const index = e.target.value === '' ? null : parseInt(e.target.value);
-                handleCategorySelect(index);
-              }}
-            >
-              <option value="">Todos</option>
-              {categorias.map((cat, idx) => (
-                <option key={idx} value={idx}>{cat.nombre}</option>
-              ))}
-            </select>
+            {/* Category selector (Menú estilizable, ocupa todo el ancho) */}
+            <div className="relative flex-1 max-w-full" ref={categoryMenuRef}>
+              <button
+                onClick={() => setShowCategoryMenu(!showCategoryMenu)}
+                className="relative flex items-center justify-center
+                          bg-white text-gray-800 border border-blue-600
+                          text-sm font-medium px-3 py-2 rounded-md shadow-sm min-h-[44px] w-full"
+                aria-expanded={showCategoryMenu}
+                aria-haspopup="true"
+              >
+                {selectedCategoryIndex === null ? "Todos" : categorias[selectedCategoryIndex].nombre}
+                <span className="absolute right-2 text-gray-800">
+                  {showCategoryMenu ? '▲' : '▼'}
+                </span>
+              </button>
+
+              {/* Menú Desplegable (Fondo BLANCO) */}
+              {showCategoryMenu && (
+                <div className="absolute left-0 right-0 mt-2 z-10
+                              bg-white border border-gray-200 rounded-md shadow-lg max-h-72 overflow-y-auto">
+                  <button
+                    onClick={() => handleCategorySelect(null)}
+                    className={`w-full text-left px-4 py-2 text-sm transition-colors duration-150
+                              ${selectedCategoryIndex === null
+                                ? 'bg-blue-600 text-white font-semibold'
+                                : 'text-gray-800 hover:bg-blue-50' // Opciones inactivas en blanco/gris
+                              }`}
+                    role="menuitem"
+                  >
+                    Todos
+                  </button>
+                  {categorias.map((cat, idx) => (
+                    <button
+                      key={idx}
+                      onClick={() => handleCategorySelect(idx)}
+                      className={`w-full text-left px-4 py-2 text-sm transition-colors duration-150
+                                ${selectedCategoryIndex === idx
+                                  ? 'bg-blue-600 text-white font-semibold'
+                                  : 'text-gray-800 hover:bg-blue-50' // Opciones inactivas en blanco/gris
+                                }`}
+                      role="menuitem"
+                    >
+                      {cat.nombre}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
 

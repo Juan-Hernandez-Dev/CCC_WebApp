@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import CImage from "../assets/Navbar/C.png";
 import { Menu, X } from "lucide-react";
@@ -7,57 +7,8 @@ import { usePathname } from "next/navigation";
 import Link from 'next/link';
 
 export default function Header() {
-  const ref = useRef<HTMLElement | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const applyPadding = () => {
-      const h = Math.ceil(el.getBoundingClientRect().height);
-      document.querySelectorAll("main, .min-h-screen").forEach((node) => {
-        (node as HTMLElement).style.paddingTop = `${h}px`;
-      });
-    };
-
-    // Medida inicial en el siguiente frame (evita medir antes de layout final)
-    let raf1: number | null = null;
-    let raf2: number | null = null;
-    raf1 = requestAnimationFrame(() => {
-      raf2 = requestAnimationFrame(applyPadding);
-    });
-
-    // Observador para cambios de tamaño del header (imagen, fuente, etc.)
-    let ro: ResizeObserver | null = null;
-    if (typeof ResizeObserver !== "undefined") {
-      ro = new ResizeObserver(() => applyPadding());
-      ro.observe(el);
-      // Además recalcular cuando la página completa carga (CSS/imagenes) y cuando las fuentes se estabilizan
-      window.addEventListener("load", applyPadding);
-      if ((document as any).fonts && (document as any).fonts.ready) {
-        (document as any).fonts.ready.then(applyPadding).catch(() => {});
-      }
-    } else {
-      // Fallback: escucha resize de la ventana y load de la página
-      window.addEventListener("resize", applyPadding);
-      window.addEventListener("load", applyPadding);
-    }
-
-    return () => {
-      if (raf1) cancelAnimationFrame(raf1);
-      if (raf2) cancelAnimationFrame(raf2);
-       if (ro) {
-         ro.disconnect();
-       } else {
-         window.removeEventListener("resize", applyPadding);
-         window.removeEventListener("load", applyPadding);
-       }
-      // remover listener de load si se añadió junto con ResizeObserver
-      window.removeEventListener("load", applyPadding);
-     };
-   }, [pathname]);
 
   const isActive = (href: string) => {
     if (!pathname) return false;
@@ -66,8 +17,7 @@ export default function Header() {
 
   return (
     <header
-      ref={ref}
-      className="fixed inset-x-0 top-0 bg-white border-b border-gray-200"
+      className="sticky top-0 bg-white border-b border-gray-200"
       role="banner"
       style={{ zIndex: 99999, pointerEvents: 'auto' }}
     >
