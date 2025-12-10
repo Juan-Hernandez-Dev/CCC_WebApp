@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 // Componente de tabla de administración de productos
@@ -10,31 +10,80 @@ export default function Administrator() {
     const [search, setSearch] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10; // Ajuste para mostrar más productos por página como en el diseño
+    const [mostrarForm, setMostrarForm] = useState(false);
+    const [formNombre, setFormNombre] = useState("");
+    const [formImagen, setFormImagen] = useState("");
+    const [formCapacidad, setFormCapacidad] = useState("");
+    const [formDescripcion, setFormDescripcion] = useState("");
+    const [formPrecioOriginal, setFormPrecioOriginal] = useState(0);
+    const [formDescuento, setFormDescuento] = useState(0);
+    const [formEnDescuento, setFormEnDescuento] = useState(false);
+    const [formCategoryName, setFormCategoryName] = useState("");
+    const [formMessage, setFormMessage] = useState<string | null>(null);
+    const [editingOriginalNombre, setEditingOriginalNombre] = useState<string | null>(null);
 
-    // Datos de productos (ejemplo)
-    const products = [
-        { sku: "BOL-012", name: "Bolsa negra 60 x 90 cm (B60)", price: "$45.00", category: "BOLSAS", status: "Available", stock: 35 },
-        { sku: "FER-005", name: "Afloja Todo 172ml GD05", price: "$43.00", category: "FERRETERIA", status: "Available", stock: 27 },
-        { sku: "PER-030", name: "Agua Oxigenada 125ml PROESA", price: "$10.00", category: "PERFUMERIA", status: "Available", stock: 42 },
-        { sku: "LIS-013", name: "Almorol 5 litros. (ALS)", price: "$280.00", category: "LIQ. 5 LITROS", status: "Available", stock: 30 },
-        { sku: "ESC-001", name: "Bastón Capuchon Madera Venta (BCV)", price: "$17.00", category: "ESCOBAS", status: "Available", stock: 35 },
-        { sku: "FIB-002", name: "Fibra acero chica 30g. (FA30)", price: "$5.00", category: "FIBRAS", status: "Restock Soon", stock: 4 },
-        { sku: "LII-012", name: "FRUTAL Limpiador Multiusos 1 litro (FR1) LM1", price: "$15.00", category: "LIQ. 1 LITRO", status: "Available", stock: 39 },
-        { sku: "JAR-003", name: "Atomizador 250ml (A250)", price: "$13.00", category: "JARCERIA", status: "Available", stock: 23 },
-        { sku: "ARO-016", name: "Aromatizante CANELA 400ml", price: "$15.00", category: "AROMA", status: "Out of Stock", stock: 0 },
-        { sku: "PAP-011", name: "Rollo papel JUMBO 360m", price: "$77.00", category: "PAPEL", status: "Available", stock: 37 },
+    // Productos cargados desde JSON via API
+    const [products, setProducts] = useState<Array<any>>([]);
+    const [history, setHistory] = useState<Array<any>>([]);
+    const [loading, setLoading] = useState(false);
+    const [viewingHistory, setViewingHistory] = useState(false);
 
-        { sku: "VEN-008", name: "Laminitas RAID C/10B + Aparato Gratis (Veneno)", price: "$230.00", category: "VENENO", status: "Available", stock: 25 },
-        { sku: "DES-009", name: "Bote negro CHICO con tapa balancin", price: "$110.00", category: "DESPACHADORES", status: "Available", stock: 40 },
-        { sku: "LML-008", name: "Jabon para Manos UVA 500ml (UMU500) JM500", price: "$22.00", category: "LIQ. 500 ML", status: "Available", stock: 33 },
-        { sku: "TRA-017", name: "Trapeador HILUX Blanco #24 BG (H24)", price: "$42.00", category: "TRAPEADORES BG", status: "Available", stock: 35 },
-        { sku: "DUL-019", name: "Espuma para fiesta 270ml. GD05 FUNNY SNOW", price: "$20.00", category: "DULCERIA", status: "Available", stock: 46 },
-    ];
+    const loadProducts = async () => {
+        setLoading(true);
+        try {
+            const res = await fetch('/api/products');
+            const data = await res.json();
+            // Transformar en lista plana con campo category
+            const list: Array<any> = [];
+            if (data?.categorias && Array.isArray(data.categorias)) {
+                for (const c of data.categorias) {
+                    if (Array.isArray(c.productos)) {
+                        for (const p of c.productos) {
+                            list.push({ ...p, category: c.nombre });
+                        }
+                    }
+                }
+            }
+            setProducts(list);
+            setHistory(data?.historial || []);
+        } catch (err) {
+            console.error('Failed to load products', err);
+            setProducts([]);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    // Cargar productos al montar
+    useEffect(() => {
+        loadProducts();
+    }, []);
+
+    // Abrir modal en modo edición con datos del producto
+    const openEdit = (p: any) => {
+        setFormNombre(p.nombre || '');
+        setFormImagen(p.imagen || '');
+        setFormCapacidad(p.capacidad || '');
+        setFormDescripcion(p.descripcion || '');
+        setFormPrecioOriginal(Number(p.precioOriginal ?? 0));
+        setFormDescuento(Number(p.descuento ?? 0));
+        setFormEnDescuento(Boolean(p.enDescuento));
+        setFormCategoryName(p.category || '');
+        setEditingOriginalNombre(p.nombre || null);
+        setMostrarForm(true);
+    };
 
     // Lógica de PAGINACIÓN
-    const totalPages = Math.ceil(products.length / itemsPerPage);
+    // Filtrar por búsqueda
+    const filtered = products.filter((p) =>
+        (p.nombre || p.name || '').toLowerCase().includes(search.toLowerCase()) ||
+        (p.descripcion || '').toLowerCase().includes(search.toLowerCase()) ||
+        (p.category || '').toLowerCase().includes(search.toLowerCase())
+    );
+
+    const totalPages = Math.ceil(filtered.length / itemsPerPage) || 1;
     const indexStart = (currentPage - 1) * itemsPerPage;
-    const displayedProducts = products.slice(indexStart, indexStart + itemsPerPage);
+    const displayedProducts = filtered.slice(indexStart, indexStart + itemsPerPage);
 
     // Función auxiliar para el ícono de estado
     const statusIcon = (status: string) => {
@@ -68,6 +117,38 @@ export default function Administrator() {
             </div>
         );
     };
+
+        // Small reusable action button component: icon + label, accessible and responsive
+        function ActionButton({ onClick, title, ariaLabel, variant = 'default', disabled = false, children, label }: any) {
+            const base = 'inline-flex items-center gap-2 px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-1 border font-medium text-sm';
+            const variantClass = disabled
+                ? 'opacity-40 pointer-events-none bg-gray-100 text-gray-500 border-gray-200'
+                : variant === 'edit'
+                ? 'bg-blue-500 hover:bg-blue-600 text-white border-blue-600 focus:ring-blue-300'
+                : variant === 'delete'
+                ? 'bg-red-500 hover:bg-red-600 text-white border-red-600 focus:ring-red-300'
+                : variant === 'restore'
+                ? 'bg-green-500 hover:bg-green-600 text-white border-green-600 focus:ring-green-300'
+                : variant === 'toggle'
+                ? 'bg-yellow-300 hover:bg-yellow-400 text-gray-800 border-yellow-400'
+                : variant === 'activate'
+                ? 'bg-green-500 hover:bg-green-600 text-white border-green-600 focus:ring-green-300'
+                : 'bg-white';
+
+            return (
+                <button
+                    onClick={onClick}
+                    title={title}
+                    aria-label={ariaLabel}
+                    className={`${base} ${variantClass}`}
+                >
+                    <span className="flex items-center gap-2">
+                        {children}
+                        {label && <span className="sr-only">{label}</span>}
+                    </span>
+                </button>
+            );
+        }
 
 
     return (
@@ -120,7 +201,7 @@ export default function Administrator() {
                         {/* Category Dropdown */}
                         <button className="bg-white border border-gray-300 rounded-lg px-4 py-2 shadow-sm flex items-center gap-2 active:scale-95 transition hover:bg-gray-100">
                             <span className="text-sm text-gray-700">{t('admin.category_filter')}</span>
-                            <svg className="w-4 h-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                            <svg className="w-5 h-5 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.085l3.71-3.854a.75.75 0 111.08 1.04l-4.24 4.4a.75.75 0 01-1.08 0L5.25 8.29a.75.75 0 01-.02-1.08z" />
                             </svg>
                         </button>
@@ -128,28 +209,295 @@ export default function Administrator() {
                         {/* Status Dropdown */}
                         <button className="bg-white border border-gray-300 rounded-lg px-4 py-2 shadow-sm flex items-center gap-2 active:scale-95 transition hover:bg-gray-100">
                             <span className="text-sm text-gray-700">{t('admin.status_filter')}</span>
-                            <svg className="w-4 h-4 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                            <svg className="w-5 h-5 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.085l3.71-3.854a.75.75 0 111.08 1.04l-4.24 4.4a.75.75 0 01-1.08 0L5.25 8.29a.75.75 0 01-.02-1.08z" />
                             </svg>
                         </button>
                     </div>
                 </div>
 
-                {/* ADD PRODUCT Button */}
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md active:scale-95 transition mb-6">
-                    {t('admin.add_product_btn')}
-                </button>
+            {/* ADD PRODUCT Button */}
+            <button
+                onClick={() => setMostrarForm(true)}
+                className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md active:scale-95 transition mb-6 h-9 flex items-center gap-2"
+            >
+                {t('admin.add_product_btn')}
+            </button>
 
-                {/* TITLE */}
-                <h2 className="text-2xl font-semibold mb-4 text-gray-800">{t('admin.products_title')}</h2>
+            <button
+                onClick={() => setViewingHistory((v) => !v)}
+                className="ml-3 bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg shadow-sm active:scale-95 transition mb-6 h-9 flex items-center gap-2"
+            >
+                {viewingHistory ? t('admin.view.back', { defaultValue: 'Volver a Productos' }) : t('admin.view.history', { defaultValue: 'Ver Historial' })}
+            </button>
 
-                {/* TABLE - SIN LÍNEAS DIVISORIAS Y FILAS ALTERNADAS */}
-                <div className="overflow-x-auto shadow-lg rounded-lg border border-gray-200">
+            {/* If viewingHistory, show the historial */}
+            {viewingHistory && (
+                <div className="mt-4 mb-6">
+                    <h3 className="text-lg font-medium mb-2">{t('admin.history.title')}</h3>
+                    <div className="overflow-x-auto bg-white border rounded-lg shadow-sm">
+                        <table className="min-w-full text-sm text-gray-700">
+                            <thead className="bg-gray-50 text-gray-600 text-left">
+                                <tr>
+                                    <th className="p-2">{t('admin.history.date')}</th>
+                                    <th className="p-2">{t('admin.history.action')}</th>
+                                    <th className="p-2">{t('admin.history.category')}</th>
+                                    <th className="p-2">{t('admin.history.product')}</th>
+                                    <th className="p-2">{t('admin.history.details')}</th>
+                                    <th className="p-2">{t('admin.history.actions')}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {history.length === 0 ? (
+                                    <tr><td className="p-4">{t('admin.history.empty')}</td></tr>
+                                ) : (
+                                    history.slice().reverse().map((h, i) => (
+                                        <tr key={i} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                                            <td className="p-2 align-top">{new Date(h.timestamp).toLocaleString()}</td>
+                                            <td className="p-2 align-top">{h.action}</td>
+                                            <td className="p-2 align-top">{h.categoryName}</td>
+                                            <td className="p-2 align-top">{(h.product && h.product.nombre) || (h.productBefore && h.productBefore.nombre) || (h.productAfter && h.productAfter.nombre) || '-'}</td>
+                                            <td className="p-2 align-top">
+                                                {h.action === 'update' ? (
+                                                    <div>
+                                                        <div className="text-xs text-gray-600">Antes: {(h.productBefore && h.productBefore.nombre) || '-'}</div>
+                                                        <div className="text-xs text-gray-600">Después: {(h.productAfter && h.productAfter.nombre) || '-'}</div>
+                                                    </div>
+                                                ) : (
+                                                    <div className="text-xs text-gray-600">{h.product ? JSON.stringify(h.product) : JSON.stringify(h.productBefore || {})}</div>
+                                                )}
+                                            </td>
+                                            <td className="p-2 align-top">
+                                                {h.action === 'delete' && (
+                                                        <button
+                                                        onClick={async () => {
+                                                            const nombre = (h.productBefore && h.productBefore.nombre) || (h.product && h.product.nombre);
+                                                            if (!nombre) return alert(t('admin.errors.no_product_name'));
+                                                            if (!confirm(t('admin.confirmations.restore', { name: nombre, category: h.categoryName }))) return;
+                                                            try {
+                                                                const res = await fetch('/api/products', {
+                                                                    method: 'PATCH',
+                                                                    headers: { 'Content-Type': 'application/json' },
+                                                                    body: JSON.stringify({ categoryName: h.categoryName, nombre, op: 'restore' }),
+                                                                });
+                                                                const d = await res.json();
+                                                                if (!res.ok) {
+                                                                    alert(d?.error || t('admin.errors.restore_failed'));
+                                                                } else {
+                                                                    await loadProducts();
+                                                                }
+                                                            } catch (err) {
+                                                                alert(String(err));
+                                                            }
+                                                        }}
+                                                        title={t('admin.buttons.restore')}
+                                                        aria-label={`${t('admin.buttons.restore')} ${(h.productBefore && h.productBefore.nombre) || (h.product && h.product.nombre)}`}
+                                                        className="bg-green-500 hover:bg-green-600 text-white w-8 h-8 p-0 rounded-md shadow-sm active:scale-95 transition flex items-center justify-center"
+                                                    >
+                                                        <img src="https://i.ibb.co/KpYHnWz0/cruz.png" alt="restore" className="w-5 h-5 object-contain" />
+                                                    </button>
+                                                )}
+                                            </td>
+                                        </tr>
+                                    ))
+                                )}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            )}
+
+            {/* MODAL */}
+            {mostrarForm && (
+                <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+                    
+                    {/* Caja del modal */}
+                    <div className="bg-white p-6 rounded-xl w-96 shadow-lg space-y-3 relative">
+
+                        {/* Botón cerrar */}
+                        <button
+                            className="absolute top-2 right-2 text-gray-600 hover:text-black"
+                            onClick={() => setMostrarForm(false)}
+                        >
+                            ✕
+                        </button>
+
+                    
+                        {/* Formulario controlado para enviar al JSON */}
+                        <input
+                            type="text"
+                            placeholder={t('admin.modal.name_placeholder')}
+                            value={formNombre}
+                            onChange={(e) => setFormNombre(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="text"
+                            placeholder={t('admin.modal.image_placeholder')}
+                            value={formImagen}
+                            onChange={(e) => setFormImagen(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="text"
+                            placeholder={t('admin.modal.capacity_placeholder')}
+                            value={formCapacidad}
+                            onChange={(e) => setFormCapacidad(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <textarea
+                            placeholder={t('admin.modal.description_placeholder')}
+                            value={formDescripcion}
+                            onChange={(e) => setFormDescripcion(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="number"
+                            placeholder={t('admin.modal.price_placeholder')}
+                            min="0"
+                            step="0.01"
+                            value={formPrecioOriginal}
+                            onChange={(e) => setFormPrecioOriginal(Number(e.target.value))}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <input
+                            type="number"
+                            placeholder={t('admin.modal.discount_placeholder')}
+                            min="0"
+                            step="0.01"
+                            value={formDescuento}
+                            onChange={(e) => setFormDescuento(Number(e.target.value))}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <label className="inline-flex items-center gap-2">
+                            <input
+                                type="checkbox"
+                                checked={formEnDescuento}
+                                onChange={(e) => setFormEnDescuento(e.target.checked)}
+                            />
+                            <span className="text-sm">{t('admin.modal.on_discount')}</span>
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder={t('admin.modal.category_placeholder')}
+                            value={formCategoryName}
+                            onChange={(e) => setFormCategoryName(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <div className="flex gap-2">
+                            <button
+                                onClick={async () => {
+                                    // Validación básica en cliente
+                                    setFormMessage(null);
+                                    if (!formNombre.trim()) {
+                                        setFormMessage(t('admin.modal.errors.name_required'));
+                                        return;
+                                    }
+                                    if (formPrecioOriginal === null || Number.isNaN(formPrecioOriginal) || formPrecioOriginal < 0) {
+                                        setFormMessage(t('admin.modal.errors.price_invalid'));
+                                        return;
+                                    }
+                                    if (formDescuento === null || Number.isNaN(formDescuento) || formDescuento < 0) {
+                                        setFormMessage(t('admin.modal.errors.discount_invalid'));
+                                        return;
+                                    }
+                                    if (!formCategoryName.trim()) {
+                                        setFormMessage(t('admin.modal.errors.category_required'));
+                                        return;
+                                    }
+
+                                    const payload = {
+                                        categoryName: formCategoryName,
+                                        product: {
+                                            nombre: formNombre,
+                                            imagen: formImagen || '',
+                                            capacidad: formCapacidad || '',
+                                            descripcion: formDescripcion || '',
+                                            precioOriginal: formPrecioOriginal,
+                                            descuento: formDescuento,
+                                            enDescuento: formEnDescuento,
+                                        },
+                                    };
+
+                                    try {
+                                        let res;
+                                        if (editingOriginalNombre) {
+                                            // Update existing product
+                                            res = await fetch('/api/products', {
+                                                method: 'PUT',
+                                                headers: { 'Content-Type': 'application/json' },
+                                                body: JSON.stringify({ categoryName: formCategoryName, originalNombre: editingOriginalNombre, product: payload.product }),
+                                            });
+                                        } else {
+                                            // Create new
+                                            res = await fetch('/api/products', {
+                                                method: 'POST',
+                                                headers: { 'Content-Type': 'application/json' },
+                                                body: JSON.stringify(payload),
+                                            });
+                                        }
+
+                                        const data = await res.json();
+                                        if (!res.ok) {
+                                            setFormMessage(data?.error || t('admin.modal.errors.save_failed'));
+                                        } else {
+                                            setFormMessage(editingOriginalNombre ? t('admin.modal.success.updated') : t('admin.modal.success.created'));
+                                            // limpiar formulario
+                                            setFormNombre('');
+                                            setFormImagen('');
+                                            setFormCapacidad('');
+                                            setFormDescripcion('');
+                                            setFormPrecioOriginal(0);
+                                            setFormDescuento(0);
+                                            setFormEnDescuento(false);
+                                            setFormCategoryName('');
+                                            setEditingOriginalNombre(null);
+                                            // recargar lista
+                                            await loadProducts();
+                                            // opcional: cerrar modal
+                                            setTimeout(() => setMostrarForm(false), 800);
+                                        }
+                                    } catch (err: any) {
+                                        setFormMessage(String(err));
+                                    }
+                                }}
+                                className="bg-green-500 text-white px-4 py-2 rounded w-full"
+                            >
+                                {editingOriginalNombre ? t('admin.modal.update') : t('admin.modal.save')}
+                            </button>
+
+                            <button
+                                onClick={() => { setMostrarForm(false); setEditingOriginalNombre(null); }}
+                                className="bg-gray-300 text-gray-800 px-4 py-2 rounded w-full"
+                            >
+                                {t('admin.modal.cancel')}
+                            </button>
+                        </div>
+
+                        {formMessage && <p className="text-sm mt-2">{formMessage}</p>}
+                    </div>
+                </div>
+            )}
+
+                {/* TITLE and products table (hidden when viewing history) */}
+                {!viewingHistory && (
+                    <>
+                        <h2 className="text-2xl font-semibold mb-4 text-gray-800">{t('admin.products_title')}</h2>
+
+                        {/* TABLE - SIN LÍNEAS DIVISORIAS Y FILAS ALTERNADAS */}
+                        <div className="overflow-x-auto shadow-lg rounded-lg border border-gray-200">
                     <table className="min-w-full divide-y-0">
                         {/* Encabezado con fondo azul */}
                         <thead className="bg-blue-600 text-white text-sm font-medium tracking-wider">
-                            <tr>
-                                <th className="p-3 text-left">{t('admin.table.sku')}</th>
+                                <tr>
                                 <th className="p-3 text-left">{t('admin.table.product')}</th>
                                 <th className="p-3 text-left">{t('admin.table.price')}</th>
                                 <th className="p-3 text-left">{t('admin.table.category')}</th>
@@ -161,15 +509,17 @@ export default function Administrator() {
 
                         {/* Cuerpo de la tabla */}
                         <tbody className="bg-white divide-y-0 text-sm text-gray-700">
-                            {displayedProducts.map((p, i) => (
+                            {loading ? (
+                                <tr><td className="p-4">{t('admin.loading')}</td></tr>
+                            ) : displayedProducts.map((p, i) => (
                                 <tr
-                                    key={i}
+                                    key={`${p.nombre}-${i}`}
                                     // Filas alternadas para diferenciar sin usar bordes
                                     className={`${i % 2 === 0 ? "bg-gray-100" : "bg-white"} hover:bg-gray-200 transition duration-150`}
                                 >
-                                    <td className="p-3 whitespace-nowrap">{p.sku}</td>
-                                    <td className="p-3 whitespace-nowrap font-medium text-gray-900">{p.name}</td>
-                                    <td className="p-3 whitespace-nowrap">{p.price}</td>
+                                    <td className="p-3 whitespace-nowrap font-medium text-gray-900">{p.nombre}</td>
+                                    
+                                    <td className="p-3 whitespace-nowrap">{p.precioOriginal ? `$${p.precioOriginal.toFixed(2)}` : ''}</td>
                                     <td className="p-3 whitespace-nowrap text-gray-600">{p.category}</td>
 
                                     {/* STATUS (Usando el componente de icono) */}
@@ -177,26 +527,116 @@ export default function Administrator() {
                                         {statusIcon(p.status)}
                                     </td>
 
-                                    <td className="p-3 whitespace-nowrap">{p.stock}</td>
+                                    <td className="p-3 whitespace-nowrap">{p.stock ?? '-'}</td>
 
                                     {/* ACTIONS */}
-                                    <td className="p-3 flex gap-2">
-                                        {/* Edit Button */}
-                                        <button className="bg-blue-500 hover:bg-blue-600 text-white p-1.5 rounded-md shadow-sm active:scale-95 transition flex items-center justify-center">
-                                            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <td className="p-3 flex gap-2 items-center">
+                                        {/* Action buttons rendered via ActionButton for consistent look */}
+                                        <ActionButton
+                                            onClick={() => openEdit(p)}
+                                            title={t('admin.buttons.edit')}
+                                            ariaLabel={`${t('admin.buttons.edit')} ${p.nombre}`}
+                                            variant="edit"
+                                            disabled={Boolean(p.deleted)}
+                                            label={t('admin.buttons.edit')}
+                                        >
+                                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M17.414 2.586a2 2 0 010 2.828l-9.9 9.9a1 1 0 01-.39.242l-4 1a1 1 0 01-1.213-1.213l1-4a1 1 0 01.242-.39l9.9-9.9a2 2 0 012.828 0z" />
                                             </svg>
-                                        </button>
+                                        </ActionButton>
 
-                                        {/* Delete Button */}
-                                        <button className="bg-red-500 hover:bg-red-600 text-white p-1.5 rounded-md shadow-sm active:scale-95 transition flex items-center justify-center">
-                                            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                                <path d="M6 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm4 0a1 1 0 012 0v6a1 1 0 11-2 0V8zm3-3h-1.5l-.354-.354A2 2 0 009.586 4H8.414a2 2 0 00-1.414.586L6.646 5H5a1 1 0 000 2h10a1 1 0 100-2z" />
-                                            </svg>
-                                        </button>
+                                        {p.deleted ? (
+                                            <ActionButton
+                                                onClick={async () => {
+                                                    if (!confirm(t('admin.confirmations.restore', { name: p.nombre, category: p.category }))) return;
+                                                    try {
+                                                        const res = await fetch('/api/products', {
+                                                            method: 'PATCH',
+                                                            headers: { 'Content-Type': 'application/json' },
+                                                            body: JSON.stringify({ categoryName: p.category, nombre: p.nombre, op: 'restore' }),
+                                                        });
+                                                        const d = await res.json();
+                                                        if (!res.ok) {
+                                                            alert(d?.error || t('admin.errors.restore_failed'));
+                                                        } else {
+                                                            await loadProducts();
+                                                        }
+                                                    } catch (err) {
+                                                        alert(String(err));
+                                                    }
+                                                }}
+                                                title={t('admin.buttons.restore')}
+                                                ariaLabel={`${t('admin.buttons.restore')} ${p.nombre}`}
+                                                variant="restore"
+                                                label={t('admin.buttons.restore')}
+                                            >
+                                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path d="M3 10a7 7 0 1112.9 3.54l1.1 1.1A9 9 0 102 10h1z" />
+                                                </svg>
+                                            </ActionButton>
+                                        ) : (
+                                            <ActionButton
+                                                onClick={async () => {
+                                                    if (!confirm(t('admin.confirmations.delete', { name: p.nombre, category: p.category }))) return;
+                                                    try {
+                                                        const res = await fetch('/api/products', {
+                                                            method: 'PATCH',
+                                                            headers: { 'Content-Type': 'application/json' },
+                                                            body: JSON.stringify({ categoryName: p.category, nombre: p.nombre, op: 'soft-delete' }),
+                                                        });
+                                                        const d = await res.json();
+                                                        if (!res.ok) {
+                                                            alert(d?.error || t('admin.errors.delete_failed'));
+                                                        } else {
+                                                            await loadProducts();
+                                                        }
+                                                    } catch (err) {
+                                                        alert(String(err));
+                                                    }
+                                                }}
+                                                title={t('admin.buttons.delete')}
+                                                ariaLabel={`${t('admin.buttons.delete')} ${p.nombre}`}
+                                                variant="delete"
+                                                label={t('admin.buttons.delete')}
+                                            >
+                                                <img src="https://i.ibb.co/jPzqjhTQ/basura.png" alt="delete" className="w-5 h-5 object-contain" />
+                                            </ActionButton>
+                                        )}
+
+                                        <ActionButton
+                                            onClick={async () => {
+                                                try {
+                                                    const op = p.active === false ? 'activate' : 'deactivate';
+                                                    const res = await fetch('/api/products', {
+                                                        method: 'PATCH',
+                                                        headers: { 'Content-Type': 'application/json' },
+                                                        body: JSON.stringify({ categoryName: p.category, nombre: p.nombre, op }),
+                                                    });
+                                                    const d = await res.json();
+                                                    if (!res.ok) {
+                                                        alert(d?.error || t('admin.errors.update_status_failed'));
+                                                    } else {
+                                                        await loadProducts();
+                                                    }
+                                                } catch (err) {
+                                                    alert(String(err));
+                                                }
+                                            }}
+                                            title={p.deleted ? t('admin.titles.deleted_cant_activate') : (p.active === false ? t('admin.buttons.activate') : t('admin.buttons.deactivate'))}
+                                            ariaLabel={p.deleted ? `${t('admin.titles.deleted_cant_activate')} ${p.nombre}` : `${p.active === false ? t('admin.buttons.activate') : t('admin.buttons.deactivate')} ${p.nombre}`}
+                                            variant={p.active === false ? 'activate' : 'toggle'}
+                                            disabled={Boolean(p.deleted)}
+                                            label={p.active === false ? t('admin.buttons.activate') : t('admin.buttons.deactivate')}
+                                        >
+                                            <img
+                                                src={p.active === false ? 'https://i.ibb.co/KpwGjkpL/controlar.png' : 'https://i.ibb.co/KpYHnWz0/cruz.png'}
+                                                alt={p.active === false ? 'activate' : 'deactivate'}
+                                                className="w-5 h-5 object-contain"
+                                            />
+                                        </ActionButton>
                                     </td>
                                 </tr>
-                            ))}
+                                ))}
                         </tbody>
                     </table>
                 </div>
@@ -243,6 +683,8 @@ export default function Administrator() {
                         {'>>'}
                     </button>
                 </div>
+                    </>
+                )}
             </div>
         </div>
     );

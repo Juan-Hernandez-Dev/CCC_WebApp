@@ -209,40 +209,16 @@ export default function ProductPage() {
                 return (
                   <div key={idx} className="h-full max-h-96 bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col gap-3 hover:shadow-md transition-shadow">
                     {/* Image Container (fixed height to keep cards uniform) */}
-                    <div className="w-full h-44 sm:h-52 bg-gray-100 rounded-xl flex items-center justify-center overflow-hidden relative border border-gray-200"
+                    <div className="w-full h-36 sm:h-44 bg-gray-100 rounded-xl flex items-center justify-center overflow-hidden relative border border-gray-200"
                          style={{
                            backgroundImage: 'radial-gradient(#e5e7eb 1.5px, transparent 1.5px)',
                            backgroundSize: '16px 16px'
                          }}>
-                      {product.imagen ? (
-                        <>
-                          <img
-                            key={key}
-                            data-image-key={key}
-                            src={proxySrc}
-                            alt={product.nombre}
-                            loading="lazy"
-                            decoding="async"
-                            className="w-full h-full object-contain p-6"
-                            onLoad={() => onImgLoad(key)}
-                            onError={() => onImgError(key)}
-                          />
-
-                          {state === 'error' && (
-                            <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                              <div className="text-gray-400 text-xs text-center px-2">{t('products.image_unavailable')}</div>
-                            </div>
-                          )}
-                        </>
-                      ) : (
-                        <div className="text-gray-400 text-xs">{t('products.no_image')}</div>
-                      )}
-
-                      {state === 'loading' && (
-                        <div className="absolute inset-0 flex items-center justify-center bg-white/50">
-                          <span className="inline-block w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
-                        </div>
-                      )}
+                      {/* Temporarily render text instead of images for clearer admin layout */}
+                      <div className="text-center px-4">
+                        <div className="text-sm font-semibold text-gray-800">{product.nombre}</div>
+                        <div className="text-xs text-gray-500 mt-1">{product.capacidad || t('products.no_image')}</div>
+                      </div>
                     </div>
 
                     {/* Content */}

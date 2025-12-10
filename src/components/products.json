@@ -7,18 +7,20 @@
           "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
           "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
           "capacidad": "",
-          "descripcion": "Gel fijador con linaza que proporciona una fijación extrema y brillo, ideal para estilos definidos.",
-          "precioOriginal": 45.00,
-          "descuento": 15.00,
-          "enDescuento": true
+          "descripcion": "hola\n",
+          "precioOriginal": 45,
+          "descuento": 15,
+          "enDescuento": false,
+          "deleted": false,
+          "active": true
         },
         {
           "nombre": "Rastrillo lord 2 hojas c/48",
           "imagen": "https://lh3.googleusercontent.com/d/15RQNBRo0m-9bT6AQnKfWdUzP7C_HpZm2=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 48 rastrillos desechables de dos hojas, ideal para uso diario y económico.",
-          "precioOriginal": 120.00,
-          "descuento": 0.00,
+          "precioOriginal": 120,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -26,8 +28,8 @@
           "capacidad": "250g",
           "imagen": "https://lh3.googleusercontent.com/d/1Dfzbz-djVEP_qKpNHlaZHtZjjWBrL9R_=w200-h200-c",
           "descripcion": "Gel para el cabello con ingredientes naturales para una fijación media y un acabado suave.",
-          "precioOriginal": 55.00,
-          "descuento": 15.00,
+          "precioOriginal": 55,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -35,8 +37,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1MRLQijoHscq0wma5SsDd6uxkn3tsF7gC=w200-h200-c",
           "capacidad": "",
           "descripcion": "Toallitas húmedas suaves y resistentes con 80 unidades, perfectas para la piel sensible del bebé.",
-          "precioOriginal": 35.00,
-          "descuento": 0.00,
+          "precioOriginal": 35,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -44,8 +46,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1SXyyBF9F8BidB8f1M17SCyE-iapYWFa8=w200-h200-c",
           "capacidad": "",
           "descripcion": "Vaselina pura de 85g, multiusos para hidratar y proteger la piel seca o agrietada.",
-          "precioOriginal": 25.00,
-          "descuento": 15.00,
+          "precioOriginal": 25,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -53,8 +55,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1W82PACf3qspd8qtBGi8D2cpeO5yFzhi_=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rastrillos Schick Xtreme desechables con cabezal pivotante para un afeitado apurado y cómodo. Paquete de 14 unidades.",
-          "precioOriginal": 140.00,
-          "descuento": 0.00,
+          "precioOriginal": 140,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -62,8 +64,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1YraYJFsRrSykz0bRq92EMke862UcEll8=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rastrillos Bic de 3 hojas para un afeitado más suave. Incluye 14 unidades en total.",
-          "precioOriginal": 115.00,
-          "descuento": 15.00,
+          "precioOriginal": 115,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -71,8 +73,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1_CFAt6ScALgNkZPEkj2oKllrF5dD18By=w200-h200-c",
           "capacidad": "",
           "descripcion": "Toallitas desinfectantes de uso general con 100 unidades, ideales para la limpieza rápida de superficies.",
-          "precioOriginal": 65.00,
-          "descuento": 0.00,
+          "precioOriginal": 65,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -80,8 +82,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1_IB2KQ7chgz4ghvdLc3RdgQyKzy3I9t4=w200-h200-c",
           "capacidad": "",
           "descripcion": "Botella de 500ml de agua oxigenada para desinfección de heridas y uso antiséptico.",
-          "precioOriginal": 40.00,
-          "descuento": 15.00,
+          "precioOriginal": 40,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -89,8 +91,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1fVHFrzTClqrgrGPO2ieXOPfp7dxOqXmp=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 4 jabones de tocador dermatológicos de 150g, suave para pieles sensibles.",
-          "precioOriginal": 80.00,
-          "descuento": 0.00,
+          "precioOriginal": 80,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -98,8 +100,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1gl06x1-BQR7brVujoBnJxD2DabY21Yz5=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rastrillos Gillette de 2 hojas para un afeitado clásico. Paquete con 32 unidades.",
-          "precioOriginal": 250.00,
-          "descuento": 15.00,
+          "precioOriginal": 250,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -107,8 +109,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1mlJuqfPh-Qq12LXfkq7qCz20ZcLAU1Ql=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rastrillos Gillette de 3 hojas con banda lubricante, paquete de 12 unidades.",
-          "precioOriginal": 190.00,
-          "descuento": 0.00,
+          "precioOriginal": 190,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -116,8 +118,8 @@
           "capacidad": "",
           "imagen": "https://lh3.googleusercontent.com/d/1qY1XPl9lLVCA-63fhKrOlIUHz8LeoeNn=w200-h200-c",
           "descripcion": "Paquete económico de 14 jabones de tocador dermatológicos LIRIO de 150g cada uno.",
-          "precioOriginal": 260.00,
-          "descuento": 15.00,
+          "precioOriginal": 260,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -125,8 +127,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1sbSQqoqLeEiLQu-vYMxrlzEcpyAsSpIF=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 100 cofias desechables blancas PROSAFE para uso industrial o sanitario.",
-          "precioOriginal": 95.00,
-          "descuento": 0.00,
+          "precioOriginal": 95,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -134,8 +136,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1vu7lMEYrryA3L5M5samQYEhzf0meRQMX=w200-h200-c",
           "capacidad": "",
           "descripcion": "Bote con 95 toallitas húmedas desinfectantes LYSOL, ideal para superficies.",
-          "precioOriginal": 130.00,
-          "descuento": 15.00,
+          "precioOriginal": 130,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -143,8 +145,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/105MP8tY6rh94unibrVbDbuo6MgrzxKD-=w200-h200-c",
           "capacidad": "",
           "descripcion": "Esponja corporal grande tipo burbuja con jabón preintegrado, para una limpieza profunda y exfoliación.",
-          "precioOriginal": 50.00,
-          "descuento": 15.00,
+          "precioOriginal": 50,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -152,8 +154,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Iu6AOxTDf1NHWYCFGdW-8-TLs7xape0D=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra corporal MIROSLAVA, ideal para tallar y exfoliar la piel durante el baño.",
-          "precioOriginal": 25.00,
-          "descuento": 0.00,
+          "precioOriginal": 25,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -161,8 +163,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1SVkb-kTySnIslv92za7CB8ple7xoLUQ9=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 3 fibras corporales tipo burbuja FASHION, suaves y generan abundante espuma.",
-          "precioOriginal": 60.00,
-          "descuento": 15.00,
+          "precioOriginal": 60,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -170,8 +172,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1WpJ_W9CXwDIk-TncxvsZ3ERaCKFm5yWJ=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra corporal de Saluk FASHION, de textura más rugosa para una exfoliación intensa.",
-          "precioOriginal": 30.00,
-          "descuento": 0.00,
+          "precioOriginal": 30,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -179,8 +181,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1aWzuKw4lEXHMIMqXg_Yx5U9ltiCBj-VI=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra corporal extrasuave MIROSLAVA, diseñada para la piel delicada de los bebés.",
-          "precioOriginal": 20.00,
-          "descuento": 15.00,
+          "precioOriginal": 20,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -188,8 +190,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1nNdYC33y6jIbaSMNXVV7Fl9hoiSW4G4m=w200-h200-c",
           "capacidad": "",
           "descripcion": "Esponja corporal grande y voluminosa tipo burbuja, para un baño espumoso.",
-          "precioOriginal": 45.00,
-          "descuento": 0.00,
+          "precioOriginal": 45,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -197,8 +199,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1xmmPCb8Gqqft-LCgYuMTdGWcQ1ii2h5a=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 2 fibras corporales suaves FASHION CLEAN, perfectas para bebés y niños.",
-          "precioOriginal": 35.00,
-          "descuento": 15.00,
+          "precioOriginal": 35,
+          "descuento": 15,
           "enDescuento": true
         }
       ]
@@ -211,8 +213,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1CGJH1c-ZyH_zAaveieP1_lglWAbNgNCw=w200-h200-c",
           "capacidad": "",
           "descripcion": "Espirales antimosquitos RAID (10 unidades), de color morado, para uso en exteriores.",
-          "precioOriginal": 50.00,
-          "descuento": 15.00,
+          "precioOriginal": 50,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -220,8 +222,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1D_gvA2S2bWHOa7WBfeet5ud8IJ4mTN_m=w200-h200-c",
           "capacidad": "",
           "descripcion": "Espirales antimosquitos RAID (10 unidades), de color verde, para proteger de insectos voladores.",
-          "precioOriginal": 50.00,
-          "descuento": 0.00,
+          "precioOriginal": 50,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -229,8 +231,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/10hX3b1sWfhb2fGzjd1JGEc-xXgaqPa-M=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cebo rodenticida en forma de churro de 200g, altamente efectivo contra ratas y ratones.",
-          "precioOriginal": 75.00,
-          "descuento": 15.00,
+          "precioOriginal": 75,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -238,8 +240,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/11ssx42AsQyDXDf3GgYM1D-rjrShMsIbL=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 108 láminas repelentes para uso con difusor eléctrico RAID, ideal para mosquitos.",
-          "precioOriginal": 160.00,
-          "descuento": 0.00,
+          "precioOriginal": 160,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -247,8 +249,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1EhDH-QlAr3vKw0dxJv5c3A0y6ucIbusA=w200-h200-c",
           "capacidad": "",
           "descripcion": "Insecticida de contacto y estomacal para el control de hormigas en interiores y exteriores.",
-          "precioOriginal": 30.00,
-          "descuento": 15.00,
+          "precioOriginal": 30,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -256,8 +258,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1HVtU_QpJzx9QqYKXFQejIZOyK4QIX5gj=w200-h200-c",
           "capacidad": "",
           "descripcion": "Polvo insecticida EXTERMINADOR, de acción rápida y residual contra hormigas.",
-          "precioOriginal": 45.00,
-          "descuento": 0.00,
+          "precioOriginal": 45,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -265,8 +267,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1MGaq2TvVBesV_nmvs-2fU7R2NamVSgNF=w200-h200-c",
           "capacidad": "",
           "descripcion": "Spray insecticida especializado KILLER, para eliminar chinches de cama y sus huevos.",
-          "precioOriginal": 90.00,
-          "descuento": 15.00,
+          "precioOriginal": 90,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -274,8 +276,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Pz8UbdaIUFVpu-QyiNSbmI0uYLCPCTEF=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cebo rodenticida en forma de churro de 200g, altamente efectivo contra ratas y ratones.",
-          "precioOriginal": 75.00,
-          "descuento": 0.00,
+          "precioOriginal": 75,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -283,8 +285,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1QPhULb44UjbFaRLceQZfEGFj3yFfyL-r=w200-h200-c",
           "capacidad": "",
           "descripcion": "Insecticida en gel de 30g, de aplicación precisa tipo jeringa, para cucarachas.",
-          "precioOriginal": 105.00,
-          "descuento": 15.00,
+          "precioOriginal": 105,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -292,8 +294,8 @@
           "capacidad": "250ml",
           "imagen": "https://lh3.googleusercontent.com/d/1QlA66qdL0U4mQAkdeCfplyKktcCwwPmW=w200-h200-c",
           "descripcion": "Insecticida líquido FUMIN de 250ml, concentrado para diluir y aplicar con atomizador.",
-          "precioOriginal": 85.00,
-          "descuento": 0.00,
+          "precioOriginal": 85,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -301,8 +303,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1UrHMl6zFvBICPjPWWRGqtTgWXsz2ifvL=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 2 trampas de pegamento medianas 'Clean House' para capturar ratas y ratones.",
-          "precioOriginal": 40.00,
-          "descuento": 15.00,
+          "precioOriginal": 40,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -310,8 +312,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1XFzGfUhiFGy-f3EOMnb7wpd5gjK_uhnU=w200-h200-c",
           "capacidad": "",
           "descripcion": "Caja con 50 espirales antimosquitos VAPE (tipo Raidolito), de gran duración.",
-          "precioOriginal": 180.00,
-          "descuento": 0.00,
+          "precioOriginal": 180,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -319,8 +321,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1bLTMs10EWTmLKfVmNCHr_r7KoONs2JnV=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cebo rodenticida en cereal de color rosa, atractivo para ratas y ratones.",
-          "precioOriginal": 60.00,
-          "descuento": 15.00,
+          "precioOriginal": 60,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -328,8 +330,8 @@
           "capacidad": "450ml",
           "imagen": "https://lh3.googleusercontent.com/d/1na7WbsSuY0wxdWpJpm46vzM-rzFSf2V0=w200-h200-c",
           "descripcion": "Insecticida en aerosol MATON de 450ml, para matar insectos voladores y rastreros al instante.",
-          "precioOriginal": 70.00,
-          "descuento": 0.00,
+          "precioOriginal": 70,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -337,8 +339,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1soyZuCFK38hVavtOmynQInb3BDTuab_Q=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 2 trampas de pegamento grandes 'Clean House' para una mayor superficie de captura.",
-          "precioOriginal": 60.00,
-          "descuento": 15.00,
+          "precioOriginal": 60,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -346,8 +348,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1uPDduTZ9z_VDpj5ne_e4TG1kbjBReihM=w200-h200-c",
           "capacidad": "",
           "descripcion": "Insecticida líquido concentrado KILLER de 500ml, para diluir y aplicar en plagas persistentes.",
-          "precioOriginal": 120.00,
-          "descuento": 0.00,
+          "precioOriginal": 120,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -355,8 +357,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1-xrznguLlyvSG7Bj2hYB0QGVYmdVyjoq=w200-h200-c",
           "capacidad": "",
           "descripcion": "Insecticida en polvo POLVEX, ideal para aplicar en grietas y escondrijos de insectos rastreros.",
-          "precioOriginal": 35.00,
-          "descuento": 15.00,
+          "precioOriginal": 35,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -364,8 +366,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/198ZJTvDjFOU9wjW73eSAgz7Htz03PBd4=w200-h200-c",
           "capacidad": "",
           "descripcion": "Spray repelente de mosquitos de 230ml, ofrece protección contra piquetes por varias horas.",
-          "precioOriginal": 60.00,
-          "descuento": 0.00,
+          "precioOriginal": 60,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -373,8 +375,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/19Jy_gks8DlsleeGbLIIoHNYiwOfYTDGm=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cebo rodenticida en forma de 'huevito', discreto y fácil de colocar en cebaderos.",
-          "precioOriginal": 70.00,
-          "descuento": 15.00,
+          "precioOriginal": 70,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -382,8 +384,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1HmPyzuN8L7kTVNpK2Jo_mPVz8MjZq-Bd=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 108 láminas repelentes para difusor eléctrico RAID, incluye el aparato gratis.",
-          "precioOriginal": 200.00,
-          "descuento": 0.00,
+          "precioOriginal": 200,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -391,8 +393,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Mi5uULr1Yn1M59GwBOfgjMEKsNMDHlAF=w200-h200-c",
           "capacidad": "",
           "descripcion": "Insecticida líquido FLIT CONTROL de 1 litro, con efecto residual para eliminar cucarachas.",
-          "precioOriginal": 140.00,
-          "descuento": 15.00,
+          "precioOriginal": 140,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -400,8 +402,8 @@
           "capacidad": "1L",
           "imagen": "https://lh3.googleusercontent.com/d/1PVwsU4H71gRI2mKVzA1Qn1VS77i73DQU=w200-h200-c",
           "descripcion": "Insecticida líquido FLIT CONTROL de 1 litro, formulado específicamente para el control de moscas.",
-          "precioOriginal": 140.00,
-          "descuento": 0.00,
+          "precioOriginal": 140,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -409,8 +411,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1QTPmwslvYjxDxr5K-oQNfbZlNzuAO5h5=w200-h200-c",
           "capacidad": "",
           "descripcion": "Veneno en presentación de costalito, un cebo discreto y potente contra roedores.",
-          "precioOriginal": 80.00,
-          "descuento": 15.00,
+          "precioOriginal": 80,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -418,8 +420,8 @@
           "capacidad": "100ml",
           "imagen": "https://lh3.googleusercontent.com/d/1Rif9404KIzXfzRXn8KOMxLvoNbf_97s3=w200-h200-c",
           "descripcion": "Insecticida líquido FUMIN de 100ml, concentrado para diluir y exterminar diversas plagas.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -427,8 +429,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1TeXCRLI9-8XRSGv45wMIILKi1UH-Om_w=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 2 trampas de pegamento pequeñas 'Clean House', ideal para espacios reducidos.",
-          "precioOriginal": 30.00,
-          "descuento": 15.00,
+          "precioOriginal": 30,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -436,8 +438,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1WRHdFhWYXin5KhX4C-IfUHHU42fbj7DX=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 4 tiras pegamoscas, económicas y efectivas para atrapar moscas.",
-          "precioOriginal": 20.00,
-          "descuento": 0.00,
+          "precioOriginal": 20,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -445,8 +447,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1_mRheniejU5YMlyToFoFU7JuM0wsv-CK=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 30 láminas repelentes para uso con difusor eléctrico genérico.",
-          "precioOriginal": 45.00,
-          "descuento": 15.00,
+          "precioOriginal": 45,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -454,8 +456,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1j69SrkbtHnEEDFSY1NGpNmdYhcyL3Uvb=w200-h200-c",
           "capacidad": "",
           "descripcion": "Ácido bórico en sobres, utilizado como insecticida y desinfectante.",
-          "precioOriginal": 35.00,
-          "descuento": 0.00,
+          "precioOriginal": 35,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -463,8 +465,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1k6ezXPhqXeirylGh6txcDgT5C5vD1uJy=w200-h200-c",
           "capacidad": "",
           "descripcion": "Insecticida líquido FLIT CONTROL de 1 litro, sin olor, con efecto residual contra cucarachas.",
-          "precioOriginal": 150.00,
-          "descuento": 15.00,
+          "precioOriginal": 150,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -472,8 +474,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1FnlVnTBabl6OIR1fcGaMFbcUHcvP8XHd=w200-h200-c",
           "capacidad": "",
           "descripcion": "Insecticida mosquicida soluble en color azul, para preparar y aplicar en áreas de alta concentración de moscas.",
-          "precioOriginal": 95.00,
-          "descuento": 0.00,
+          "precioOriginal": 95,
+          "descuento": 0,
           "enDescuento": false
         }
       ]
@@ -486,8 +488,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/14RJta9nhQ7WFP0pq3nqHgxnQXn8gReKY=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador tradicional de pabilo de algodón blanco, ideal para absorber líquidos.",
-          "precioOriginal": 65.00,
-          "descuento": 15.00,
+          "precioOriginal": 65,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -495,8 +497,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Gu-5P7Tqr40jbUHb0IT0aDJHOBPVih0p=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de hilaza blanca de alta calidad, resistente y duradero.",
-          "precioOriginal": 70.00,
-          "descuento": 0.00,
+          "precioOriginal": 70,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -504,8 +506,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1VUL3R6_NuND0PO9fkQ7npElVQHLaIGyQ=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de pabilaza de colores, una opción económica para la limpieza diaria.",
-          "precioOriginal": 50.00,
-          "descuento": 15.00,
+          "precioOriginal": 50,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -513,8 +515,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1XlZM-tfeLHFf3mqw0pYmTBwDiN7pw7ZD=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de material Magitel, conocido por su gran capacidad de absorción y secado rápido.",
-          "precioOriginal": 85.00,
-          "descuento": 0.00,
+          "precioOriginal": 85,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -522,8 +524,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1YT27qm-bh6brc9R3mu_05vtV_z9_QzN-=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de microtela, suave y eficaz para limpiar sin rayar superficies delicadas.",
-          "precioOriginal": 95.00,
-          "descuento": 15.00,
+          "precioOriginal": 95,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -531,8 +533,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1_MCg6vu8-VwaYJ47pJ28RtjL55a7kS_x=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de tamaño mini, ideal para espacios pequeños o para uso infantil.",
-          "precioOriginal": 30.00,
-          "descuento": 0.00,
+          "precioOriginal": 30,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -540,8 +542,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1bM9EL0Ps7LsQMSz1G-VeDmYPraeS2bP4=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador con sistema de escurrido fácil o sistema 'mágico', para mayor comodidad.",
-          "precioOriginal": 150.00,
-          "descuento": 15.00,
+          "precioOriginal": 150,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -549,8 +551,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1dGPSC78L5L8sNvwM7FfnIMReApxknz3m=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de pabilaza color blanco, una opción económica y funcional para el hogar.",
-          "precioOriginal": 55.00,
-          "descuento": 0.00,
+          "precioOriginal": 55,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -558,8 +560,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1gDNdCQY425bRIWVYF-6m0Q8I5nf5SR3K=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de hilaza de colores variados, de buena absorción y durabilidad.",
-          "precioOriginal": 70.00,
-          "descuento": 15.00,
+          "precioOriginal": 70,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -567,8 +569,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1pCdcyAY0AYS2x4pEh3OPX3U8KK13qH_T=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador de hilaza española, con un tejido más grueso para mayor resistencia y poder de arrastre.",
-          "precioOriginal": 80.00,
-          "descuento": 0.00,
+          "precioOriginal": 80,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -576,8 +578,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1qXqZavL5s7sAo_Ye1p_N0VoJQErMpnU1=w200-h200-c",
           "capacidad": "",
           "descripcion": "Repuesto de microtela para trapeadores, fácil de cambiar y lavar.",
-          "precioOriginal": 50.00,
-          "descuento": 15.00,
+          "precioOriginal": 50,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -585,8 +587,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1uzlQIM2KqxxlTb8AygOIj81vw8PwJZHm=w200-h200-c",
           "capacidad": "",
           "descripcion": "Trapeador tradicional de pabilo de algodón de color, ideal para la limpieza profunda.",
-          "precioOriginal": 65.00,
-          "descuento": 0.00,
+          "precioOriginal": 65,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -594,8 +596,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1BO4wX_xUh8MgeJYPZaqvNC2sfAjSAyKZ=w200-h200-c",
           "capacidad": "",
           "descripcion": "Tela de microfibra chica de 40x40 cm, ideal para limpiar, pulir y secar superficies sin dejar pelusa.",
-          "precioOriginal": 35.00,
-          "descuento": 15.00,
+          "precioOriginal": 35,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -603,8 +605,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1SwptJKPvol1lL3qQNH13Y_OASUu61CsP=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paño de microfibra de tamaño extra grande (40x60 cm), perfecto para secado de autos o grandes superficies.",
-          "precioOriginal": 60.00,
-          "descuento": 0.00,
+          "precioOriginal": 60,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -612,8 +614,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1nBymsFJmHxQH9Brg05ibpibOVrW2oRrL=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo de mano con cerdas firmes, para fregar ropa o superficies pequeñas.",
-          "precioOriginal": 25.00,
-          "descuento": 15.00,
+          "precioOriginal": 25,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -621,8 +623,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1wQwhLJlm64p6ulGvsAuZtux5xqeH9ci2=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paño de microfibra ABEJA REYNA de 40x60 cm, de alta absorción y durabilidad.",
-          "precioOriginal": 65.00,
-          "descuento": 0.00,
+          "precioOriginal": 65,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -630,8 +632,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1zlcdao2MEFN6S_T-QPYMxpPROAlNotr_=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paño de microfibra KLINTEK de 40x60 cm, ideal para limpieza multiusos en el hogar.",
-          "precioOriginal": 55.00,
-          "descuento": 15.00,
+          "precioOriginal": 55,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -639,8 +641,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/14JCLGE3_MRlFfI9gsREKShaVEy9R2Fxn=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo alargado con mango, útil para limpiar botellas, jarras o áreas de difícil acceso.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -648,8 +650,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/14c1EezEC3OlME-COUcho0e4Kav4QEL4M=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo de base ancha con mango, conocido como 'tipo plancha', para fregar pisos y superficies planas.",
-          "precioOriginal": 35.00,
-          "descuento": 15.00,
+          "precioOriginal": 35,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -657,8 +659,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/15RbUMvKKtgTQoAo10oALN2s-FlpJMQ6h=w200-h200-c",
           "capacidad": "",
           "descripcion": "Botella atomizadora económica con válvula de pistola, ideal para soluciones de limpieza.",
-          "precioOriginal": 20.00,
-          "descuento": 0.00,
+          "precioOriginal": 20,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -666,8 +668,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/15rBXXxB27kix0OSVheZlkV4kliWzxAMy=w200-h200-c",
           "capacidad": "",
           "descripcion": "Piedra pómez en bolsita, para exfoliar y suavizar la piel de los pies.",
-          "precioOriginal": 15.00,
-          "descuento": 15.00,
+          "precioOriginal": 15,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -675,8 +677,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1825K1cvagzEAmnkmrC2VJuJ4pyz-BNRq=w200-h200-c",
           "capacidad": "",
           "descripcion": "Escobillón para inodoro con base y mango, para una limpieza higiénica del baño.",
-          "precioOriginal": 60.00,
-          "descuento": 0.00,
+          "precioOriginal": 60,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -684,8 +686,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/18nuD4UDX8Gtj_gzArLGg--nLeg3yI09z=w200-h200-c",
           "capacidad": "",
           "descripcion": "Tela de microfibra chica de 40x40 cm, ideal para limpiar, pulir y secar superficies sin dejar pelusa.",
-          "precioOriginal": 35.00,
-          "descuento": 15.00,
+          "precioOriginal": 35,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -693,8 +695,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/19Cd22nHzaD-lnQ-Ronl_q0IYcProGFjL=w200-h200-c",
           "capacidad": "",
           "descripcion": "Escobeta tradicional de lechuguilla (fibra natural), para tallar pisos y ropa resistente.",
-          "precioOriginal": 45.00,
-          "descuento": 0.00,
+          "precioOriginal": 45,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -702,8 +704,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1FzJ91OqHFFov8Mk_4VwO-sj3a3mlHFA2=w200-h200-c",
           "capacidad": "",
           "descripcion": "Botella atomizadora de uso rudo con válvula tipo CANYON, duradera para soluciones fuertes.",
-          "precioOriginal": 50.00,
-          "descuento": 15.00,
+          "precioOriginal": 50,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -711,8 +713,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1GJrphVKy-jZPpWAQl5GwRWEabYXtACXp=w200-h200-c",
           "capacidad": "",
           "descripcion": "Jalador de goma con mango para secar y limpiar vidrios y espejos sin dejar marcas.",
-          "precioOriginal": 30.00,
-          "descuento": 0.00,
+          "precioOriginal": 30,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -720,8 +722,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1GztR27N5a-AfezItN8jI_NxZjevABhPi=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 10 estropajos de fibra natural (ixtle), biodegradable y perfecto para tallar utensilios de cocina.",
-          "precioOriginal": 40.00,
-          "descuento": 15.00,
+          "precioOriginal": 40,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -729,8 +731,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1HKI_p6m_EHEQQAdzWdYRE0dUhl6Ds-Rb=w200-h200-c",
           "capacidad": "",
           "descripcion": "Destapacaños de copa grande, con mango de madera y caucho para un sellado potente.",
-          "precioOriginal": 70.00,
-          "descuento": 0.00,
+          "precioOriginal": 70,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -738,8 +740,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1JfKLl9z-PDNkfYTfUURkNSl0Qi70OQMA=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cuerda de tendedero de cáñamo blanco de 10 metros, resistente para colgar ropa.",
-          "precioOriginal": 35.00,
-          "descuento": 15.00,
+          "precioOriginal": 35,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -747,8 +749,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1KDxAYQ1YXCzMBfKBWuc2eem5J3fG_2EB=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo de mano con cerdas y cabezal flexible KLINTEK, ideal para superficies curvas.",
-          "precioOriginal": 45.00,
-          "descuento": 0.00,
+          "precioOriginal": 45,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -756,8 +758,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Kx7-6lJxkPwxYUMCqAdyAaQ1MaQysb5a=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo con mango para lavar platos y sartenes, con dispensador de jabón integrado FLIPP.",
-          "precioOriginal": 80.00,
-          "descuento": 15.00,
+          "precioOriginal": 80,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -765,8 +767,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1L2cOMUzS0vlmDUxV5pfJFY8bl-HJXrxb=w200-h200-c",
           "capacidad": "",
           "descripcion": "Recogedor de basura de plástico, ligero y con borde de hule para un barrido eficiente.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -774,8 +776,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1LcEk053Khl0hH9M1yyA2sXufdsz-P-Zo=w200-h200-c",
           "capacidad": "",
           "descripcion": "Recogedor de plástico con bastón largo de madera, para barrer sin agacharse.",
-          "precioOriginal": 85.00,
-          "descuento": 15.00,
+          "precioOriginal": 85,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -783,8 +785,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1NFnoqES6y3Jw12eRoqDzLJEzc-Ij-Jhf=w200-h200-c",
           "capacidad": "",
           "descripcion": "Funda o repuesto de algodón de 40cm para bastones de mopa, marca CASTOR.",
-          "precioOriginal": 90.00,
-          "descuento": 0.00,
+          "precioOriginal": 90,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -792,8 +794,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Nc49kgPfQFJCS8CKyYIUtwKUx3OyDuD4=w200-h200-c",
           "capacidad": "",
           "descripcion": "Botella atomizadora básica con válvula de pistola, para aplicación de líquidos ligeros.",
-          "precioOriginal": 18.00,
-          "descuento": 15.00,
+          "precioOriginal": 18,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -801,8 +803,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1PhOZxhuwaX5Sg5p9M2V-FBPqHlczGjAq=w200-h200-c",
           "capacidad": "",
           "descripcion": "Matamoscas de plástico grande con mango largo, de uso doméstico.",
-          "precioOriginal": 15.00,
-          "descuento": 0.00,
+          "precioOriginal": 15,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -810,8 +812,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1R6rkAuRKkYHjsWMiZkeWHpBlia6ecBU5=w200-h200-c",
           "capacidad": "",
           "descripcion": "Tela de microfibra de 40x40 cm con estampados, útil para limpieza y decoración.",
-          "precioOriginal": 40.00,
-          "descuento": 15.00,
+          "precioOriginal": 40,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -819,8 +821,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Tbc6dfNeOuhuktW91c1GOgmZwnO183KX=w200-h200-c",
           "capacidad": "",
           "descripcion": "Recogedor de plástico con bastón, reforzado con lámina y orilla de hule para máxima eficiencia.",
-          "precioOriginal": 95.00,
-          "descuento": 0.00,
+          "precioOriginal": 95,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -828,8 +830,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1TgQx7ovZZdUm-03Iv1_4Y9g2OsLKcKYq=w200-h200-c",
           "capacidad": "",
           "descripcion": "Atomizador de polietileno de 500 ml con pistola de uso rudo, resistente a químicos.",
-          "precioOriginal": 60.00,
-          "descuento": 15.00,
+          "precioOriginal": 60,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -837,8 +839,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1U9coba1k6f5rHHhRvpEHGJrRE5nzjWfA=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 4 paños de microfibra mini (30x30 cm), ideal para limpiar pantallas y gafas.",
-          "precioOriginal": 50.00,
-          "descuento": 0.00,
+          "precioOriginal": 50,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -846,8 +848,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1UMcXfCQdFkGcsk7lgM3O9Ml9rBD3boT7=w200-h200-c",
           "capacidad": "",
           "descripcion": "Guantes de nitrilo verdes Solvex, talla mediana (#8), resistentes a químicos y solventes.",
-          "precioOriginal": 120.00,
-          "descuento": 15.00,
+          "precioOriginal": 120,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -855,8 +857,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1WCYe-S0Fvt3ZWhj08HcBNBm2I5Byuj9r=w200-h200-c",
           "capacidad": "",
           "descripcion": "Guante de nylon con recubrimiento de poliuretano, talla 10, para trabajos de precisión y agarre seco.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -864,8 +866,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1X_aSmKfzMSrbstnc5nIlItwWwXxIs1jm=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paño de microfibra jumbo de 50x100 cm, para tareas de limpieza y secado de gran tamaño.",
-          "precioOriginal": 90.00,
-          "descuento": 15.00,
+          "precioOriginal": 90,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -873,8 +875,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1YSC6hsQp_ZYSwRqF2Lz8gpTbfFIfC-IO=w200-h200-c",
           "capacidad": "",
           "descripcion": "Escobeta con cerdas sintéticas y mango de plástico, útil para tallar pequeñas áreas.",
-          "precioOriginal": 30.00,
-          "descuento": 0.00,
+          "precioOriginal": 30,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -882,8 +884,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1ZLM106xcgFyKukf5yWiCW-Idti3zKfzn=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo económico con cerdas suaves, diseñado para limpiar biberones y botellas.",
-          "precioOriginal": 25.00,
-          "descuento": 15.00,
+          "precioOriginal": 25,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -891,8 +893,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1ZYtk3Q-UZZxpwx3LTjL6t6yOtV-N9VQs=w200-h200-c",
           "capacidad": "",
           "descripcion": "Recogedor de mano de plástico, ideal para recoger pequeños residuos de manera rápida.",
-          "precioOriginal": 20.00,
-          "descuento": 0.00,
+          "precioOriginal": 20,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -900,8 +902,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1ZqmTaI-PE_ZyNzuE04Nj2LC9gkFz2gio=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo de mano en formato mini KLINTEK, para limpieza de detalles y juntas.",
-          "precioOriginal": 15.00,
-          "descuento": 15.00,
+          "precioOriginal": 15,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -909,8 +911,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1ayNgPgUjTEHWJslr-byalfWP3n_LGmcq=w200-h200-c",
           "capacidad": "",
           "descripcion": "Lazo de tendedero de 7.5 metros, resistente a la intemperie.",
-          "precioOriginal": 25.00,
-          "descuento": 0.00,
+          "precioOriginal": 25,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -918,8 +920,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1bBgDdgIr1FgeEURDY3W5bZ9JBmA2cxtK=w200-h200-c",
           "capacidad": "",
           "descripcion": "Lazo de tendedero de 10 metros, fabricado en polietileno duradero, marca KLINTEK.",
-          "precioOriginal": 40.00,
-          "descuento": 15.00,
+          "precioOriginal": 40,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -927,8 +929,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1ckdTnfdMWwWUGLTA_hN1ShNv7d3fhUuI=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 3 cepillos multiusos FASHION CLEAN de diferentes tamaños para diversas tareas de limpieza.",
-          "precioOriginal": 55.00,
-          "descuento": 0.00,
+          "precioOriginal": 55,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -936,8 +938,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1d4ML4UWPpVFRiAPsrniTWuh0nvgX3yJU=w200-h200-c",
           "capacidad": "",
           "descripcion": "Base de metal o plástico de 40cm para sostener la funda de mopa CASTOR.",
-          "precioOriginal": 110.00,
-          "descuento": 15.00,
+          "precioOriginal": 110,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -945,8 +947,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1gwBDWvKsYmLYZVoBdKyZ4JT-8fcTHUm7=w200-h200-c",
           "capacidad": "",
           "descripcion": "Recogedor de lámina de metal con formato de medio bote, muy resistente para residuos pesados.",
-          "precioOriginal": 75.00,
-          "descuento": 0.00,
+          "precioOriginal": 75,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -954,8 +956,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1mBW-CoaeBOTaUdNRYyjifY5Z1Uq6TJUb=w200-h200-c",
           "capacidad": "",
           "descripcion": "Recogedor de lámina de metal, clásico y duradero para uso rudo.",
-          "precioOriginal": 60.00,
-          "descuento": 15.00,
+          "precioOriginal": 60,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -963,8 +965,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1pBYUBDGw4oOPU2KQNJLHtRIrTgm47DqR=w200-h200-c",
           "capacidad": "",
           "descripcion": "Destapacaños de 15cm de diámetro KLINTEK con bomba de caucho negro, de alta potencia.",
-          "precioOriginal": 50.00,
-          "descuento": 0.00,
+          "precioOriginal": 50,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -972,8 +974,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1pWYzX-zb_RnHbOcO3wKnvotPJGHt1Z5J=w200-h200-c",
           "capacidad": "",
           "descripcion": "Matamoscas de plástico de tamaño mediano, ligero y fácil de usar.",
-          "precioOriginal": 10.00,
-          "descuento": 15.00,
+          "precioOriginal": 10,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -981,8 +983,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1r3tLFMrrV1Xe5kV6NjGn-PM_zAHv7_hA=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 20 pinzas de madera clásicas, ideales para colgar ropa.",
-          "precioOriginal": 20.00,
-          "descuento": 0.00,
+          "precioOriginal": 20,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -990,8 +992,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1rgVX45xdKt1cjR49HTGoiWnvTEJ31vn1=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 36 pinzas de plástico de tamaño jumbo, con gran agarre para prendas pesadas.",
-          "precioOriginal": 45.00,
-          "descuento": 15.00,
+          "precioOriginal": 45,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -999,8 +1001,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1rwAcoL818tPRUpDlvT1uc3XAxpoXjQAc=w200-h200-c",
           "capacidad": "",
           "descripcion": "Destapacaños económico con bomba de caucho negro, funcional para obstrucciones leves.",
-          "precioOriginal": 35.00,
-          "descuento": 0.00,
+          "precioOriginal": 35,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1008,8 +1010,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1sQquYL1MGWd7cojkMxTrOLBfGAnjzkDA=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo de mano con cerdas y cabezal flexible KLINTEK, para limpieza de superficies curvas.",
-          "precioOriginal": 45.00,
-          "descuento": 15.00,
+          "precioOriginal": 45,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1017,8 +1019,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1svhcMUFQGAenyUhiHI9WqT5b6SarVrY3=w200-h200-c",
           "capacidad": "",
           "descripcion": "Guante de nylon con recubrimiento de poliuretano, talla 8 (chica), para trabajos de precisión.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1026,8 +1028,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1vKoQRzvvA040wPFT5azq55vWs2a9YsqO=w200-h200-c",
           "capacidad": "",
           "descripcion": "Cepillo de mano pequeño 'Lupita', ideal para la limpieza de uñas o ropa en detalles.",
-          "precioOriginal": 18.00,
-          "descuento": 15.00,
+          "precioOriginal": 18,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1035,8 +1037,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1xgn9sUrK-abyGYd5pTJ0hSsTCtXLtoWi=w200-h200-c",
           "capacidad": "",
           "descripcion": "Limpia hornos en aerosol de 470g MONY (Quitacochambre), potente removedor de grasa quemada.",
-          "precioOriginal": 90.00,
-          "descuento": 0.00,
+          "precioOriginal": 90,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1044,8 +1046,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1y2roTOpMDPkIL05OkzAYXUeZ3LPCGMto=w200-h200-c",
           "capacidad": "",
           "descripcion": "Destapacaños en versión mini, especialmente diseñado para destapar lavabos y fregaderos.",
-          "precioOriginal": 25.00,
-          "descuento": 15.00,
+          "precioOriginal": 25,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1053,8 +1055,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1yuq80smSNdk7eq8I75Rw75spQdVOsq0I=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 10 ganchos de plástico resistentes para colgar ropa.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1062,8 +1064,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/16IzTyjhK6vXNufOJrndSxM5GeZum4bVI=w200-h200-c",
           "capacidad": "",
           "descripcion": "Recogedor alto con mecanismo abatible y ruedas, ideal para uso profesional o en grandes espacios.",
-          "precioOriginal": 150.00,
-          "descuento": 15.00,
+          "precioOriginal": 150,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1071,8 +1073,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/19sFPa7f1uwfR2BNnRWzpMQLdArRBbl9C=w200-h200-c",
           "capacidad": "",
           "descripcion": "Esponja para trastes con forma de 'ocho', más ergonómica y cómoda de usar.",
-          "precioOriginal": 15.00,
-          "descuento": 0.00,
+          "precioOriginal": 15,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1080,8 +1082,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1PSbX72Gq8TLUKPcjMZ-3wwaX1y7eICAg=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paño tipo jerga, de algodón absorbente, ideal para limpiar pisos y superficies grandes.",
-          "precioOriginal": 20.00,
-          "descuento": 15.00,
+          "precioOriginal": 20,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1089,8 +1091,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1dkUqMYG_MwXq6riTrSBPr29N8jgyEOUQ=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 3 telas o paños absorbentes multiusos MIROSLAVA.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1098,8 +1100,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1dpWhNOkola2XPwPXWqeZDMy7b6XjsOKw=w200-h200-c",
           "capacidad": "",
           "descripcion": "Caja de 100 guantes de nitrilo negros, talla grande, sin polvo, para uso profesional o médico.",
-          "precioOriginal": 180.00,
-          "descuento": 15.00,
+          "precioOriginal": 180,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1107,8 +1109,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1rLRbMw-alK73fwieEONq_MLIhnOhW10M=w200-h200-c",
           "capacidad": "",
           "descripcion": "Guantes de látex, talla chica (#7), para protección de manos en labores de limpieza o sanitarias.",
-          "precioOriginal": 70.00,
-          "descuento": 0.00,
+          "precioOriginal": 70,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1116,8 +1118,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1v3-44YND7Ds0RQmJic_5RB-dr7v1LEGQ=w200-h200-c",
           "capacidad": "",
           "descripcion": "Caja de 100 guantes de nitrilo azules, talla grande, sin polvo, hipoalergénicos.",
-          "precioOriginal": 180.00,
-          "descuento": 15.00,
+          "precioOriginal": 180,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1125,8 +1127,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1wPsrcEI2qo03hwLlhxVS3HFgtK7tohC-=w200-h200-c",
           "capacidad": "",
           "descripcion": "Guante de nylon con recubrimiento de poliuretano, talla 9 (mediana), para agarre y destreza.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1134,8 +1136,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1y_AOGLOxE4OL5qtgKipsVov7s6QOWovk=w200-h200-c",
           "capacidad": "",
           "descripcion": "Guantes de látex, talla grande, marca OVAL, para tareas domésticas o industriales.",
-          "precioOriginal": 75.00,
-          "descuento": 15.00,
+          "precioOriginal": 75,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1143,8 +1145,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/180Xbnb-sJKruftWu7vVqhFJ-JMSgxotu=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra con tejido de cuadrícula, ideal para la limpieza de sartenes y ollas con residuos difíciles.",
-          "precioOriginal": 25.00,
-          "descuento": 15.00,
+          "precioOriginal": 25,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1152,8 +1154,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1XZMoPvMPi5jHwtkrrUunb67J5VT2E10b=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra abrasiva verde P96 SCOTCH BRITE, de uso rudo para tallar cochambre y suciedad adherida.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1161,8 +1163,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1p08qNBJ14CM5IZvUJd1Hd906IUboJTgG=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra P66 blanca SCOTCH BRITE, no abrasiva, ideal para la limpieza de utensilios y superficies delicadas.",
-          "precioOriginal": 35.00,
-          "descuento": 15.00,
+          "precioOriginal": 35,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1170,8 +1172,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1zvUkm-0XmK8GMNH_xrYXpCx1P1IIqJi7=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 2 fibras de acero inoxidable jumbo, perfectas para tallar ollas y parrillas quemadas.",
-          "precioOriginal": 50.00,
-          "descuento": 0.00,
+          "precioOriginal": 50,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1179,8 +1181,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/14FFd-A9r7eAPcbXIR8gZqjz-FFM6YnfG=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra de brillo color plata, de textura media, ideal para limpiar trastes de uso diario.",
-          "precioOriginal": 20.00,
-          "descuento": 15.00,
+          "precioOriginal": 20,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1188,8 +1190,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/15_FdLLz8D1wLv8_lIdSIVr_erT3lAQG3=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra de uso rudo conocida como 'fregón', de gran durabilidad y resistencia a químicos.",
-          "precioOriginal": 30.00,
-          "descuento": 0.00,
+          "precioOriginal": 30,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1197,8 +1199,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/16jX2s29PFi4IBfm-DVllLWa_PB3l4yWv=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 6 tiras de fibra verde con esponja SCOTCH BRITE, para una limpieza dual.",
-          "precioOriginal": 75.00,
-          "descuento": 15.00,
+          "precioOriginal": 75,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1206,8 +1208,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1JRszykL9I5NtvYtAPz8kliVI3HVNrmsq=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra P76 negra SCOTCH BRITE, ultra abrasiva para tareas de limpieza industrial o muy pesadas.",
-          "precioOriginal": 45.00,
-          "descuento": 0.00,
+          "precioOriginal": 45,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1215,8 +1217,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1OefsJh9CkfLzSdyAf-GORYaVt6SEdbCI=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra para trastes de la marca KING WASH, económica y efectiva para la limpieza diaria.",
-          "precioOriginal": 15.00,
-          "descuento": 15.00,
+          "precioOriginal": 15,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1224,8 +1226,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1R9U9Y8CGMKtu3YVydfhJD7ZGWnEd-PeA=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra de brillo color oro, ideal para limpiar y dar lustre a utensilios de metal sin rayar.",
-          "precioOriginal": 20.00,
-          "descuento": 0.00,
+          "precioOriginal": 20,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1233,8 +1235,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1U7Tbuw_I2VmGhnhrHunTmiPr3nPxPSPb=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 10 fibras metálicas tipo 'Ajax' pre-jabonadas, para quitar grasa y cochambre fácilmente.",
-          "precioOriginal": 60.00,
-          "descuento": 15.00,
+          "precioOriginal": 60,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1242,8 +1244,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1UB3-t9irRnB_uIrvQXwGo0pbW_V-vOUF=w200-h200-c",
           "capacidad": "",
           "descripcion": "Fibra P94 verde con esponja SCOTCH BRITE, de uso general para limpieza de trastes y superficies.",
-          "precioOriginal": 25.00,
-          "descuento": 0.00,
+          "precioOriginal": 25,
+          "descuento": 0,
           "enDescuento": false
         }
       ]
@@ -1256,8 +1258,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/122gDx6vRkFHmlsBxCofLkPOC434itm0L=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de toalla de papel de 180 metros, para dispensadores de alta capacidad, marca FAPSA.",
-          "precioOriginal": 150.00,
-          "descuento": 15.00,
+          "precioOriginal": 150,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1265,8 +1267,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/15fILGEZFPVq2xY3MH3ONmBN23ug6Y6Ye=w200-h200-c",
           "capacidad": "",
           "descripcion": "Caja de pañuelos faciales KLEENEX con 90 unidades, suaves y resistentes.",
-          "precioOriginal": 30.00,
-          "descuento": 0.00,
+          "precioOriginal": 30,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1274,8 +1276,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/19SAod7dNMsedjNG2jHsYqPqnQCvImC8v=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de papel higiénico JUMBO de 360 metros, ideal para dispensadores institucionales ELITE.",
-          "precioOriginal": 180.00,
-          "descuento": 15.00,
+          "precioOriginal": 180,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1283,8 +1285,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1B-NCcuFbsYkrvx17i8vsCbHkvHfB7o1D=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de papel higiénico institucional JUMBO de 400 metros, alta eficiencia y rendimiento.",
-          "precioOriginal": 195.00,
-          "descuento": 0.00,
+          "precioOriginal": 195,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1292,8 +1294,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1DmX-TKOcUHC53DFhdOnnoKblEFu6QDox=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de papel higiénico JUNIOR de 160 metros, para dispensadores de tamaño mediano DALIA.",
-          "precioOriginal": 85.00,
-          "descuento": 15.00,
+          "precioOriginal": 85,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1301,8 +1303,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1JAeORQYHZ8VhfJXdOHyHjmhqAyl6W1cV=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 100 toallas de papel interdobladas ELITE, para dispensadores de sanitas.",
-          "precioOriginal": 40.00,
-          "descuento": 0.00,
+          "precioOriginal": 40,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1310,8 +1312,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1PbHhGK0lzjTfcskd09KmDWx9SH9rFOyk=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 500 servilletas de mesa BIO NAPKINS, biodegradables.",
-          "precioOriginal": 70.00,
-          "descuento": 15.00,
+          "precioOriginal": 70,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1319,8 +1321,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1Wpu298yKrFMFIfeOtJlmdKMbVzYkgilW=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 100 toallas interdobladas DALIA, conocidas como 'DALITAS'.",
-          "precioOriginal": 35.00,
-          "descuento": 0.00,
+          "precioOriginal": 35,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1328,8 +1330,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1XqzM88YJuvvMGeZOSRj2gLEbyHhIx83m=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de papel higiénico JUNIOR de 160 metros, marca ELITE, ideal para oficinas.",
-          "precioOriginal": 90.00,
-          "descuento": 15.00,
+          "precioOriginal": 90,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1337,8 +1339,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1YK6mlfg32_eJ0HTyN1EzHfWqqS8d6gCf=w200-h200-c",
           "capacidad": "",
           "descripcion": "Servilletas de barra para mesa, PETALO, suaves y prácticas.",
-          "precioOriginal": 50.00,
-          "descuento": 0.00,
+          "precioOriginal": 50,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1346,8 +1348,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1gLN4uA8YJHUDJ6JQRbci2xdx6WmopjwA=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de papel higiénico institucional JUNIOR de 180 metros, alta resistencia.",
-          "precioOriginal": 95.00,
-          "descuento": 15.00,
+          "precioOriginal": 95,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1355,8 +1357,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1k7Y6upj4aNVKhpo_Or3-4jACg5LmZ8Qe=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de toalla de papel de 160 metros ELITE, de gran rendimiento para baños de alto tráfico.",
-          "precioOriginal": 140.00,
-          "descuento": 0.00,
+          "precioOriginal": 140,
+          "descuento": 0,
           "enDescuento": false
         },
         {
@@ -1364,8 +1366,8 @@
           "imagen": "https://lh3.googleusercontent.com/d/1kBS05-5H1wI1tW5iVGXAMQSPStqYzpt_=w200-h200-c",
           "capacidad": "",
           "descripcion": "Paquete de 100 toallas de papel interdobladas SANILUX, para uso en sanitarios.",
-          "precioOriginal": 38.00,
-          "descuento": 15.00,
+          "precioOriginal": 38,
+          "descuento": 15,
           "enDescuento": true
         },
         {
@@ -1373,11 +1375,686 @@
           "imagen": "https://lh3.googleusercontent.com/d/1woMRm1mvEuMSWr_vduxQ5ycRJ5gItqKH=w200-h200-c",
           "capacidad": "",
           "descripcion": "Rollo de papel higiénico JUMBO de 360 metros, marca DALIA, de uso institucional.",
-          "precioOriginal": 175.00,
-          "descuento": 0.00,
+          "precioOriginal": 175,
+          "descuento": 0,
           "enDescuento": false
         }
       ]
+    }
+  ],
+  "historial": [
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:01:14.502Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:01:20.868Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:02:07.264Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:02:13.602Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:07:20.222Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:07:23.521Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:07:24.723Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:07:26.220Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:11:19.145Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:11:27.981Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": true
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:11:33.984Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:15:04.382Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:15:06.396Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:15:09.049Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:15:13.424Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:48:35.336Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:48:37.563Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:48:38.912Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:48:40.183Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:53:24.060Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:53:27.825Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:54:34.223Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:54:36.347Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:54:39.497Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:54:45.813Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
     }
   ]
 }

@@ -120,6 +120,65 @@
             "restock": "Reposición Pronto",
             "out_of_stock": "Agotado"
         }
+        ,"buttons": {
+            "edit": "Editar",
+            "delete": "Eliminar",
+            "restore": "Restaurar",
+            "activate": "Activar",
+            "deactivate": "Desactivar"
+        },
+        "view": {
+            "history": "Ver Historial",
+            "back": "Volver a Productos"
+        },
+        "history": {
+            "title": "Historial de cambios",
+            "date": "Fecha",
+            "action": "Acción",
+            "category": "Categoría",
+            "product": "Producto",
+            "details": "Detalles",
+            "actions": "Acciones",
+            "empty": "No hay entradas en el historial."
+        },
+        "modal": {
+            "name_placeholder": "Nombre del producto",
+            "image_placeholder": "Imagen (URL)",
+            "capacity_placeholder": "Capacidad (ej. 250ml)",
+            "description_placeholder": "Descripción",
+            "price_placeholder": "Precio original",
+            "discount_placeholder": "Descuento",
+            "on_discount": "En descuento",
+            "category_placeholder": "Categoría (tal como aparece en products.json)",
+            "save": "Guardar",
+            "update": "Actualizar",
+            "cancel": "Cancelar",
+            "errors": {
+                "name_required": "El nombre es obligatorio",
+                "price_invalid": "Precio original inválido",
+                "discount_invalid": "Descuento inválido",
+                "category_required": "La categoría es requerida",
+                "save_failed": "Error al guardar el producto"
+            },
+            "success": {
+                "updated": "Producto actualizado correctamente",
+                "created": "Producto agregado correctamente"
+            }
+        },
+        "confirmations": {
+            "delete": "¿Seguro que quieres eliminar {{name}} de {{category}}?",
+            "restore": "¿Restaurar {{name}} en {{category}}?"
+        },
+        "errors": {
+            "restore_failed": "Error al restaurar",
+            "no_product_name": "No hay nombre del producto",
+            "delete_failed": "Error al eliminar",
+            "update_status_failed": "Error al actualizar estado"
+        },
+        "titles": {
+            "deleted_cant_activate": "Producto eliminado — restaurar antes de activar"
+        },
+        "loading": "Cargando productos..."
     },
     "footer": {
         "navbar_title": "Barra de Navegación",

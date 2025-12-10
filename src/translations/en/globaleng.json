@@ -120,6 +120,65 @@
             "restock": "Restock Soon",
             "out_of_stock": "Out of Stock"
         }
+        ,"buttons": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "restore": "Restore",
+            "activate": "Activate",
+            "deactivate": "Deactivate"
+        },
+        "view": {
+            "history": "View History",
+            "back": "Back to Products"
+        },
+        "history": {
+            "title": "Change History",
+            "date": "Date",
+            "action": "Action",
+            "category": "Category",
+            "product": "Product",
+            "details": "Details",
+            "actions": "Actions",
+            "empty": "No history entries."
+        },
+        "modal": {
+            "name_placeholder": "Product name",
+            "image_placeholder": "Image (URL)",
+            "capacity_placeholder": "Capacity (e.g. 250ml)",
+            "description_placeholder": "Description",
+            "price_placeholder": "Original price",
+            "discount_placeholder": "Discount",
+            "on_discount": "On discount",
+            "category_placeholder": "Category (as in products.json)",
+            "save": "Save",
+            "update": "Update",
+            "cancel": "Cancel",
+            "errors": {
+                "name_required": "Name is required",
+                "price_invalid": "Invalid original price",
+                "discount_invalid": "Invalid discount",
+                "category_required": "Category is required",
+                "save_failed": "Failed to save product"
+            },
+            "success": {
+                "updated": "Product updated successfully",
+                "created": "Product created successfully"
+            }
+        },
+        "confirmations": {
+            "delete": "Are you sure you want to delete {{name}} from {{category}}?",
+            "restore": "Restore {{name}} in {{category}}?"
+        },
+        "errors": {
+            "restore_failed": "Failed to restore",
+            "no_product_name": "No product name",
+            "delete_failed": "Failed to delete",
+            "update_status_failed": "Failed to update status"
+        },
+        "titles": {
+            "deleted_cant_activate": "Product is deleted — restore before activating"
+        },
+        "loading": "Loading products..."
     },
     "footer": {
         "navbar_title": "Navigation",
