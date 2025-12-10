@@ -10,6 +10,8 @@ type Product = {
   precioOriginal: number;
   descuento: number;
   enDescuento: boolean;
+  deleted?: boolean;
+  active?: boolean;
 };
 
 export async function POST(req: NextRequest) {
@@ -60,6 +62,9 @@ export async function POST(req: NextRequest) {
       precioOriginal,
       descuento,
       enDescuento,
+      // control fields for soft-delete / active state
+      deleted: false,
+      active: true,
     };
 
     const filePath = path.join(process.cwd(), 'src', 'components', 'products.json');
@@ -78,6 +83,15 @@ export async function POST(req: NextRequest) {
 
     if (!categoria.productos || !Array.isArray(categoria.productos)) categoria.productos = [];
     categoria.productos.push(productToInsert);
+
+    // Record history
+    if (!data.historial) data.historial = [];
+    data.historial.push({
+      action: 'create',
+      timestamp: new Date().toISOString(),
+      categoryName,
+      product: productToInsert,
+    });
 
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
 
@@ -118,17 +132,26 @@ export async function DELETE(req: NextRequest) {
     if (!categoria || !Array.isArray(categoria.productos)) {
       return NextResponse.json({ error: 'Category not found' }, { status: 404 });
     }
-
-    const beforeLen = categoria.productos.length;
-    categoria.productos = categoria.productos.filter((p: any) => p.nombre !== nombre);
-    const afterLen = categoria.productos.length;
-
-    if (beforeLen === afterLen) {
+    // Soft-delete: mark product.deleted = true and active = false, store history
+    const idx = categoria.productos.findIndex((p: any) => p.nombre === nombre);
+    if (idx === -1) {
       return NextResponse.json({ error: 'Product not found in category' }, { status: 404 });
     }
 
+    const before = { ...categoria.productos[idx] };
+    categoria.productos[idx].deleted = true;
+    categoria.productos[idx].active = false;
+
+    if (!data.historial) data.historial = [];
+    data.historial.push({
+      action: 'delete',
+      timestamp: new Date().toISOString(),
+      categoryName,
+      productBefore: before,
+    });
+
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
-    return NextResponse.json({ ok: true, message: 'Product deleted' });
+    return NextResponse.json({ ok: true, message: 'Product soft-deleted' });
   } catch (err: any) {
     return NextResponse.json({ error: String(err) }, { status: 500 });
   }
@@ -185,13 +208,93 @@ export async function PUT(req: NextRequest) {
       precioOriginal,
       descuento,
       enDescuento: Boolean(product.enDescuento),
+      // preserve deleted/active flags if provided, otherwise default
+      deleted: Boolean(product.deleted ?? false),
+      active: product.active === undefined ? true : Boolean(product.active),
     };
 
+    const before = { ...categoria.productos[idx] };
     categoria.productos[idx] = updatedProduct;
+
+    if (!data.historial) data.historial = [];
+    data.historial.push({
+      action: 'update',
+      timestamp: new Date().toISOString(),
+      categoryName,
+      productBefore: before,
+      productAfter: updatedProduct,
+    });
 
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
 
     return NextResponse.json({ ok: true, message: 'Product updated', product: updatedProduct });
+  } catch (err: any) {
+    return NextResponse.json({ error: String(err) }, { status: 500 });
+  }
+}
+
+// PATCH: operations like restore, activate, deactivate, soft-delete by op
+export async function PATCH(req: NextRequest) {
+  try {
+    const body = await req.json();
+    const { categoryName, nombre, op } = body as { categoryName: string; nombre: string; op: string };
+    if (!categoryName || !nombre || !op) {
+      return NextResponse.json({ error: 'categoryName, nombre and op are required' }, { status: 400 });
+    }
+
+    const filePath = path.join(process.cwd(), 'src', 'components', 'products.json');
+    const fileStr = await fs.readFile(filePath, 'utf8');
+    const data = JSON.parse(fileStr);
+
+    if (!data.categorias || !Array.isArray(data.categorias)) {
+      return NextResponse.json({ error: 'No categories available' }, { status: 404 });
+    }
+
+    const categoria = data.categorias.find((c: any) => c.nombre === categoryName);
+    if (!categoria || !Array.isArray(categoria.productos)) {
+      return NextResponse.json({ error: 'Category not found' }, { status: 404 });
+    }
+
+    const idx = categoria.productos.findIndex((p: any) => p.nombre === nombre);
+    if (idx === -1) {
+      return NextResponse.json({ error: 'Product not found in category' }, { status: 404 });
+    }
+
+    const before = { ...categoria.productos[idx] };
+    switch (op) {
+      case 'soft-delete':
+        categoria.productos[idx].deleted = true;
+        categoria.productos[idx].active = false;
+        break;
+      case 'restore':
+        categoria.productos[idx].deleted = false;
+        categoria.productos[idx].active = true;
+        break;
+      case 'deactivate':
+        categoria.productos[idx].active = false;
+        break;
+      case 'activate':
+        // Prevent activating a logically-deleted product. Must restore first.
+        if (categoria.productos[idx].deleted) {
+          return NextResponse.json({ error: 'Cannot activate a deleted product. Restore it first.' }, { status: 400 });
+        }
+        categoria.productos[idx].active = true;
+        break;
+      default:
+        return NextResponse.json({ error: 'Invalid op' }, { status: 400 });
+    }
+
+    if (!data.historial) data.historial = [];
+    data.historial.push({
+      action: op,
+      timestamp: new Date().toISOString(),
+      categoryName,
+      productBefore: before,
+      productAfter: { ...categoria.productos[idx] },
+    });
+
+    await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
+    return NextResponse.json({ ok: true, message: 'Operation applied', product: categoria.productos[idx] });
   } catch (err: any) {
     return NextResponse.json({ error: String(err) }, { status: 500 });
   }

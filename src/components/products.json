@@ -10,7 +10,9 @@
           "descripcion": "hola\n",
           "precioOriginal": 45,
           "descuento": 15,
-          "enDescuento": false
+          "enDescuento": false,
+          "deleted": false,
+          "active": true
         },
         {
           "nombre": "Rastrillo lord 2 hojas c/48",
@@ -1410,6 +1412,681 @@
           "enDescuento": false
         }
       ]
+    }
+  ],
+  "historial": [
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:01:14.502Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:01:20.868Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:02:07.264Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:02:13.602Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:07:20.222Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:07:23.521Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:07:24.723Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:07:26.220Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:11:19.145Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:11:27.981Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": true
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:11:33.984Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:15:04.382Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:15:06.396Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:15:09.049Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:15:13.424Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:48:35.336Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:48:37.563Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:48:38.912Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:48:40.183Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:53:24.060Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:53:27.825Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T16:54:34.223Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T16:54:36.347Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "soft-delete",
+      "timestamp": "2025-12-10T16:54:39.497Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      }
+    },
+    {
+      "action": "restore",
+      "timestamp": "2025-12-10T16:54:45.813Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": true,
+        "active": false
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
     }
   ]
 }

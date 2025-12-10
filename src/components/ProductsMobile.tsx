@@ -163,43 +163,14 @@ export default function ProductsMobile() {
               className="h-32 max-h-32 bg-white rounded-lg p-3 sm:p-4 flex gap-3 sm:gap-4 shadow-sm border border-gray-100 transition-shadow hover:shadow-md overflow-hidden"
             >
               {/* imagen */}
-              <div
-                className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden shrink-0 relative border border-gray-200"
-                style={{
-                  backgroundImage: 'radial-gradient(#e5e7eb 1.5px, transparent 1.5px)',
-                  backgroundSize: '12px 12px'
-                }}
-              >
-                {p.imagen ? (
-                  <>
-                    <img
-                      key={imageKey}
-                      data-image-key={imageKey}
-                      src={getProxyUrl(p.imagen)}
-                      alt={p.nombre}
-                      loading="lazy"
-                      decoding="async"
-                      className={`w-full h-full object-contain`}
-                      onLoad={() => setImageStates(prev => ({ ...prev, [imageKey]: 'loaded' }))}
-                      onError={() => setImageStates(prev => ({ ...prev, [imageKey]: 'error' }))}
-                    />
-                    {imageStates[imageKey] === 'error' && (
-                      <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                        <span className="text-gray-400 text-xs">No</span>
-                      </div>
-                    )}
-                  </>
-                ) : (
-                  <div className="text-gray-400 text-xs">—</div>
-                )}
+              {/* Replace images with text placeholders for now */}
+              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-lg flex flex-col items-center justify-center shrink-0 relative border border-gray-200 px-2">
+                <div className="text-xs font-semibold text-gray-800 text-center">{p.nombre}</div>
+                <div className="text-[10px] text-gray-500 mt-1">{p.capacidad || '—'}</div>
               </div>
 
               {/* Non-blocking loading indicator for mobile list */}
-              {imageStates[imageKey] === 'loading' && (
-                <div className="mt-1">
-                  <span className="inline-block w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin mr-2" aria-hidden />
-                </div>
-              )}
+              {/* removed loading spinner; text placeholder used instead */}
 
               {/* contenido */}
               <div className="flex-1 min-w-0 flex flex-col justify-center">

@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Cargar fuentes desde Google Fonts en lugar de next/font (evita errores con Turbopack) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap');
+
 // Importar parciales SCSS
 @import "_variables";
 @import "_mixins";
@@ -14,8 +17,8 @@
   --tertiary: #1452c7;
   --accent-1: #2387e1;
   --accent-2: #42baf5;
-  --font-title: var(--font-montserrat);
-  --font-paragraph: var(--font-open-sans);
+  --font-title: 'Montserrat', sans-serif;
+  --font-paragraph: 'Inter', 'Open Sans', sans-serif;
 }
 
 @theme inline {
