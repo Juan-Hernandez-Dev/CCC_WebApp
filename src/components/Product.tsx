@@ -52,7 +52,7 @@ export default function ProductPage() {
       newStates[key] = product.imagen ? 'loading' : 'error';
     });
     setImageStates(newStates);
-  }, []);
+  }, [currentPage, selectedCategoryIndex]);
 
   // After render, check <img> elements that may have already completed loading
   useEffect(() => {
@@ -70,7 +70,7 @@ export default function ProductPage() {
         }
       }
     });
-  }, []);
+  }, [currentPage, selectedCategoryIndex]);
 
   // Lógica para cerrar el menú de categorías al hacer clic fuera
   useEffect(() => {
@@ -214,11 +214,38 @@ export default function ProductPage() {
                            backgroundImage: 'radial-gradient(#e5e7eb 1.5px, transparent 1.5px)',
                            backgroundSize: '16px 16px'
                          }}>
-                      {/* Temporarily render text instead of images for clearer admin layout */}
-                      <div className="text-center px-4">
-                        <div className="text-sm font-semibold text-gray-800">{product.nombre}</div>
-                        <div className="text-xs text-gray-500 mt-1">{product.capacidad || t('products.no_image')}</div>
-                      </div>
+                      {product.imagen ? (
+                        <>
+                          {state === 'loading' && (
+                            <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center">
+                              <span className="text-gray-400 text-xs">{t('products.loading_image')}</span>
+                            </div>
+                          )}
+                          <img
+                            src={proxySrc}
+                            alt={product.nombre}
+                            data-image-key={key}
+                            loading="lazy"
+                            decoding="async"
+                            className={`w-full h-full object-contain transition-opacity duration-300 ${state === 'loaded' ? 'opacity-100' : 'opacity-0'}`}
+                            onLoad={() => onImgLoad(key)}
+                            onError={() => onImgError(key)}
+                          />
+                          {state === 'error' && (
+                            <div className="absolute inset-0 bg-gray-100 flex items-center justify-center text-center px-4">
+                              <div>
+                                <div className="text-sm font-semibold text-gray-800">{product.nombre}</div>
+                                <div className="text-xs text-gray-500 mt-1">{product.capacidad || t('products.no_image')}</div>
+                              </div>
+                            </div>
+                          )}
+                        </>
+                      ) : (
+                        <div className="text-center px-4">
+                          <div className="text-sm font-semibold text-gray-800">{product.nombre}</div>
+                          <div className="text-xs text-gray-500 mt-1">{product.capacidad || t('products.no_image')}</div>
+                        </div>
+                      )}
                     </div>
 
                     {/* Content */}

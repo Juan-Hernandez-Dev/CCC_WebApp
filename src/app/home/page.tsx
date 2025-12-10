@@ -94,7 +94,7 @@ const Home = () => {
                             {t('home.cta_desc')}
                         </p>
                         <a
-                            href="/catalog"
+                            href="/products"
                             className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
                         >
                             {t('home.cta_button')} →

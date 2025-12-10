@@ -11,6 +11,8 @@
           "precioOriginal": 45,
           "descuento": 15,
           "enDescuento": false,
+          "stock": 2,
+          "estado": "Available",
           "deleted": false,
           "active": true
         },
@@ -21,7 +23,9 @@
           "descripcion": "Paquete de 48 rastrillos desechables de dos hojas, ideal para uso diario y económico.",
           "precioOriginal": 120,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Gel para cabello 250g NATURALS ULTRA",
@@ -30,7 +34,9 @@
           "descripcion": "Gel para el cabello con ingredientes naturales para una fijación media y un acabado suave.",
           "precioOriginal": 55,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Toallita Humeda c/80 BABY SKY",
@@ -39,7 +45,9 @@
           "descripcion": "Toallitas húmedas suaves y resistentes con 80 unidades, perfectas para la piel sensible del bebé.",
           "precioOriginal": 35,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Vaselina 85g ALONDRA",
@@ -48,7 +56,9 @@
           "descripcion": "Vaselina pura de 85g, multiusos para hidratar y proteger la piel seca o agrietada.",
           "precioOriginal": 25,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rastrillo Schick Xtreme c/12 + 2",
@@ -57,7 +67,9 @@
           "descripcion": "Rastrillos Schick Xtreme desechables con cabezal pivotante para un afeitado apurado y cómodo. Paquete de 14 unidades.",
           "precioOriginal": 140,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rastrillo Bic 3 hojas c/12 + 2",
@@ -66,7 +78,9 @@
           "descripcion": "Rastrillos Bic de 3 hojas para un afeitado más suave. Incluye 14 unidades en total.",
           "precioOriginal": 115,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Toallita Húmeda c/100 FASHION CLEAN",
@@ -75,7 +89,9 @@
           "descripcion": "Toallitas desinfectantes de uso general con 100 unidades, ideales para la limpieza rápida de superficies.",
           "precioOriginal": 65,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Agua Oxigenada 500ml PROFESA",
@@ -84,7 +100,9 @@
           "descripcion": "Botella de 500ml de agua oxigenada para desinfección de heridas y uso antiséptico.",
           "precioOriginal": 40,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Jabón de Tocador c/4 150g Dermatologico LIRIO",
@@ -93,7 +111,9 @@
           "descripcion": "Paquete de 4 jabones de tocador dermatológicos de 150g, suave para pieles sensibles.",
           "precioOriginal": 80,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rastrillo Gillet 2 hojas c/24 + 8",
@@ -102,7 +122,9 @@
           "descripcion": "Rastrillos Gillette de 2 hojas para un afeitado clásico. Paquete con 32 unidades.",
           "precioOriginal": 250,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rastrillo Gillette 3 hojas c/12",
@@ -111,7 +133,9 @@
           "descripcion": "Rastrillos Gillette de 3 hojas con banda lubricante, paquete de 12 unidades.",
           "precioOriginal": 190,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Jabón de Tocador c/14 150g Dermatologico LIRIO",
@@ -120,7 +144,9 @@
           "descripcion": "Paquete económico de 14 jabones de tocador dermatológicos LIRIO de 150g cada uno.",
           "precioOriginal": 260,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cofia Blanca c/100 PROSAFE",
@@ -129,7 +155,9 @@
           "descripcion": "Paquete de 100 cofias desechables blancas PROSAFE para uso industrial o sanitario.",
           "precioOriginal": 95,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Toallita humeda Bote c/95 LYSOL",
@@ -138,7 +166,9 @@
           "descripcion": "Bote con 95 toallitas húmedas desinfectantes LYSOL, ideal para superficies.",
           "precioOriginal": 130,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra Cuerpo Burbuja C/Jabon GRANDE T TAIO",
@@ -147,7 +177,9 @@
           "descripcion": "Esponja corporal grande tipo burbuja con jabón preintegrado, para una limpieza profunda y exfoliación.",
           "precioOriginal": 50,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra cuerpo Miroslava",
@@ -156,7 +188,9 @@
           "descripcion": "Fibra corporal MIROSLAVA, ideal para tallar y exfoliar la piel durante el baño.",
           "precioOriginal": 25,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra cuerpo burbuja c/3 Fashion",
@@ -165,7 +199,9 @@
           "descripcion": "Paquete de 3 fibras corporales tipo burbuja FASHION, suaves y generan abundante espuma.",
           "precioOriginal": 60,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra cuerpo Saluk Fashion",
@@ -174,7 +210,9 @@
           "descripcion": "Fibra corporal de Saluk FASHION, de textura más rugosa para una exfoliación intensa.",
           "precioOriginal": 30,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra Cuerpo Bebe Miroslava",
@@ -183,7 +221,9 @@
           "descripcion": "Fibra corporal extrasuave MIROSLAVA, diseñada para la piel delicada de los bebés.",
           "precioOriginal": 20,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra cuerpo burbuja Grande",
@@ -192,7 +232,9 @@
           "descripcion": "Esponja corporal grande y voluminosa tipo burbuja, para un baño espumoso.",
           "precioOriginal": 45,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra Cuerpo bebe c/2 Fashion Clean",
@@ -201,7 +243,9 @@
           "descripcion": "Paquete de 2 fibras corporales suaves FASHION CLEAN, perfectas para bebés y niños.",
           "precioOriginal": 35,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         }
       ]
     },
@@ -215,7 +259,9 @@
           "descripcion": "Espirales antimosquitos RAID (10 unidades), de color morado, para uso en exteriores.",
           "precioOriginal": 50,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Raidolito VERDE c/10 Espirales RAID",
@@ -224,7 +270,9 @@
           "descripcion": "Espirales antimosquitos RAID (10 unidades), de color verde, para proteger de insectos voladores.",
           "precioOriginal": 50,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Churros Para Rata 200g C REAL B",
@@ -233,7 +281,9 @@
           "descripcion": "Cebo rodenticida en forma de churro de 200g, altamente efectivo contra ratas y ratones.",
           "precioOriginal": 75,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Laminitas RAID c/108",
@@ -242,7 +292,9 @@
           "descripcion": "Paquete de 108 láminas repelentes para uso con difusor eléctrico RAID, ideal para mosquitos.",
           "precioOriginal": 160,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Hormiga",
@@ -251,7 +303,9 @@
           "descripcion": "Insecticida de contacto y estomacal para el control de hormigas en interiores y exteriores.",
           "precioOriginal": 30,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Mata Hormigas EXTERMINADOR",
@@ -260,7 +314,9 @@
           "descripcion": "Polvo insecticida EXTERMINADOR, de acción rápida y residual contra hormigas.",
           "precioOriginal": 45,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Extermina Chinche KILLER",
@@ -269,7 +325,9 @@
           "descripcion": "Spray insecticida especializado KILLER, para eliminar chinches de cama y sus huevos.",
           "precioOriginal": 90,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Churros Para Rata 200g C REAL B",
@@ -278,7 +336,9 @@
           "descripcion": "Cebo rodenticida en forma de churro de 200g, altamente efectivo contra ratas y ratones.",
           "precioOriginal": 75,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Tipo Jeringa Gel 30 G SANGHA",
@@ -287,7 +347,9 @@
           "descripcion": "Insecticida en gel de 30g, de aplicación precisa tipo jeringa, para cucarachas.",
           "precioOriginal": 105,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Fumin 250ml",
@@ -296,7 +358,9 @@
           "descripcion": "Insecticida líquido FUMIN de 250ml, concentrado para diluir y aplicar con atomizador.",
           "precioOriginal": 85,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Pega Ratas Mediana c/2 Clean House",
@@ -305,7 +369,9 @@
           "descripcion": "Paquete de 2 trampas de pegamento medianas 'Clean House' para capturar ratas y ratones.",
           "precioOriginal": 40,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Insecticida en Espirales VERDE c/50 VAPE (RAIDOLITO)",
@@ -314,7 +380,9 @@
           "descripcion": "Caja con 50 espirales antimosquitos VAPE (tipo Raidolito), de gran duración.",
           "precioOriginal": 180,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Cereal Rosa para rata",
@@ -323,7 +391,9 @@
           "descripcion": "Cebo rodenticida en cereal de color rosa, atractivo para ratas y ratones.",
           "precioOriginal": 60,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Insecticida en Aerosol Maton 450ml GDOS",
@@ -332,7 +402,9 @@
           "descripcion": "Insecticida en aerosol MATON de 450ml, para matar insectos voladores y rastreros al instante.",
           "precioOriginal": 70,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Pega Ratas Grande c/2 Clean House",
@@ -341,7 +413,9 @@
           "descripcion": "Paquete de 2 trampas de pegamento grandes 'Clean House' para una mayor superficie de captura.",
           "precioOriginal": 60,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Mata Insectos Extra Concentrado 500ml KILLER",
@@ -350,7 +424,9 @@
           "descripcion": "Insecticida líquido concentrado KILLER de 500ml, para diluir y aplicar en plagas persistentes.",
           "precioOriginal": 120,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno POLVEX",
@@ -359,7 +435,9 @@
           "descripcion": "Insecticida en polvo POLVEX, ideal para aplicar en grietas y escondrijos de insectos rastreros.",
           "precioOriginal": 35,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Repelente de Mosquitos 230ml GDOS",
@@ -368,7 +446,9 @@
           "descripcion": "Spray repelente de mosquitos de 230ml, ofrece protección contra piquetes por varias horas.",
           "precioOriginal": 60,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Huevito Rata",
@@ -377,7 +457,9 @@
           "descripcion": "Cebo rodenticida en forma de 'huevito', discreto y fácil de colocar en cebaderos.",
           "precioOriginal": 70,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Laminitas RAID c/108 + Aparato Gratis",
@@ -386,7 +468,9 @@
           "descripcion": "Paquete de 108 láminas repelentes para difusor eléctrico RAID, incluye el aparato gratis.",
           "precioOriginal": 200,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Para Cucaracha 1 Litro FLIT CONTROL",
@@ -395,7 +479,9 @@
           "descripcion": "Insecticida líquido FLIT CONTROL de 1 litro, con efecto residual para eliminar cucarachas.",
           "precioOriginal": 140,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Para Mosca 1 litro FLIT CONTROL",
@@ -404,7 +490,9 @@
           "descripcion": "Insecticida líquido FLIT CONTROL de 1 litro, formulado específicamente para el control de moscas.",
           "precioOriginal": 140,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Costalito Mágico",
@@ -413,7 +501,9 @@
           "descripcion": "Veneno en presentación de costalito, un cebo discreto y potente contra roedores.",
           "precioOriginal": 80,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Fumin 100ml",
@@ -422,7 +512,9 @@
           "descripcion": "Insecticida líquido FUMIN de 100ml, concentrado para diluir y exterminar diversas plagas.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Pega Ratas chica c/2 Clean House",
@@ -431,7 +523,9 @@
           "descripcion": "Paquete de 2 trampas de pegamento pequeñas 'Clean House', ideal para espacios reducidos.",
           "precioOriginal": 30,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Pegamoscas c/4 YUAN MART",
@@ -440,7 +534,9 @@
           "descripcion": "Paquete de 4 tiras pegamoscas, económicas y efectivas para atrapar moscas.",
           "precioOriginal": 20,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Láminitas XTRON c/30",
@@ -449,7 +545,9 @@
           "descripcion": "Paquete de 30 láminas repelentes para uso con difusor eléctrico genérico.",
           "precioOriginal": 45,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Ácido Bórico Sobres",
@@ -458,7 +556,9 @@
           "descripcion": "Ácido bórico en sobres, utilizado como insecticida y desinfectante.",
           "precioOriginal": 35,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno SIN OLOR Para Cucaracha 1 Litro FLIT CONTROL",
@@ -467,7 +567,9 @@
           "descripcion": "Insecticida líquido FLIT CONTROL de 1 litro, sin olor, con efecto residual contra cucarachas.",
           "precioOriginal": 150,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Veneno Mosquicida Soluble (AZUL)",
@@ -476,7 +578,9 @@
           "descripcion": "Insecticida mosquicida soluble en color azul, para preparar y aplicar en áreas de alta concentración de moscas.",
           "precioOriginal": 95,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         }
       ]
     },
@@ -490,7 +594,9 @@
           "descripcion": "Trapeador tradicional de pabilo de algodón blanco, ideal para absorber líquidos.",
           "precioOriginal": 65,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Hilaza BLANCO #24",
@@ -499,7 +605,9 @@
           "descripcion": "Trapeador de hilaza blanca de alta calidad, resistente y duradero.",
           "precioOriginal": 70,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Pabilaza COLOR #24",
@@ -508,7 +616,9 @@
           "descripcion": "Trapeador de pabilaza de colores, una opción económica para la limpieza diaria.",
           "precioOriginal": 50,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Magitel #24",
@@ -517,7 +627,9 @@
           "descripcion": "Trapeador de material Magitel, conocido por su gran capacidad de absorción y secado rápido.",
           "precioOriginal": 85,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Microtela #24",
@@ -526,7 +638,9 @@
           "descripcion": "Trapeador de microtela, suave y eficaz para limpiar sin rayar superficies delicadas.",
           "precioOriginal": 95,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Mini",
@@ -535,7 +649,9 @@
           "descripcion": "Trapeador de tamaño mini, ideal para espacios pequeños o para uso infantil.",
           "precioOriginal": 30,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Magico #24",
@@ -544,7 +660,9 @@
           "descripcion": "Trapeador con sistema de escurrido fácil o sistema 'mágico', para mayor comodidad.",
           "precioOriginal": 150,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Pabilaza BLANCO #24",
@@ -553,7 +671,9 @@
           "descripcion": "Trapeador de pabilaza color blanco, una opción económica y funcional para el hogar.",
           "precioOriginal": 55,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Hilaza COLOR #24",
@@ -562,7 +682,9 @@
           "descripcion": "Trapeador de hilaza de colores variados, de buena absorción y durabilidad.",
           "precioOriginal": 70,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Hilaza Española #24",
@@ -571,7 +693,9 @@
           "descripcion": "Trapeador de hilaza española, con un tejido más grueso para mayor resistencia y poder de arrastre.",
           "precioOriginal": 80,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Repuesto Microtela #24",
@@ -580,7 +704,9 @@
           "descripcion": "Repuesto de microtela para trapeadores, fácil de cambiar y lavar.",
           "precioOriginal": 50,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Trapeador Pabilo COLOR #24",
@@ -589,7 +715,9 @@
           "descripcion": "Trapeador tradicional de pabilo de algodón de color, ideal para la limpieza profunda.",
           "precioOriginal": 65,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra Special Chica 40x40 MIROSLAVA",
@@ -598,7 +726,9 @@
           "descripcion": "Tela de microfibra chica de 40x40 cm, ideal para limpiar, pulir y secar superficies sin dejar pelusa.",
           "precioOriginal": 35,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra extra grande 40x60 DON MICRO",
@@ -607,7 +737,9 @@
           "descripcion": "Paño de microfibra de tamaño extra grande (40x60 cm), perfecto para secado de autos o grandes superficies.",
           "precioOriginal": 60,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo de mano Lupita",
@@ -616,7 +748,9 @@
           "descripcion": "Cepillo de mano con cerdas firmes, para fregar ropa o superficies pequeñas.",
           "precioOriginal": 25,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra Extra Grande 40x60 cm ABEJA REYNA",
@@ -625,7 +759,9 @@
           "descripcion": "Paño de microfibra ABEJA REYNA de 40x60 cm, de alta absorción y durabilidad.",
           "precioOriginal": 65,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra 40x60cm KLINTEK",
@@ -634,7 +770,9 @@
           "descripcion": "Paño de microfibra KLINTEK de 40x60 cm, ideal para limpieza multiusos en el hogar.",
           "precioOriginal": 55,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo alague",
@@ -643,7 +781,9 @@
           "descripcion": "Cepillo alargado con mango, útil para limpiar botellas, jarras o áreas de difícil acceso.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo tipo plancha",
@@ -652,7 +792,9 @@
           "descripcion": "Cepillo de base ancha con mango, conocido como 'tipo plancha', para fregar pisos y superficies planas.",
           "precioOriginal": 35,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Atomizador ECONOMICO Uso Rudo (Valvula, Pistola)",
@@ -661,7 +803,9 @@
           "descripcion": "Botella atomizadora económica con válvula de pistola, ideal para soluciones de limpieza.",
           "precioOriginal": 20,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Piedra pomez bolsita",
@@ -670,7 +814,9 @@
           "descripcion": "Piedra pómez en bolsita, para exfoliar y suavizar la piel de los pies.",
           "precioOriginal": 15,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Escobillon c/base para baño Lupita",
@@ -679,7 +825,9 @@
           "descripcion": "Escobillón para inodoro con base y mango, para una limpieza higiénica del baño.",
           "precioOriginal": 60,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra Special Chica 40x40 MIROSLAVA",
@@ -688,7 +836,9 @@
           "descripcion": "Tela de microfibra chica de 40x40 cm, ideal para limpiar, pulir y secar superficies sin dejar pelusa.",
           "precioOriginal": 35,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Escobeta Lechuguilla",
@@ -697,7 +847,9 @@
           "descripcion": "Escobeta tradicional de lechuguilla (fibra natural), para tallar pisos y ropa resistente.",
           "precioOriginal": 45,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Atomizador CANYON Uso Rudo (Valvula, Pistola)",
@@ -706,7 +858,9 @@
           "descripcion": "Botella atomizadora de uso rudo con válvula tipo CANYON, duradera para soluciones fuertes.",
           "precioOriginal": 50,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Jalador vidrios",
@@ -715,7 +869,9 @@
           "descripcion": "Jalador de goma con mango para secar y limpiar vidrios y espejos sin dejar marcas.",
           "precioOriginal": 30,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Estropajo de lxte Paquete c/10",
@@ -724,7 +880,9 @@
           "descripcion": "Paquete de 10 estropajos de fibra natural (ixtle), biodegradable y perfecto para tallar utensilios de cocina.",
           "precioOriginal": 40,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Destapacaños Grande de Colores",
@@ -733,7 +891,9 @@
           "descripcion": "Destapacaños de copa grande, con mango de madera y caucho para un sellado potente.",
           "precioOriginal": 70,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tendedero Lazo de Cañamo BLANCO 10m",
@@ -742,7 +902,9 @@
           "descripcion": "Cuerda de tendedero de cáñamo blanco de 10 metros, resistente para colgar ropa.",
           "precioOriginal": 35,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo Mano Flexible KLINTEK",
@@ -751,7 +913,9 @@
           "descripcion": "Cepillo de mano con cerdas y cabezal flexible KLINTEK, ideal para superficies curvas.",
           "precioOriginal": 45,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo Lavaplatos FLIPP",
@@ -760,7 +924,9 @@
           "descripcion": "Cepillo con mango para lavar platos y sartenes, con dispensador de jabón integrado FLIPP.",
           "precioOriginal": 80,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Recogedor plástico STELA",
@@ -769,7 +935,9 @@
           "descripcion": "Recogedor de basura de plástico, ligero y con borde de hule para un barrido eficiente.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Recogedor Plastico Con Baston Madera KLINTEK",
@@ -778,7 +946,9 @@
           "descripcion": "Recogedor de plástico con bastón largo de madera, para barrer sin agacharse.",
           "precioOriginal": 85,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Funda para Mop 40cm CASTOR",
@@ -787,7 +957,9 @@
           "descripcion": "Funda o repuesto de algodón de 40cm para bastones de mopa, marca CASTOR.",
           "precioOriginal": 90,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Atomizador Economico (Valvula, Pistola)",
@@ -796,7 +968,9 @@
           "descripcion": "Botella atomizadora básica con válvula de pistola, para aplicación de líquidos ligeros.",
           "precioOriginal": 18,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Matamoscas Grande",
@@ -805,7 +979,9 @@
           "descripcion": "Matamoscas de plástico grande con mango largo, de uso doméstico.",
           "precioOriginal": 15,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra Estampada 40x40 cm MIROSLAVA",
@@ -814,7 +990,9 @@
           "descripcion": "Tela de microfibra de 40x40 cm con estampados, útil para limpieza y decoración.",
           "precioOriginal": 40,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Recogedor Plastico Baston Lamina Y Orilla De Hule",
@@ -823,7 +1001,9 @@
           "descripcion": "Recogedor de plástico con bastón, reforzado con lámina y orilla de hule para máxima eficiencia.",
           "precioOriginal": 95,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Atomizador Polietileno Con Pistola Uso Rudo 500 ml",
@@ -832,7 +1012,9 @@
           "descripcion": "Atomizador de polietileno de 500 ml con pistola de uso rudo, resistente a químicos.",
           "precioOriginal": 60,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra Mini paq c/4 30x30 FASHION CLEAN",
@@ -841,7 +1023,9 @@
           "descripcion": "Paquete de 4 paños de microfibra mini (30x30 cm), ideal para limpiar pantallas y gafas.",
           "precioOriginal": 50,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante verde Solvex MEDIANO #8",
@@ -850,7 +1034,9 @@
           "descripcion": "Guantes de nitrilo verdes Solvex, talla mediana (#8), resistentes a químicos y solventes.",
           "precioOriginal": 120,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante T/10 de Nylon recubierto de Poliuretano ANTE",
@@ -859,7 +1045,9 @@
           "descripcion": "Guante de nylon con recubrimiento de poliuretano, talla 10, para trabajos de precisión y agarre seco.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tela Microfibra Jumbo 50x100 cm FASHION CLEAN",
@@ -868,7 +1056,9 @@
           "descripcion": "Paño de microfibra jumbo de 50x100 cm, para tareas de limpieza y secado de gran tamaño.",
           "precioOriginal": 90,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Escobeta mango plástico",
@@ -877,7 +1067,9 @@
           "descripcion": "Escobeta con cerdas sintéticas y mango de plástico, útil para tallar pequeñas áreas.",
           "precioOriginal": 30,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo Para Biberón Económico",
@@ -886,7 +1078,9 @@
           "descripcion": "Cepillo económico con cerdas suaves, diseñado para limpiar biberones y botellas.",
           "precioOriginal": 25,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Recogedor Plastico Mano KLINTEK",
@@ -895,7 +1089,9 @@
           "descripcion": "Recogedor de mano de plástico, ideal para recoger pequeños residuos de manera rápida.",
           "precioOriginal": 20,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo Mano Mini KLINTEK",
@@ -904,7 +1100,9 @@
           "descripcion": "Cepillo de mano en formato mini KLINTEK, para limpieza de detalles y juntas.",
           "precioOriginal": 15,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tendedero Lazo 7m 50 cm",
@@ -913,7 +1111,9 @@
           "descripcion": "Lazo de tendedero de 7.5 metros, resistente a la intemperie.",
           "precioOriginal": 25,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tendedero Lazo 10m De Polietileno KLINTEK",
@@ -922,7 +1122,9 @@
           "descripcion": "Lazo de tendedero de 10 metros, fabricado en polietileno duradero, marca KLINTEK.",
           "precioOriginal": 40,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillos Multiusos Paq c/3 FASHION CLEAN",
@@ -931,7 +1133,9 @@
           "descripcion": "Paquete de 3 cepillos multiusos FASHION CLEAN de diferentes tamaños para diversas tareas de limpieza.",
           "precioOriginal": 55,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Base para Mop 40cm CASTOR",
@@ -940,7 +1144,9 @@
           "descripcion": "Base de metal o plástico de 40cm para sostener la funda de mopa CASTOR.",
           "precioOriginal": 110,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Recogedor Medio Bote lamina",
@@ -949,7 +1155,9 @@
           "descripcion": "Recogedor de lámina de metal con formato de medio bote, muy resistente para residuos pesados.",
           "precioOriginal": 75,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Recogedor lamina",
@@ -958,7 +1166,9 @@
           "descripcion": "Recogedor de lámina de metal, clásico y duradero para uso rudo.",
           "precioOriginal": 60,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Destapacaños De 15cm KLINTEK (Bomba negra)",
@@ -967,7 +1177,9 @@
           "descripcion": "Destapacaños de 15cm de diámetro KLINTEK con bomba de caucho negro, de alta potencia.",
           "precioOriginal": 50,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Matamoscas Mediano",
@@ -976,7 +1188,9 @@
           "descripcion": "Matamoscas de plástico de tamaño mediano, ligero y fácil de usar.",
           "precioOriginal": 10,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Pinza de Madera c/20",
@@ -985,7 +1199,9 @@
           "descripcion": "Paquete de 20 pinzas de madera clásicas, ideales para colgar ropa.",
           "precioOriginal": 20,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Pinza jumbo c/36",
@@ -994,7 +1210,9 @@
           "descripcion": "Paquete de 36 pinzas de plástico de tamaño jumbo, con gran agarre para prendas pesadas.",
           "precioOriginal": 45,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Destapacaños Economico (bomba negra)",
@@ -1003,7 +1221,9 @@
           "descripcion": "Destapacaños económico con bomba de caucho negro, funcional para obstrucciones leves.",
           "precioOriginal": 35,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo Mano Flexible KLINTEK",
@@ -1012,7 +1232,9 @@
           "descripcion": "Cepillo de mano con cerdas y cabezal flexible KLINTEK, para limpieza de superficies curvas.",
           "precioOriginal": 45,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante T/8 de Nylon recubierto de Poliuretano ANTE",
@@ -1021,7 +1243,9 @@
           "descripcion": "Guante de nylon con recubrimiento de poliuretano, talla 8 (chica), para trabajos de precisión.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Cepillo mano mini Lupita",
@@ -1030,7 +1254,9 @@
           "descripcion": "Cepillo de mano pequeño 'Lupita', ideal para la limpieza de uñas o ropa en detalles.",
           "precioOriginal": 18,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Limpia Hornos 470g MONY (Quitacochambre)",
@@ -1039,7 +1265,9 @@
           "descripcion": "Limpia hornos en aerosol de 470g MONY (Quitacochambre), potente removedor de grasa quemada.",
           "precioOriginal": 90,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Destapacaños Mini para lavabo",
@@ -1048,7 +1276,9 @@
           "descripcion": "Destapacaños en versión mini, especialmente diseñado para destapar lavabos y fregaderos.",
           "precioOriginal": 25,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Ganchos Plástico para ropa c/10",
@@ -1057,7 +1287,9 @@
           "descripcion": "Paquete de 10 ganchos de plástico resistentes para colgar ropa.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Recogedor abatible con ruedas OVAL",
@@ -1066,7 +1298,9 @@
           "descripcion": "Recogedor alto con mecanismo abatible y ruedas, ideal para uso profesional o en grandes espacios.",
           "precioOriginal": 150,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Esponja Tipo Ocho FASHION CLEAN",
@@ -1075,7 +1309,9 @@
           "descripcion": "Esponja para trastes con forma de 'ocho', más ergonómica y cómoda de usar.",
           "precioOriginal": 15,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Tipo jerga",
@@ -1084,7 +1320,9 @@
           "descripcion": "Paño tipo jerga, de algodón absorbente, ideal para limpiar pisos y superficies grandes.",
           "precioOriginal": 20,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Telas absorbentes c/3 MIROSLAVA",
@@ -1093,7 +1331,9 @@
           "descripcion": "Paquete de 3 telas o paños absorbentes multiusos MIROSLAVA.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante GRANDE NEGRO de Nitrilo c/100 DERMACARE",
@@ -1102,7 +1342,9 @@
           "descripcion": "Caja de 100 guantes de nitrilo negros, talla grande, sin polvo, para uso profesional o médico.",
           "precioOriginal": 180,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante latex CHICO #7 HULTEX",
@@ -1111,7 +1353,9 @@
           "descripcion": "Guantes de látex, talla chica (#7), para protección de manos en labores de limpieza o sanitarias.",
           "precioOriginal": 70,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante GRANDE AZUL de Nitrilo c/100 DERMACARE",
@@ -1120,7 +1364,9 @@
           "descripcion": "Caja de 100 guantes de nitrilo azules, talla grande, sin polvo, hipoalergénicos.",
           "precioOriginal": 180,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante T/9 de Nylon recubierto de Poliuretano ANTE",
@@ -1129,7 +1375,9 @@
           "descripcion": "Guante de nylon con recubrimiento de poliuretano, talla 9 (mediana), para agarre y destreza.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Guante Latex GRANDE OVAL",
@@ -1138,7 +1386,9 @@
           "descripcion": "Guantes de látex, talla grande, marca OVAL, para tareas domésticas o industriales.",
           "precioOriginal": 75,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra Cuadrítela trastes",
@@ -1147,7 +1397,9 @@
           "descripcion": "Fibra con tejido de cuadrícula, ideal para la limpieza de sartenes y ollas con residuos difíciles.",
           "precioOriginal": 25,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra P96 Verde Scotch Brite",
@@ -1156,7 +1408,9 @@
           "descripcion": "Fibra abrasiva verde P96 SCOTCH BRITE, de uso rudo para tallar cochambre y suciedad adherida.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra P66 Blanca Scotch Brite",
@@ -1165,7 +1419,9 @@
           "descripcion": "Fibra P66 blanca SCOTCH BRITE, no abrasiva, ideal para la limpieza de utensilios y superficies delicadas.",
           "precioOriginal": 35,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra de Acero Inoxidable Jumbo c/2",
@@ -1174,7 +1430,9 @@
           "descripcion": "Paquete de 2 fibras de acero inoxidable jumbo, perfectas para tallar ollas y parrillas quemadas.",
           "precioOriginal": 50,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra Tallon plata",
@@ -1183,7 +1441,9 @@
           "descripcion": "Fibra de brillo color plata, de textura media, ideal para limpiar trastes de uso diario.",
           "precioOriginal": 20,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra fregon",
@@ -1192,7 +1452,9 @@
           "descripcion": "Fibra de uso rudo conocida como 'fregón', de gran durabilidad y resistencia a químicos.",
           "precioOriginal": 30,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "TIRA Fibra Verde c/Esponja Scotch Brite c/6",
@@ -1201,7 +1463,9 @@
           "descripcion": "Paquete de 6 tiras de fibra verde con esponja SCOTCH BRITE, para una limpieza dual.",
           "precioOriginal": 75,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra P76 Negra Scotch Brite",
@@ -1210,7 +1474,9 @@
           "descripcion": "Fibra P76 negra SCOTCH BRITE, ultra abrasiva para tareas de limpieza industrial o muy pesadas.",
           "precioOriginal": 45,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra para trastes King Wash",
@@ -1219,7 +1485,9 @@
           "descripcion": "Fibra para trastes de la marca KING WASH, económica y efectiva para la limpieza diaria.",
           "precioOriginal": 15,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra Tallon oro",
@@ -1228,7 +1496,9 @@
           "descripcion": "Fibra de brillo color oro, ideal para limpiar y dar lustre a utensilios de metal sin rayar.",
           "precioOriginal": 20,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra tipo ajax c/10",
@@ -1237,7 +1507,9 @@
           "descripcion": "Paquete de 10 fibras metálicas tipo 'Ajax' pre-jabonadas, para quitar grasa y cochambre fácilmente.",
           "precioOriginal": 60,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Fibra P94 Verde c/Esponja Scotch Brite",
@@ -1246,7 +1518,9 @@
           "descripcion": "Fibra P94 verde con esponja SCOTCH BRITE, de uso general para limpieza de trastes y superficies.",
           "precioOriginal": 25,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         }
       ]
     },
@@ -1260,7 +1534,9 @@
           "descripcion": "Rollo de toalla de papel de 180 metros, para dispensadores de alta capacidad, marca FAPSA.",
           "precioOriginal": 150,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Pañuelos KLEENEX c/90",
@@ -1269,7 +1545,9 @@
           "descripcion": "Caja de pañuelos faciales KLEENEX con 90 unidades, suaves y resistentes.",
           "precioOriginal": 30,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rollo papel JUMBO 360m ELITE",
@@ -1278,7 +1556,9 @@
           "descripcion": "Rollo de papel higiénico JUMBO de 360 metros, ideal para dispensadores institucionales ELITE.",
           "precioOriginal": 180,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rollo de papel institucional JUMBO 400m INSTITUCIONAL",
@@ -1287,7 +1567,9 @@
           "descripcion": "Rollo de papel higiénico institucional JUMBO de 400 metros, alta eficiencia y rendimiento.",
           "precioOriginal": 195,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rollo papel JUNIOR 160m DALIA",
@@ -1296,7 +1578,9 @@
           "descripcion": "Rollo de papel higiénico JUNIOR de 160 metros, para dispensadores de tamaño mediano DALIA.",
           "precioOriginal": 85,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Toalla interdoblada ELITE c/100 (Sanitas papel)",
@@ -1305,7 +1589,9 @@
           "descripcion": "Paquete de 100 toallas de papel interdobladas ELITE, para dispensadores de sanitas.",
           "precioOriginal": 40,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Servilleta De Mesa c/500 BIO NAPKINS",
@@ -1314,7 +1600,9 @@
           "descripcion": "Paquete de 500 servilletas de mesa BIO NAPKINS, biodegradables.",
           "precioOriginal": 70,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Toalla Interdoblada DALIA c/100 (Sanitas DALITAS)",
@@ -1323,7 +1611,9 @@
           "descripcion": "Paquete de 100 toallas interdobladas DALIA, conocidas como 'DALITAS'.",
           "precioOriginal": 35,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rollo papel JUNIOR 160m ELITE",
@@ -1332,7 +1622,9 @@
           "descripcion": "Rollo de papel higiénico JUNIOR de 160 metros, marca ELITE, ideal para oficinas.",
           "precioOriginal": 90,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Servilleta Barra Mesa PETALO",
@@ -1341,7 +1633,9 @@
           "descripcion": "Servilletas de barra para mesa, PETALO, suaves y prácticas.",
           "precioOriginal": 50,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rollo de papel institucional JUNIOR 180m INSTITUCIONAL",
@@ -1350,7 +1644,9 @@
           "descripcion": "Rollo de papel higiénico institucional JUNIOR de 180 metros, alta resistencia.",
           "precioOriginal": 95,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Toalla en rollo 160m ELITE",
@@ -1359,7 +1655,9 @@
           "descripcion": "Rollo de toalla de papel de 160 metros ELITE, de gran rendimiento para baños de alto tráfico.",
           "precioOriginal": 140,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Toalla interdoblada c/100 SANILUX (sanitas papel)",
@@ -1368,7 +1666,9 @@
           "descripcion": "Paquete de 100 toallas de papel interdobladas SANILUX, para uso en sanitarios.",
           "precioOriginal": 38,
           "descuento": 15,
-          "enDescuento": true
+          "enDescuento": true,
+          "stock": 0,
+          "estado": "Available"
         },
         {
           "nombre": "Rollo papel JUMBO 360m DALIA",
@@ -1377,7 +1677,9 @@
           "descripcion": "Rollo de papel higiénico JUMBO de 360 metros, marca DALIA, de uso institucional.",
           "precioOriginal": 175,
           "descuento": 0,
-          "enDescuento": false
+          "enDescuento": false,
+          "stock": 0,
+          "estado": "Available"
         }
       ]
     }
@@ -2052,6 +2354,277 @@
         "precioOriginal": 45,
         "descuento": 15,
         "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "update",
+      "timestamp": "2025-12-10T18:03:12.477Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "update",
+      "timestamp": "2025-12-10T18:03:27.722Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T18:12:09.962Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true,
+        "stock": 0,
+        "estado": "Available"
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false,
+        "stock": 0,
+        "estado": "Available"
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T18:12:12.223Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false,
+        "stock": 0,
+        "estado": "Available"
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true,
+        "stock": 0,
+        "estado": "Available"
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T18:16:42.287Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true,
+        "stock": 0,
+        "estado": "Available"
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false,
+        "stock": 0,
+        "estado": "Out of Stock"
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T18:16:45.215Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false,
+        "stock": 0,
+        "estado": "Out of Stock"
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true,
+        "stock": 0,
+        "estado": "Available"
+      }
+    },
+    {
+      "action": "deactivate",
+      "timestamp": "2025-12-10T18:16:47.459Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true,
+        "stock": 0,
+        "estado": "Available"
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false,
+        "stock": 0,
+        "estado": "Out of Stock"
+      }
+    },
+    {
+      "action": "activate",
+      "timestamp": "2025-12-10T18:16:48.847Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": false,
+        "stock": 0,
+        "estado": "Out of Stock"
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true,
+        "stock": 0,
+        "estado": "Available"
+      }
+    },
+    {
+      "action": "update",
+      "timestamp": "2025-12-10T18:17:02.125Z",
+      "categoryName": "Cuidado Personal y Cosméticos",
+      "productBefore": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "deleted": false,
+        "active": true,
+        "stock": 0,
+        "estado": "Available"
+      },
+      "productAfter": {
+        "nombre": "Gel Linaza Para Cabello 250ml EXTREME",
+        "imagen": "https://lh3.googleusercontent.com/d/10DdZMVs8pXTYyOVddeM7XdijEVCm1rzP=w200-h200-c",
+        "capacidad": "",
+        "descripcion": "hola\n",
+        "precioOriginal": 45,
+        "descuento": 15,
+        "enDescuento": false,
+        "stock": 2,
+        "estado": "Available",
         "deleted": false,
         "active": true
       }

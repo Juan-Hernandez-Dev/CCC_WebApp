@@ -19,6 +19,8 @@ export default function Administrator() {
     const [formDescuento, setFormDescuento] = useState(0);
     const [formEnDescuento, setFormEnDescuento] = useState(false);
     const [formCategoryName, setFormCategoryName] = useState("");
+    const [formStock, setFormStock] = useState(0);
+    const [formEstado, setFormEstado] = useState("Available");
     const [formMessage, setFormMessage] = useState<string | null>(null);
     const [editingOriginalNombre, setEditingOriginalNombre] = useState<string | null>(null);
 
@@ -69,6 +71,8 @@ export default function Administrator() {
         setFormDescuento(Number(p.descuento ?? 0));
         setFormEnDescuento(Boolean(p.enDescuento));
         setFormCategoryName(p.category || '');
+        setFormStock(Number(p.stock ?? 0));
+        setFormEstado(p.estado || 'Available');
         setEditingOriginalNombre(p.nombre || null);
         setMostrarForm(true);
     };
@@ -392,6 +396,25 @@ export default function Administrator() {
                             className="block w-full border p-2 rounded"
                         />
 
+                        <input
+                            type="number"
+                            placeholder="Stock (Inventario)"
+                            min="0"
+                            value={formStock}
+                            onChange={(e) => setFormStock(Number(e.target.value))}
+                            className="block w-full border p-2 rounded"
+                        />
+
+                        <select
+                            value={formEstado}
+                            onChange={(e) => setFormEstado(e.target.value)}
+                            className="block w-full border p-2 rounded"
+                        >
+                            <option value="Available">Available</option>
+                            <option value="Restock Soon">Restock Soon</option>
+                            <option value="Out of Stock">Out of Stock</option>
+                        </select>
+
                         <div className="flex gap-2">
                             <button
                                 onClick={async () => {
@@ -424,6 +447,8 @@ export default function Administrator() {
                                             precioOriginal: formPrecioOriginal,
                                             descuento: formDescuento,
                                             enDescuento: formEnDescuento,
+                                            stock: formStock,
+                                            estado: formEstado,
                                         },
                                     };
 
@@ -445,28 +470,32 @@ export default function Administrator() {
                                             });
                                         }
 
-                                        const data = await res.json();
                                         if (!res.ok) {
-                                            setFormMessage(data?.error || t('admin.modal.errors.save_failed'));
-                                        } else {
-                                            setFormMessage(editingOriginalNombre ? t('admin.modal.success.updated') : t('admin.modal.success.created'));
-                                            // limpiar formulario
-                                            setFormNombre('');
-                                            setFormImagen('');
-                                            setFormCapacidad('');
-                                            setFormDescripcion('');
-                                            setFormPrecioOriginal(0);
-                                            setFormDescuento(0);
-                                            setFormEnDescuento(false);
-                                            setFormCategoryName('');
-                                            setEditingOriginalNombre(null);
-                                            // recargar lista
-                                            await loadProducts();
-                                            // opcional: cerrar modal
-                                            setTimeout(() => setMostrarForm(false), 800);
+                                            const errorData = await res.json().catch(() => ({ error: `HTTP ${res.status}` }));
+                                            setFormMessage(errorData?.error || t('admin.modal.errors.save_failed'));
+                                            return;
                                         }
+
+                                        const data = await res.json();
+                                        setFormMessage(editingOriginalNombre ? t('admin.modal.success.updated') : t('admin.modal.success.created'));
+                                        // limpiar formulario
+                                        setFormNombre('');
+                                        setFormImagen('');
+                                        setFormCapacidad('');
+                                        setFormDescripcion('');
+                                        setFormPrecioOriginal(0);
+                                        setFormDescuento(0);
+                                        setFormEnDescuento(false);
+                                        setFormCategoryName('');
+                                        setFormStock(0);
+                                        setFormEstado('Available');
+                                        setEditingOriginalNombre(null);
+                                        // recargar lista
+                                        await loadProducts();
+                                        // opcional: cerrar modal
+                                        setTimeout(() => setMostrarForm(false), 800);
                                     } catch (err: any) {
-                                        setFormMessage(String(err));
+                                        setFormMessage(`Error: ${err.message || String(err)}`);
                                     }
                                 }}
                                 className="bg-green-500 text-white px-4 py-2 rounded w-full"
@@ -524,10 +553,10 @@ export default function Administrator() {
 
                                     {/* STATUS (Usando el componente de icono) */}
                                     <td className="p-3 whitespace-nowrap">
-                                        {statusIcon(p.status)}
+                                        {statusIcon(p.estado)}
                                     </td>
 
-                                    <td className="p-3 whitespace-nowrap">{p.stock ?? '-'}</td>
+                                    <td className="p-3 whitespace-nowrap font-semibold text-gray-900">{p.stock ?? 0}</td>
 
                                     {/* ACTIONS */}
                                     <td className="p-3 flex gap-2 items-center">

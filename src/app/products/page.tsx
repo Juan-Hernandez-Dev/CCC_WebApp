@@ -12,30 +12,30 @@ export default function ProductsPage() {
   const { t } = useTranslation('global');
   
   // 1. Hook para rastrear si es móvil
-  const [isMobile, setIsMobile] = useState(() => {
-    // Inicializa el estado solo en el cliente
-    if (typeof window !== 'undefined') {
-      return window.innerWidth < MOBILE_BREAKPOINT;
-    }
-    return false; // Valor por defecto durante el renderizado inicial del servidor (si aplica)
-  });
+  const [isMobile, setIsMobile] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
-  // 2. Hook para manejar el evento de redimensionamiento
+  // 2. Hook para manejar el evento de redimensionamiento y detectar cliente
   useEffect(() => {
+    // Marcar que estamos en el cliente y obtener el tamaño inicial
+    setIsClient(true);
+    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
+
     const handleResize = () => {
-      // Actualiza el estado basado en el nuevo ancho de la ventana
       setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
     };
 
-    // Agregar el listener al montar el componente
     window.addEventListener('resize', handleResize);
-
-    // Limpiar el listener al desmontar el componente (importante)
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  // 3. Renderizado condicional
+  // 3. No renderizar nada hasta que el cliente esté listo (evita hydration mismatch)
+  if (!isClient) {
+    return null;
+  }
+
+  // 4. Renderizado condicional
   return isMobile ? <ProductsMobile /> : <Product />;
 }

@@ -10,6 +10,8 @@ type Product = {
   precioOriginal: number;
   descuento: number;
   enDescuento: boolean;
+  stock?: number;
+  estado?: string;
   deleted?: boolean;
   active?: boolean;
 };
@@ -54,6 +56,9 @@ export async function POST(req: NextRequest) {
 
     const enDescuento = Boolean(product.enDescuento);
 
+    const stock = typeof product.stock === 'number' ? product.stock : 0;
+    const estado = typeof product.estado === 'string' ? product.estado : 'Available';
+
     const productToInsert: Product = {
       nombre: product.nombre,
       imagen: product.imagen,
@@ -62,6 +67,8 @@ export async function POST(req: NextRequest) {
       precioOriginal,
       descuento,
       enDescuento,
+      stock,
+      estado,
       // control fields for soft-delete / active state
       deleted: false,
       active: true,
@@ -200,6 +207,7 @@ export async function PUT(req: NextRequest) {
       return NextResponse.json({ error: 'Product not found in category' }, { status: 404 });
     }
 
+    const existingProduct = categoria.productos[idx];
     const updatedProduct = {
       nombre: product.nombre,
       imagen: product.imagen,
@@ -208,9 +216,11 @@ export async function PUT(req: NextRequest) {
       precioOriginal,
       descuento,
       enDescuento: Boolean(product.enDescuento),
-      // preserve deleted/active flags if provided, otherwise default
-      deleted: Boolean(product.deleted ?? false),
-      active: product.active === undefined ? true : Boolean(product.active),
+      stock: typeof product.stock === 'number' ? product.stock : (existingProduct.stock ?? 0),
+      estado: typeof product.estado === 'string' ? product.estado : (existingProduct.estado ?? 'Available'),
+      // preserve deleted/active flags from existing product
+      deleted: existingProduct.deleted ?? false,
+      active: existingProduct.active ?? true,
     };
 
     const before = { ...categoria.productos[idx] };
@@ -272,6 +282,7 @@ export async function PATCH(req: NextRequest) {
         break;
       case 'deactivate':
         categoria.productos[idx].active = false;
+        categoria.productos[idx].estado = 'Out of Stock';
         break;
       case 'activate':
         // Prevent activating a logically-deleted product. Must restore first.
@@ -279,6 +290,7 @@ export async function PATCH(req: NextRequest) {
           return NextResponse.json({ error: 'Cannot activate a deleted product. Restore it first.' }, { status: 400 });
         }
         categoria.productos[idx].active = true;
+        categoria.productos[idx].estado = 'Available';
         break;
       default:
         return NextResponse.json({ error: 'Invalid op' }, { status: 400 });
