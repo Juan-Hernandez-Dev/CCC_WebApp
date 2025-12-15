@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { FaPen, FaTrash, FaUserCheck, FaUserMinus } from "react-icons/fa";
 
 // Componente de tabla de administración de productos
 export default function Administrator() {
@@ -124,7 +125,7 @@ export default function Administrator() {
 
         // Small reusable action button component: icon + label, accessible and responsive
         function ActionButton({ onClick, title, ariaLabel, variant = 'default', disabled = false, children, label }: any) {
-            const base = 'inline-flex items-center gap-2 px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-1 border font-medium text-sm';
+            const base = 'inline-flex items-center text-white gap-2 px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-1 border font-medium text-sm';
             const variantClass = disabled
                 ? 'opacity-40 pointer-events-none bg-gray-100 text-gray-500 border-gray-200'
                 : variant === 'edit'
@@ -217,23 +218,21 @@ export default function Administrator() {
                                 <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.085l3.71-3.854a.75.75 0 111.08 1.04l-4.24 4.4a.75.75 0 01-1.08 0L5.25 8.29a.75.75 0 01-.02-1.08z" />
                             </svg>
                         </button>
+
+                        <button
+                            onClick={() => setViewingHistory((v) => !v)}
+                            className="bg-white border border-gray-300 text-sm rounded-lg px-4 py-2 shadow-sm flex items-center gap-2 active:scale-95 transition hover:bg-gray-100"
+                        >
+                            {viewingHistory ? t('admin.view.back', { defaultValue: 'Volver a Productos' }) : t('admin.view.history', { defaultValue: 'Ver Historial' })}
+                        </button>
                     </div>
+                    <button
+                        onClick={() => setMostrarForm(true)}
+                        className="bg-blue-500 hover:bg-blue-600 justify-self-end text-sm border text-white  border-gray-300 rounded-lg px-4 py-2 shadow-sm flex items-center gap-2 active:scale-95 transition"
+                    >
+                        {t('admin.add_product_btn')}
+                    </button>
                 </div>
-
-            {/* ADD PRODUCT Button */}
-            <button
-                onClick={() => setMostrarForm(true)}
-                className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md active:scale-95 transition mb-6 h-9 flex items-center gap-2"
-            >
-                {t('admin.add_product_btn')}
-            </button>
-
-            <button
-                onClick={() => setViewingHistory((v) => !v)}
-                className="ml-3 bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg shadow-sm active:scale-95 transition mb-6 h-9 flex items-center gap-2"
-            >
-                {viewingHistory ? t('admin.view.back', { defaultValue: 'Volver a Productos' }) : t('admin.view.history', { defaultValue: 'Ver Historial' })}
-            </button>
 
             {/* If viewingHistory, show the historial */}
             {viewingHistory && (
@@ -313,12 +312,13 @@ export default function Administrator() {
 
             {/* MODAL */}
             {mostrarForm && (
-                <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+                <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-8">
                     
                     {/* Caja del modal */}
-                    <div className="bg-white p-6 rounded-xl w-96 shadow-lg space-y-3 relative">
+                    <div className="p-6 mt-8 rounded-xl w-full shadow-lg relative flex items-center justify-center">
 
-                        {/* Botón cerrar */}
+                        <div className="bg-white w-full max-w-9/10 p-4 rounded-xl">
+                            {/* Botón cerrar */}
                         <button
                             className="absolute top-2 right-2 text-gray-600 hover:text-black"
                             onClick={() => setMostrarForm(false)}
@@ -326,94 +326,137 @@ export default function Administrator() {
                             ✕
                         </button>
 
-                    
-                        {/* Formulario controlado para enviar al JSON */}
-                        <input
-                            type="text"
-                            placeholder={t('admin.modal.name_placeholder')}
-                            value={formNombre}
-                            onChange={(e) => setFormNombre(e.target.value)}
-                            className="block w-full border p-2 rounded"
-                        />
 
-                        <input
-                            type="text"
-                            placeholder={t('admin.modal.image_placeholder')}
-                            value={formImagen}
-                            onChange={(e) => setFormImagen(e.target.value)}
-                            className="block w-full border p-2 rounded"
-                        />
+                            {/* Formulario controlado para enviar al JSON */}
+                            <div className="flex w-full">
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Producto</span>
+                                    <input
+                                        type="text"
+                                        placeholder={t('admin.modal.name_placeholder')}
+                                        value={formNombre}
+                                        onChange={(e) => setFormNombre(e.target.value)}
+                                        className="block w-full border mt-2 p-2 rounded-full"
+                                    />
+                                </div>
+                                <div className="w-1/2 p-4">
+                                     <span className="font-bold">URL Imagen</span>
+                                    <input
+                                        type="text"
+                                        placeholder={t('admin.modal.image_placeholder')}
+                                        value={formImagen}
+                                        onChange={(e) => setFormImagen(e.target.value)}
+                                        className="block w-full border  mt-2 p-2 rounded-full"
+                                    />
+                                </div>
+                            </div>
 
-                        <input
-                            type="text"
-                            placeholder={t('admin.modal.capacity_placeholder')}
-                            value={formCapacidad}
-                            onChange={(e) => setFormCapacidad(e.target.value)}
-                            className="block w-full border p-2 rounded"
-                        />
+                            <div className="flex w-full">
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Capacidad</span>
+                                    <input
+                                        type="text"
+                                        placeholder={t('admin.modal.capacity_placeholder')}
+                                        value={formCapacidad}
+                                        onChange={(e) => setFormCapacidad(e.target.value)}
+                                        className="block w-full border mt-2 p-2 rounded-full"
+                                    />
+                                </div>
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Precio</span>
+                                    <input
+                                        type="number"
+                                        placeholder={t('admin.modal.price_placeholder')}
+                                        min="0"
+                                        step="0.01"
+                                        value={formPrecioOriginal}
+                                        onChange={(e) => setFormPrecioOriginal(Number(e.target.value))}
+                                        className="block w-full border mt-2 p-2 rounded-full"
+                                    />
+                                </div>
+                            </div>
 
-                        <textarea
-                            placeholder={t('admin.modal.description_placeholder')}
-                            value={formDescripcion}
-                            onChange={(e) => setFormDescripcion(e.target.value)}
-                            className="block w-full border p-2 rounded"
-                        />
+                            <div className="flex w-full">
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Activar Descuento</span>
+                                    <div className="mt-6">
+                                        <label className="inline-flex items-center gap-2">
+                                        <input
+                                            type="checkbox"
+                                            checked={formEnDescuento}
+                                            onChange={(e) => setFormEnDescuento(e.target.checked)}
+                                        />
+                                        <span className="text-sm">{t('admin.modal.on_discount')}</span>
+                                    </label>
+                                    </div>
+                                </div>
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Descuento</span>
+                                    <input
+                                        type="number"
+                                        placeholder={t('admin.modal.discount_placeholder')}
+                                        min="0"
+                                        step="0.01"
+                                        value={formDescuento}
+                                        onChange={(e) => setFormDescuento(Number(e.target.value))}
+                                        className="block w-full border mt-2 p-2 rounded-full"
+                                    />
+                                </div>
+                            </div>
 
-                        <input
-                            type="number"
-                            placeholder={t('admin.modal.price_placeholder')}
-                            min="0"
-                            step="0.01"
-                            value={formPrecioOriginal}
-                            onChange={(e) => setFormPrecioOriginal(Number(e.target.value))}
-                            className="block w-full border p-2 rounded"
-                        />
+                            <div className="flex w-full">
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Categoria</span>
+                                    <input
+                                        type="text"
+                                        placeholder={t('admin.modal.category_placeholder')}
+                                        value={formCategoryName}
+                                        onChange={(e) => setFormCategoryName(e.target.value)}
+                                        className="block w-full border mt-2 p-2 rounded-full"
+                                    />
+                                </div>
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Existencia</span>
+                                    <input
+                                        type="number"
+                                        placeholder="Stock (Inventario)"
+                                        min="0"
+                                        value={formStock}
+                                        onChange={(e) => setFormStock(Number(e.target.value))}
+                                        className="block w-full border mt-2 p-2 rounded-full"
+                                    />
+                                </div>
+                            </div>
 
-                        <input
-                            type="number"
-                            placeholder={t('admin.modal.discount_placeholder')}
-                            min="0"
-                            step="0.01"
-                            value={formDescuento}
-                            onChange={(e) => setFormDescuento(Number(e.target.value))}
-                            className="block w-full border p-2 rounded"
-                        />
+                            <div className="flex w-full">
+                                <div className="w-1/2 p-4">
+                                    <span className="font-bold">Estado</span>
+                                    <select
+                                        value={formEstado}
+                                        onChange={(e) => setFormEstado(e.target.value)}
+                                        className="block w-full border mt-2 p-2 rounded-full"
+                                    >
+                                        <option value="Available">Available</option>
+                                        <option value="Restock Soon">Restock Soon</option>
+                                        <option value="Out of Stock">Out of Stock</option>
+                                    </select>
+                                </div>
+                                <div className="w-1/2 p-4">
+                                </div>
+                            </div>
 
-                        <label className="inline-flex items-center gap-2">
-                            <input
-                                type="checkbox"
-                                checked={formEnDescuento}
-                                onChange={(e) => setFormEnDescuento(e.target.checked)}
-                            />
-                            <span className="text-sm">{t('admin.modal.on_discount')}</span>
-                        </label>
-
-                        <input
-                            type="text"
-                            placeholder={t('admin.modal.category_placeholder')}
-                            value={formCategoryName}
-                            onChange={(e) => setFormCategoryName(e.target.value)}
-                            className="block w-full border p-2 rounded"
-                        />
-
-                        <input
-                            type="number"
-                            placeholder="Stock (Inventario)"
-                            min="0"
-                            value={formStock}
-                            onChange={(e) => setFormStock(Number(e.target.value))}
-                            className="block w-full border p-2 rounded"
-                        />
-
-                        <select
-                            value={formEstado}
-                            onChange={(e) => setFormEstado(e.target.value)}
-                            className="block w-full border p-2 rounded"
-                        >
-                            <option value="Available">Available</option>
-                            <option value="Restock Soon">Restock Soon</option>
-                            <option value="Out of Stock">Out of Stock</option>
-                        </select>
+                            <div className="flex">
+                                <div className="w-full p-4">
+                                    <span className="font-bold">Descripción</span>
+                                    <textarea
+                                        placeholder={t('admin.modal.description_placeholder')}
+                                        value={formDescripcion}
+                                        onChange={(e) => setFormDescripcion(e.target.value)}
+                                        className="block w-full border mt-2 p-2 rounded"
+                                    />
+                                </div>
+                            </div>
+                            
 
                         <div className="flex gap-2">
                             <button
@@ -512,6 +555,7 @@ export default function Administrator() {
                         </div>
 
                         {formMessage && <p className="text-sm mt-2">{formMessage}</p>}
+                        </div>
                     </div>
                 </div>
             )}
@@ -569,9 +613,7 @@ export default function Administrator() {
                                             disabled={Boolean(p.deleted)}
                                             label={t('admin.buttons.edit')}
                                         >
-                                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                                <path d="M17.414 2.586a2 2 0 010 2.828l-9.9 9.9a1 1 0 01-.39.242l-4 1a1 1 0 01-1.213-1.213l1-4a1 1 0 01.242-.39l9.9-9.9a2 2 0 012.828 0z" />
-                                            </svg>
+                                           <FaPen />
                                         </ActionButton>
 
                                         {p.deleted ? (
@@ -599,9 +641,8 @@ export default function Administrator() {
                                                 variant="restore"
                                                 label={t('admin.buttons.restore')}
                                             >
-                                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                                    <path d="M3 10a7 7 0 1112.9 3.54l1.1 1.1A9 9 0 102 10h1z" />
-                                                </svg>
+                                                <FaTrash />
+                                                
                                             </ActionButton>
                                         ) : (
                                             <ActionButton
@@ -628,7 +669,7 @@ export default function Administrator() {
                                                 variant="delete"
                                                 label={t('admin.buttons.delete')}
                                             >
-                                                <img src="https://i.ibb.co/jPzqjhTQ/basura.png" alt="delete" className="w-5 h-5 object-contain" />
+                                                <FaTrash />
                                             </ActionButton>
                                         )}
 
@@ -657,11 +698,7 @@ export default function Administrator() {
                                             disabled={Boolean(p.deleted)}
                                             label={p.active === false ? t('admin.buttons.activate') : t('admin.buttons.deactivate')}
                                         >
-                                            <img
-                                                src={p.active === false ? 'https://i.ibb.co/KpwGjkpL/controlar.png' : 'https://i.ibb.co/KpYHnWz0/cruz.png'}
-                                                alt={p.active === false ? 'activate' : 'deactivate'}
-                                                className="w-5 h-5 object-contain"
-                                            />
+                                            {p.active === false ? <FaUserCheck /> : <FaUserMinus />}
                                         </ActionButton>
                                     </td>
                                 </tr>

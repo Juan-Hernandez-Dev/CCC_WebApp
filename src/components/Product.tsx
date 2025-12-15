@@ -132,10 +132,14 @@ export default function ProductPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-8 py-8">
         {/* Header Section */}
         <div className="mb-8">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-1 bg-blue-500 rounded"></div>
-            <h1 className="text-xl font-semibold text-gray-700">{t('products.catalog_title')}</h1>
-          </div>
+          <section className="py-1 px-4 text-gray-900">
+            <div className="max-w-7xl mx-auto text-left">
+              <div className="flex items-center justify-left mb-4 space-x-2">
+                <div className="w-6 h-0.5 bg-blue-500"></div>
+                <span className="text-base font-medium text-gray-700">{t('products.catalog_title')}</span>
+              </div>
+            </div>
+          </section>
 
           {/* Category Selector */}
           <div className="w-full sm:w-48">
